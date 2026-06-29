@@ -1,0 +1,35 @@
+# Skills Inventory {#03_skills_inventory}
+
+:::cdi-message
+- **ID:** CAREER-003
+- **Type:** System Guide
+- **Audience:** Learners, professionals, mentors, and training program designers
+- **Theme:** Growth begins by making current capabilities visible and honest
+:::
+
+This chapter will develop the **Skills Inventory** layer of the Career System.
+
+---
+
+## Purpose
+
+This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+
+---
+
+## Core Questions
+
+```text
+What decision does this layer help the learner make?
+What evidence should the learner produce?
+What feedback or mentorship would improve the result?
+How does this layer connect to the next part of the Career System?
+```
+
+---
+
+## Expected Outputs
+
+```text
+To be developed in the full chapter draft.
+```

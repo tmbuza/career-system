@@ -1,0 +1,264 @@
+# Career System Overview {#career-system-overview}
+
+:::cdi-message
+- **ID:** CAREER-001
+- **Type:** System Guide
+- **Audience:** Learners, professionals, mentors, and training program designers
+- **Theme:** Career growth is a connected system from skills to sustainable professional growth
+:::
+
+Career growth is not a straight line.
+
+It is a system.
+
+A person builds skills, applies them, produces evidence, communicates value, receives guidance, enters opportunities, performs in real environments, and then continues adapting.
+
+When these parts are disconnected, career growth becomes frustrating.
+
+When they are connected, growth becomes more intentional and sustainable.
+
+---
+
+## The Core Career System
+
+The Career System can be understood as a flow.
+
+```text
+Skills
+  ↓
+Practice
+  ↓
+Evidence
+  ↓
+Visibility
+  ↓
+Opportunity
+  ↓
+Performance
+  ↓
+Sustainable Growth
+```
+
+Each stage depends on the stage before it.
+
+Skills need practice.
+
+Practice needs evidence.
+
+Evidence needs visibility.
+
+Visibility creates opportunities.
+
+Opportunities require performance.
+
+Performance creates trust, growth, and future options.
+
+---
+
+## Career System Architecture
+
+```mermaid
+flowchart TD
+
+    A[Personal Context]
+    B[Career Direction]
+    C[Skills Inventory]
+    D[Learning Plan]
+    E[Practice Projects]
+    F[Portfolio Evidence]
+    G[Professional Communication]
+    H[Visibility and Networking]
+    I[Mentorship and Feedback]
+    J[Job Market Readiness]
+    K[Opportunity Access]
+    L[Workplace Performance]
+    M[Career Resilience]
+    N[Sustainable Professional Growth]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> K
+    I --> B
+    I --> D
+    I --> G
+    J --> K
+    K --> L
+    L --> M
+    M --> N
+    N --> B
+```
+
+This architecture shows that career growth is not only about job applications.
+
+It begins earlier, with direction and skill-building.
+
+It continues after opportunity is gained, through performance, resilience, and long-term growth.
+
+---
+
+## The Career System Layers
+
+The Career System has six major layers.
+
+### 1. Direction Layer
+
+This layer answers the question:
+
+```text
+Where am I trying to grow?
+```
+
+Without direction, learners may collect random skills without building a coherent professional path.
+
+Direction does not have to be perfect.
+
+But it must be clear enough to guide action.
+
+### 2. Capability Layer
+
+This layer answers:
+
+```text
+What can I do, and what do I still need to learn?
+```
+
+It includes technical skills, communication skills, problem-solving ability, digital fluency, and professional habits.
+
+### 3. Evidence Layer
+
+This layer answers:
+
+```text
+How can others see what I can do?
+```
+
+Evidence may include projects, case studies, GitHub repositories, writing, presentations, reports, certificates, work samples, or community contributions.
+
+### 4. Visibility Layer
+
+This layer answers:
+
+```text
+Who knows what I can do?
+```
+
+Visibility includes professional profiles, networking, mentorship, public communication, and participation in relevant communities.
+
+### 5. Opportunity Layer
+
+This layer answers:
+
+```text
+How do I access and evaluate opportunities?
+```
+
+This includes job readiness, applications, interviews, referrals, freelance work, internships, collaborations, and entrepreneurial options.
+
+### 6. Sustainability Layer
+
+This layer answers:
+
+```text
+How do I keep growing without burning out or depending on one path?
+```
+
+It includes career resilience, financial awareness, diversification, learning systems, and long-term professional identity.
+
+---
+
+## Why Skills Are Not Enough
+
+Skills are the foundation, but skills alone do not guarantee growth.
+
+A learner may know something but fail to communicate it.
+
+A professional may have experience but lack visible evidence.
+
+A graduate may have certificates but lack applied projects.
+
+A strong worker may depend too heavily on one employer.
+
+The Career System helps close these gaps.
+
+It turns skill into proof.
+
+It turns proof into visibility.
+
+It turns visibility into opportunity.
+
+It turns opportunity into sustainable growth.
+
+---
+
+## Where Mentorship Fits
+
+Mentorship sits across the system, not in only one place.
+
+A mentor can help a learner clarify direction.
+
+A mentor can review a skills inventory.
+
+A mentor can recommend practice projects.
+
+A mentor can give feedback on communication.
+
+A mentor can help interpret opportunities.
+
+A mentor can support workplace growth.
+
+In this system, mentorship is a feedback layer.
+
+It improves decisions at multiple points.
+
+```text
+Mentorship = guidance + feedback + accountability + perspective
+```
+
+Mentorship does not replace personal effort.
+
+It improves the quality of effort.
+
+---
+
+## Relationship to JIONGEZE and CDI
+
+JIONGEZE can serve as a slow learning hub where learners develop confidence, basic skills, habits, and access to mentorship.
+
+The CDI Career System sits at a higher professional-growth layer.
+
+It helps learners and professionals convert learning into evidence, opportunity, performance, and long-term growth.
+
+The two can support each other.
+
+JIONGEZE can nurture early growth.
+
+CDI Career System can structure professional advancement.
+
+---
+
+## Career System Output
+
+By the end of this guide, a learner should have a practical career growth package.
+
+```text
+career-direction-statement.txt
+skills-inventory.tsv
+learning-plan.tsv
+portfolio-project-plan.tsv
+professional-profile-checklist.tsv
+networking-and-mentorship-map.tsv
+job-readiness-checklist.tsv
+interview-preparation-notes.md
+career-resilience-plan.md
+```
+
+These outputs are not just documents.
+
+They are career operating tools.
+
+They help a learner move from intention to action.

@@ -1,0 +1,112 @@
+# Preface {-}
+
+:::cdi-message
+- **ID:** CAREER-000
+- **Type:** System Guide
+- **Audience:** Learners, early-career professionals, technical professionals, mentors, and career changers
+- **Theme:** Sustainable professional growth requires a system, not scattered effort
+:::
+
+Career growth is often presented as a collection of separate activities.
+
+Learn a skill.
+
+Write a CV.
+
+Apply for jobs.
+
+Find a mentor.
+
+Build a portfolio.
+
+Prepare for interviews.
+
+Each of these activities matters.
+
+But on its own, none of them is enough.
+
+The **Career System** treats professional growth as an integrated system that connects skills, evidence, communication, mentorship, opportunity, performance, and long-term sustainability.
+
+This guide is designed for learners and professionals who want more than short-term motivation.
+
+It is for people who want to build capacity that compounds.
+
+It is for people who want their skills to become visible.
+
+It is for people who want their work to create opportunities.
+
+It is for people who want to grow without depending on a single employer, a single certificate, or a single moment of luck.
+
+---
+
+## Why This Guide Exists
+
+Many learners are told to “improve their skills.”
+
+That advice is correct but incomplete.
+
+Skills alone do not automatically become career progress.
+
+A person may have strong skills but still struggle because they lack:
+
+- a clear direction,
+- a visible portfolio,
+- professional communication,
+- mentorship,
+- workplace readiness,
+- confidence in interviews,
+- or a sustainable growth plan.
+
+The Career System brings these pieces together.
+
+It shows how a learner moves from ability to evidence, from evidence to visibility, from visibility to opportunity, and from opportunity to sustainable growth.
+
+---
+
+## The CDI Career Perspective
+
+Complex Data Insights focuses on building systems for real-world growth.
+
+In technical fields, this means connecting data, analysis, interpretation, communication, and decisions.
+
+In career development, the same logic applies.
+
+A career is not built by isolated effort.
+
+A career is built through connected decisions repeated over time.
+
+The CDI Career System is therefore not only about getting a job.
+
+It is about becoming the kind of professional who can keep learning, keep adapting, keep contributing, and keep creating value.
+
+---
+
+## How to Use This Guide
+
+This guide can be used in four ways.
+
+First, learners can use it as a self-study roadmap.
+
+Second, mentors can use it to structure career conversations.
+
+Third, training programs can use it as a professional growth layer alongside technical learning.
+
+Fourth, organizations can use it to help early-career professionals move from potential to performance.
+
+The guide is intentionally practical.
+
+Each chapter focuses on a specific part of the career growth system.
+
+The goal is not only to understand career growth, but to practice it.
+
+---
+
+## Relationship to Other CDI Systems
+
+The Career System sits across the CDI ecosystem.
+
+It supports learners who are building expertise in areas such as Data Science Foundations, Applied Data Science, Omics Systems, Clinical & Medical Data Systems, AI Systems, and other technical pathways.
+
+Technical systems help learners build capability.
+
+The Career System helps learners convert that capability into professional growth.

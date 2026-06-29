@@ -1,0 +1,35 @@
+# Networking and Mentorship {#09_networking_and_mentorship}
+
+:::cdi-message
+- **ID:** CAREER-009
+- **Type:** System Guide
+- **Audience:** Learners, professionals, mentors, and training program designers
+- **Theme:** Relationships provide feedback, access, perspective, and accountability
+:::
+
+This chapter will develop the **Networking and Mentorship** layer of the Career System.
+
+---
+
+## Purpose
+
+This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+
+---
+
+## Core Questions
+
+```text
+What decision does this layer help the learner make?
+What evidence should the learner produce?
+What feedback or mentorship would improve the result?
+How does this layer connect to the next part of the Career System?
+```
+
+---
+
+## Expected Outputs
+
+```text
+To be developed in the full chapter draft.
+```

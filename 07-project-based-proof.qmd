@@ -1,0 +1,35 @@
+# Project-Based Proof {#07_project_based_proof}
+
+:::cdi-message
+- **ID:** CAREER-007
+- **Type:** System Guide
+- **Audience:** Learners, professionals, mentors, and training program designers
+- **Theme:** Projects demonstrate judgment, execution, and growth
+:::
+
+This chapter will develop the **Project-Based Proof** layer of the Career System.
+
+---
+
+## Purpose
+
+This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+
+---
+
+## Core Questions
+
+```text
+What decision does this layer help the learner make?
+What evidence should the learner produce?
+What feedback or mentorship would improve the result?
+How does this layer connect to the next part of the Career System?
+```
+
+---
+
+## Expected Outputs
+
+```text
+To be developed in the full chapter draft.
+```

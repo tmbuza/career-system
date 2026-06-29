@@ -1,0 +1,35 @@
+# Personal Operating System {#15_personal_operating_system}
+
+:::cdi-message
+- **ID:** CAREER-015
+- **Type:** System Guide
+- **Audience:** Learners, professionals, mentors, and training program designers
+- **Theme:** Professional growth depends on habits, review cycles, and self-management
+:::
+
+This chapter will develop the **Personal Operating System** layer of the Career System.
+
+---
+
+## Purpose
+
+This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+
+---
+
+## Core Questions
+
+```text
+What decision does this layer help the learner make?
+What evidence should the learner produce?
+What feedback or mentorship would improve the result?
+How does this layer connect to the next part of the Career System?
+```
+
+---
+
+## Expected Outputs
+
+```text
+To be developed in the full chapter draft.
+```

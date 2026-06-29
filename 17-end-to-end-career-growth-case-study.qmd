@@ -1,0 +1,35 @@
+# End-to-End Career Growth Case Study {#17_end_to_end_career_growth_case_study}
+
+:::cdi-message
+- **ID:** CAREER-017
+- **Type:** System Guide
+- **Audience:** Learners, professionals, mentors, and training program designers
+- **Theme:** A complete case study shows how the system works in practice
+:::
+
+This chapter will develop the **End-to-End Career Growth Case Study** layer of the Career System.
+
+---
+
+## Purpose
+
+This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+
+---
+
+## Core Questions
+
+```text
+What decision does this layer help the learner make?
+What evidence should the learner produce?
+What feedback or mentorship would improve the result?
+How does this layer connect to the next part of the Career System?
+```
+
+---
+
+## Expected Outputs
+
+```text
+To be developed in the full chapter draft.
+```

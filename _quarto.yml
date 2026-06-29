@@ -1,0 +1,59 @@
+project:
+  type: book
+
+book:
+  title: "Career System"
+  subtitle: "From Skills to Sustainable Professional Growth"
+  author: "Teresia Mrema Buza | Complex Data Insights"
+  date: today
+
+  chapters:
+    - index.qmd
+
+    - part: "Foundations"
+      chapters:
+        - 00-preface.qmd
+        - 01-system-overview.qmd
+        - 02-career-readiness.qmd
+        - 03-skills-inventory.qmd
+        - 04-career-direction.qmd
+
+    - part: "Professional Growth System"
+      chapters:
+        - 05-learning-plan.qmd
+        - 06-portfolio-building.qmd
+        - 07-project-based-proof.qmd
+        - 08-communication-and-visibility.qmd
+        - 09-networking-and-mentorship.qmd
+
+    - part: "Career Execution"
+      chapters:
+        - 10-job-market-readiness.qmd
+        - 11-cv-linkedin-and-profile.qmd
+        - 12-interviews-and-career-conversations.qmd
+        - 13-workplace-performance.qmd
+        - 14-career-resilience-and-diversification.qmd
+
+    - part: "Sustainable Growth"
+      chapters:
+        - 15-personal-operating-system.qmd
+        - 16-income-growth-and-opportunity-design.qmd
+        - 17-end-to-end-career-growth-case-study.qmd
+        - 18-career-system-roadmap.qmd
+
+    - part: "Appendices"
+      chapters:
+        - 999-appendix.qmd
+        - 999-references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    body-classes: career-system
+
+engine: knitr

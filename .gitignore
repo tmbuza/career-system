@@ -1,0 +1,8 @@
+.quarto/
+_freeze/
+_book/
+.DS_Store
+.Rproj.user/
+.ipynb_checkpoints/
+
+/.quarto/
