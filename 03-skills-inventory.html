@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Skills Inventory – Career System</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./04-career-direction.html" rel="next">
+<link href="./02-career-readiness.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-231ef2f9d4ce3268f31ef752336c15d2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="assets/css/cdi.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-preface.html">Foundations</a></li><li class="breadcrumb-item"><a href="./03-skills-inventory.html"><span class="chapter-title">Skills Inventory</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Career System</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">index.html</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Foundations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-system-overview.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Career System Overview</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-career-readiness.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Career Readiness</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-skills-inventory.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Skills Inventory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-career-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Career Direction</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Professional Growth System</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-learning-plan.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Learning Plan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-portfolio-building.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Portfolio Building</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-project-based-proof.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project-Based Proof</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-communication-and-visibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Communication and Visibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09-networking-and-mentorship.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Networking and Mentorship</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Career Execution</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-job-market-readiness.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Job Market Readiness</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11-cv-linkedin-and-profile.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CV, LinkedIn, and Professional Profile</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12-interviews-and-career-conversations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Interviews and Career Conversations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./13-workplace-performance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Workplace Performance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./14-career-resilience-and-diversification.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Career Resilience and Diversification</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Sustainable Growth</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./15-personal-operating-system.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Personal Operating System</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./16-income-growth-and-opportunity-design.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Income Growth and Opportunity Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./17-end-to-end-career-growth-case-study.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">End-to-End Career Growth Case Study</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./18-career-system-roadmap.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Career System Roadmap</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./999-references.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">References</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#why-a-skills-inventory-matters" id="toc-why-a-skills-inventory-matters" class="nav-link active" data-scroll-target="#why-a-skills-inventory-matters">Why a Skills Inventory Matters</a></li>
+  <li><a href="#the-skills-inventory-in-the-career-system" id="toc-the-skills-inventory-in-the-career-system" class="nav-link" data-scroll-target="#the-skills-inventory-in-the-career-system">The Skills Inventory in the Career System</a></li>
+  <li><a href="#skill-categories" id="toc-skill-categories" class="nav-link" data-scroll-target="#skill-categories">Skill Categories</a>
+  <ul class="collapse">
+  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
+  <li><a href="#communication-skills" id="toc-communication-skills" class="nav-link" data-scroll-target="#communication-skills">Communication Skills</a></li>
+  <li><a href="#problem-solving-skills" id="toc-problem-solving-skills" class="nav-link" data-scroll-target="#problem-solving-skills">Problem-Solving Skills</a></li>
+  <li><a href="#professional-operating-skills" id="toc-professional-operating-skills" class="nav-link" data-scroll-target="#professional-operating-skills">Professional Operating Skills</a></li>
+  <li><a href="#relationship-and-collaboration-skills" id="toc-relationship-and-collaboration-skills" class="nav-link" data-scroll-target="#relationship-and-collaboration-skills">Relationship and Collaboration Skills</a></li>
+  </ul></li>
+  <li><a href="#current-skill-level" id="toc-current-skill-level" class="nav-link" data-scroll-target="#current-skill-level">Current Skill Level</a></li>
+  <li><a href="#evidence-makes-skills-visible" id="toc-evidence-makes-skills-visible" class="nav-link" data-scroll-target="#evidence-makes-skills-visible">Evidence Makes Skills Visible</a></li>
+  <li><a href="#career-relevance" id="toc-career-relevance" class="nav-link" data-scroll-target="#career-relevance">Career Relevance</a></li>
+  <li><a href="#the-skills-inventory-template" id="toc-the-skills-inventory-template" class="nav-link" data-scroll-target="#the-skills-inventory-template">The Skills Inventory Template</a></li>
+  <li><a href="#create-the-template" id="toc-create-the-template" class="nav-link" data-scroll-target="#create-the-template">Create the Template</a></li>
+  <li><a href="#manual-template" id="toc-manual-template" class="nav-link" data-scroll-target="#manual-template">Manual Template</a></li>
+  <li><a href="#example-skills-inventory-entry" id="toc-example-skills-inventory-entry" class="nav-link" data-scroll-target="#example-skills-inventory-entry">Example Skills Inventory Entry</a></li>
+  <li><a href="#how-to-review-the-inventory" id="toc-how-to-review-the-inventory" class="nav-link" data-scroll-target="#how-to-review-the-inventory">How to Review the Inventory</a></li>
+  <li><a href="#common-skills-inventory-mistakes" id="toc-common-skills-inventory-mistakes" class="nav-link" data-scroll-target="#common-skills-inventory-mistakes">Common Skills Inventory Mistakes</a></li>
+  <li><a href="#mentor-or-peer-review-prompts" id="toc-mentor-or-peer-review-prompts" class="nav-link" data-scroll-target="#mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</a></li>
+  <li><a href="#skills-inventory-checklist" id="toc-skills-inventory-checklist" class="nav-link" data-scroll-target="#skills-inventory-checklist">Skills Inventory Checklist</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
+  <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-preface.html">Foundations</a></li><li class="breadcrumb-item"><a href="./03-skills-inventory.html"><span class="chapter-title">Skills Inventory</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="skills-inventory" class="quarto-section-identifier"><span class="chapter-title">Skills Inventory</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Jun 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="cdi-message">
+<ul>
+<li><strong>ID:</strong> CAREER-003</li>
+<li><strong>Type:</strong> System Guide</li>
+<li><strong>Audience:</strong> Learners, professionals, mentors, and training program designers</li>
+<li><strong>Theme:</strong> Growth begins by making current capabilities visible and honest</li>
+</ul>
+</div>
+<p>Career growth becomes easier to guide when skills are visible.</p>
+<p>Many learners say:</p>
+<pre class="text"><code>I want to improve my skills.</code></pre>
+<p>That is a useful starting point.</p>
+<p>But it is not specific enough.</p>
+<p>Which skills?</p>
+<p>At what level?</p>
+<p>For which career direction?</p>
+<p>Supported by what evidence?</p>
+<p>Reviewed by whom?</p>
+<p>Improved through what next action?</p>
+<p>A <strong>skills inventory</strong> turns a general desire to grow into a structured view of current capability.</p>
+<p>It helps a learner see what they already have, what needs strengthening, what can be shown publicly, and what should be developed next.</p>
+<p>In the Career System, the skills inventory comes after career readiness because readiness helps the learner understand their current starting point.</p>
+<p>The skills inventory then makes that starting point specific.</p>
+<hr>
+<section id="why-a-skills-inventory-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-a-skills-inventory-matters">Why a Skills Inventory Matters</h2>
+<p>Skills are often discussed too generally.</p>
+<p>A person may say they know data analysis, communication, leadership, project management, teaching, coding, customer service, research, or entrepreneurship.</p>
+<p>But career growth requires more precision.</p>
+<p>A useful skills inventory answers questions such as:</p>
+<ul>
+<li>What skill do I have?</li>
+<li>What type of skill is it?</li>
+<li>How strong is it right now?</li>
+<li>Where have I used it?</li>
+<li>What evidence can I show?</li>
+<li>How relevant is it to my current career direction?</li>
+<li>What should I do next to improve or prove it?</li>
+</ul>
+<p>Without this clarity, learners may spend time learning randomly.</p>
+<p>They may keep collecting certificates without building usable evidence.</p>
+<p>They may underestimate skills they already have.</p>
+<p>They may also overestimate skills that have not yet been tested in real situations.</p>
+<p>The inventory makes growth more honest.</p>
+<p>It is not meant to judge the learner.</p>
+<p>It is meant to guide the learner.</p>
+<hr>
+</section>
+<section id="the-skills-inventory-in-the-career-system" class="level2">
+<h2 class="anchored" data-anchor-id="the-skills-inventory-in-the-career-system">The Skills Inventory in the Career System</h2>
+<p>The skills inventory connects readiness to intentional learning.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    A[Career Readiness] --&gt; B[Skills Inventory]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Skill Gaps]</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    B --&gt; D[Existing Strengths]</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    B --&gt; E[Evidence Opportunities]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    C --&gt; F[Learning Plan]</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    D --&gt; G[Portfolio Direction]</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    E --&gt; G</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    F --&gt; H[Project-Based Practice]</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    G --&gt; I[Professional Visibility]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Career Readiness] --&gt; B[Skills Inventory]
+    B --&gt; C[Skill Gaps]
+    B --&gt; D[Existing Strengths]
+    B --&gt; E[Evidence Opportunities]
+    C --&gt; F[Learning Plan]
+    D --&gt; G[Portfolio Direction]
+    E --&gt; G
+    F --&gt; H[Project-Based Practice]
+    G --&gt; I[Professional Visibility]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>This chapter is therefore not only about listing skills.</p>
+<p>It is about turning skills into a usable career map.</p>
+<p>The learner should finish this chapter with a clearer understanding of what they can currently do, what they can prove, what they need to practice, and what skills deserve priority.</p>
+<hr>
+</section>
+<section id="skill-categories" class="level2">
+<h2 class="anchored" data-anchor-id="skill-categories">Skill Categories</h2>
+<p>A strong career is rarely built from one type of skill only.</p>
+<p>Most professional growth requires a combination of technical, communication, thinking, interpersonal, and operating skills.</p>
+<p>For this guide, a learner can begin with five broad categories.</p>
+<section id="technical-skills" class="level3">
+<h3 class="anchored" data-anchor-id="technical-skills">Technical Skills</h3>
+<p>Technical skills are the practical abilities required to do specific work.</p>
+<p>Examples include:</p>
+<ul>
+<li>data cleaning,</li>
+<li>writing code,</li>
+<li>using laboratory methods,</li>
+<li>preparing reports,</li>
+<li>managing spreadsheets,</li>
+<li>designing workflows,</li>
+<li>using domain-specific software,</li>
+<li>or applying analytical methods.</li>
+</ul>
+<p>Technical skills are important because they allow a person to produce work.</p>
+<p>But technical skills alone are not enough.</p>
+<p>They must be supported by evidence, communication, and reliability.</p>
+</section>
+<section id="communication-skills" class="level3">
+<h3 class="anchored" data-anchor-id="communication-skills">Communication Skills</h3>
+<p>Communication skills help a person explain ideas, results, needs, decisions, and value.</p>
+<p>Examples include:</p>
+<ul>
+<li>writing clearly,</li>
+<li>presenting findings,</li>
+<li>explaining technical work to non-specialists,</li>
+<li>asking good questions,</li>
+<li>documenting work,</li>
+<li>and giving updates.</li>
+</ul>
+<p>Many opportunities are lost not because a person lacks ability, but because they cannot explain their ability clearly.</p>
+</section>
+<section id="problem-solving-skills" class="level3">
+<h3 class="anchored" data-anchor-id="problem-solving-skills">Problem-Solving Skills</h3>
+<p>Problem-solving skills help a person move through uncertainty.</p>
+<p>Examples include:</p>
+<ul>
+<li>breaking a large task into smaller steps,</li>
+<li>identifying causes of failure,</li>
+<li>comparing options,</li>
+<li>troubleshooting errors,</li>
+<li>making decisions with incomplete information,</li>
+<li>and learning from feedback.</li>
+</ul>
+<p>This category is especially important for learners moving into real-world work, where tasks are rarely perfectly prepared.</p>
+</section>
+<section id="professional-operating-skills" class="level3">
+<h3 class="anchored" data-anchor-id="professional-operating-skills">Professional Operating Skills</h3>
+<p>Professional operating skills help a person work consistently.</p>
+<p>Examples include:</p>
+<ul>
+<li>time planning,</li>
+<li>task tracking,</li>
+<li>meeting deadlines,</li>
+<li>organizing files,</li>
+<li>following instructions,</li>
+<li>documenting decisions,</li>
+<li>and reviewing work before submission.</li>
+</ul>
+<p>These skills are sometimes overlooked, but they strongly affect trust.</p>
+<p>A person who is technically capable but unreliable may struggle to grow.</p>
+</section>
+<section id="relationship-and-collaboration-skills" class="level3">
+<h3 class="anchored" data-anchor-id="relationship-and-collaboration-skills">Relationship and Collaboration Skills</h3>
+<p>Career growth is rarely individual only.</p>
+<p>Relationship and collaboration skills include:</p>
+<ul>
+<li>teamwork,</li>
+<li>mentorship engagement,</li>
+<li>respectful communication,</li>
+<li>receiving feedback,</li>
+<li>helping others,</li>
+<li>networking,</li>
+<li>and building professional trust.</li>
+</ul>
+<p>These skills help learners access guidance, referrals, collaboration, and long-term support.</p>
+<hr>
+</section>
+</section>
+<section id="current-skill-level" class="level2">
+<h2 class="anchored" data-anchor-id="current-skill-level">Current Skill Level</h2>
+<p>A skills inventory should include a simple level for each skill.</p>
+<p>The goal is not perfection.</p>
+<p>The goal is honest self-placement.</p>
+<p>A useful five-level scale is:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 30%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Level</th>
+<th>Label</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td>Aware</td>
+<td>I understand what this skill is, but I cannot use it independently yet.</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td>Practicing</td>
+<td>I have started using the skill with guidance, examples, or repeated support.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td>Functional</td>
+<td>I can use the skill for basic real tasks with reasonable confidence.</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td>Reliable</td>
+<td>I can use the skill consistently, explain my approach, and handle common problems.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td>Leading</td>
+<td>I can teach, review, improve, or guide others using this skill.</td>
+</tr>
+</tbody>
+</table>
+<p>For beginners, many skills may be at Level 1 or Level 2.</p>
+<p>That is normal.</p>
+<p>For experienced professionals, the inventory may reveal that some skills are strong but invisible, outdated, or poorly documented.</p>
+<p>That is also useful.</p>
+<p>The inventory is not only for beginners.</p>
+<p>It is for anyone who wants to keep learning intentionally.</p>
+<hr>
+</section>
+<section id="evidence-makes-skills-visible" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-makes-skills-visible">Evidence Makes Skills Visible</h2>
+<p>A skill becomes more career-useful when it is connected to evidence.</p>
+<p>Evidence may include:</p>
+<ul>
+<li>a project,</li>
+<li>a report,</li>
+<li>a portfolio page,</li>
+<li>a GitHub repository,</li>
+<li>a presentation,</li>
+<li>a certificate,</li>
+<li>a recommendation,</li>
+<li>a work sample,</li>
+<li>a community contribution,</li>
+<li>or a documented workflow.</li>
+</ul>
+<p>Evidence does not have to be perfect.</p>
+<p>It has to be visible enough to support a conversation.</p>
+<p>For example, instead of writing:</p>
+<pre class="text"><code>I know data cleaning.</code></pre>
+<p>A stronger inventory entry would say:</p>
+<pre class="text"><code>Skill: Data cleaning with R
+Current level: 3
+Evidence: Cleaned a public dataset, handled missing values, summarized variables, and exported a tidy results table.
+Next action: Build a second project using a messier dataset and document each cleaning decision.</code></pre>
+<p>This turns a claim into a development path.</p>
+<hr>
+</section>
+<section id="career-relevance" class="level2">
+<h2 class="anchored" data-anchor-id="career-relevance">Career Relevance</h2>
+<p>Not every skill deserves equal attention at the same time.</p>
+<p>A learner may have many interests, but limited time.</p>
+<p>Career relevance helps prioritize.</p>
+<p>A skill may be:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Relevance</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>High</td>
+<td>Directly supports the learner’s current career direction or target opportunity.</td>
+</tr>
+<tr class="even">
+<td>Medium</td>
+<td>Useful, but not the most urgent priority right now.</td>
+</tr>
+<tr class="odd">
+<td>Low</td>
+<td>Interesting or valuable, but not central to the current growth path.</td>
+</tr>
+</tbody>
+</table>
+<p>This does not mean low-relevance skills are worthless.</p>
+<p>It means they may not need immediate focus.</p>
+<p>A career system protects the learner from scattered effort.</p>
+<hr>
+</section>
+<section id="the-skills-inventory-template" class="level2">
+<h2 class="anchored" data-anchor-id="the-skills-inventory-template">The Skills Inventory Template</h2>
+<p>This chapter includes a simple template that helps the learner organize current skills.</p>
+<p>The template includes these fields:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>skill_id</code></td>
+<td>A unique identifier for each skill.</td>
+</tr>
+<tr class="even">
+<td><code>skill_name</code></td>
+<td>The specific skill being assessed.</td>
+</tr>
+<tr class="odd">
+<td><code>skill_category</code></td>
+<td>The type of skill.</td>
+</tr>
+<tr class="even">
+<td><code>current_level</code></td>
+<td>Current level from 1 to 5.</td>
+</tr>
+<tr class="odd">
+<td><code>evidence_type</code></td>
+<td>The kind of proof available.</td>
+</tr>
+<tr class="even">
+<td><code>evidence_description</code></td>
+<td>A short description of the evidence.</td>
+</tr>
+<tr class="odd">
+<td><code>evidence_link</code></td>
+<td>A link to the work, if available.</td>
+</tr>
+<tr class="even">
+<td><code>confidence_score</code></td>
+<td>How confident the learner feels about using the skill.</td>
+</tr>
+<tr class="odd">
+<td><code>career_relevance</code></td>
+<td>High, medium, or low relevance to the current direction.</td>
+</tr>
+<tr class="even">
+<td><code>next_action</code></td>
+<td>One practical step to improve or prove the skill.</td>
+</tr>
+<tr class="odd">
+<td><code>reviewer_feedback</code></td>
+<td>Feedback from a mentor, peer, teacher, or supervisor.</td>
+</tr>
+</tbody>
+</table>
+<p>The most important column is not the level.</p>
+<p>It is the <strong>next action</strong>.</p>
+<p>A skills inventory should lead to movement.</p>
+<hr>
+</section>
+<section id="create-the-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-template">Create the Template</h2>
+<p>Learners who are comfortable using the command line can create the template with the supporting script.</p>
+<p>From the project root, run:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x scripts/bash/03-create-skills-inventory-template.sh</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/03-create-skills-inventory-template.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Expected outputs:</p>
+<pre class="text"><code>data/templates/skills-inventory-template.csv
+results/skills-inventory/example-skills-inventory.csv
+results/skills-inventory/README-skills-inventory.md</code></pre>
+<p>Learners who are not using the command line can copy the table structure into a spreadsheet, notebook, or document.</p>
+<p>The learning value comes from thinking carefully about the skills, not from the tool itself.</p>
+<hr>
+</section>
+<section id="manual-template" class="level2">
+<h2 class="anchored" data-anchor-id="manual-template">Manual Template</h2>
+<p>A learner can also use this simplified version manually.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Skill</th>
+<th>Category</th>
+<th style="text-align: right;">Level</th>
+<th>Evidence</th>
+<th>Relevance</th>
+<th>Next Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>For a first attempt, ten skills are enough.</p>
+<p>A learner should not try to list every possible skill immediately.</p>
+<p>Start with the skills most relevant to the current career direction.</p>
+<hr>
+</section>
+<section id="example-skills-inventory-entry" class="level2">
+<h2 class="anchored" data-anchor-id="example-skills-inventory-entry">Example Skills Inventory Entry</h2>
+<p>A beginner might write:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Skill</td>
+<td>Basic spreadsheet analysis</td>
+</tr>
+<tr class="even">
+<td>Category</td>
+<td>Technical skills</td>
+</tr>
+<tr class="odd">
+<td>Level</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Evidence</td>
+<td>Cleaned a small table, calculated totals, and made a simple summary chart.</td>
+</tr>
+<tr class="odd">
+<td>Relevance</td>
+<td>High</td>
+</tr>
+<tr class="even">
+<td>Next Action</td>
+<td>Create a one-page analysis using a real public dataset and explain the result.</td>
+</tr>
+</tbody>
+</table>
+<p>An experienced professional might write:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Skill</td>
+<td>Leading cross-functional project delivery</td>
+</tr>
+<tr class="even">
+<td>Category</td>
+<td>Relationship and collaboration skills</td>
+</tr>
+<tr class="odd">
+<td>Level</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Evidence</td>
+<td>Coordinated a project across technical, operations, and management teams.</td>
+</tr>
+<tr class="odd">
+<td>Relevance</td>
+<td>High</td>
+</tr>
+<tr class="even">
+<td>Next Action</td>
+<td>Convert the experience into a leadership case study with measurable outcomes.</td>
+</tr>
+</tbody>
+</table>
+<p>The same template works across career stages.</p>
+<p>The depth of evidence changes.</p>
+<hr>
+</section>
+<section id="how-to-review-the-inventory" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-review-the-inventory">How to Review the Inventory</h2>
+<p>After completing the inventory, the learner should look for patterns.</p>
+<p>Useful review questions include:</p>
+<ul>
+<li>Which skills are strongest?</li>
+<li>Which skills are most relevant to the current direction?</li>
+<li>Which important skills have no evidence?</li>
+<li>Which skills are supported only by certificates, but not by applied work?</li>
+<li>Which skills could become portfolio projects?</li>
+<li>Which skills need feedback from a mentor?</li>
+<li>Which skills should be improved in the next 30 days?</li>
+</ul>
+<p>The inventory should produce decisions.</p>
+<p>It should not sit as a static list.</p>
+<hr>
+</section>
+<section id="common-skills-inventory-mistakes" class="level2">
+<h2 class="anchored" data-anchor-id="common-skills-inventory-mistakes">Common Skills Inventory Mistakes</h2>
+<p>A common mistake is writing skills too broadly.</p>
+<p>For example:</p>
+<pre class="text"><code>Data science
+Leadership
+Communication
+Research</code></pre>
+<p>These are useful categories, but they are too broad for an action plan.</p>
+<p>A stronger version is more specific:</p>
+<pre class="text"><code>Cleaning tabular data with R
+Writing a one-page project summary
+Facilitating weekly team check-ins
+Searching public datasets for a research question</code></pre>
+<p>Another mistake is listing skills without evidence.</p>
+<p>A third mistake is focusing only on technical skills and ignoring communication, reliability, and collaboration.</p>
+<p>A fourth mistake is rating every skill too highly.</p>
+<p>Honesty is more useful than appearance.</p>
+<p>A Level 2 skill with a clear next action is more valuable than a Level 5 claim with no evidence.</p>
+<hr>
+</section>
+<section id="mentor-or-peer-review-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</h2>
+<p>A mentor, peer, teacher, or supervisor can help improve the inventory.</p>
+<p>Useful prompts include:</p>
+<pre class="text"><code>Which skills look strongest based on the evidence provided?
+Which skills need clearer proof?
+Which skill should become the next project?
+Which skill is important for the learner's direction but missing from the list?
+Which level seems too high or too low?
+What next action would create the most career value?</code></pre>
+<p>The goal of review is not criticism.</p>
+<p>The goal is calibration.</p>
+<p>A learner should leave the review with a clearer sense of what to do next.</p>
+<hr>
+</section>
+<section id="skills-inventory-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="skills-inventory-checklist">Skills Inventory Checklist</h2>
+<p>Before moving to the next chapter, the learner should be able to say:</p>
+<ul>
+<li>I have listed my most relevant current skills.</li>
+<li>I have grouped them into useful categories.</li>
+<li>I have assigned honest current levels.</li>
+<li>I have connected important skills to evidence.</li>
+<li>I have identified skills that need stronger proof.</li>
+<li>I have selected next actions for improvement.</li>
+<li>I can see which skills matter most for my current career direction.</li>
+</ul>
+<p>If these statements are not yet true, the learner should revise the inventory before building a learning plan.</p>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>Career growth becomes more practical when skills are treated as evidence-producing capabilities.</p>
+<p>The question is not only:</p>
+<pre class="text"><code>What do I know?</code></pre>
+<p>The stronger question is:</p>
+<pre class="text"><code>What can I do, how can I show it, and what should I improve next?</code></pre>
+<p>That question moves the learner from self-description to professional development.</p>
+<hr>
+</section>
+<section id="looking-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
+<p>The next chapter turns the skills inventory into career direction.</p>
+<p>Once a learner can see their current skills, strengths, gaps, and evidence, the next step is to decide where those capabilities should be pointed.</p>
+<p>Career direction does not need to be perfect, but it should be clear enough to guide learning, project choices, mentorship conversations, and opportunity decisions.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./02-career-readiness.html" class="pagination-link" aria-label="Career Readiness">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Career Readiness</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./04-career-direction.html" class="pagination-link" aria-label="Career Direction">
+        <span class="nav-page-text"><span class="chapter-title">Career Direction</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
