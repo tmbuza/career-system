@@ -33,3 +33,10 @@ How does this layer connect to the next part of the Career System?
 ```text
 To be developed in the full chapter draft.
 ```
+---
+
+## Looking Ahead
+
+The next chapter translates job-market readiness into a stronger CV, LinkedIn profile, and professional presentation.
+
+The learner now needs a profile that communicates direction, evidence, skills, projects, experience, and credibility clearly enough for reviewers, mentors, recruiters, collaborators, and decision-makers.

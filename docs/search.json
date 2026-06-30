@@ -1,0 +1,1035 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Career System",
+    "section": "",
+    "text": "Updated: Jun 2026",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>index.html</span>"
+    ]
+  },
+  {
+    "objectID": "00-preface.html",
+    "href": "00-preface.html",
+    "title": "Preface",
+    "section": "",
+    "text": "Why This Guide Exists\nCareer growth is often presented as a collection of separate activities.\nLearn a skill.\nWrite a CV.\nApply for jobs.\nFind a mentor.\nBuild a portfolio.\nPrepare for interviews.\nEach of these activities matters.\nBut on its own, none of them is enough.\nThe Career System treats professional growth as an integrated system that connects skills, evidence, communication, mentorship, opportunity, performance, and long-term sustainability.\nThis guide is designed for learners and professionals who want more than short-term motivation.\nIt is for people who want to build capacity that compounds.\nIt is for people who want their skills to become visible.\nIt is for people who want their work to create opportunities.\nIt is for people who want to grow without depending on a single employer, a single certificate, or a single moment of luck.\nMany learners are told to “improve their skills.”\nThat advice is correct but incomplete.\nSkills alone do not automatically become career progress.\nA person may have strong skills but still struggle because they lack:\nThe Career System brings these pieces together.\nIt shows how a learner moves from ability to evidence, from evidence to visibility, from visibility to opportunity, and from opportunity to sustainable growth.",
+    "crumbs": [
+      "Foundations",
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#why-this-guide-exists",
+    "href": "00-preface.html#why-this-guide-exists",
+    "title": "Preface",
+    "section": "",
+    "text": "a clear direction,\na visible portfolio,\nprofessional communication,\nmentorship,\nworkplace readiness,\nconfidence in interviews,\nor a sustainable growth plan.",
+    "crumbs": [
+      "Foundations",
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#the-cdi-career-perspective",
+    "href": "00-preface.html#the-cdi-career-perspective",
+    "title": "Preface",
+    "section": "The CDI Career Perspective",
+    "text": "The CDI Career Perspective\nComplex Data Insights focuses on building systems for real-world growth.\nIn technical fields, this means connecting data, analysis, interpretation, communication, and decisions.\nIn career development, the same logic applies.\nA career is not built by isolated effort.\nA career is built through connected decisions repeated over time.\nThe CDI Career System is therefore not only about getting a job.\nIt is about becoming the kind of professional who can keep learning, keep adapting, keep contributing, and keep creating value.",
+    "crumbs": [
+      "Foundations",
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#how-to-use-this-guide",
+    "href": "00-preface.html#how-to-use-this-guide",
+    "title": "Preface",
+    "section": "How to Use This Guide",
+    "text": "How to Use This Guide\nThis guide can be used in four ways.\nFirst, learners can use it as a self-study roadmap.\nSecond, mentors can use it to structure career conversations.\nThird, training programs can use it as a professional growth layer alongside technical learning.\nFourth, organizations can use it to help early-career professionals move from potential to performance.\nThe guide is intentionally practical.\nEach chapter focuses on a specific part of the career growth system.\nThe goal is not only to understand career growth, but to practice it.",
+    "crumbs": [
+      "Foundations",
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#relationship-to-other-cdi-systems",
+    "href": "00-preface.html#relationship-to-other-cdi-systems",
+    "title": "Preface",
+    "section": "Relationship to Other CDI Systems",
+    "text": "Relationship to Other CDI Systems\nThe Career System sits across the CDI ecosystem.\nIt supports learners who are building expertise in areas such as Data Science Foundations, Applied Data Science, Omics Systems, Clinical & Medical Data Systems, AI Systems, and other technical pathways.\nTechnical systems help learners build capability.",
+    "crumbs": [
+      "Foundations",
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#the-career-system-helps-learners-convert-that-capability-into-professional-growth.",
+    "href": "00-preface.html#the-career-system-helps-learners-convert-that-capability-into-professional-growth.",
+    "title": "Preface",
+    "section": "The Career System helps learners convert that capability into professional growth.",
+    "text": "The Career System helps learners convert that capability into professional growth.",
+    "crumbs": [
+      "Foundations",
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#looking-ahead",
+    "href": "00-preface.html#looking-ahead",
+    "title": "Preface",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter introduces the Career System as a complete growth architecture.\nIt shows how readiness, skills, direction, learning, portfolio evidence, visibility, mentorship, job-market preparation, workplace performance, resilience, and opportunity design connect into one professional development system.",
+    "crumbs": [
+      "Foundations",
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "01-system-overview.html",
+    "href": "01-system-overview.html",
+    "title": "Career System Overview",
+    "section": "",
+    "text": "The Core Career System\nCareer growth is not a straight line.\nIt is a system.\nA person builds skills, applies them, produces evidence, communicates value, receives guidance, enters opportunities, performs in real environments, and then continues adapting.\nWhen these parts are disconnected, career growth becomes frustrating.\nWhen they are connected, growth becomes more intentional and sustainable.\nThe Career System can be understood as a flow.\nEach stage depends on the stage before it.\nSkills need practice.\nPractice needs evidence.\nEvidence needs visibility.\nVisibility creates opportunities.\nOpportunities require performance.\nPerformance creates trust, growth, and future options.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Career System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-system-overview.html#the-core-career-system",
+    "href": "01-system-overview.html#the-core-career-system",
+    "title": "Career System Overview",
+    "section": "",
+    "text": "Skills\n  ↓\nPractice\n  ↓\nEvidence\n  ↓\nVisibility\n  ↓\nOpportunity\n  ↓\nPerformance\n  ↓\nSustainable Growth",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Career System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-system-overview.html#career-system-architecture",
+    "href": "01-system-overview.html#career-system-architecture",
+    "title": "Career System Overview",
+    "section": "Career System Architecture",
+    "text": "Career System Architecture\n\n\nCode\nflowchart TD\n\n    A[Personal Context]\n    B[Career Direction]\n    C[Skills Inventory]\n    D[Learning Plan]\n    E[Practice Projects]\n    F[Portfolio Evidence]\n    G[Professional Communication]\n    H[Visibility and Networking]\n    I[Mentorship and Feedback]\n    J[Job Market Readiness]\n    K[Opportunity Access]\n    L[Workplace Performance]\n    M[Career Resilience]\n    N[Sustainable Professional Growth]\n\n    A --&gt; B\n    B --&gt; C\n    C --&gt; D\n    D --&gt; E\n    E --&gt; F\n    F --&gt; G\n    G --&gt; H\n    H --&gt; K\n    I --&gt; B\n    I --&gt; D\n    I --&gt; G\n    J --&gt; K\n    K --&gt; L\n    L --&gt; M\n    M --&gt; N\n    N --&gt; B\n\n\n\n\n\nflowchart TD\n\n    A[Personal Context]\n    B[Career Direction]\n    C[Skills Inventory]\n    D[Learning Plan]\n    E[Practice Projects]\n    F[Portfolio Evidence]\n    G[Professional Communication]\n    H[Visibility and Networking]\n    I[Mentorship and Feedback]\n    J[Job Market Readiness]\n    K[Opportunity Access]\n    L[Workplace Performance]\n    M[Career Resilience]\n    N[Sustainable Professional Growth]\n\n    A --&gt; B\n    B --&gt; C\n    C --&gt; D\n    D --&gt; E\n    E --&gt; F\n    F --&gt; G\n    G --&gt; H\n    H --&gt; K\n    I --&gt; B\n    I --&gt; D\n    I --&gt; G\n    J --&gt; K\n    K --&gt; L\n    L --&gt; M\n    M --&gt; N\n    N --&gt; B\n\n\n\n\n\n\nThis architecture shows that career growth is not only about job applications.\nIt begins earlier, with direction and skill-building.\nIt continues after opportunity is gained, through performance, resilience, and long-term growth.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Career System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-system-overview.html#the-career-system-layers",
+    "href": "01-system-overview.html#the-career-system-layers",
+    "title": "Career System Overview",
+    "section": "The Career System Layers",
+    "text": "The Career System Layers\nThe Career System has six major layers.\n\n1. Direction Layer\nThis layer answers the question:\nWhere am I trying to grow?\nWithout direction, learners may collect random skills without building a coherent professional path.\nDirection does not have to be perfect.\nBut it must be clear enough to guide action.\n\n\n2. Capability Layer\nThis layer answers:\nWhat can I do, and what do I still need to learn?\nIt includes technical skills, communication skills, problem-solving ability, digital fluency, and professional habits.\n\n\n3. Evidence Layer\nThis layer answers:\nHow can others see what I can do?\nEvidence may include projects, case studies, GitHub repositories, writing, presentations, reports, certificates, work samples, or community contributions.\n\n\n4. Visibility Layer\nThis layer answers:\nWho knows what I can do?\nVisibility includes professional profiles, networking, mentorship, public communication, and participation in relevant communities.\n\n\n5. Opportunity Layer\nThis layer answers:\nHow do I access and evaluate opportunities?\nThis includes job readiness, applications, interviews, referrals, freelance work, internships, collaborations, and entrepreneurial options.\n\n\n6. Sustainability Layer\nThis layer answers:\nHow do I keep growing without burning out or depending on one path?\nIt includes career resilience, financial awareness, diversification, learning systems, and long-term professional identity.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Career System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-system-overview.html#why-skills-are-not-enough",
+    "href": "01-system-overview.html#why-skills-are-not-enough",
+    "title": "Career System Overview",
+    "section": "Why Skills Are Not Enough",
+    "text": "Why Skills Are Not Enough\nSkills are the foundation, but skills alone do not guarantee growth.\nA learner may know something but fail to communicate it.\nA professional may have experience but lack visible evidence.\nA graduate may have certificates but lack applied projects.\nA strong worker may depend too heavily on one employer.\nThe Career System helps close these gaps.\nIt turns skill into proof.\nIt turns proof into visibility.\nIt turns visibility into opportunity.\nIt turns opportunity into sustainable growth.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Career System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-system-overview.html#where-mentorship-fits",
+    "href": "01-system-overview.html#where-mentorship-fits",
+    "title": "Career System Overview",
+    "section": "Where Mentorship Fits",
+    "text": "Where Mentorship Fits\nMentorship sits across the system, not in only one place.\nA mentor can help a learner clarify direction.\nA mentor can review a skills inventory.\nA mentor can recommend practice projects.\nA mentor can give feedback on communication.\nA mentor can help interpret opportunities.\nA mentor can support workplace growth.\nIn this system, mentorship is a feedback layer.\nIt improves decisions at multiple points.\nMentorship = guidance + feedback + accountability + perspective\nMentorship does not replace personal effort.\nIt improves the quality of effort.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Career System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-system-overview.html#relationship-to-jiongeze-and-cdi",
+    "href": "01-system-overview.html#relationship-to-jiongeze-and-cdi",
+    "title": "Career System Overview",
+    "section": "Relationship to JIONGEZE and CDI",
+    "text": "Relationship to JIONGEZE and CDI\nJIONGEZE can serve as a slow learning hub where learners develop confidence, basic skills, habits, and access to mentorship.\nThe CDI Career System sits at a higher professional-growth layer.\nIt helps learners and professionals convert learning into evidence, opportunity, performance, and long-term growth.\nThe two can support each other.\nJIONGEZE can nurture early growth.\nCDI Career System can structure professional advancement.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Career System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-system-overview.html#career-system-output",
+    "href": "01-system-overview.html#career-system-output",
+    "title": "Career System Overview",
+    "section": "Career System Output",
+    "text": "Career System Output\nBy the end of this guide, a learner should have a practical career growth package.\ncareer-direction-statement.txt\nskills-inventory.tsv\nlearning-plan.tsv\nportfolio-project-plan.tsv\nprofessional-profile-checklist.tsv\nnetworking-and-mentorship-map.tsv\njob-readiness-checklist.tsv\ninterview-preparation-notes.md\ncareer-resilience-plan.md\nThese outputs are not just documents.\nThey are career operating tools.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Career System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-system-overview.html#they-help-a-learner-move-from-intention-to-action.",
+    "href": "01-system-overview.html#they-help-a-learner-move-from-intention-to-action.",
+    "title": "Career System Overview",
+    "section": "They help a learner move from intention to action.",
+    "text": "They help a learner move from intention to action.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Career System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-system-overview.html#looking-ahead",
+    "href": "01-system-overview.html#looking-ahead",
+    "title": "Career System Overview",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter begins the practical journey with career readiness.\nBefore a learner builds a portfolio, applies for opportunities, or redesigns a professional profile, they need to understand their current level of readiness: what they can do, what they can show, where they need support, and what kind of growth path is realistic now.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Career System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "02-career-readiness.html",
+    "href": "02-career-readiness.html",
+    "title": "Career Readiness",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Career Readiness layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Career Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "02-career-readiness.html#core-questions",
+    "href": "02-career-readiness.html#core-questions",
+    "title": "Career Readiness",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Career Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "02-career-readiness.html#expected-outputs",
+    "href": "02-career-readiness.html#expected-outputs",
+    "title": "Career Readiness",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Career Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "02-career-readiness.html#looking-ahead",
+    "href": "02-career-readiness.html#looking-ahead",
+    "title": "Career Readiness",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter turns readiness into a visible skills inventory.\nOnce a learner understands their current readiness, the next step is to list and organize their skills honestly so that strengths, gaps, evidence, and learning priorities become easier to see.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Career Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "03-skills-inventory.html",
+    "href": "03-skills-inventory.html",
+    "title": "Skills Inventory",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Skills Inventory layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Skills Inventory</span>"
+    ]
+  },
+  {
+    "objectID": "03-skills-inventory.html#core-questions",
+    "href": "03-skills-inventory.html#core-questions",
+    "title": "Skills Inventory",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Skills Inventory</span>"
+    ]
+  },
+  {
+    "objectID": "03-skills-inventory.html#expected-outputs",
+    "href": "03-skills-inventory.html#expected-outputs",
+    "title": "Skills Inventory",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Skills Inventory</span>"
+    ]
+  },
+  {
+    "objectID": "03-skills-inventory.html#looking-ahead",
+    "href": "03-skills-inventory.html#looking-ahead",
+    "title": "Skills Inventory",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter uses the skills inventory to clarify career direction.\nA skills list becomes more useful when it is connected to a possible direction, role family, field, or opportunity pathway. Direction helps the learner decide which skills to deepen, which projects to build, and which opportunities to pursue first.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Skills Inventory</span>"
+    ]
+  },
+  {
+    "objectID": "04-career-direction.html",
+    "href": "04-career-direction.html",
+    "title": "Career Direction",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Career Direction layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Career Direction</span>"
+    ]
+  },
+  {
+    "objectID": "04-career-direction.html#core-questions",
+    "href": "04-career-direction.html#core-questions",
+    "title": "Career Direction",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Career Direction</span>"
+    ]
+  },
+  {
+    "objectID": "04-career-direction.html#expected-outputs",
+    "href": "04-career-direction.html#expected-outputs",
+    "title": "Career Direction",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Career Direction</span>"
+    ]
+  },
+  {
+    "objectID": "04-career-direction.html#looking-ahead",
+    "href": "04-career-direction.html#looking-ahead",
+    "title": "Career Direction",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter converts career direction into a learning plan.\nAfter a learner identifies a realistic direction, the question becomes practical: what should they learn next, in what order, with what evidence, and within what timeframe?",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Career Direction</span>"
+    ]
+  },
+  {
+    "objectID": "05-learning-plan.html",
+    "href": "05-learning-plan.html",
+    "title": "Learning Plan",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Learning Plan layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Learning Plan</span>"
+    ]
+  },
+  {
+    "objectID": "05-learning-plan.html#core-questions",
+    "href": "05-learning-plan.html#core-questions",
+    "title": "Learning Plan",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Learning Plan</span>"
+    ]
+  },
+  {
+    "objectID": "05-learning-plan.html#expected-outputs",
+    "href": "05-learning-plan.html#expected-outputs",
+    "title": "Learning Plan",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Learning Plan</span>"
+    ]
+  },
+  {
+    "objectID": "05-learning-plan.html#looking-ahead",
+    "href": "05-learning-plan.html#looking-ahead",
+    "title": "Learning Plan",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter turns learning into portfolio building.\nA learning plan should not stop at reading, watching, or attending sessions. It should lead to visible outputs that demonstrate capability, progress, judgment, and readiness for real opportunities.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Learning Plan</span>"
+    ]
+  },
+  {
+    "objectID": "06-portfolio-building.html",
+    "href": "06-portfolio-building.html",
+    "title": "Portfolio Building",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Portfolio Building layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Portfolio Building</span>"
+    ]
+  },
+  {
+    "objectID": "06-portfolio-building.html#core-questions",
+    "href": "06-portfolio-building.html#core-questions",
+    "title": "Portfolio Building",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Portfolio Building</span>"
+    ]
+  },
+  {
+    "objectID": "06-portfolio-building.html#expected-outputs",
+    "href": "06-portfolio-building.html#expected-outputs",
+    "title": "Portfolio Building",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Portfolio Building</span>"
+    ]
+  },
+  {
+    "objectID": "06-portfolio-building.html#looking-ahead",
+    "href": "06-portfolio-building.html#looking-ahead",
+    "title": "Portfolio Building",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter strengthens the portfolio through project-based proof.\nA portfolio becomes more convincing when it contains projects that show the learner can define a problem, produce an output, explain decisions, respond to feedback, and connect the work to a real-world need.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Portfolio Building</span>"
+    ]
+  },
+  {
+    "objectID": "07-project-based-proof.html",
+    "href": "07-project-based-proof.html",
+    "title": "Project-Based Proof",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Project-Based Proof layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Project-Based Proof</span>"
+    ]
+  },
+  {
+    "objectID": "07-project-based-proof.html#core-questions",
+    "href": "07-project-based-proof.html#core-questions",
+    "title": "Project-Based Proof",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Project-Based Proof</span>"
+    ]
+  },
+  {
+    "objectID": "07-project-based-proof.html#expected-outputs",
+    "href": "07-project-based-proof.html#expected-outputs",
+    "title": "Project-Based Proof",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Project-Based Proof</span>"
+    ]
+  },
+  {
+    "objectID": "07-project-based-proof.html#looking-ahead",
+    "href": "07-project-based-proof.html#looking-ahead",
+    "title": "Project-Based Proof",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter moves from proof to communication and visibility.\nEven strong work can remain invisible if it is not explained clearly. The next layer helps learners communicate what they built, what they learned, why it matters, and how others can understand their professional value.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Project-Based Proof</span>"
+    ]
+  },
+  {
+    "objectID": "08-communication-and-visibility.html",
+    "href": "08-communication-and-visibility.html",
+    "title": "Communication and Visibility",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Communication and Visibility layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Communication and Visibility</span>"
+    ]
+  },
+  {
+    "objectID": "08-communication-and-visibility.html#core-questions",
+    "href": "08-communication-and-visibility.html#core-questions",
+    "title": "Communication and Visibility",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Communication and Visibility</span>"
+    ]
+  },
+  {
+    "objectID": "08-communication-and-visibility.html#expected-outputs",
+    "href": "08-communication-and-visibility.html#expected-outputs",
+    "title": "Communication and Visibility",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Communication and Visibility</span>"
+    ]
+  },
+  {
+    "objectID": "08-communication-and-visibility.html#looking-ahead",
+    "href": "08-communication-and-visibility.html#looking-ahead",
+    "title": "Communication and Visibility",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter connects visibility with networking and mentorship.\nProfessional growth is strengthened when learners can ask better questions, seek feedback, build supportive relationships, and learn from people who understand the field or pathway they are entering.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Communication and Visibility</span>"
+    ]
+  },
+  {
+    "objectID": "09-networking-and-mentorship.html",
+    "href": "09-networking-and-mentorship.html",
+    "title": "Networking and Mentorship",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Networking and Mentorship layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Networking and Mentorship</span>"
+    ]
+  },
+  {
+    "objectID": "09-networking-and-mentorship.html#core-questions",
+    "href": "09-networking-and-mentorship.html#core-questions",
+    "title": "Networking and Mentorship",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Networking and Mentorship</span>"
+    ]
+  },
+  {
+    "objectID": "09-networking-and-mentorship.html#expected-outputs",
+    "href": "09-networking-and-mentorship.html#expected-outputs",
+    "title": "Networking and Mentorship",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Networking and Mentorship</span>"
+    ]
+  },
+  {
+    "objectID": "09-networking-and-mentorship.html#looking-ahead",
+    "href": "09-networking-and-mentorship.html#looking-ahead",
+    "title": "Networking and Mentorship",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter prepares the learner for the job market.\nNetworking and mentorship help clarify opportunity, but job-market readiness requires another layer: understanding role expectations, matching evidence to job descriptions, preparing application materials, and identifying realistic next steps.",
+    "crumbs": [
+      "Professional Growth System",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Networking and Mentorship</span>"
+    ]
+  },
+  {
+    "objectID": "10-job-market-readiness.html",
+    "href": "10-job-market-readiness.html",
+    "title": "Job Market Readiness",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Job Market Readiness layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Job Market Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "10-job-market-readiness.html#core-questions",
+    "href": "10-job-market-readiness.html#core-questions",
+    "title": "Job Market Readiness",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Job Market Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "10-job-market-readiness.html#expected-outputs",
+    "href": "10-job-market-readiness.html#expected-outputs",
+    "title": "Job Market Readiness",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Job Market Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "10-job-market-readiness.html#looking-ahead",
+    "href": "10-job-market-readiness.html#looking-ahead",
+    "title": "Job Market Readiness",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter translates job-market readiness into a stronger CV, LinkedIn profile, and professional presentation.\nThe learner now needs a profile that communicates direction, evidence, skills, projects, experience, and credibility clearly enough for reviewers, mentors, recruiters, collaborators, and decision-makers.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Job Market Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "11-cv-linkedin-and-profile.html",
+    "href": "11-cv-linkedin-and-profile.html",
+    "title": "CV, LinkedIn, and Professional Profile",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the CV, LinkedIn, and Professional Profile layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>CV, LinkedIn, and Professional Profile</span>"
+    ]
+  },
+  {
+    "objectID": "11-cv-linkedin-and-profile.html#core-questions",
+    "href": "11-cv-linkedin-and-profile.html#core-questions",
+    "title": "CV, LinkedIn, and Professional Profile",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>CV, LinkedIn, and Professional Profile</span>"
+    ]
+  },
+  {
+    "objectID": "11-cv-linkedin-and-profile.html#expected-outputs",
+    "href": "11-cv-linkedin-and-profile.html#expected-outputs",
+    "title": "CV, LinkedIn, and Professional Profile",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>CV, LinkedIn, and Professional Profile</span>"
+    ]
+  },
+  {
+    "objectID": "11-cv-linkedin-and-profile.html#looking-ahead",
+    "href": "11-cv-linkedin-and-profile.html#looking-ahead",
+    "title": "CV, LinkedIn, and Professional Profile",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter prepares the learner for interviews and career conversations.\nA strong profile may open a door, but the learner still needs to explain their work, discuss decisions, handle questions, tell a coherent career story, and learn from professional conversations.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>CV, LinkedIn, and Professional Profile</span>"
+    ]
+  },
+  {
+    "objectID": "12-interviews-and-career-conversations.html",
+    "href": "12-interviews-and-career-conversations.html",
+    "title": "Interviews and Career Conversations",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Interviews and Career Conversations layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Interviews and Career Conversations</span>"
+    ]
+  },
+  {
+    "objectID": "12-interviews-and-career-conversations.html#core-questions",
+    "href": "12-interviews-and-career-conversations.html#core-questions",
+    "title": "Interviews and Career Conversations",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Interviews and Career Conversations</span>"
+    ]
+  },
+  {
+    "objectID": "12-interviews-and-career-conversations.html#expected-outputs",
+    "href": "12-interviews-and-career-conversations.html#expected-outputs",
+    "title": "Interviews and Career Conversations",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Interviews and Career Conversations</span>"
+    ]
+  },
+  {
+    "objectID": "12-interviews-and-career-conversations.html#looking-ahead",
+    "href": "12-interviews-and-career-conversations.html#looking-ahead",
+    "title": "Interviews and Career Conversations",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter moves from getting an opportunity to performing well inside one.\nCareer growth does not end at selection. Once inside a workplace, project, internship, fellowship, business, or collaboration, the learner needs habits that support contribution, reliability, feedback, learning, and trust.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Interviews and Career Conversations</span>"
+    ]
+  },
+  {
+    "objectID": "13-workplace-performance.html",
+    "href": "13-workplace-performance.html",
+    "title": "Workplace Performance",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Workplace Performance layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Workplace Performance</span>"
+    ]
+  },
+  {
+    "objectID": "13-workplace-performance.html#core-questions",
+    "href": "13-workplace-performance.html#core-questions",
+    "title": "Workplace Performance",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Workplace Performance</span>"
+    ]
+  },
+  {
+    "objectID": "13-workplace-performance.html#expected-outputs",
+    "href": "13-workplace-performance.html#expected-outputs",
+    "title": "Workplace Performance",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Workplace Performance</span>"
+    ]
+  },
+  {
+    "objectID": "13-workplace-performance.html#looking-ahead",
+    "href": "13-workplace-performance.html#looking-ahead",
+    "title": "Workplace Performance",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter focuses on resilience and diversification.\nWorkplace performance matters, but sustainable professional growth also requires adaptability. The learner needs to reduce overdependence on one path, keep learning, build options, and prepare for change without panic.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Workplace Performance</span>"
+    ]
+  },
+  {
+    "objectID": "14-career-resilience-and-diversification.html",
+    "href": "14-career-resilience-and-diversification.html",
+    "title": "Career Resilience and Diversification",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Career Resilience and Diversification layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Career Resilience and Diversification</span>"
+    ]
+  },
+  {
+    "objectID": "14-career-resilience-and-diversification.html#core-questions",
+    "href": "14-career-resilience-and-diversification.html#core-questions",
+    "title": "Career Resilience and Diversification",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Career Resilience and Diversification</span>"
+    ]
+  },
+  {
+    "objectID": "14-career-resilience-and-diversification.html#expected-outputs",
+    "href": "14-career-resilience-and-diversification.html#expected-outputs",
+    "title": "Career Resilience and Diversification",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Career Resilience and Diversification</span>"
+    ]
+  },
+  {
+    "objectID": "14-career-resilience-and-diversification.html#looking-ahead",
+    "href": "14-career-resilience-and-diversification.html#looking-ahead",
+    "title": "Career Resilience and Diversification",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter organizes career growth into a personal operating system.\nResilience becomes easier when the learner has routines for reviewing goals, tracking evidence, updating skills, maintaining relationships, managing energy, and adjusting direction over time.",
+    "crumbs": [
+      "Career Execution",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Career Resilience and Diversification</span>"
+    ]
+  },
+  {
+    "objectID": "15-personal-operating-system.html",
+    "href": "15-personal-operating-system.html",
+    "title": "Personal Operating System",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Personal Operating System layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Personal Operating System</span>"
+    ]
+  },
+  {
+    "objectID": "15-personal-operating-system.html#core-questions",
+    "href": "15-personal-operating-system.html#core-questions",
+    "title": "Personal Operating System",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Personal Operating System</span>"
+    ]
+  },
+  {
+    "objectID": "15-personal-operating-system.html#expected-outputs",
+    "href": "15-personal-operating-system.html#expected-outputs",
+    "title": "Personal Operating System",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Personal Operating System</span>"
+    ]
+  },
+  {
+    "objectID": "15-personal-operating-system.html#looking-ahead",
+    "href": "15-personal-operating-system.html#looking-ahead",
+    "title": "Personal Operating System",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter connects professional growth to income growth and opportunity design.\nA personal operating system helps the learner stay consistent. The next step is to identify how skills, evidence, relationships, and visibility can create better opportunities, stronger negotiation positions, and more sustainable income pathways.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Personal Operating System</span>"
+    ]
+  },
+  {
+    "objectID": "16-income-growth-and-opportunity-design.html",
+    "href": "16-income-growth-and-opportunity-design.html",
+    "title": "Income Growth and Opportunity Design",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Income Growth and Opportunity Design layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Income Growth and Opportunity Design</span>"
+    ]
+  },
+  {
+    "objectID": "16-income-growth-and-opportunity-design.html#core-questions",
+    "href": "16-income-growth-and-opportunity-design.html#core-questions",
+    "title": "Income Growth and Opportunity Design",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Income Growth and Opportunity Design</span>"
+    ]
+  },
+  {
+    "objectID": "16-income-growth-and-opportunity-design.html#expected-outputs",
+    "href": "16-income-growth-and-opportunity-design.html#expected-outputs",
+    "title": "Income Growth and Opportunity Design",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Income Growth and Opportunity Design</span>"
+    ]
+  },
+  {
+    "objectID": "16-income-growth-and-opportunity-design.html#looking-ahead",
+    "href": "16-income-growth-and-opportunity-design.html#looking-ahead",
+    "title": "Income Growth and Opportunity Design",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter brings the full Career System together through an end-to-end case study.\nThe case study shows how a learner can move from readiness assessment to skills inventory, direction, learning plan, portfolio evidence, visibility, mentorship, job-market readiness, workplace performance, resilience, and opportunity design.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Income Growth and Opportunity Design</span>"
+    ]
+  },
+  {
+    "objectID": "17-end-to-end-career-growth-case-study.html",
+    "href": "17-end-to-end-career-growth-case-study.html",
+    "title": "End-to-End Career Growth Case Study",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the End-to-End Career Growth Case Study layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-to-End Career Growth Case Study</span>"
+    ]
+  },
+  {
+    "objectID": "17-end-to-end-career-growth-case-study.html#core-questions",
+    "href": "17-end-to-end-career-growth-case-study.html#core-questions",
+    "title": "End-to-End Career Growth Case Study",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-to-End Career Growth Case Study</span>"
+    ]
+  },
+  {
+    "objectID": "17-end-to-end-career-growth-case-study.html#expected-outputs",
+    "href": "17-end-to-end-career-growth-case-study.html#expected-outputs",
+    "title": "End-to-End Career Growth Case Study",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-to-End Career Growth Case Study</span>"
+    ]
+  },
+  {
+    "objectID": "17-end-to-end-career-growth-case-study.html#looking-ahead",
+    "href": "17-end-to-end-career-growth-case-study.html#looking-ahead",
+    "title": "End-to-End Career Growth Case Study",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe next chapter turns the case study into a roadmap for continued use of the Career System.\nInstead of treating career development as a one-time activity, the roadmap shows how learners, mentors, training programs, and professionals can revisit the system across different stages of growth.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-to-End Career Growth Case Study</span>"
+    ]
+  },
+  {
+    "objectID": "18-career-system-roadmap.html",
+    "href": "18-career-system-roadmap.html",
+    "title": "Career System Roadmap",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Career System Roadmap layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Career System Roadmap</span>"
+    ]
+  },
+  {
+    "objectID": "18-career-system-roadmap.html#core-questions",
+    "href": "18-career-system-roadmap.html#core-questions",
+    "title": "Career System Roadmap",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Career System Roadmap</span>"
+    ]
+  },
+  {
+    "objectID": "18-career-system-roadmap.html#expected-outputs",
+    "href": "18-career-system-roadmap.html#expected-outputs",
+    "title": "Career System Roadmap",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Career System Roadmap</span>"
+    ]
+  },
+  {
+    "objectID": "18-career-system-roadmap.html#looking-ahead",
+    "href": "18-career-system-roadmap.html#looking-ahead",
+    "title": "Career System Roadmap",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe appendix provides reusable templates, checklists, folder maps, and review tools that support the Career System in practice.\nThese resources help learners and mentors convert the guide from reading material into repeatable professional growth workflows.",
+    "crumbs": [
+      "Sustainable Growth",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Career System Roadmap</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html",
+    "href": "999-appendix.html",
+    "title": "Appendix",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the Appendix layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#core-questions",
+    "href": "999-appendix.html#core-questions",
+    "title": "Appendix",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#expected-outputs",
+    "href": "999-appendix.html#expected-outputs",
+    "title": "Appendix",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#looking-ahead",
+    "href": "999-appendix.html#looking-ahead",
+    "title": "Appendix",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe references section lists the evidence base that supports the Career System.\nAs the guide develops, this reference layer can expand to include career development theory, employability research, mentoring literature, career adaptability, learning design, professional identity, and labor-market readiness.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-references.html",
+    "href": "999-references.html",
+    "title": "References",
+    "section": "",
+    "text": "Purpose\nThis chapter will develop the References layer of the Career System.\nThis section will explain why this layer matters in the journey from skills to sustainable professional growth.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "999-references.html#core-questions",
+    "href": "999-references.html#core-questions",
+    "title": "References",
+    "section": "Core Questions",
+    "text": "Core Questions\nWhat decision does this layer help the learner make?\nWhat evidence should the learner produce?\nWhat feedback or mentorship would improve the result?\nHow does this layer connect to the next part of the Career System?",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "999-references.html#expected-outputs",
+    "href": "999-references.html#expected-outputs",
+    "title": "References",
+    "section": "Expected Outputs",
+    "text": "Expected Outputs\nTo be developed in the full chapter draft.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "999-references.html#looking-ahead",
+    "href": "999-references.html#looking-ahead",
+    "title": "References",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe Career System can continue to grow as a living CDI pathway.\nFuture versions can add deeper case studies, mentor guides, learner worksheets, program implementation examples, and evidence-based updates as career development research and workplace expectations evolve.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>References</span>"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+artifact_id,artifact_name,skill_demonstrated,problem_addressed,output_type,evidence_link_placeholder,status,next_improvement
+ART-001,Attendance data cleaning project,Spreadsheet cleaning and data quality checking,Program attendance records contain missing and inconsistent entries,Cleaned dataset,Add portfolio URL here,Draft complete,Add clearer data cleaning notes
+ART-002,Missing value summary,Data summarization and reporting,Program teams need to know which fields are incomplete,Summary table,Add portfolio URL here,Draft complete,Add interpretation paragraph
+ART-003,Participation summary report,Short professional writing,Program leaders need a simple participation overview,One-page report,Add portfolio URL here,In progress,Improve visual summary
+ART-004,Project explanation post,Communication and visibility,Others need to understand what the learner can do,Short public explanation,Add LinkedIn or portfolio URL here,Planned,Write in plain language

@@ -1,0 +1,16 @@
+stage,system_component,learner_status,key_decision,next_action,evidence_or_output
+1,Career readiness,Motivated but unclear evidence,Focus on visible proof,Complete readiness self-assessment,Readiness summary
+2,Skills inventory,Has spreadsheet and reporting skills,Choose skills ready to show,Select three portfolio-ready skills,Skills inventory table
+3,Career direction,Several possible paths,Prioritize program reporting and data support,Map role signals from job descriptions,Career direction map
+4,Learning plan,Needs focused improvement,Learn only what supports near-term proof,Create four-week learning plan,Learning plan table
+5,Portfolio building,No organized proof yet,Build one small practical project,Create attendance data cleaning project,Portfolio project folder
+6,Project-based proof,Project needs explanation,Document decisions and limitations,Write one-page project note,Project proof summary
+7,Communication and visibility,Capability is hidden,Share evidence with a clear message,Prepare short visibility statement,Visibility message
+8,Networking and mentorship,Support exists but is not structured,Ask for specific feedback,Contact mentor with portfolio summary,Mentor feedback note
+9,Job market readiness,Needs market alignment,Compare proof with job requirements,Review five job descriptions,Market signal table
+10,Professional profile,Profile is generic,Rewrite around evidence,Update CV or LinkedIn summary,Profile summary
+11,Career conversations,Needs practice,Use project stories in conversations,Prepare five interview stories,Conversation preparation sheet
+12,Workplace performance,Opportunity must become performance,Build delivery habits,Track tasks and communication habits,Performance log
+13,Resilience,Too dependent on one path,Create primary and secondary routes,Map multiple opportunity paths,Resilience map
+14,Personal operating system,Needs consistency,Use weekly rhythm,Set weekly review routine,Weekly operating rhythm
+15,Opportunity design,Needs realistic next step,Design a small evidence-backed offer,Share small offer with selected contacts,Opportunity pathway

@@ -1,8 +1,87 @@
-.quarto/
-_freeze/
-_book/
 .DS_Store
 .Rproj.user/
 .ipynb_checkpoints/
 
+/.quarto/
+
+# =====================================================
+# Quarto build artifacts
+# =====================================================
+
+_site/
+.quarto/
+_cache/
+_freeze/
+
+# Ignore HTML everywhere except rendered site in docs/
+*.html
+!docs/**/*.html
+
+# Ignore Quarto figure folders everywhere except docs/
+*_files/
+!docs/**/*_files/
+!docs/**/*_files/**
+
+# Ignore exported documents
+*.pdf
+*.docx
+
+
+# =====================================================
+# Python
+# =====================================================
+
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+
+# =====================================================
+# R
+# =====================================================
+
+.Rhistory
+.RData
+.Rproj.user/
+
+
+# =====================================================
+# OS / editor files
+# =====================================================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+# =====================================================
+# Logs
+# =====================================================
+
+*.log
+
+
+# =====================================================
+# Project outputs
+# Keep small teaching/demo artifacts, ignore larger replacements
+# =====================================================
+
+data/raw/*
+!data/raw/people-example.csv
+
+data/processed/*
+!data/processed/model-ready-example.csv
+
+models/*
+!models/diabetes-linear-regression.joblib
+
+reports/*
+!reports/*.csv
+!reports/figures/
+!reports/figures/*.png
 /.quarto/

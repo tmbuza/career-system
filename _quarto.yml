@@ -1,11 +1,15 @@
 project:
   type: book
+  output-dir: docs
+
+bibliography: library/references.bib
+date: last-modified
+date-format: "MMM YYYY"
 
 book:
   title: "Career System"
   subtitle: "From Skills to Sustainable Professional Growth"
   author: "Teresia Mrema Buza | Complex Data Insights"
-  date: today
 
   chapters:
     - index.qmd
@@ -46,14 +50,23 @@ book:
         - 999-appendix.qmd
         - 999-references.qmd
 
-bibliography: references.bib
-
 format:
   html:
-    theme: cosmo
     toc: true
     toc-depth: 3
-    number-sections: true
-    body-classes: career-system
+    number-sections: false
+    number-depth: 2
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-icon: true
+    css: assets/css/cdi.css
+    code-fold: true
+    mermaid:
+      theme: forest
 
-engine: knitr
+execute:
+  echo: true
+  warning: false
+  message: false
+  freeze: auto
+  working-dir: .

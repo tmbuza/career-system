@@ -33,3 +33,10 @@ How does this layer connect to the next part of the Career System?
 ```text
 To be developed in the full chapter draft.
 ```
+---
+
+## Looking Ahead
+
+The next chapter strengthens the portfolio through project-based proof.
+
+A portfolio becomes more convincing when it contains projects that show the learner can define a problem, produce an output, explain decisions, respond to feedback, and connect the work to a real-world need.

@@ -57,7 +57,7 @@ Performance creates trust, growth, and future options.
 
 ## Career System Architecture
 
-```mermaid
+```{mermaid}
 flowchart TD
 
     A[Personal Context]
@@ -262,3 +262,10 @@ These outputs are not just documents.
 They are career operating tools.
 
 They help a learner move from intention to action.
+---
+
+## Looking Ahead
+
+The next chapter begins the practical journey with career readiness.
+
+Before a learner builds a portfolio, applies for opportunities, or redesigns a professional profile, they need to understand their current level of readiness: what they can do, what they can show, where they need support, and what kind of growth path is realistic now.

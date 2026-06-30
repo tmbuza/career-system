@@ -110,3 +110,10 @@ It supports learners who are building expertise in areas such as Data Science Fo
 Technical systems help learners build capability.
 
 The Career System helps learners convert that capability into professional growth.
+---
+
+## Looking Ahead
+
+The next chapter introduces the Career System as a complete growth architecture.
+
+It shows how readiness, skills, direction, learning, portfolio evidence, visibility, mentorship, job-market preparation, workplace performance, resilience, and opportunity design connect into one professional development system.

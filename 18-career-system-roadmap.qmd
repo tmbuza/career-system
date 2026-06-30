@@ -33,3 +33,10 @@ How does this layer connect to the next part of the Career System?
 ```text
 To be developed in the full chapter draft.
 ```
+---
+
+## Looking Ahead
+
+The appendix provides reusable templates, checklists, folder maps, and review tools that support the Career System in practice.
+
+These resources help learners and mentors convert the guide from reading material into repeatable professional growth workflows.

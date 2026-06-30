@@ -1,0 +1,13 @@
+horizon,focus_area,priority_action,evidence_output,feedback_source,review_date,status,notes
+30_days,career_readiness,complete readiness self-assessment,career-readiness-summary,self-review,YYYY-MM-DD,planned,
+30_days,skills_inventory,identify showable and missing skills,skills-inventory-table,self-review,YYYY-MM-DD,planned,
+30_days,career_direction,select one or two realistic target pathways,career-direction-map,mentor,YYYY-MM-DD,planned,
+30_days,learning_plan,choose focused learning priorities,learning-plan,mentor,YYYY-MM-DD,planned,
+90_days,portfolio,complete one documented portfolio project,portfolio-case-study,mentor,YYYY-MM-DD,planned,
+90_days,project_proof,turn project into visible proof,project-proof-summary,peer-review,YYYY-MM-DD,planned,
+90_days,visibility,share one professional learning update,visibility-log,mentor,YYYY-MM-DD,planned,
+90_days,networking,request feedback from three relevant people,mentorship-contact-log,mentor,YYYY-MM-DD,planned,
+12_months,job_market,build opportunity pipeline,opportunity-tracker,mentor,YYYY-MM-DD,planned,
+12_months,workplace_performance,track results and trust-building evidence,performance-log,supervisor-or-mentor,YYYY-MM-DD,planned,
+12_months,resilience,identify backup and diversification options,resilience-map,self-review,YYYY-MM-DD,planned,
+12_months,opportunity_design,connect skills to income and growth options,opportunity-design-map,mentor,YYYY-MM-DD,planned,

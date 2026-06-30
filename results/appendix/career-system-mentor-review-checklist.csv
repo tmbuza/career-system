@@ -1,0 +1,11 @@
+review_area,review_question,status,notes,next_action
+starting_point,Does the learner have a clear starting point?,not_reviewed,,
+direction,Does the learner have one or two realistic target directions?,not_reviewed,,
+skills,Does the learner have a skills inventory?,not_reviewed,,
+evidence,Does the learner have visible proof of at least one skill?,not_reviewed,,
+portfolio,Is the portfolio understandable to an external reader?,not_reviewed,,
+profile,Does the CV or profile match the target direction?,not_reviewed,,
+communication,Can the learner explain their work clearly?,not_reviewed,,
+feedback,Has the learner received feedback from at least one person?,not_reviewed,,
+action_plan,Does the learner have a short-term action plan?,not_reviewed,,
+resilience,Does the learner have a resilience or backup plan?,not_reviewed,,

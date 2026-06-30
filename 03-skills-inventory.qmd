@@ -33,3 +33,10 @@ How does this layer connect to the next part of the Career System?
 ```text
 To be developed in the full chapter draft.
 ```
+---
+
+## Looking Ahead
+
+The next chapter uses the skills inventory to clarify career direction.
+
+A skills list becomes more useful when it is connected to a possible direction, role family, field, or opportunity pathway. Direction helps the learner decide which skills to deepen, which projects to build, and which opportunities to pursue first.

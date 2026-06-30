@@ -33,3 +33,10 @@ How does this layer connect to the next part of the Career System?
 ```text
 To be developed in the full chapter draft.
 ```
+---
+
+## Looking Ahead
+
+The next chapter turns readiness into a visible skills inventory.
+
+Once a learner understands their current readiness, the next step is to list and organize their skills honestly so that strengths, gaps, evidence, and learning priorities become easier to see.

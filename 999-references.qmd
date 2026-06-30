@@ -33,3 +33,10 @@ How does this layer connect to the next part of the Career System?
 ```text
 To be developed in the full chapter draft.
 ```
+---
+
+## Looking Ahead
+
+The Career System can continue to grow as a living CDI pathway.
+
+Future versions can add deeper case studies, mentor guides, learner worksheets, program implementation examples, and evidence-based updates as career development research and workplace expectations evolve.

@@ -33,3 +33,10 @@ How does this layer connect to the next part of the Career System?
 ```text
 To be developed in the full chapter draft.
 ```
+---
+
+## Looking Ahead
+
+The next chapter converts career direction into a learning plan.
+
+After a learner identifies a realistic direction, the question becomes practical: what should they learn next, in what order, with what evidence, and within what timeframe?

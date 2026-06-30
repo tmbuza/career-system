@@ -33,3 +33,10 @@ How does this layer connect to the next part of the Career System?
 ```text
 To be developed in the full chapter draft.
 ```
+---
+
+## Looking Ahead
+
+The next chapter brings the full Career System together through an end-to-end case study.
+
+The case study shows how a learner can move from readiness assessment to skills inventory, direction, learning plan, portfolio evidence, visibility, mentorship, job-market readiness, workplace performance, resilience, and opportunity design.
