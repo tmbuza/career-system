@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -265,7 +304,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Appendix</span></a>
+  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -285,9 +325,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#why-workplace-performance-matters" id="toc-why-workplace-performance-matters" class="nav-link active" data-scroll-target="#why-workplace-performance-matters">Why Workplace Performance Matters</a></li>
+  <li><a href="#workplace-performance-in-the-career-system" id="toc-workplace-performance-in-the-career-system" class="nav-link" data-scroll-target="#workplace-performance-in-the-career-system">Workplace Performance in the Career System</a></li>
+  <li><a href="#workplace-performance-is-not-only-technical-output" id="toc-workplace-performance-is-not-only-technical-output" class="nav-link" data-scroll-target="#workplace-performance-is-not-only-technical-output">Workplace Performance Is Not Only Technical Output</a></li>
+  <li><a href="#the-five-dimensions-of-workplace-performance" id="toc-the-five-dimensions-of-workplace-performance" class="nav-link" data-scroll-target="#the-five-dimensions-of-workplace-performance">The Five Dimensions of Workplace Performance</a>
+  <ul class="collapse">
+  <li><a href="#role-understanding" id="toc-role-understanding" class="nav-link" data-scroll-target="#role-understanding">1. Role Understanding</a></li>
+  <li><a href="#execution-and-delivery" id="toc-execution-and-delivery" class="nav-link" data-scroll-target="#execution-and-delivery">2. Execution and Delivery</a></li>
+  <li><a href="#communication-and-documentation" id="toc-communication-and-documentation" class="nav-link" data-scroll-target="#communication-and-documentation">3. Communication and Documentation</a></li>
+  <li><a href="#feedback-and-improvement" id="toc-feedback-and-improvement" class="nav-link" data-scroll-target="#feedback-and-improvement">4. Feedback and Improvement</a></li>
+  <li><a href="#professional-habits" id="toc-professional-habits" class="nav-link" data-scroll-target="#professional-habits">5. Professional Habits</a></li>
+  </ul></li>
+  <li><a href="#workplace-performance-across-career-stages" id="toc-workplace-performance-across-career-stages" class="nav-link" data-scroll-target="#workplace-performance-across-career-stages">Workplace Performance Across Career Stages</a></li>
+  <li><a href="#the-workplace-performance-log" id="toc-the-workplace-performance-log" class="nav-link" data-scroll-target="#the-workplace-performance-log">The Workplace Performance Log</a></li>
+  <li><a href="#create-the-template" id="toc-create-the-template" class="nav-link" data-scroll-target="#create-the-template">Create the Template</a></li>
+  <li><a href="#manual-template" id="toc-manual-template" class="nav-link" data-scroll-target="#manual-template">Manual Template</a></li>
+  <li><a href="#example-workplace-performance-entry" id="toc-example-workplace-performance-entry" class="nav-link" data-scroll-target="#example-workplace-performance-entry">Example Workplace Performance Entry</a></li>
+  <li><a href="#how-to-use-the-performance-log" id="toc-how-to-use-the-performance-log" class="nav-link" data-scroll-target="#how-to-use-the-performance-log">How to Use the Performance Log</a></li>
+  <li><a href="#turning-workplace-performance-into-career-evidence" id="toc-turning-workplace-performance-into-career-evidence" class="nav-link" data-scroll-target="#turning-workplace-performance-into-career-evidence">Turning Workplace Performance Into Career Evidence</a></li>
+  <li><a href="#common-workplace-performance-mistakes" id="toc-common-workplace-performance-mistakes" class="nav-link" data-scroll-target="#common-workplace-performance-mistakes">Common Workplace Performance Mistakes</a></li>
+  <li><a href="#mentor-or-supervisor-review-prompts" id="toc-mentor-or-supervisor-review-prompts" class="nav-link" data-scroll-target="#mentor-or-supervisor-review-prompts">Mentor or Supervisor Review Prompts</a></li>
+  <li><a href="#workplace-performance-checklist" id="toc-workplace-performance-checklist" class="nav-link" data-scroll-target="#workplace-performance-checklist">Workplace Performance Checklist</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -297,7 +356,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./10-job-market-readiness.html">Career Execution</a></li><li class="breadcrumb-item"><a href="./13-workplace-performance.html"><span class="chapter-title">Workplace Performance</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="13_workplace_performance" class="quarto-section-identifier"><span class="chapter-title">Workplace Performance</span></span></h1>
+<h1 class="title"><span id="workplace-performance" class="quarto-section-identifier"><span class="chapter-title">Workplace Performance</span></span></h1>
 </div>
 
 
@@ -323,35 +382,459 @@ ul.task-list li input[type="checkbox"] {
 <div class="cdi-message">
 <ul>
 <li><strong>ID:</strong> CAREER-013</li>
-<li><strong>Type:</strong> System Guide</li>
-<li><strong>Audience:</strong> Learners, professionals, mentors, and training program designers</li>
-<li><strong>Theme:</strong> Getting an opportunity is different from growing inside it</li>
+<li><strong>Type:</strong> Guide Chapter</li>
+<li><strong>Audience:</strong> Learners, early-career professionals, technical professionals, mentors, and career changers</li>
+<li><strong>Theme:</strong> Career growth becomes sustainable when opportunity turns into reliable performance</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>Workplace Performance</strong> layer of the Career System.</p>
+<p>Getting an opportunity is important.</p>
+<p>Keeping trust after the opportunity begins is even more important.</p>
+<p>A job offer, internship, freelance assignment, leadership role, research placement, or collaborative project is not the end of career development.</p>
+<p>It is the beginning of a new stage.</p>
+<p>At this stage, the question changes from:</p>
+<pre class="text"><code>Can I get the opportunity?</code></pre>
+<p>To:</p>
+<pre class="text"><code>Can I perform, learn, communicate, improve, and become trusted over time?</code></pre>
+<p>The <strong>Workplace Performance</strong> chapter helps learners and professionals understand how to move from access to contribution.</p>
+<p>It focuses on the habits, behaviors, communication patterns, and evidence of reliability that help a person grow inside real work environments.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="why-workplace-performance-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-workplace-performance-matters">Why Workplace Performance Matters</h2>
+<p>Many career guides focus heavily on getting selected.</p>
+<p>They emphasize CVs, interviews, applications, and personal branding.</p>
+<p>Those things matter.</p>
+<p>But a sustainable career is not built only by being selected.</p>
+<p>It is built by becoming useful, dependable, thoughtful, adaptable, and trusted after selection.</p>
+<p>Workplace performance matters because it affects:</p>
+<ul>
+<li>whether a learner becomes trusted with more responsibility,</li>
+<li>whether a new professional receives useful feedback,</li>
+<li>whether supervisors see growth potential,</li>
+<li>whether colleagues want to work with the person again,</li>
+<li>whether opportunities lead to references, promotions, collaborations, or future roles,</li>
+<li>and whether the person develops confidence based on real contribution.</li>
+</ul>
+<p>Performance is not perfection.</p>
+<p>Performance is the ability to contribute reliably while continuing to learn.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="workplace-performance-in-the-career-system" class="level2">
+<h2 class="anchored" data-anchor-id="workplace-performance-in-the-career-system">Workplace Performance in the Career System</h2>
+<p>Workplace performance sits after opportunity access, but it also feeds back into the whole career system.</p>
+<p>A person performs in real environments.</p>
+<p>That performance creates new evidence.</p>
+<p>New evidence strengthens the portfolio.</p>
+<p>Feedback improves the learning plan.</p>
+<p>New responsibility clarifies career direction.</p>
+<p>Trust creates future opportunity.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    A[Opportunity Access] --&gt; B[Workplace Performance]</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Feedback]</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Learning Improvement]</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Stronger Contribution]</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Workplace Trust]</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[New Evidence]</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Portfolio and Profile]</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    H --&gt; I[Future Opportunities]</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    C --&gt; J[Career Direction]</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    J --&gt; D</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Opportunity Access] --&gt; B[Workplace Performance]
+    B --&gt; C[Feedback]
+    C --&gt; D[Learning Improvement]
+    D --&gt; E[Stronger Contribution]
+    E --&gt; F[Workplace Trust]
+    F --&gt; G[New Evidence]
+    G --&gt; H[Portfolio and Profile]
+    H --&gt; I[Future Opportunities]
+    C --&gt; J[Career Direction]
+    J --&gt; D
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>This is why performance is not separate from career growth.</p>
+<p>Performance is one of the strongest sources of career evidence.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="workplace-performance-is-not-only-technical-output" class="level2">
+<h2 class="anchored" data-anchor-id="workplace-performance-is-not-only-technical-output">Workplace Performance Is Not Only Technical Output</h2>
+<p>Technical ability is important, especially in data, science, engineering, health, business, education, and technology roles.</p>
+<p>But workplace performance is broader than technical skill.</p>
+<p>A technically strong person may still struggle if they:</p>
+<ul>
+<li>do not communicate progress,</li>
+<li>miss deadlines without early warning,</li>
+<li>avoid feedback,</li>
+<li>do not document work,</li>
+<li>fail to understand priorities,</li>
+<li>make the same mistake repeatedly,</li>
+<li>or work in isolation when collaboration is needed.</li>
+</ul>
+<p>Workplace performance includes both task quality and professional reliability.</p>
+<pre class="text"><code>Workplace performance = contribution + communication + reliability + learning + improvement</code></pre>
+<p>A learner does not need to know everything at the start.</p>
+<p>But they do need to show that they can learn responsibly in a real environment.</p>
+<hr>
+</section>
+<section id="the-five-dimensions-of-workplace-performance" class="level2">
+<h2 class="anchored" data-anchor-id="the-five-dimensions-of-workplace-performance">The Five Dimensions of Workplace Performance</h2>
+<p>A practical workplace performance system can be organized into five dimensions.</p>
+<section id="role-understanding" class="level3">
+<h3 class="anchored" data-anchor-id="role-understanding">1. Role Understanding</h3>
+<p>This dimension asks:</p>
+<pre class="text"><code>Do I understand what is expected of me?</code></pre>
+<p>A person cannot perform well if they do not understand the role, the priorities, the decision-makers, the timeline, and the definition of success.</p>
+<p>Role understanding includes:</p>
+<ul>
+<li>knowing the main responsibilities,</li>
+<li>understanding who depends on the work,</li>
+<li>knowing what must be delivered,</li>
+<li>understanding quality standards,</li>
+<li>and clarifying what success looks like.</li>
+</ul>
+<p>Beginners often assume that expectations are obvious.</p>
+<p>They are not always obvious.</p>
+<p>Strong professionals ask clarifying questions early.</p>
+</section>
+<section id="execution-and-delivery" class="level3">
+<h3 class="anchored" data-anchor-id="execution-and-delivery">2. Execution and Delivery</h3>
+<p>This dimension asks:</p>
+<pre class="text"><code>Can I complete useful work with acceptable quality?</code></pre>
+<p>Execution includes planning, doing the work, checking quality, and delivering outputs.</p>
+<p>It includes the ability to turn instructions, goals, or problems into completed work.</p>
+<p>Good execution does not mean doing everything alone.</p>
+<p>It means moving the work forward responsibly.</p>
+</section>
+<section id="communication-and-documentation" class="level3">
+<h3 class="anchored" data-anchor-id="communication-and-documentation">3. Communication and Documentation</h3>
+<p>This dimension asks:</p>
+<pre class="text"><code>Can others understand what I am doing, what I need, and what I completed?</code></pre>
+<p>Work becomes more valuable when it is communicated clearly.</p>
+<p>Documentation helps others review, use, maintain, or build on the work.</p>
+<p>This may include:</p>
+<ul>
+<li>progress updates,</li>
+<li>meeting notes,</li>
+<li>decision logs,</li>
+<li>analysis summaries,</li>
+<li>project documentation,</li>
+<li>email updates,</li>
+<li>handover notes,</li>
+<li>and lessons learned.</li>
+</ul>
+<p>A person who communicates well reduces uncertainty for others.</p>
+</section>
+<section id="feedback-and-improvement" class="level3">
+<h3 class="anchored" data-anchor-id="feedback-and-improvement">4. Feedback and Improvement</h3>
+<p>This dimension asks:</p>
+<pre class="text"><code>Can I receive feedback and improve my work?</code></pre>
+<p>Feedback is not an insult.</p>
+<p>Feedback is a growth signal.</p>
+<p>A person becomes trusted when they can listen, adjust, and improve.</p>
+<p>This includes:</p>
+<ul>
+<li>asking for feedback at the right time,</li>
+<li>separating emotion from useful information,</li>
+<li>taking notes,</li>
+<li>applying corrections,</li>
+<li>and showing improvement in later work.</li>
+</ul>
+</section>
+<section id="professional-habits" class="level3">
+<h3 class="anchored" data-anchor-id="professional-habits">5. Professional Habits</h3>
+<p>This dimension asks:</p>
+<pre class="text"><code>Can I be trusted as a professional member of the team or environment?</code></pre>
+<p>Professional habits include punctuality, respectful communication, follow-through, honesty, confidentiality, ethical judgment, and consistency.</p>
+<p>Professional habits are often what make people willing to recommend someone.</p>
+<p>Skills may open a door.</p>
+<p>Habits often determine whether trust grows after the door opens.</p>
+<hr>
+</section>
+</section>
+<section id="workplace-performance-across-career-stages" class="level2">
+<h2 class="anchored" data-anchor-id="workplace-performance-across-career-stages">Workplace Performance Across Career Stages</h2>
+<p>Workplace performance looks different depending on the learner’s stage.</p>
+<p>A beginner may focus on reliability, listening, asking good questions, and completing small tasks well.</p>
+<p>An early-career professional may focus on ownership, documentation, communication, and improving speed and quality.</p>
+<p>A mid-career professional may focus on judgment, collaboration, mentoring, and handling more complex responsibilities.</p>
+<p>A senior professional may focus on strategic contribution, decision support, team development, and building systems that help others perform.</p>
+<p>A career changer may focus on translating prior experience into the new environment while learning the expectations of the new field.</p>
+<p>The same principle applies across stages:</p>
+<pre class="text"><code>Perform at the current level while building evidence for the next level.</code></pre>
+<hr>
+</section>
+<section id="the-workplace-performance-log" class="level2">
+<h2 class="anchored" data-anchor-id="the-workplace-performance-log">The Workplace Performance Log</h2>
+<p>A workplace performance log is a simple record of contribution, feedback, learning, and evidence.</p>
+<p>It helps learners and professionals avoid losing track of their growth.</p>
+<p>It also helps them prepare for:</p>
+<ul>
+<li>performance reviews,</li>
+<li>CV updates,</li>
+<li>promotion conversations,</li>
+<li>project summaries,</li>
+<li>portfolio updates,</li>
+<li>mentorship meetings,</li>
+<li>and future interviews.</li>
+</ul>
+<p>The log is not only for formal employment.</p>
+<p>It can also be used for internships, volunteer roles, community projects, research projects, freelance work, mentorship programs, and self-directed professional projects.</p>
+<hr>
+</section>
+<section id="create-the-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-template">Create the Template</h2>
+<p>This chapter includes an optional script that creates a workplace performance template and example log.</p>
+<p>Learners who are comfortable using the command line can run:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x scripts/bash/13-create-workplace-performance-template.sh</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/13-create-workplace-performance-template.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Expected outputs:</p>
+<pre class="text"><code>data/templates/workplace-performance-template.csv
+results/workplace-performance/example-workplace-performance-log.csv
+results/workplace-performance/README-workplace-performance.md</code></pre>
+<p>Learners who are not using the command line can copy the manual template below into a spreadsheet, notebook, or document.</p>
+<hr>
+</section>
+<section id="manual-template" class="level2">
+<h2 class="anchored" data-anchor-id="manual-template">Manual Template</h2>
+<p>Use one row for each meaningful work activity, task, project, feedback moment, or professional contribution.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>date</td>
+<td>When the activity happened</td>
+</tr>
+<tr class="even">
+<td>role_or_context</td>
+<td>Job, internship, project, volunteer role, class, or collaboration</td>
+</tr>
+<tr class="odd">
+<td>task_or_responsibility</td>
+<td>What you were responsible for</td>
+</tr>
+<tr class="even">
+<td>expected_output</td>
+<td>What was expected</td>
+</tr>
+<tr class="odd">
+<td>completed_output</td>
+<td>What you actually completed</td>
+</tr>
+<tr class="even">
+<td>skills_used</td>
+<td>Skills applied during the task</td>
+</tr>
+<tr class="odd">
+<td>communication_used</td>
+<td>How you communicated progress or results</td>
+</tr>
+<tr class="even">
+<td>feedback_received</td>
+<td>Feedback from supervisor, mentor, peer, client, or team</td>
+</tr>
+<tr class="odd">
+<td>improvement_action</td>
+<td>What you changed or plan to improve</td>
+</tr>
+<tr class="even">
+<td>evidence_created</td>
+<td>Link or description of proof created</td>
+</tr>
+<tr class="odd">
+<td>next_step</td>
+<td>What should happen next</td>
+</tr>
+</tbody>
+</table>
+<p>The goal is not to record every tiny action.</p>
+<p>The goal is to build a reliable record of growth and contribution.</p>
+<hr>
+</section>
+<section id="example-workplace-performance-entry" class="level2">
+<h2 class="anchored" data-anchor-id="example-workplace-performance-entry">Example Workplace Performance Entry</h2>
+<p>A beginner in a data support internship might write:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>date</td>
+<td>2026-07-05</td>
+</tr>
+<tr class="even">
+<td>role_or_context</td>
+<td>Data support internship</td>
+</tr>
+<tr class="odd">
+<td>task_or_responsibility</td>
+<td>Clean a spreadsheet of survey responses</td>
+</tr>
+<tr class="even">
+<td>expected_output</td>
+<td>Correct missing values, standardize column names, and prepare a summary table</td>
+</tr>
+<tr class="odd">
+<td>completed_output</td>
+<td>Cleaned spreadsheet and created a short summary table</td>
+</tr>
+<tr class="even">
+<td>skills_used</td>
+<td>Spreadsheet cleaning, data organization, basic quality checking</td>
+</tr>
+<tr class="odd">
+<td>communication_used</td>
+<td>Sent progress update and asked one clarification question about missing values</td>
+</tr>
+<tr class="even">
+<td>feedback_received</td>
+<td>Supervisor asked for clearer notes about changes made</td>
+</tr>
+<tr class="odd">
+<td>improvement_action</td>
+<td>Add a change log for every cleaning step next time</td>
+</tr>
+<tr class="even">
+<td>evidence_created</td>
+<td>Cleaned file, summary table, and change log draft</td>
+</tr>
+<tr class="odd">
+<td>next_step</td>
+<td>Improve documentation and prepare a short interpretation summary</td>
+</tr>
+</tbody>
+</table>
+<p>This entry is useful because it shows more than activity.</p>
+<p>It shows responsibility, evidence, communication, feedback, and improvement.</p>
+<hr>
+</section>
+<section id="how-to-use-the-performance-log" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-the-performance-log">How to Use the Performance Log</h2>
+<p>A performance log becomes powerful when it is reviewed regularly.</p>
+<p>A useful weekly review can ask:</p>
+<pre class="text"><code>What did I contribute this week?
+What did I learn?
+What feedback did I receive?
+What evidence did I create?
+What should I improve next week?
+What should I communicate more clearly?</code></pre>
+<p>A useful monthly review can ask:</p>
+<pre class="text"><code>What pattern is emerging in my work?
+Which responsibilities am I handling better now?
+Which skills are becoming stronger?
+What should be added to my CV, portfolio, or profile?
+What support do I need from a mentor or supervisor?</code></pre>
+<p>The log should not become a burden.</p>
+<p>It should become a simple tool for noticing growth.</p>
+<hr>
+</section>
+<section id="turning-workplace-performance-into-career-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="turning-workplace-performance-into-career-evidence">Turning Workplace Performance Into Career Evidence</h2>
+<p>Workplace performance becomes career evidence when it can be communicated clearly.</p>
+<p>A task can become a CV bullet.</p>
+<p>A project can become a portfolio item.</p>
+<p>A feedback moment can become a learning story.</p>
+<p>A responsibility can become evidence of trust.</p>
+<p>For example:</p>
+<pre class="text"><code>Weak description:
+Helped with data.
+
+Stronger description:
+Cleaned and organized survey response data, documented quality issues, and prepared a summary table used for team review.</code></pre>
+<p>The stronger version shows action, output, and use.</p>
+<p>That is evidence translation.</p>
+<hr>
+</section>
+<section id="common-workplace-performance-mistakes" class="level2">
+<h2 class="anchored" data-anchor-id="common-workplace-performance-mistakes">Common Workplace Performance Mistakes</h2>
+<p>A common mistake is waiting for perfect instruction before starting.</p>
+<p>In real work, some ambiguity is normal.</p>
+<p>A learner should clarify expectations, then begin with a reasonable plan.</p>
+<p>Another mistake is hiding confusion.</p>
+<p>It is better to ask a focused question early than to silently produce the wrong output.</p>
+<p>Another mistake is treating feedback as failure.</p>
+<p>Feedback is part of growth.</p>
+<p>Another mistake is failing to document work.</p>
+<p>Undocumented work is harder to review, reuse, explain, and defend.</p>
+<p>Another mistake is doing work without communicating progress.</p>
+<p>A person may be working hard, but others may not know the status, blockers, or results.</p>
+<hr>
+</section>
+<section id="mentor-or-supervisor-review-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-or-supervisor-review-prompts">Mentor or Supervisor Review Prompts</h2>
+<p>A mentor, supervisor, peer, or trainer can use these prompts to review workplace performance:</p>
+<pre class="text"><code>Does the learner understand the task and expected output?
+Are they communicating progress clearly?
+Are they documenting work well enough for others to understand?
+Are they asking useful questions?
+Are they responding to feedback constructively?
+Are they improving over time?
+What responsibility are they ready to take next?</code></pre>
+<p>The goal is not to judge the learner harshly.</p>
+<p>The goal is to help them become more effective and trusted.</p>
+<hr>
+</section>
+<section id="workplace-performance-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="workplace-performance-checklist">Workplace Performance Checklist</h2>
+<p>Use this checklist before, during, and after real work.</p>
+<pre class="text"><code>[ ] I understand the task or responsibility.
+[ ] I know what output is expected.
+[ ] I know who needs the output.
+[ ] I know the deadline or timing expectation.
+[ ] I have identified what I need to learn or clarify.
+[ ] I communicate progress before problems become serious.
+[ ] I document key decisions, steps, and outputs.
+[ ] I ask for feedback when useful.
+[ ] I apply feedback in later work.
+[ ] I record evidence of contribution.
+[ ] I identify a next improvement step.</code></pre>
+<p>This checklist is useful for beginners and experienced professionals.</p>
+<p>The level of responsibility changes, but the performance logic remains the same.</p>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>Workplace performance is where career development becomes real.</p>
+<p>It is where skills meet expectations.</p>
+<p>It is where confidence becomes contribution.</p>
+<p>It is where feedback becomes improvement.</p>
+<p>It is where trust begins to form.</p>
+<p>A sustainable career is not built only by getting opportunities.</p>
+<p>It is built by turning opportunities into visible, reliable, and improving contribution.</p>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>The next chapter focuses on resilience and diversification.</p>
-<p>Workplace performance matters, but sustainable professional growth also requires adaptability. The learner needs to reduce overdependence on one path, keep learning, build options, and prepare for change without panic.</p>
+<p>The next chapter focuses on career resilience and diversification.</p>
+<p>Once a learner or professional begins performing in real environments, they also need to think beyond one role, one employer, one skill set, or one opportunity path.</p>
+<p>Career resilience helps professionals keep adapting, protecting their growth, and creating options in changing conditions.</p>
 
 
 </section>

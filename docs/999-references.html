@@ -20,7 +20,62 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -69,6 +124,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -264,7 +323,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Appendix</span></a>
+  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -284,10 +344,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#why-references-matter-in-a-career-guide" id="toc-why-references-matter-in-a-career-guide" class="nav-link active" data-scroll-target="#why-references-matter-in-a-career-guide">Why References Matter in a Career Guide</a></li>
+  <li><a href="#evidence-base-used-by-this-guide" id="toc-evidence-base-used-by-this-guide" class="nav-link" data-scroll-target="#evidence-base-used-by-this-guide">Evidence Base Used by This Guide</a></li>
+  <li><a href="#how-the-references-connect-to-the-career-system" id="toc-how-the-references-connect-to-the-career-system" class="nav-link" data-scroll-target="#how-the-references-connect-to-the-career-system">How the References Connect to the Career System</a></li>
+  <li><a href="#reference-themes-by-chapter-area" id="toc-reference-themes-by-chapter-area" class="nav-link" data-scroll-target="#reference-themes-by-chapter-area">Reference Themes by Chapter Area</a></li>
+  <li><a href="#a-practical-note-about-evidence" id="toc-a-practical-note-about-evidence" class="nav-link" data-scroll-target="#a-practical-note-about-evidence">A Practical Note About Evidence</a></li>
+  <li><a href="#a-note-for-mentors-and-educators" id="toc-a-note-for-mentors-and-educators" class="nav-link" data-scroll-target="#a-note-for-mentors-and-educators">A Note for Mentors and Educators</a></li>
+  <li><a href="#starter-reference-list" id="toc-starter-reference-list" class="nav-link" data-scroll-target="#starter-reference-list">Starter Reference List</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -323,34 +388,305 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>ID:</strong> CAREER-999R</li>
 <li><strong>Type:</strong> System Guide</li>
-<li><strong>Audience:</strong> Learners, professionals, mentors, and training program designers</li>
-<li><strong>Theme:</strong> Career guidance should remain evidence-aware and context-sensitive</li>
+<li><strong>Audience:</strong> Learners, professionals, mentors, educators, and training program designers</li>
+<li><strong>Theme:</strong> Career guidance should be evidence-aware, practical, and context-sensitive</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>References</strong> layer of the Career System.</p>
+<p>The <strong>Career System</strong> is a practical guide, but it should not be based only on motivation, personal opinion, or scattered advice.</p>
+<p>Career development is a field with long-standing theories, research traditions, and applied frameworks.</p>
+<p>This references section provides a starter evidence base for the guide.</p>
+<p>The goal is not to turn the Career System into an academic textbook.</p>
+<p>The goal is to keep the guide grounded enough that learners, mentors, educators, and program designers can trust the principles behind the practical activities.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="why-references-matter-in-a-career-guide" class="level2">
+<h2 class="anchored" data-anchor-id="why-references-matter-in-a-career-guide">Why References Matter in a Career Guide</h2>
+<p>Career advice can easily become too generic.</p>
+<p>Learners are often told to:</p>
+<ul>
+<li>follow their passion,</li>
+<li>improve their skills,</li>
+<li>build a network,</li>
+<li>be confident,</li>
+<li>apply widely,</li>
+<li>or keep learning.</li>
+</ul>
+<p>These ideas may contain some truth, but they are incomplete when they are not connected to a system.</p>
+<p>Evidence-aware career guidance asks better questions.</p>
+<pre class="text"><code>How do people form career direction?
+How do interests, confidence, opportunity, and environment interact?
+How do people adapt when work changes?
+How do learners turn skills into employability?
+How do professionals build long-term career resilience?</code></pre>
+<p>The Career System uses these questions to connect readiness, skills, evidence, visibility, mentorship, opportunity, performance, and sustainable growth.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="evidence-base-used-by-this-guide" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-base-used-by-this-guide">Evidence Base Used by This Guide</h2>
+<p>This guide draws from several major areas of career development and professional growth literature.</p>
+<p>These include:</p>
+<ul>
+<li>life-span and life-space career development <span class="citation" data-cites="super1990life">(<a href="999-references.html#ref-super1990life" role="doc-biblioref">Super 1990</a>)</span>,</li>
+<li>social cognitive career theory <span class="citation" data-cites="lent1994toward">(<a href="999-references.html#ref-lent1994toward" role="doc-biblioref">Lent, Brown, and Hackett 1994</a>)</span>,</li>
+<li>career construction and career adaptability <span class="citation" data-cites="savickas2005theory savickas2012career">(<a href="999-references.html#ref-savickas2005theory" role="doc-biblioref">Savickas 2005</a>; <a href="999-references.html#ref-savickas2012career" role="doc-biblioref">Savickas and Porfeli 2012</a>)</span>,</li>
+<li>employability and career identity <span class="citation" data-cites="fugate2004employability">(<a href="999-references.html#ref-fugate2004employability" role="doc-biblioref">Fugate, Kinicki, and Ashforth 2004</a>)</span>,</li>
+<li>career competencies <span class="citation" data-cites="akkermans2013career">(<a href="999-references.html#ref-akkermans2013career" role="doc-biblioref">Akkermans et al. 2013</a>)</span>,</li>
+<li>planned happenstance and learning from opportunity <span class="citation" data-cites="krumboltz2009happenstance">(<a href="999-references.html#ref-krumboltz2009happenstance" role="doc-biblioref">Krumboltz 2009</a>)</span>,</li>
+<li>boundaryless and flexible career paths <span class="citation" data-cites="arthur1996boundaryless">(<a href="999-references.html#ref-arthur1996boundaryless" role="doc-biblioref">Arthur and Rousseau 1996</a>)</span>,</li>
+<li>experiential learning <span class="citation" data-cites="kolb1984experiential">(<a href="999-references.html#ref-kolb1984experiential" role="doc-biblioref">Kolb 1984</a>)</span>,</li>
+<li>reflective practice <span class="citation" data-cites="schon1983reflective">(<a href="999-references.html#ref-schon1983reflective" role="doc-biblioref">Schön 1983</a>)</span>,</li>
+<li>self-efficacy and agency <span class="citation" data-cites="bandura1997self">(<a href="999-references.html#ref-bandura1997self" role="doc-biblioref">Bandura 1997</a>)</span>,</li>
+<li>deliberate practice and improvement <span class="citation" data-cites="ericsson1993role">(<a href="999-references.html#ref-ericsson1993role" role="doc-biblioref">Ericsson, Krampe, and Tesch-Römer 1993</a>)</span>,</li>
+<li>mentoring relationships <span class="citation" data-cites="kram1985mentoring">(<a href="999-references.html#ref-kram1985mentoring" role="doc-biblioref">Kram 1985</a>)</span>,</li>
+<li>and adult learning <span class="citation" data-cites="knowles1980modern">(<a href="999-references.html#ref-knowles1980modern" role="doc-biblioref">Knowles 1980</a>)</span>.</li>
+</ul>
+<p>The guide also aligns with modern professional development practice, where learners are encouraged to produce visible evidence of learning, communicate their value, seek feedback, and revise their direction over time.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="how-the-references-connect-to-the-career-system" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-references-connect-to-the-career-system">How the References Connect to the Career System</h2>
+<p>The Career System is organized as a practical growth architecture.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    A[Career Development Theory] --&gt; B[Career System Principles]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Practical Chapters]</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Learner Templates]</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Portfolio and Career Evidence]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Mentor Feedback]</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Improved Career Decisions]</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Sustainable Professional Growth]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Career Development Theory] --&gt; B[Career System Principles]
+    B --&gt; C[Practical Chapters]
+    C --&gt; D[Learner Templates]
+    D --&gt; E[Portfolio and Career Evidence]
+    E --&gt; F[Mentor Feedback]
+    F --&gt; G[Improved Career Decisions]
+    G --&gt; H[Sustainable Professional Growth]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>The references are not separate from the guide.</p>
+<p>They support the design of the chapters.</p>
+<p>For example, career adaptability supports the chapters on resilience, roadmap design, and opportunity change.</p>
+<p>Employability research supports the chapters on skills inventory, portfolio evidence, communication, and job-market readiness.</p>
+<p>Mentoring literature supports the chapters on networking, mentorship, and feedback.</p>
+<p>Experiential learning and reflective practice support the project-based proof and personal operating system chapters.</p>
+<hr>
+</section>
+<section id="reference-themes-by-chapter-area" class="level2">
+<h2 class="anchored" data-anchor-id="reference-themes-by-chapter-area">Reference Themes by Chapter Area</h2>
+<p>The table below shows how the evidence base connects to major parts of the guide.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Career System area</th>
+<th>Related reference theme</th>
+<th>Example use in this guide</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Career readiness</td>
+<td>self-efficacy, adaptability, career identity</td>
+<td>learners assess readiness before rushing into applications</td>
+</tr>
+<tr class="even">
+<td>Skills inventory</td>
+<td>employability, competencies, evidence</td>
+<td>learners describe what they can do and how they can prove it</td>
+</tr>
+<tr class="odd">
+<td>Career direction</td>
+<td>career construction, social cognitive career theory</td>
+<td>learners connect interests, confidence, context, and realistic options</td>
+</tr>
+<tr class="even">
+<td>Learning plan</td>
+<td>adult learning, deliberate practice, experiential learning</td>
+<td>learners turn vague improvement goals into structured practice</td>
+</tr>
+<tr class="odd">
+<td>Portfolio building</td>
+<td>employability, evidence, reflective practice</td>
+<td>learners make their capability visible through outputs</td>
+</tr>
+<tr class="even">
+<td>Communication and visibility</td>
+<td>career competencies, professional identity</td>
+<td>learners explain their value clearly and responsibly</td>
+</tr>
+<tr class="odd">
+<td>Networking and mentorship</td>
+<td>mentoring, feedback, social learning</td>
+<td>learners seek guidance without treating networking as begging</td>
+</tr>
+<tr class="even">
+<td>Job readiness and interviews</td>
+<td>employability, evidence translation</td>
+<td>learners connect experience to opportunity requirements</td>
+</tr>
+<tr class="odd">
+<td>Workplace performance</td>
+<td>reflective practice, professional learning</td>
+<td>learners turn work into evidence, trust, and growth</td>
+</tr>
+<tr class="even">
+<td>Resilience and diversification</td>
+<td>adaptability, boundaryless careers</td>
+<td>learners prepare for change without losing direction</td>
+</tr>
+<tr class="odd">
+<td>Personal operating system</td>
+<td>adult learning, reflection, deliberate practice</td>
+<td>learners build habits for continued growth</td>
+</tr>
+<tr class="even">
+<td>Opportunity design</td>
+<td>adaptability, employability, agency</td>
+<td>learners compare opportunities and design sustainable paths</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="a-practical-note-about-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-note-about-evidence">A Practical Note About Evidence</h2>
+<p>Evidence-based career development does not mean every learner follows the same path.</p>
+<p>Career decisions are shaped by context.</p>
+<p>A learner’s opportunities may be affected by location, language, finances, technology access, caregiving responsibilities, education background, confidence, social networks, and timing.</p>
+<p>For that reason, this guide uses evidence as a foundation, not as a rigid formula.</p>
+<p>The Career System is designed to help learners make better decisions in their real context.</p>
+<hr>
+</section>
+<section id="a-note-for-mentors-and-educators" class="level2">
+<h2 class="anchored" data-anchor-id="a-note-for-mentors-and-educators">A Note for Mentors and Educators</h2>
+<p>Mentors and educators can use these references to strengthen program design.</p>
+<p>For example:</p>
+<ul>
+<li>Use career adaptability to help learners prepare for uncertainty.</li>
+<li>Use employability to connect skills with evidence and workplace readiness.</li>
+<li>Use mentoring theory to structure feedback conversations.</li>
+<li>Use experiential learning to design projects that produce visible outputs.</li>
+<li>Use reflective practice to help learners learn from experience rather than simply collect activities.</li>
+</ul>
+<p>The practical chapters are intentionally written in learner-friendly language.</p>
+<p>The references provide a deeper foundation for those who want to design, teach, evaluate, or improve the system.</p>
+<hr>
+</section>
+<section id="starter-reference-list" class="level2">
+<h2 class="anchored" data-anchor-id="starter-reference-list">Starter Reference List</h2>
+<p>The bibliography below is a starting point.</p>
+<p>It should grow as the Career System develops.</p>
+<p>Future versions of this guide may add references on:</p>
+<ul>
+<li>digital portfolios,</li>
+<li>career learning in low-resource contexts,</li>
+<li>youth transitions into work,</li>
+<li>professional identity development,</li>
+<li>workforce readiness,</li>
+<li>informal learning,</li>
+<li>entrepreneurship and side projects,</li>
+<li>AI-supported career learning,</li>
+<li>and mentorship in community-based programs.</li>
+</ul>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>The Career System can continue to grow as a living CDI pathway.</p>
-<p>Future versions can add deeper case studies, mentor guides, learner worksheets, program implementation examples, and evidence-based updates as career development research and workplace expectations evolve.</p>
+<p>This references chapter closes the first full version of the Career System guide.</p>
+<p>The next step is to review the guide as a complete learning pathway: checking chapter flow, consistency, templates, scripts, diagrams, README instructions, rendering, and public presentation before committing and publishing.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-akkermans2013career" class="csl-entry" role="listitem">
+Akkermans, Jos, Veerle Brenninkmeijer, Manon Huibers, and Roland W. B.
+Blonk. 2013. <span>“Competencies for the Contemporary Career:
+Development and Preliminary Validation of the Career Competencies
+Questionnaire.”</span> <em>Journal of Career Development</em> 40 (3):
+245–67. <a href="https://doi.org/10.1177/0894845312467501">https://doi.org/10.1177/0894845312467501</a>.
+</div>
+<div id="ref-arthur1996boundaryless" class="csl-entry" role="listitem">
+Arthur, Michael B., and Denise M. Rousseau, eds. 1996. <em>The
+Boundaryless Career: A New Employment Principle for a New Organizational
+Era</em>. New York, NY: Oxford University Press.
+</div>
+<div id="ref-bandura1997self" class="csl-entry" role="listitem">
+Bandura, Albert. 1997. <em>Self-Efficacy: The Exercise of Control</em>.
+New York, NY: W. H. Freeman.
+</div>
+<div id="ref-ericsson1993role" class="csl-entry" role="listitem">
+Ericsson, K. Anders, Ralf T. Krampe, and Clemens Tesch-Römer. 1993.
+<span>“The Role of Deliberate Practice in the Acquisition of Expert
+Performance.”</span> <em>Psychological Review</em> 100 (3): 363–406. <a href="https://doi.org/10.1037/0033-295X.100.3.363">https://doi.org/10.1037/0033-295X.100.3.363</a>.
+</div>
+<div id="ref-fugate2004employability" class="csl-entry" role="listitem">
+Fugate, Mel, Angelo J. Kinicki, and Blake E. Ashforth. 2004.
+<span>“Employability: A Psycho-Social Construct, Its Dimensions, and
+Applications.”</span> <em>Journal of Vocational Behavior</em> 65 (1):
+14–38. <a href="https://doi.org/10.1016/j.jvb.2003.10.005">https://doi.org/10.1016/j.jvb.2003.10.005</a>.
+</div>
+<div id="ref-knowles1980modern" class="csl-entry" role="listitem">
+Knowles, Malcolm S. 1980. <em>The Modern Practice of Adult Education:
+From Pedagogy to Andragogy</em>. New York, NY: Cambridge Adult
+Education.
+</div>
+<div id="ref-kolb1984experiential" class="csl-entry" role="listitem">
+Kolb, David A. 1984. <em>Experiential Learning: Experience as the Source
+of Learning and Development</em>. Englewood Cliffs, NJ: Prentice Hall.
+</div>
+<div id="ref-kram1985mentoring" class="csl-entry" role="listitem">
+Kram, Kathy E. 1985. <em>Mentoring at Work: Developmental Relationships
+in Organizational Life</em>. Glenview, IL: Scott, Foresman.
+</div>
+<div id="ref-krumboltz2009happenstance" class="csl-entry" role="listitem">
+Krumboltz, John D. 2009. <span>“The Happenstance Learning
+Theory.”</span> <em>Journal of Career Assessment</em> 17 (2): 135–54. <a href="https://doi.org/10.1177/1069072708328861">https://doi.org/10.1177/1069072708328861</a>.
+</div>
+<div id="ref-lent1994toward" class="csl-entry" role="listitem">
+Lent, Robert W., Steven D. Brown, and Gail Hackett. 1994. <span>“Toward
+a Unifying Social Cognitive Theory of Career and Academic Interest,
+Choice, and Performance.”</span> <em>Journal of Vocational Behavior</em>
+45 (1): 79–122. <a href="https://doi.org/10.1006/jvbe.1994.1027">https://doi.org/10.1006/jvbe.1994.1027</a>.
+</div>
+<div id="ref-savickas2005theory" class="csl-entry" role="listitem">
+Savickas, Mark L. 2005. <span>“The Theory and Practice of Career
+Construction.”</span> In <em>Career Development and Counseling: Putting
+Theory and Research to Work</em>, edited by Steven D. Brown and Robert
+W. Lent, 42–70. Hoboken, NJ: John Wiley &amp; Sons.
+</div>
+<div id="ref-savickas2012career" class="csl-entry" role="listitem">
+Savickas, Mark L., and Erik J. Porfeli. 2012. <span>“Career
+Adapt-Abilities Scale: Construction, Reliability, and Measurement
+Equivalence Across 13 Countries.”</span> <em>Journal of Vocational
+Behavior</em> 80 (3): 661–73. <a href="https://doi.org/10.1016/j.jvb.2012.01.011">https://doi.org/10.1016/j.jvb.2012.01.011</a>.
+</div>
+<div id="ref-schon1983reflective" class="csl-entry" role="listitem">
+Schön, Donald A. 1983. <em>The Reflective Practitioner: How
+Professionals Think in Action</em>. New York, NY: Basic Books.
+</div>
+<div id="ref-super1990life" class="csl-entry" role="listitem">
+Super, Donald E. 1990. <span>“A Life-Span, Life-Space Approach to Career
+Development.”</span> In <em>Career Choice and Development: Applying
+Contemporary Theories to Practice</em>, edited by Duane Brown and Linda
+Brooks, 2nd ed., 197–261. San Francisco, CA: Jossey-Bass.
+</div>
+</div>
 
 
 </section>
@@ -760,7 +1096,7 @@ How does this layer connect to the next part of the Career System?</code></pre>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./999-appendix.html" class="pagination-link" aria-label="Appendix">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Appendix</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Appendix</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

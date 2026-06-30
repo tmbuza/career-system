@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -265,7 +304,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Appendix</span></a>
+  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -285,9 +325,34 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#why-income-growth-and-opportunity-design-matter" id="toc-why-income-growth-and-opportunity-design-matter" class="nav-link active" data-scroll-target="#why-income-growth-and-opportunity-design-matter">Why Income Growth and Opportunity Design Matter</a></li>
+  <li><a href="#income-growth-in-the-career-system" id="toc-income-growth-in-the-career-system" class="nav-link" data-scroll-target="#income-growth-in-the-career-system">Income Growth in the Career System</a></li>
+  <li><a href="#income-growth-is-not-only-more-money" id="toc-income-growth-is-not-only-more-money" class="nav-link" data-scroll-target="#income-growth-is-not-only-more-money">Income Growth Is Not Only More Money</a></li>
+  <li><a href="#the-opportunity-design-system" id="toc-the-opportunity-design-system" class="nav-link" data-scroll-target="#the-opportunity-design-system">The Opportunity Design System</a>
+  <ul class="collapse">
+  <li><a href="#current-value" id="toc-current-value" class="nav-link" data-scroll-target="#current-value">1. Current Value</a></li>
+  <li><a href="#evidence-of-value" id="toc-evidence-of-value" class="nav-link" data-scroll-target="#evidence-of-value">2. Evidence of Value</a></li>
+  <li><a href="#opportunity-options" id="toc-opportunity-options" class="nav-link" data-scroll-target="#opportunity-options">3. Opportunity Options</a></li>
+  <li><a href="#growth-fit" id="toc-growth-fit" class="nav-link" data-scroll-target="#growth-fit">4. Growth Fit</a></li>
+  <li><a href="#action-plan" id="toc-action-plan" class="nav-link" data-scroll-target="#action-plan">5. Action Plan</a></li>
+  </ul></li>
+  <li><a href="#opportunity-types-across-career-stages" id="toc-opportunity-types-across-career-stages" class="nav-link" data-scroll-target="#opportunity-types-across-career-stages">Opportunity Types Across Career Stages</a>
+  <ul class="collapse">
+  <li><a href="#beginner-or-student" id="toc-beginner-or-student" class="nav-link" data-scroll-target="#beginner-or-student">Beginner or Student</a></li>
+  <li><a href="#early-career-professional" id="toc-early-career-professional" class="nav-link" data-scroll-target="#early-career-professional">Early-Career Professional</a></li>
+  <li><a href="#mid-career-professional" id="toc-mid-career-professional" class="nav-link" data-scroll-target="#mid-career-professional">Mid-Career Professional</a></li>
+  <li><a href="#experienced-professional-or-mentor" id="toc-experienced-professional-or-mentor" class="nav-link" data-scroll-target="#experienced-professional-or-mentor">Experienced Professional or Mentor</a></li>
+  </ul></li>
+  <li><a href="#the-income-growth-and-opportunity-design-map" id="toc-the-income-growth-and-opportunity-design-map" class="nav-link" data-scroll-target="#the-income-growth-and-opportunity-design-map">The Income Growth and Opportunity Design Map</a></li>
+  <li><a href="#create-the-template" id="toc-create-the-template" class="nav-link" data-scroll-target="#create-the-template">Create the Template</a></li>
+  <li><a href="#manual-template" id="toc-manual-template" class="nav-link" data-scroll-target="#manual-template">Manual Template</a></li>
+  <li><a href="#example-interpretation" id="toc-example-interpretation" class="nav-link" data-scroll-target="#example-interpretation">Example Interpretation</a></li>
+  <li><a href="#choosing-between-opportunities" id="toc-choosing-between-opportunities" class="nav-link" data-scroll-target="#choosing-between-opportunities">Choosing Between Opportunities</a></li>
+  <li><a href="#responsible-diversification" id="toc-responsible-diversification" class="nav-link" data-scroll-target="#responsible-diversification">Responsible Diversification</a></li>
+  <li><a href="#common-opportunity-design-mistakes" id="toc-common-opportunity-design-mistakes" class="nav-link" data-scroll-target="#common-opportunity-design-mistakes">Common Opportunity Design Mistakes</a></li>
+  <li><a href="#mentor-or-peer-review-prompts" id="toc-mentor-or-peer-review-prompts" class="nav-link" data-scroll-target="#mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</a></li>
+  <li><a href="#income-growth-and-opportunity-design-checklist" id="toc-income-growth-and-opportunity-design-checklist" class="nav-link" data-scroll-target="#income-growth-and-opportunity-design-checklist">Income Growth and Opportunity Design Checklist</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -297,7 +362,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./15-personal-operating-system.html">Sustainable Growth</a></li><li class="breadcrumb-item"><a href="./16-income-growth-and-opportunity-design.html"><span class="chapter-title">Income Growth and Opportunity Design</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="16_income_growth_and_opportunity_design" class="quarto-section-identifier"><span class="chapter-title">Income Growth and Opportunity Design</span></span></h1>
+<h1 class="title"><span id="income-growth-and-opportunity-design" class="quarto-section-identifier"><span class="chapter-title">Income Growth and Opportunity Design</span></span></h1>
 </div>
 
 
@@ -328,30 +393,463 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Theme:</strong> Careers become stronger when capability creates multiple forms of opportunity</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>Income Growth and Opportunity Design</strong> layer of the Career System.</p>
+<p>Income growth is often discussed only as salary growth.</p>
+<p>Salary matters.</p>
+<p>Stable income matters.</p>
+<p>Fair compensation matters.</p>
+<p>But sustainable professional growth is broader than a single paycheck.</p>
+<p>A strong career system helps a person design opportunities that connect skills, evidence, relationships, performance, and long-term value creation.</p>
+<p>This chapter focuses on how learners and professionals can think about income growth responsibly, realistically, and strategically.</p>
+<p>The goal is not to chase every possible opportunity.</p>
+<p>The goal is to understand how professional value can grow over time and how that value can be converted into better roles, better compensation, better projects, better networks, and more resilient career options.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="why-income-growth-and-opportunity-design-matter" class="level2">
+<h2 class="anchored" data-anchor-id="why-income-growth-and-opportunity-design-matter">Why Income Growth and Opportunity Design Matter</h2>
+<p>Many learners focus on getting the first opportunity.</p>
+<p>That is understandable.</p>
+<p>A first job, internship, freelance project, assistant role, research placement, or training opportunity can change a person’s path.</p>
+<p>But after the first opportunity, a new question appears:</p>
+<pre class="text"><code>How do I keep growing from here?</code></pre>
+<p>A person may be employed but underpaid.</p>
+<p>A person may be skilled but invisible.</p>
+<p>A person may have experience but no clear growth pathway.</p>
+<p>A person may depend on one employer, one client, one credential, or one local opportunity market.</p>
+<p>A person may work hard but fail to document their value.</p>
+<p>Income growth and opportunity design help learners avoid passive career drift.</p>
+<p>They help a person ask:</p>
+<ul>
+<li>What value am I currently creating?</li>
+<li>Who benefits from that value?</li>
+<li>What evidence proves that value?</li>
+<li>What opportunities could this value support?</li>
+<li>What skills would increase my value?</li>
+<li>What relationships would help me access better opportunities?</li>
+<li>What risks should I reduce?</li>
+</ul>
+<p>This chapter does not promise quick income.</p>
+<p>It teaches a system for turning capability into better professional options over time.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="income-growth-in-the-career-system" class="level2">
+<h2 class="anchored" data-anchor-id="income-growth-in-the-career-system">Income Growth in the Career System</h2>
+<p>Income growth is not isolated from the rest of the Career System.</p>
+<p>It depends on the earlier layers.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    A[Career Direction] --&gt; B[Skills Inventory]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Learning Plan]</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Project-Based Proof]</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Portfolio Evidence]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Communication and Visibility]</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Networking and Mentorship]</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Job Market Readiness]</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    H --&gt; I[Workplace Performance]</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    I --&gt; J[Career Resilience]</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    J --&gt; K[Opportunity Design]</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    K --&gt; L[Income Growth]</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    L --&gt; M[Sustainable Professional Growth]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Career Direction] --&gt; B[Skills Inventory]
+    B --&gt; C[Learning Plan]
+    C --&gt; D[Project-Based Proof]
+    D --&gt; E[Portfolio Evidence]
+    E --&gt; F[Communication and Visibility]
+    F --&gt; G[Networking and Mentorship]
+    G --&gt; H[Job Market Readiness]
+    H --&gt; I[Workplace Performance]
+    I --&gt; J[Career Resilience]
+    J --&gt; K[Opportunity Design]
+    K --&gt; L[Income Growth]
+    L --&gt; M[Sustainable Professional Growth]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>A learner cannot design strong opportunities without knowing their direction.</p>
+<p>A professional cannot negotiate or reposition well without evidence.</p>
+<p>A freelancer cannot grow sustainably without trust and repeatable value.</p>
+<p>A mentor cannot guide opportunity decisions well without seeing the learner’s skills, goals, constraints, and evidence.</p>
+<p>Income growth becomes stronger when it is connected to the whole system.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="income-growth-is-not-only-more-money" class="level2">
+<h2 class="anchored" data-anchor-id="income-growth-is-not-only-more-money">Income Growth Is Not Only More Money</h2>
+<p>More money is important, but income growth is not only about the amount received.</p>
+<p>A better opportunity may include:</p>
+<ul>
+<li>higher pay,</li>
+<li>more stable income,</li>
+<li>stronger learning,</li>
+<li>better supervision,</li>
+<li>better networks,</li>
+<li>stronger portfolio evidence,</li>
+<li>more autonomy,</li>
+<li>better working conditions,</li>
+<li>clearer promotion pathways,</li>
+<li>or exposure to higher-value problems.</li>
+</ul>
+<p>Sometimes a lower-paid opportunity may be useful if it produces strong learning, mentorship, evidence, or access.</p>
+<p>Sometimes a higher-paid opportunity may be risky if it creates burnout, stagnation, dependency, or reputational harm.</p>
+<p>The Career System encourages learners to evaluate opportunities as complete growth packages, not only as income amounts.</p>
+<hr>
+</section>
+<section id="the-opportunity-design-system" class="level2">
+<h2 class="anchored" data-anchor-id="the-opportunity-design-system">The Opportunity Design System</h2>
+<p>Opportunity design means intentionally shaping the next professional step instead of waiting passively.</p>
+<p>It has five parts.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    A[Current Value] --&gt; B[Evidence of Value]</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Opportunity Options]</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Growth Fit]</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Action Plan]</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Review and Adapt]</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; A</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Current Value] --&gt; B[Evidence of Value]
+    B --&gt; C[Opportunity Options]
+    C --&gt; D[Growth Fit]
+    D --&gt; E[Action Plan]
+    E --&gt; F[Review and Adapt]
+    F --&gt; A
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<section id="current-value" class="level3">
+<h3 class="anchored" data-anchor-id="current-value">1. Current Value</h3>
+<p>This answers:</p>
+<pre class="text"><code>What can I contribute now?</code></pre>
+<p>Current value may come from technical skills, communication, reliability, domain knowledge, leadership, teaching, analysis, coordination, service, creativity, or problem-solving.</p>
+<p>Beginners may have small but real value.</p>
+<p>Experienced professionals may have deep value that needs better positioning.</p>
+</section>
+<section id="evidence-of-value" class="level3">
+<h3 class="anchored" data-anchor-id="evidence-of-value">2. Evidence of Value</h3>
+<p>This answers:</p>
+<pre class="text"><code>How can others see my contribution?</code></pre>
+<p>Evidence may include project outputs, workplace achievements, reports, testimonials, dashboards, writing, GitHub repositories, presentations, certificates, before-and-after examples, or documented process improvements.</p>
+<p>Without evidence, value is harder to communicate.</p>
+</section>
+<section id="opportunity-options" class="level3">
+<h3 class="anchored" data-anchor-id="opportunity-options">3. Opportunity Options</h3>
+<p>This answers:</p>
+<pre class="text"><code>What possible paths could my value support?</code></pre>
+<p>Opportunity options may include job applications, internal promotions, freelance services, consulting, training roles, research collaboration, community leadership, digital products, teaching, mentoring, or entrepreneurial experiments.</p>
+<p>The best option depends on the learner’s stage, risk tolerance, resources, constraints, and direction.</p>
+</section>
+<section id="growth-fit" class="level3">
+<h3 class="anchored" data-anchor-id="growth-fit">4. Growth Fit</h3>
+<p>This answers:</p>
+<pre class="text"><code>Which opportunity fits my next growth step?</code></pre>
+<p>A good opportunity should match at least some of the learner’s current needs.</p>
+<p>For example, one learner may need income stability.</p>
+<p>Another may need portfolio evidence.</p>
+<p>Another may need mentorship.</p>
+<p>Another may need leadership exposure.</p>
+<p>Another may need flexibility while studying or caring for family.</p>
+<p>Growth fit helps a person choose deliberately.</p>
+</section>
+<section id="action-plan" class="level3">
+<h3 class="anchored" data-anchor-id="action-plan">5. Action Plan</h3>
+<p>This answers:</p>
+<pre class="text"><code>What will I do next?</code></pre>
+<p>Action may include improving a profile, contacting a mentor, applying to selected roles, building a proof project, requesting a performance review, proposing a new responsibility, documenting achievements, or testing a small side service.</p>
+<p>Opportunity design becomes real only when it produces action.</p>
+<hr>
+</section>
+</section>
+<section id="opportunity-types-across-career-stages" class="level2">
+<h2 class="anchored" data-anchor-id="opportunity-types-across-career-stages">Opportunity Types Across Career Stages</h2>
+<p>Different career stages require different opportunity strategies.</p>
+<section id="beginner-or-student" class="level3">
+<h3 class="anchored" data-anchor-id="beginner-or-student">Beginner or Student</h3>
+<p>A beginner may focus on:</p>
+<ul>
+<li>learning opportunities,</li>
+<li>volunteer or community projects,</li>
+<li>internships,</li>
+<li>guided portfolio projects,</li>
+<li>mentorship conversations,</li>
+<li>entry-level exposure,</li>
+<li>and small proof-of-skill outputs.</li>
+</ul>
+<p>At this stage, the goal is not only income.</p>
+<p>The goal is to build credible evidence and professional habits.</p>
+</section>
+<section id="early-career-professional" class="level3">
+<h3 class="anchored" data-anchor-id="early-career-professional">Early-Career Professional</h3>
+<p>An early-career professional may focus on:</p>
+<ul>
+<li>stronger role alignment,</li>
+<li>better job applications,</li>
+<li>workplace performance evidence,</li>
+<li>skill specialization,</li>
+<li>internal growth opportunities,</li>
+<li>mentorship,</li>
+<li>and clearer professional positioning.</li>
+</ul>
+<p>At this stage, income growth often comes from improved evidence, performance, and role fit.</p>
+</section>
+<section id="mid-career-professional" class="level3">
+<h3 class="anchored" data-anchor-id="mid-career-professional">Mid-Career Professional</h3>
+<p>A mid-career professional may focus on:</p>
+<ul>
+<li>promotion readiness,</li>
+<li>leadership responsibilities,</li>
+<li>specialization,</li>
+<li>consulting or advisory options,</li>
+<li>stronger networks,</li>
+<li>professional visibility,</li>
+<li>and strategic repositioning.</li>
+</ul>
+<p>At this stage, income growth often depends on value clarity, negotiation, leadership, and market positioning.</p>
+</section>
+<section id="experienced-professional-or-mentor" class="level3">
+<h3 class="anchored" data-anchor-id="experienced-professional-or-mentor">Experienced Professional or Mentor</h3>
+<p>An experienced professional may focus on:</p>
+<ul>
+<li>thought leadership,</li>
+<li>advisory work,</li>
+<li>training programs,</li>
+<li>systems building,</li>
+<li>mentoring others,</li>
+<li>independent consulting,</li>
+<li>board or committee roles,</li>
+<li>and legacy-oriented professional contributions.</li>
+</ul>
+<p>At this stage, opportunity design may include both income and impact.</p>
+<hr>
+</section>
+</section>
+<section id="the-income-growth-and-opportunity-design-map" class="level2">
+<h2 class="anchored" data-anchor-id="the-income-growth-and-opportunity-design-map">The Income Growth and Opportunity Design Map</h2>
+<p>The practical output for this chapter is an opportunity design map.</p>
+<p>This map helps a learner connect current skills and evidence to realistic opportunity options.</p>
+<p>It is not a fantasy list.</p>
+<p>It is a planning tool.</p>
+<p>A useful map includes:</p>
+<pre class="text"><code>current_skill_or_asset
+proof_or_evidence
+possible_opportunity
+value_created
+income_or_growth_potential
+readiness_level
+next_action
+support_needed
+risk_or_constraint
+review_date</code></pre>
+<p>The purpose is to help the learner move from vague hope to structured opportunity thinking.</p>
+<hr>
+</section>
+<section id="create-the-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-template">Create the Template</h2>
+<p>This chapter includes an optional script that creates a reusable opportunity design template.</p>
+<p>Learners who are comfortable with the command line can run:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x scripts/bash/16-create-opportunity-design-template.sh</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/16-create-opportunity-design-template.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Expected outputs:</p>
+<pre class="text"><code>data/templates/opportunity-design-template.csv
+results/opportunity-design/example-opportunity-design-map.csv
+results/opportunity-design/README-opportunity-design.md</code></pre>
+<p>Learners who are not using the command line can copy the manual table structure below into a spreadsheet, notebook, or document.</p>
+<hr>
+</section>
+<section id="manual-template" class="level2">
+<h2 class="anchored" data-anchor-id="manual-template">Manual Template</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Current skill or asset</th>
+<th>Proof or evidence</th>
+<th>Possible opportunity</th>
+<th>Value created</th>
+<th>Income or growth potential</th>
+<th>Readiness level</th>
+<th>Next action</th>
+<th>Support needed</th>
+<th>Risk or constraint</th>
+<th>Review date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Data cleaning and reporting</td>
+<td>Small analysis report and GitHub repository</td>
+<td>Junior data analyst application</td>
+<td>Helps teams organize and interpret data</td>
+<td>Entry-level income and experience</td>
+<td>Medium</td>
+<td>Improve CV and apply to five targeted roles</td>
+<td>Mentor review of CV</td>
+<td>Limited interview practice</td>
+<td>Next month</td>
+</tr>
+<tr class="even">
+<td>Teaching beginners</td>
+<td>Workshop outline and learner feedback</td>
+<td>Paid weekend training session</td>
+<td>Helps learners gain practical digital skills</td>
+<td>Small side income and visibility</td>
+<td>Medium</td>
+<td>Pilot one free session and collect feedback</td>
+<td>Venue or online platform</td>
+<td>Time availability</td>
+<td>Two weeks</td>
+</tr>
+<tr class="odd">
+<td>Workplace coordination</td>
+<td>Documented process improvement</td>
+<td>Internal promotion conversation</td>
+<td>Improves team reliability and efficiency</td>
+<td>Salary increase or expanded responsibility</td>
+<td>High</td>
+<td>Prepare performance evidence summary</td>
+<td>Supervisor feedback</td>
+<td>Limited formal title</td>
+<td>Next review cycle</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="example-interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="example-interpretation">Example Interpretation</h2>
+<p>Consider a learner who has completed several data analysis projects but has not yet received a formal data role.</p>
+<p>Their opportunity map may show three possible paths:</p>
+<pre class="text"><code>1. Apply for junior data analyst roles.
+2. Offer simple reporting support to a small organization.
+3. Publish short project explanations to increase visibility.</code></pre>
+<p>Each path has different benefits.</p>
+<p>The job application path may support stable employment.</p>
+<p>The small organization path may produce client evidence and practical experience.</p>
+<p>The public explanation path may create visibility and networking opportunities.</p>
+<p>The learner does not need to pursue all three aggressively at the same time.</p>
+<p>They can choose one primary opportunity path and one small supporting activity.</p>
+<p>This avoids distraction while still building options.</p>
+<hr>
+</section>
+<section id="choosing-between-opportunities" class="level2">
+<h2 class="anchored" data-anchor-id="choosing-between-opportunities">Choosing Between Opportunities</h2>
+<p>A useful opportunity is not always the most exciting one.</p>
+<p>A learner should evaluate opportunities using five questions.</p>
+<pre class="text"><code>1. Does this opportunity fit my current direction?
+2. Does it use or strengthen skills I want to grow?
+3. Will it produce evidence I can reuse later?
+4. Does it connect me with useful people, problems, or environments?
+5. Is the income, time, and risk balance reasonable for my situation?</code></pre>
+<p>If an opportunity fails most of these questions, it may not be the right next step.</p>
+<p>If an opportunity passes several of them, it may be worth testing.</p>
+<hr>
+</section>
+<section id="responsible-diversification" class="level2">
+<h2 class="anchored" data-anchor-id="responsible-diversification">Responsible Diversification</h2>
+<p>Opportunity design is closely connected to career resilience.</p>
+<p>But diversification should be responsible.</p>
+<p>It does not mean doing everything.</p>
+<p>It means building a small set of options that support the same professional direction.</p>
+<p>For example:</p>
+<pre class="text"><code>Main direction: Data analyst growth
+
+Aligned opportunities:
+- apply for analyst roles,
+- build two public analysis projects,
+- help a local group with reporting,
+- write short explanations of completed projects,
+- ask a mentor to review role fit.</code></pre>
+<p>These activities reinforce each other.</p>
+<p>They do not scatter the learner across unrelated paths.</p>
+<p>Responsible diversification protects the learner without weakening focus.</p>
+<hr>
+</section>
+<section id="common-opportunity-design-mistakes" class="level2">
+<h2 class="anchored" data-anchor-id="common-opportunity-design-mistakes">Common Opportunity Design Mistakes</h2>
+<p>A common mistake is chasing opportunities before building evidence.</p>
+<p>Another mistake is waiting until everything feels perfect.</p>
+<p>Some learners apply everywhere without understanding role fit.</p>
+<p>Some professionals stay too long in roles that no longer create growth.</p>
+<p>Some people accept every side opportunity and become exhausted.</p>
+<p>Some people avoid income conversations because they feel uncomfortable discussing value.</p>
+<p>Some people focus only on certificates and never translate their learning into visible contribution.</p>
+<p>Opportunity design helps reduce these mistakes by connecting value, evidence, action, and review.</p>
+<hr>
+</section>
+<section id="mentor-or-peer-review-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</h2>
+<p>A mentor, peer, supervisor, or trusted colleague can help review the opportunity map.</p>
+<p>Useful prompts include:</p>
+<pre class="text"><code>Which opportunity seems most realistic right now?
+Which opportunity has the strongest growth potential?
+Which opportunity requires better evidence before action?
+Which opportunity may create distraction or burnout?
+What is one small action the learner can take this week?
+What relationship or feedback would improve the learner’s chances?</code></pre>
+<p>The goal of review is not to tell the learner what to do.</p>
+<p>The goal is to improve the quality of the learner’s decision.</p>
+<hr>
+</section>
+<section id="income-growth-and-opportunity-design-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="income-growth-and-opportunity-design-checklist">Income Growth and Opportunity Design Checklist</h2>
+<p>Use this checklist before acting on an opportunity plan.</p>
+<pre class="text"><code>[ ] I can describe the value I currently create.
+[ ] I have evidence that supports at least one opportunity path.
+[ ] I have identified realistic opportunity options.
+[ ] I have considered income, learning, visibility, mentorship, and risk.
+[ ] I have selected one primary opportunity path for now.
+[ ] I have identified one next action.
+[ ] I know what support or feedback I need.
+[ ] I have set a review date.</code></pre>
+<p>A strong opportunity plan should feel focused, realistic, and actionable.</p>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>Career growth becomes more sustainable when opportunity is designed, not only hoped for.</p>
+<p>A learner does not need to control every outcome.</p>
+<p>But they can improve the system around their growth.</p>
+<p>They can build evidence.</p>
+<p>They can communicate value.</p>
+<p>They can seek feedback.</p>
+<p>They can choose opportunities more carefully.</p>
+<p>They can reduce dependency on one narrow path.</p>
+<p>They can review and adapt.</p>
+<p>The Career System turns professional growth into an intentional practice.</p>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>The next chapter brings the full Career System together through an end-to-end case study.</p>
-<p>The case study shows how a learner can move from readiness assessment to skills inventory, direction, learning plan, portfolio evidence, visibility, mentorship, job-market readiness, workplace performance, resilience, and opportunity design.</p>
+<p>The next chapter brings the Career System together through an end-to-end case study.</p>
+<p>It shows how a learner can move from readiness assessment to skills inventory, learning plan, project-based proof, portfolio evidence, communication, mentorship, job-market preparation, resilience, and opportunity design as one connected professional growth pathway.</p>
 
 
 </section>

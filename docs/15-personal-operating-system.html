@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -265,7 +304,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Appendix</span></a>
+  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -285,9 +325,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#why-a-personal-operating-system-matters" id="toc-why-a-personal-operating-system-matters" class="nav-link active" data-scroll-target="#why-a-personal-operating-system-matters">Why a Personal Operating System Matters</a></li>
+  <li><a href="#the-personal-operating-system-in-the-career-system" id="toc-the-personal-operating-system-in-the-career-system" class="nav-link" data-scroll-target="#the-personal-operating-system-in-the-career-system">The Personal Operating System in the Career System</a></li>
+  <li><a href="#a-personal-operating-system-is-not-a-perfect-routine" id="toc-a-personal-operating-system-is-not-a-perfect-routine" class="nav-link" data-scroll-target="#a-personal-operating-system-is-not-a-perfect-routine">A Personal Operating System Is Not a Perfect Routine</a></li>
+  <li><a href="#the-five-parts-of-a-personal-operating-system" id="toc-the-five-parts-of-a-personal-operating-system" class="nav-link" data-scroll-target="#the-five-parts-of-a-personal-operating-system">The Five Parts of a Personal Operating System</a>
+  <ul class="collapse">
+  <li><a href="#direction-review" id="toc-direction-review" class="nav-link" data-scroll-target="#direction-review">1. Direction Review</a></li>
+  <li><a href="#weekly-priorities" id="toc-weekly-priorities" class="nav-link" data-scroll-target="#weekly-priorities">2. Weekly Priorities</a></li>
+  <li><a href="#evidence-capture" id="toc-evidence-capture" class="nav-link" data-scroll-target="#evidence-capture">3. Evidence Capture</a></li>
+  <li><a href="#feedback-loop" id="toc-feedback-loop" class="nav-link" data-scroll-target="#feedback-loop">4. Feedback Loop</a></li>
+  <li><a href="#recovery-and-adjustment" id="toc-recovery-and-adjustment" class="nav-link" data-scroll-target="#recovery-and-adjustment">5. Recovery and Adjustment</a></li>
+  </ul></li>
+  <li><a href="#personal-operating-systems-across-career-stages" id="toc-personal-operating-systems-across-career-stages" class="nav-link" data-scroll-target="#personal-operating-systems-across-career-stages">Personal Operating Systems Across Career Stages</a></li>
+  <li><a href="#the-weekly-career-review" id="toc-the-weekly-career-review" class="nav-link" data-scroll-target="#the-weekly-career-review">The Weekly Career Review</a></li>
+  <li><a href="#the-personal-operating-system-template" id="toc-the-personal-operating-system-template" class="nav-link" data-scroll-target="#the-personal-operating-system-template">The Personal Operating System Template</a></li>
+  <li><a href="#create-the-template" id="toc-create-the-template" class="nav-link" data-scroll-target="#create-the-template">Create the Template</a></li>
+  <li><a href="#manual-template" id="toc-manual-template" class="nav-link" data-scroll-target="#manual-template">Manual Template</a></li>
+  <li><a href="#example-weekly-review" id="toc-example-weekly-review" class="nav-link" data-scroll-target="#example-weekly-review">Example Weekly Review</a></li>
+  <li><a href="#managing-energy-and-capacity" id="toc-managing-energy-and-capacity" class="nav-link" data-scroll-target="#managing-energy-and-capacity">Managing Energy and Capacity</a></li>
+  <li><a href="#common-personal-operating-system-mistakes" id="toc-common-personal-operating-system-mistakes" class="nav-link" data-scroll-target="#common-personal-operating-system-mistakes">Common Personal Operating System Mistakes</a></li>
+  <li><a href="#mentor-or-peer-review-prompts" id="toc-mentor-or-peer-review-prompts" class="nav-link" data-scroll-target="#mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</a></li>
+  <li><a href="#personal-operating-system-checklist" id="toc-personal-operating-system-checklist" class="nav-link" data-scroll-target="#personal-operating-system-checklist">Personal Operating System Checklist</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -328,30 +387,284 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Theme:</strong> Professional growth depends on habits, review cycles, and self-management</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>Personal Operating System</strong> layer of the Career System.</p>
+<p>A career does not grow only during big moments.</p>
+<p>It grows through repeated choices.</p>
+<p>What a person learns this week.</p>
+<p>What they practice.</p>
+<p>What they document.</p>
+<p>Who they ask for feedback.</p>
+<p>What they improve.</p>
+<p>What they stop doing.</p>
+<p>A <strong>Personal Operating System</strong> is the simple structure a learner or professional uses to manage these repeated choices.</p>
+<p>It is not a complicated productivity method.</p>
+<p>It is a practical way to turn career intention into steady action.</p>
+<p>Without a personal operating system, career growth often depends on mood, urgency, or external pressure.</p>
+<p>With a personal operating system, growth becomes easier to review, adjust, and sustain.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="why-a-personal-operating-system-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-a-personal-operating-system-matters">Why a Personal Operating System Matters</h2>
+<p>Many people want to grow but do not have a system for growth.</p>
+<p>They may have goals, but no weekly review.</p>
+<p>They may have skills, but no practice rhythm.</p>
+<p>They may have projects, but no completion routine.</p>
+<p>They may receive feedback, but never convert it into action.</p>
+<p>They may feel busy, but not know whether their effort is moving them toward a better career position.</p>
+<p>A personal operating system solves this problem by creating a repeatable structure for professional development.</p>
+<p>It helps a learner answer:</p>
+<pre class="text"><code>What am I working toward?
+What should I do this week?
+What evidence should I produce?
+What feedback do I need?
+What should I review and improve?</code></pre>
+<p>Career growth becomes more sustainable when a person can manage their direction, time, energy, learning, relationships, and evidence.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="the-personal-operating-system-in-the-career-system" class="level2">
+<h2 class="anchored" data-anchor-id="the-personal-operating-system-in-the-career-system">The Personal Operating System in the Career System</h2>
+<p>The Personal Operating System connects the earlier chapters into a routine.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    A[Career Direction] --&gt; B[Learning Priorities]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Weekly Actions]</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Practice and Projects]</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Portfolio Evidence]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Communication and Visibility]</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Feedback and Mentorship]</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Review and Adjustment]</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    H --&gt; B</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    H --&gt; I[Sustainable Growth]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Career Direction] --&gt; B[Learning Priorities]
+    B --&gt; C[Weekly Actions]
+    C --&gt; D[Practice and Projects]
+    D --&gt; E[Portfolio Evidence]
+    E --&gt; F[Communication and Visibility]
+    F --&gt; G[Feedback and Mentorship]
+    G --&gt; H[Review and Adjustment]
+    H --&gt; B
+    H --&gt; I[Sustainable Growth]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>This layer does not replace career direction, skills inventory, portfolio building, networking, or job readiness.</p>
+<p>It keeps them active.</p>
+<p>A person can have a good career plan and still fail to act on it.</p>
+<p>A personal operating system makes the plan visible in everyday behavior.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="a-personal-operating-system-is-not-a-perfect-routine" class="level2">
+<h2 class="anchored" data-anchor-id="a-personal-operating-system-is-not-a-perfect-routine">A Personal Operating System Is Not a Perfect Routine</h2>
+<p>A personal operating system should not become another source of pressure.</p>
+<p>It is not about controlling every hour.</p>
+<p>It is not about copying someone else’s productivity style.</p>
+<p>It is not about pretending that life, family, health, work, finances, and unexpected events never interrupt plans.</p>
+<p>A useful personal operating system is simple enough to survive real life.</p>
+<p>It should help a learner recover after interruptions.</p>
+<p>It should help a professional notice drift early.</p>
+<p>It should help a mentor see where support is needed.</p>
+<p>The goal is not perfection.</p>
+<p>The goal is continuity.</p>
+<hr>
+</section>
+<section id="the-five-parts-of-a-personal-operating-system" class="level2">
+<h2 class="anchored" data-anchor-id="the-five-parts-of-a-personal-operating-system">The Five Parts of a Personal Operating System</h2>
+<p>A practical career operating system has five parts.</p>
+<section id="direction-review" class="level3">
+<h3 class="anchored" data-anchor-id="direction-review">1. Direction Review</h3>
+<p>The learner regularly checks whether their current activities still connect to their career direction.</p>
+<p>The question is:</p>
+<pre class="text"><code>Are my actions still aligned with where I am trying to grow?</code></pre>
+<p>This protects the learner from scattered effort.</p>
+</section>
+<section id="weekly-priorities" class="level3">
+<h3 class="anchored" data-anchor-id="weekly-priorities">2. Weekly Priorities</h3>
+<p>The learner chooses a small number of priorities for the week.</p>
+<p>These priorities should be realistic.</p>
+<p>For a beginner, one meaningful learning task and one small practice output may be enough.</p>
+<p>For a professional, priorities may include performance evidence, visibility, relationship-building, and strategic learning.</p>
+</section>
+<section id="evidence-capture" class="level3">
+<h3 class="anchored" data-anchor-id="evidence-capture">3. Evidence Capture</h3>
+<p>The learner records what they produced, improved, completed, or learned.</p>
+<p>This may include project notes, screenshots, reports, GitHub commits, presentations, reflections, client feedback, supervisor feedback, or portfolio updates.</p>
+<p>Evidence capture is important because career progress is easy to forget if it is not documented.</p>
+</section>
+<section id="feedback-loop" class="level3">
+<h3 class="anchored" data-anchor-id="feedback-loop">4. Feedback Loop</h3>
+<p>The learner identifies where feedback is needed.</p>
+<p>Feedback may come from a mentor, peer, supervisor, instructor, community member, client, or professional contact.</p>
+<p>The operating system should help the learner ask for feedback before mistakes become habits.</p>
+</section>
+<section id="recovery-and-adjustment" class="level3">
+<h3 class="anchored" data-anchor-id="recovery-and-adjustment">5. Recovery and Adjustment</h3>
+<p>The learner reviews what did not happen and adjusts without shame.</p>
+<p>A missed plan is not failure.</p>
+<p>It is information.</p>
+<p>The question becomes:</p>
+<pre class="text"><code>What needs to change so the next cycle is more realistic?</code></pre>
+<hr>
+</section>
+</section>
+<section id="personal-operating-systems-across-career-stages" class="level2">
+<h2 class="anchored" data-anchor-id="personal-operating-systems-across-career-stages">Personal Operating Systems Across Career Stages</h2>
+<p>Different learners and professionals need different operating systems.</p>
+<p>A beginner may need a simple weekly learning rhythm.</p>
+<p>An early-career professional may need a system for documenting workplace evidence and asking for feedback.</p>
+<p>A career changer may need a system that balances current responsibilities with a transition plan.</p>
+<p>A technical professional may need a system for keeping skills current while building visibility.</p>
+<p>A mentor or leader may need a system for contribution, sponsorship, and long-term opportunity design.</p>
+<p>The system should match the person’s stage.</p>
+<p>It should also change as the person grows.</p>
+<hr>
+</section>
+<section id="the-weekly-career-review" class="level2">
+<h2 class="anchored" data-anchor-id="the-weekly-career-review">The Weekly Career Review</h2>
+<p>The weekly review is the heart of the Personal Operating System.</p>
+<p>It does not need to be long.</p>
+<p>A 20-minute review can be enough.</p>
+<p>The review can ask:</p>
+<pre class="text"><code>What did I learn this week?
+What did I produce?
+What evidence did I save?
+What conversation or feedback helped me?
+What was difficult?
+What should I focus on next week?</code></pre>
+<p>This turns career growth from a vague hope into a visible rhythm.</p>
+<hr>
+</section>
+<section id="the-personal-operating-system-template" class="level2">
+<h2 class="anchored" data-anchor-id="the-personal-operating-system-template">The Personal Operating System Template</h2>
+<p>This chapter includes a template for organizing a learner’s career routine.</p>
+<p>The template should capture:</p>
+<pre class="text"><code>review_period
+career_direction
+weekly_priority
+planned_action
+evidence_to_capture
+feedback_needed
+support_person
+completion_status
+reflection
+next_adjustment</code></pre>
+<p>The exact format is less important than the habit of review.</p>
+<p>A learner may use a spreadsheet, notebook, markdown file, task manager, or printed worksheet.</p>
+<p>The important thing is to keep the system visible and simple.</p>
+<hr>
+</section>
+<section id="create-the-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-template">Create the Template</h2>
+<p>Learners who are comfortable using the command line can create a reusable template with:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/15-create-personal-operating-system-template.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The script creates a starter worksheet and example output.</p>
+<p>Learners who are not using the command line can copy the manual template below into a spreadsheet, notebook, or document.</p>
+<hr>
+</section>
+<section id="manual-template" class="level2">
+<h2 class="anchored" data-anchor-id="manual-template">Manual Template</h2>
+<pre class="text"><code>review_period,career_direction,weekly_priority,planned_action,evidence_to_capture,feedback_needed,support_person,completion_status,reflection,next_adjustment
+Week 1,Data analyst pathway,Improve spreadsheet analysis,Complete one cleaned data summary,Before-and-after spreadsheet plus short notes,Ask mentor if summary is clear,Peer mentor,In progress,Need smaller task next time,Focus on one chart and one explanation</code></pre>
+<p>This template is intentionally simple.</p>
+<p>A learner should not spend more time maintaining the system than doing the work.</p>
+<hr>
+</section>
+<section id="example-weekly-review" class="level2">
+<h2 class="anchored" data-anchor-id="example-weekly-review">Example Weekly Review</h2>
+<p>A learner might complete the review like this:</p>
+<pre class="text"><code>Review period: Week 3
+Career direction: Entry-level data analyst
+Weekly priority: Build confidence explaining a small dataset
+Planned action: Clean one public dataset and write a short summary
+Evidence captured: CSV file, summary table, one chart, short interpretation
+Feedback needed: Is the explanation clear to a non-technical reader?
+Support person: Mentor or peer reviewer
+Completion status: Completed
+Reflection: The chart was easier than explaining the result
+Next adjustment: Practice writing interpretation before adding more analysis</code></pre>
+<p>This review shows progress.</p>
+<p>It also shows the next learning need.</p>
+<p>That is the purpose of the system.</p>
+<hr>
+</section>
+<section id="managing-energy-and-capacity" class="level2">
+<h2 class="anchored" data-anchor-id="managing-energy-and-capacity">Managing Energy and Capacity</h2>
+<p>Career growth is not only about ambition.</p>
+<p>It also depends on energy and capacity.</p>
+<p>A learner who is working, studying, caring for family, or managing limited resources may need a smaller rhythm.</p>
+<p>A good personal operating system respects reality.</p>
+<p>It asks:</p>
+<pre class="text"><code>What can I do consistently at this stage of life?</code></pre>
+<p>Small, repeated progress often beats large plans that cannot be maintained.</p>
+<p>Sustainable growth requires attention to rest, focus, health, finances, relationships, and motivation.</p>
+<p>The system should support the person, not exhaust them.</p>
+<hr>
+</section>
+<section id="common-personal-operating-system-mistakes" class="level2">
+<h2 class="anchored" data-anchor-id="common-personal-operating-system-mistakes">Common Personal Operating System Mistakes</h2>
+<p>One mistake is making the system too complicated.</p>
+<p>If the system has too many fields, too many tools, or too many rules, the learner may stop using it.</p>
+<p>Another mistake is planning without reviewing.</p>
+<p>A plan that is never reviewed becomes a wish.</p>
+<p>A third mistake is tracking tasks but not evidence.</p>
+<p>Career growth requires visible proof, not only completed activities.</p>
+<p>A fourth mistake is ignoring feedback.</p>
+<p>Without feedback, a learner may keep repeating the same weak approach.</p>
+<p>A fifth mistake is treating one bad week as failure.</p>
+<p>The system should help the learner return, not quit.</p>
+<hr>
+</section>
+<section id="mentor-or-peer-review-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</h2>
+<p>A mentor or peer reviewer can help by asking:</p>
+<pre class="text"><code>Is the learner choosing realistic weekly priorities?
+Do the planned actions connect to career direction?
+Is the learner capturing useful evidence?
+Where would feedback improve the next cycle?
+Is the system simple enough to continue?
+What support would make the learner more consistent?</code></pre>
+<p>These prompts keep the conversation focused on growth behavior rather than vague motivation.</p>
+<hr>
+</section>
+<section id="personal-operating-system-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="personal-operating-system-checklist">Personal Operating System Checklist</h2>
+<p>Before moving to the next chapter, the learner should be able to say:</p>
+<ul>
+<li>I have a simple way to review my career growth regularly.</li>
+<li>I can connect weekly actions to my career direction.</li>
+<li>I can choose realistic learning and practice priorities.</li>
+<li>I can capture evidence of progress.</li>
+<li>I know when and where to ask for feedback.</li>
+<li>I can adjust my plan without abandoning the whole system.</li>
+<li>I can maintain the system without making it too heavy.</li>
+</ul>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>A career system becomes powerful when it becomes repeatable.</p>
+<p>One strong week is helpful.</p>
+<p>A repeatable growth rhythm is better.</p>
+<p>The Personal Operating System helps learners and professionals build that rhythm.</p>
+<p>It connects intention to action.</p>
+<p>It connects action to evidence.</p>
+<p>It connects evidence to feedback.</p>
+<p>It connects feedback to the next round of growth.</p>
+<p>That is how professional growth compounds.</p>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>The next chapter connects professional growth to income growth and opportunity design.</p>
-<p>A personal operating system helps the learner stay consistent. The next step is to identify how skills, evidence, relationships, and visibility can create better opportunities, stronger negotiation positions, and more sustainable income pathways.</p>
+<p>The next chapter turns professional growth into opportunity design.</p>
+<p>Once a learner or professional has a personal operating system, they can begin thinking more intentionally about income growth, opportunity pathways, collaborations, side projects, promotions, consulting possibilities, and other ways to build a more sustainable professional future.</p>
 
 
 </section>

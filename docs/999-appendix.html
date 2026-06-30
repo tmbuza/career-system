@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -84,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./999-appendix.html">Appendices</a></li><li class="breadcrumb-item"><a href="./999-appendix.html"><span class="chapter-title">Appendix</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./999-appendix.html">Appendices</a></li><li class="breadcrumb-item"><a href="./999-appendix.html">Appendix</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -265,7 +304,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Appendix</span></a>
+  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Appendix</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -285,9 +325,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#how-to-use-this-appendix" id="toc-how-to-use-this-appendix" class="nav-link active" data-scroll-target="#how-to-use-this-appendix">How to Use This Appendix</a></li>
+  <li><a href="#the-career-system-output-package" id="toc-the-career-system-output-package" class="nav-link" data-scroll-target="#the-career-system-output-package">The Career System Output Package</a></li>
+  <li><a href="#career-system-template-map" id="toc-career-system-template-map" class="nav-link" data-scroll-target="#career-system-template-map">Career System Template Map</a></li>
+  <li><a href="#career-system-review-flow" id="toc-career-system-review-flow" class="nav-link" data-scroll-target="#career-system-review-flow">Career System Review Flow</a></li>
+  <li><a href="#manual-use-without-bash" id="toc-manual-use-without-bash" class="nav-link" data-scroll-target="#manual-use-without-bash">Manual Use Without Bash</a></li>
+  <li><a href="#optional-bash-workflow" id="toc-optional-bash-workflow" class="nav-link" data-scroll-target="#optional-bash-workflow">Optional Bash Workflow</a></li>
+  <li><a href="#mentor-review-checklist" id="toc-mentor-review-checklist" class="nav-link" data-scroll-target="#mentor-review-checklist">Mentor Review Checklist</a></li>
+  <li><a href="#weekly-career-review-template" id="toc-weekly-career-review-template" class="nav-link" data-scroll-target="#weekly-career-review-template">Weekly Career Review Template</a></li>
+  <li><a href="#monthly-career-system-review" id="toc-monthly-career-system-review" class="nav-link" data-scroll-target="#monthly-career-system-review">Monthly Career System Review</a></li>
+  <li><a href="#career-evidence-quality-rubric" id="toc-career-evidence-quality-rubric" class="nav-link" data-scroll-target="#career-evidence-quality-rubric">Career Evidence Quality Rubric</a></li>
+  <li><a href="#career-conversation-preparation-sheet" id="toc-career-conversation-preparation-sheet" class="nav-link" data-scroll-target="#career-conversation-preparation-sheet">Career Conversation Preparation Sheet</a></li>
+  <li><a href="#common-signs-the-career-system-needs-updating" id="toc-common-signs-the-career-system-needs-updating" class="nav-link" data-scroll-target="#common-signs-the-career-system-needs-updating">Common Signs the Career System Needs Updating</a></li>
+  <li><a href="#program-or-classroom-use" id="toc-program-or-classroom-use" class="nav-link" data-scroll-target="#program-or-classroom-use">Program or Classroom Use</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -295,9 +346,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./999-appendix.html">Appendices</a></li><li class="breadcrumb-item"><a href="./999-appendix.html"><span class="chapter-title">Appendix</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./999-appendix.html">Appendices</a></li><li class="breadcrumb-item"><a href="./999-appendix.html">Appendix</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="appendix" class="quarto-section-identifier"><span class="chapter-title">Appendix</span></span></h1>
+<h1 class="title">Appendix</h1>
 </div>
 
 
@@ -323,35 +374,554 @@ ul.task-list li input[type="checkbox"] {
 <div class="cdi-message">
 <ul>
 <li><strong>ID:</strong> CAREER-999A</li>
-<li><strong>Type:</strong> System Guide</li>
-<li><strong>Audience:</strong> Learners, professionals, mentors, and training program designers</li>
-<li><strong>Theme:</strong> Templates and checklists support repeatable career growth</li>
+<li><strong>Type:</strong> Appendix</li>
+<li><strong>Audience:</strong> Learners, professionals, mentors, educators, and program designers</li>
+<li><strong>Theme:</strong> Career growth becomes easier to support when tools, templates, and review routines are organized in one place</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>Appendix</strong> layer of the Career System.</p>
+<p>The appendix brings together practical tools that support the <strong>Career System</strong>.</p>
+<p>The main chapters explain the system.</p>
+<p>The appendix helps learners, mentors, and programs apply the system consistently.</p>
+<p>It can be used as a reference area for worksheets, review prompts, templates, output files, and recurring routines.</p>
+<p>A learner does not need to complete every appendix tool at once.</p>
+<p>The purpose is to provide a reusable support layer that can grow with the learner.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="how-to-use-this-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-this-appendix">How to Use This Appendix</h2>
+<p>Use this appendix in three ways.</p>
+<p>First, use it as a checklist for the full Career System.</p>
+<p>Second, use it as a template index when deciding which worksheet to complete next.</p>
+<p>Third, use it as a review guide for mentors, educators, or peer groups.</p>
+<p>The appendix is especially useful after a learner has completed several chapters and wants to organize their career materials into one working folder.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="the-career-system-output-package" class="level2">
+<h2 class="anchored" data-anchor-id="the-career-system-output-package">The Career System Output Package</h2>
+<p>By the end of the guide, a learner should have a practical package of career-growth outputs.</p>
+<p>These outputs do not need to be perfect.</p>
+<p>They need to be clear enough to guide action and visible enough to support feedback.</p>
+<pre class="text"><code>career-system-output-package/
+├── career-readiness-self-assessment.csv
+├── skills-inventory-template.csv
+├── career-direction-map-template.csv
+├── learning-plan-template.csv
+├── portfolio-building-template.csv
+├── project-based-proof-template.csv
+├── communication-visibility-template.csv
+├── networking-mentorship-template.csv
+├── job-market-readiness-template.csv
+├── cv-linkedin-profile-template.csv
+├── interview-conversation-template.csv
+├── workplace-performance-template.csv
+├── career-resilience-diversification-template.csv
+├── personal-operating-system-template.csv
+├── opportunity-design-template.csv
+└── career-system-roadmap-template.csv</code></pre>
+<p>The filenames may change as a learner adapts them.</p>
+<p>What matters is that each output has a clear role in the system.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="career-system-template-map" class="level2">
+<h2 class="anchored" data-anchor-id="career-system-template-map">Career System Template Map</h2>
+<p>The table below summarizes the major templates in the guide.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Chapter</th>
+<th>Template</th>
+<th>Main Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>02</td>
+<td>Career readiness self-assessment</td>
+<td>Understand current readiness before pursuing opportunities</td>
+</tr>
+<tr class="even">
+<td>03</td>
+<td>Skills inventory</td>
+<td>List skills, evidence, gaps, and career relevance</td>
+</tr>
+<tr class="odd">
+<td>04</td>
+<td>Career direction map</td>
+<td>Choose a practical direction for the current growth season</td>
+</tr>
+<tr class="even">
+<td>05</td>
+<td>Learning plan</td>
+<td>Convert gaps into focused learning actions</td>
+</tr>
+<tr class="odd">
+<td>06</td>
+<td>Portfolio building template</td>
+<td>Organize visible evidence of capability</td>
+</tr>
+<tr class="even">
+<td>07</td>
+<td>Project-based proof template</td>
+<td>Design projects that demonstrate practical ability</td>
+</tr>
+<tr class="odd">
+<td>08</td>
+<td>Communication and visibility map</td>
+<td>Translate work into messages others can understand</td>
+</tr>
+<tr class="even">
+<td>09</td>
+<td>Networking and mentorship map</td>
+<td>Build relationships around learning, feedback, and opportunity</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>Job market readiness template</td>
+<td>Prepare for realistic opportunity access</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>CV, LinkedIn, and profile template</td>
+<td>Improve professional materials and public clarity</td>
+</tr>
+<tr class="odd">
+<td>12</td>
+<td>Interview and conversation template</td>
+<td>Prepare evidence-based career conversations</td>
+</tr>
+<tr class="even">
+<td>13</td>
+<td>Workplace performance log</td>
+<td>Track contribution, learning, feedback, and outcomes</td>
+</tr>
+<tr class="odd">
+<td>14</td>
+<td>Career resilience map</td>
+<td>Identify risks, buffers, and diversification options</td>
+</tr>
+<tr class="even">
+<td>15</td>
+<td>Personal operating system template</td>
+<td>Build weekly review and sustainable growth routines</td>
+</tr>
+<tr class="odd">
+<td>16</td>
+<td>Opportunity design map</td>
+<td>Compare income, learning, alignment, and future options</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Career system roadmap</td>
+<td>Turn the whole system into short-, medium-, and long-term action</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="career-system-review-flow" class="level2">
+<h2 class="anchored" data-anchor-id="career-system-review-flow">Career System Review Flow</h2>
+<p>A learner can review the system using the following flow.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    A[Career Readiness] --&gt; B[Skills Inventory]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Career Direction]</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Learning Plan]</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Project-Based Proof]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Portfolio Evidence]</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Communication and Visibility]</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Networking and Mentorship]</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    H --&gt; I[Job Market Readiness]</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    I --&gt; J[Professional Profile]</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    J --&gt; K[Career Conversations]</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    K --&gt; L[Workplace Performance]</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    L --&gt; M[Career Resilience]</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    M --&gt; N[Personal Operating System]</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    N --&gt; O[Opportunity Design]</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    O --&gt; P[Career System Roadmap]</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    P --&gt; C</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Career Readiness] --&gt; B[Skills Inventory]
+    B --&gt; C[Career Direction]
+    C --&gt; D[Learning Plan]
+    D --&gt; E[Project-Based Proof]
+    E --&gt; F[Portfolio Evidence]
+    F --&gt; G[Communication and Visibility]
+    G --&gt; H[Networking and Mentorship]
+    H --&gt; I[Job Market Readiness]
+    I --&gt; J[Professional Profile]
+    J --&gt; K[Career Conversations]
+    K --&gt; L[Workplace Performance]
+    L --&gt; M[Career Resilience]
+    M --&gt; N[Personal Operating System]
+    N --&gt; O[Opportunity Design]
+    O --&gt; P[Career System Roadmap]
+    P --&gt; C
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>The final arrow returns to career direction because growth is iterative.</p>
+<p>As skills, circumstances, confidence, and opportunities change, the learner should revisit direction and update the plan.</p>
+<hr>
+</section>
+<section id="manual-use-without-bash" class="level2">
+<h2 class="anchored" data-anchor-id="manual-use-without-bash">Manual Use Without Bash</h2>
+<p>The Career System includes optional bash scripts.</p>
+<p>These scripts are useful for learners who are comfortable with the command line or for programs that want reproducible folder structures.</p>
+<p>However, the scripts are not required.</p>
+<p>Learners can complete the guide using a spreadsheet, notebook, document, or printed worksheet.</p>
+<p>For manual use, create a folder such as:</p>
+<pre class="text"><code>Career System/
+├── 01 Readiness/
+├── 02 Skills Inventory/
+├── 03 Career Direction/
+├── 04 Learning Plan/
+├── 05 Portfolio Evidence/
+├── 06 Networking and Mentorship/
+├── 07 Job Market Readiness/
+├── 08 Interviews and Conversations/
+├── 09 Workplace Performance/
+├── 10 Resilience and Sustainability/
+└── 11 Roadmap/</code></pre>
+<p>Then copy the tables from each chapter into the relevant folder.</p>
+<p>This keeps the guide accessible to beginners and still useful for technical users.</p>
+<hr>
+</section>
+<section id="optional-bash-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="optional-bash-workflow">Optional Bash Workflow</h2>
+<p>Learners or programs using the repository can generate templates with the provided scripts.</p>
+<p>Run individual scripts as needed:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/02-create-career-readiness-template.sh</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/03-create-skills-inventory-template.sh</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/04-create-career-direction-template.sh</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/05-create-learning-plan-template.sh</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/06-create-portfolio-building-template.sh</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/07-create-project-based-proof-template.sh</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/08-create-communication-visibility-template.sh</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/09-create-networking-mentorship-template.sh</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/10-create-job-market-readiness-template.sh</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/11-create-cv-linkedin-profile-template.sh</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/12-create-interview-conversation-template.sh</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/13-create-workplace-performance-template.sh</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/14-create-career-resilience-template.sh</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/15-create-personal-operating-system-template.sh</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/16-create-opportunity-design-template.sh</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/17-create-end-to-end-career-case-study.sh</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/18-create-career-system-roadmap.sh</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/999-create-career-system-appendix-templates.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The scripts should be treated as supporting tools.</p>
+<p>The main learning still comes from reflection, discussion, practice, feedback, and revision.</p>
+<hr>
+</section>
+<section id="mentor-review-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-review-checklist">Mentor Review Checklist</h2>
+<p>Mentors can use this checklist to review a learner’s progress.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Review Area</th>
+<th>Guiding Question</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Readiness</td>
+<td>Does the learner understand their current starting point?</td>
+</tr>
+<tr class="even">
+<td>Direction</td>
+<td>Is the current direction specific enough to guide action?</td>
+</tr>
+<tr class="odd">
+<td>Skills</td>
+<td>Are strengths and gaps listed honestly?</td>
+</tr>
+<tr class="even">
+<td>Evidence</td>
+<td>Can the learner show examples of what they can do?</td>
+</tr>
+<tr class="odd">
+<td>Communication</td>
+<td>Can the learner explain their work clearly?</td>
+</tr>
+<tr class="even">
+<td>Visibility</td>
+<td>Are the learner’s relevant outputs findable or shareable?</td>
+</tr>
+<tr class="odd">
+<td>Relationships</td>
+<td>Is the learner building feedback and mentorship connections?</td>
+</tr>
+<tr class="even">
+<td>Opportunity</td>
+<td>Does the learner understand realistic next opportunities?</td>
+</tr>
+<tr class="odd">
+<td>Performance</td>
+<td>Can the learner describe how they contribute in real settings?</td>
+</tr>
+<tr class="even">
+<td>Resilience</td>
+<td>Does the learner have options beyond one fragile path?</td>
+</tr>
+<tr class="odd">
+<td>Sustainability</td>
+<td>Does the learner have routines that support long-term growth?</td>
+</tr>
+</tbody>
+</table>
+<p>The mentor’s role is not to give all answers.</p>
+<p>The mentor helps the learner see more clearly, choose better next steps, and remain accountable to growth.</p>
+<hr>
+</section>
+<section id="weekly-career-review-template" class="level2">
+<h2 class="anchored" data-anchor-id="weekly-career-review-template">Weekly Career Review Template</h2>
+<p>A weekly review helps the learner keep the system alive.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Question</th>
+<th>Response</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What did I learn this week?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>What did I practice?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>What evidence did I create or improve?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>What feedback did I receive?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Who did I communicate with or learn from?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>What opportunity signal did I notice?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>What needs attention next week?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>What is one small action for the next seven days?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The weekly review should be short.</p>
+<p>A useful review completed consistently is better than a perfect review completed once.</p>
+<hr>
+</section>
+<section id="monthly-career-system-review" class="level2">
+<h2 class="anchored" data-anchor-id="monthly-career-system-review">Monthly Career System Review</h2>
+<p>A monthly review helps the learner connect weekly actions to larger direction.</p>
+<p>Use these prompts once per month.</p>
+<ol type="1">
+<li>What skill improved this month?</li>
+<li>What evidence became stronger?</li>
+<li>What did I learn about my career direction?</li>
+<li>What relationship or feedback helped me grow?</li>
+<li>What opportunity became clearer?</li>
+<li>What risk or weakness needs attention?</li>
+<li>What should I stop doing?</li>
+<li>What should I continue doing?</li>
+<li>What should I start doing?</li>
+<li>What is my most important career action for the next month?</li>
+</ol>
+<p>This review can be done alone, with a mentor, or in a small peer group.</p>
+<hr>
+</section>
+<section id="career-evidence-quality-rubric" class="level2">
+<h2 class="anchored" data-anchor-id="career-evidence-quality-rubric">Career Evidence Quality Rubric</h2>
+<p>Use this rubric to improve portfolio items, projects, profiles, and interview stories.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Level</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1 — Claimed</td>
+<td>The learner says they have a skill, but no clear evidence is shown</td>
+</tr>
+<tr class="even">
+<td>2 — Described</td>
+<td>The learner explains what they learned or did, but evidence is limited</td>
+</tr>
+<tr class="odd">
+<td>3 — Demonstrated</td>
+<td>The learner shows an output, example, project, report, or work sample</td>
+</tr>
+<tr class="even">
+<td>4 — Interpreted</td>
+<td>The learner explains the context, decisions, process, and meaning of the work</td>
+</tr>
+<tr class="odd">
+<td>5 — Transferable</td>
+<td>The learner connects the evidence to a role, problem, audience, or opportunity</td>
+</tr>
+</tbody>
+</table>
+<p>The goal is not to make every item Level 5.</p>
+<p>The goal is to keep improving the quality of evidence over time.</p>
+<hr>
+</section>
+<section id="career-conversation-preparation-sheet" class="level2">
+<h2 class="anchored" data-anchor-id="career-conversation-preparation-sheet">Career Conversation Preparation Sheet</h2>
+<p>Before a mentorship conversation, interview, referral conversation, or professional meeting, the learner can prepare using this structure.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Preparation Area</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Purpose of conversation</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Person or audience</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Relevant context</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Evidence I may share</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Questions I want to ask</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Support I am seeking</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Follow-up action</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>This helps the learner enter conversations with clarity and respect.</p>
+<p>It also makes it easier for others to help.</p>
+<hr>
+</section>
+<section id="common-signs-the-career-system-needs-updating" class="level2">
+<h2 class="anchored" data-anchor-id="common-signs-the-career-system-needs-updating">Common Signs the Career System Needs Updating</h2>
+<p>A career system is not static.</p>
+<p>It needs updating when any of these signs appear:</p>
+<ul>
+<li>the learner has outgrown the original direction,</li>
+<li>the skills inventory no longer reflects current ability,</li>
+<li>the portfolio does not show recent work,</li>
+<li>the professional profile feels outdated,</li>
+<li>the learner is applying to opportunities without a clear target,</li>
+<li>interviews reveal repeated gaps,</li>
+<li>the learner is performing well but not documenting evidence,</li>
+<li>the learner depends too heavily on one income source or one employer,</li>
+<li>weekly routines have disappeared,</li>
+<li>or the roadmap no longer fits the learner’s life situation.</li>
+</ul>
+<p>Updating the system is not failure.</p>
+<p>It is part of sustainable professional growth.</p>
+<hr>
+</section>
+<section id="program-or-classroom-use" class="level2">
+<h2 class="anchored" data-anchor-id="program-or-classroom-use">Program or Classroom Use</h2>
+<p>Educators and training programs can use the Career System as a professional growth layer.</p>
+<p>A simple program design could use four phases.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Focus</th>
+<th>Suggested Chapters</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Foundation</td>
+<td>Readiness, skills, direction</td>
+<td>00–04</td>
+</tr>
+<tr class="even">
+<td>Practice</td>
+<td>Learning plan, projects, portfolio</td>
+<td>05–07</td>
+</tr>
+<tr class="odd">
+<td>Visibility</td>
+<td>Communication, mentorship, job readiness, profiles</td>
+<td>08–12</td>
+</tr>
+<tr class="even">
+<td>Sustainability</td>
+<td>Performance, resilience, personal system, opportunity design, roadmap</td>
+<td>13–18</td>
+</tr>
+</tbody>
+</table>
+<p>Each phase can end with a learner output review.</p>
+<p>This helps learners build a professional package gradually instead of rushing to prepare only when an application deadline appears.</p>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>A career becomes more sustainable when it is treated as a system of repeated learning, evidence, feedback, contribution, and adaptation.</p>
+<p>The appendix is not separate from the guide.</p>
+<p>It is the practical layer that helps learners turn ideas into routines and routines into growth.</p>
+<p>The goal is not to complete a file.</p>
+<p>The goal is to become more prepared, more visible, more useful, more resilient, and more intentional over time.</p>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>The references section lists the evidence base that supports the Career System.</p>
-<p>As the guide develops, this reference layer can expand to include career development theory, employability research, mentoring literature, career adaptability, learning design, professional identity, and labor-market readiness.</p>
+<p>The final section of the guide provides the reference list used to support the Career System.</p>
+<p>These references connect the guide to evidence-based career development ideas, including career adaptability, employability, career competencies, social cognitive career theory, life-span career development, and learning through planned and unplanned opportunity.</p>
 
 
 </section>
