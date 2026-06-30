@@ -1,42 +1,512 @@
-# Portfolio Building {#06_portfolio_building}
+# Portfolio Building {#portfolio-building}
 
 :::cdi-message
 - **ID:** CAREER-006
 - **Type:** System Guide
-- **Audience:** Learners, professionals, mentors, and training program designers
+- **Audience:** Learners, early-career professionals, technical professionals, mentors, and training program designers
 - **Theme:** A portfolio turns ability into visible evidence
 :::
 
-This chapter will develop the **Portfolio Building** layer of the Career System.
+A learner can have real ability and still remain unseen.
+
+They may understand a topic.
+
+They may complete training.
+
+They may help others quietly.
+
+They may solve problems in school, work, or community settings.
+
+But if their work is not captured, explained, organized, and shared appropriately, other people may not know what they can do.
+
+That is why portfolio building is a central layer of the **Career System**.
+
+A portfolio is not only a collection of files.
+
+A portfolio is a structured evidence system.
+
+It helps a learner show what they can do, explain how they think, and make their growth visible to mentors, peers, employers, collaborators, clients, and future opportunities.
 
 ---
 
-## Purpose
+## Why Portfolio Building Matters
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+Career growth often depends on trust.
 
----
+People need reasons to believe that a learner can contribute.
 
-## Core Questions
+A CV can list skills.
+
+A certificate can show participation.
+
+A conversation can communicate interest.
+
+But a portfolio provides evidence.
+
+It allows someone to say:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+Here is what I worked on.
+Here is the problem I tried to solve.
+Here is the process I followed.
+Here is what I produced.
+Here is what I learned.
+Here is how I would improve it next time.
+```
+
+For beginners, a portfolio helps convert learning into visible progress.
+
+For early-career professionals, it helps show applied ability beyond job titles.
+
+For experienced professionals, it helps communicate depth, leadership, judgment, and accumulated contribution.
+
+For career changers, it helps bridge the gap between past experience and a new direction.
+
+---
+
+## The Portfolio Layer in the Career System
+
+Portfolio building sits between learning and visibility.
+
+A learner first clarifies direction.
+
+Then they identify skills.
+
+Then they create a learning plan.
+
+The portfolio answers the next question:
+
+```text
+What evidence will show that this learning is becoming real capability?
+```
+
+```{mermaid}
+flowchart LR
+    A[Career Direction] --> B[Skills Inventory]
+    B --> C[Learning Plan]
+    C --> D[Practice and Projects]
+    D --> E[Portfolio Evidence]
+    E --> F[Review and Improvement]
+    F --> G[Professional Communication]
+    G --> H[Visibility and Opportunity]
+```
+
+The important point is that a portfolio is not the end of the process.
+
+A portfolio item should be reviewed, improved, explained, and connected to career direction.
+
+---
+
+## Portfolio Building Is Not Only for Designers
+
+Many learners hear the word “portfolio” and think it only applies to designers, artists, writers, or software developers.
+
+That is too narrow.
+
+Almost any professional can build a portfolio if they understand portfolio evidence broadly.
+
+A portfolio item can be:
+
+- a project report,
+- a case study,
+- a data analysis notebook,
+- a cleaned dataset description,
+- a dashboard,
+- a presentation,
+- a process improvement note,
+- a teaching resource,
+- a community project summary,
+- a technical README,
+- a reflection on a problem solved,
+- a professional profile statement,
+- or a short written explanation of work completed.
+
+The key is not whether the item looks impressive.
+
+The key is whether it helps someone understand the learner's ability, thinking, and growth.
+
+---
+
+## The Four Purposes of a Portfolio
+
+A strong career portfolio usually serves four purposes.
+
+### 1. Evidence
+
+The portfolio shows that the learner has done something, not only studied something.
+
+Evidence answers:
+
+```text
+What can this person actually produce?
+```
+
+### 2. Explanation
+
+The portfolio helps the learner explain their decisions.
+
+Explanation answers:
+
+```text
+How does this person think through a problem?
+```
+
+### 3. Direction
+
+The portfolio supports a chosen career direction.
+
+Direction answers:
+
+```text
+What kind of professional path does this evidence support?
+```
+
+### 4. Conversation
+
+The portfolio creates material for mentorship, interviews, networking, applications, and performance reviews.
+
+Conversation answers:
+
+```text
+What can we discuss that is grounded in real work?
+```
+
+A portfolio that does not support conversation is often only a folder.
+
+A portfolio that supports conversation becomes a career tool.
+
+---
+
+## Portfolio Evidence Across Career Stages
+
+Portfolio building should look different at different stages.
+
+A beginner does not need an advanced portfolio.
+
+An experienced professional should not only show beginner exercises.
+
+The portfolio should match the learner's current stage and next opportunity.
+
+| Career stage | Useful portfolio evidence | Main purpose |
+|---|---|---|
+| Beginner | Small exercises, reflections, simple projects, before-and-after examples | Show learning progress and seriousness |
+| Early learner | Guided projects, class outputs, community tasks, basic reports | Show applied practice |
+| Early-career professional | Work samples, case studies, process notes, role-relevant outputs | Show readiness for responsibility |
+| Career changer | Transferable-skill projects, bridge projects, profile summaries | Connect past experience to new direction |
+| Experienced professional | Leadership examples, system improvements, mentoring outputs, strategic reports | Show judgment, depth, and contribution |
+| Mentor or educator | Teaching materials, learner support tools, program designs, review frameworks | Show ability to develop others |
+
+This prevents a common mistake: comparing a beginner portfolio to an expert portfolio.
+
+The right question is not:
+
+```text
+Is this portfolio perfect?
+```
+
+The better question is:
+
+```text
+Does this portfolio provide honest evidence for the learner's current stage and next step?
 ```
 
 ---
 
-## Expected Outputs
+## What Makes a Portfolio Item Strong
+
+A strong portfolio item does not need to be large.
+
+It needs to be clear.
+
+Each item should answer six questions.
+
+| Question | Why it matters |
+|---|---|
+| What problem or context does this item address? | Shows relevance |
+| What did the learner produce? | Shows output |
+| What skills were used? | Connects evidence to capability |
+| What decisions were made? | Shows thinking |
+| What was learned? | Shows growth |
+| What would be improved next? | Shows reflection and maturity |
+
+This structure makes even a small project useful.
+
+A simple project with clear explanation is often better than a complex project that nobody can understand.
+
+---
+
+## Portfolio Categories
+
+A balanced portfolio can include different kinds of evidence.
+
+```{mermaid}
+flowchart TD
+    A[Portfolio Evidence] --> B[Technical Evidence]
+    A --> C[Communication Evidence]
+    A --> D[Problem-Solving Evidence]
+    A --> E[Professional Readiness Evidence]
+    A --> F[Leadership or Contribution Evidence]
+
+    B --> B1[Analysis, code, reports, dashboards]
+    C --> C1[Writing, presentations, explanations]
+    D --> D1[Case studies, decisions, troubleshooting]
+    E --> E1[CV profile, career statement, work samples]
+    F --> F1[Mentoring, coordination, community outputs]
+```
+
+A learner does not need all categories at once.
+
+But the categories help them avoid building a narrow portfolio.
+
+For example, a technical learner may have code but no explanation.
+
+A strong communicator may have writing but no evidence of applied problem-solving.
+
+A project coordinator may have experience but no visible examples of planning or execution.
+
+Portfolio categories help reveal what is missing.
+
+---
+
+## The Portfolio Building Template
+
+This chapter includes a portfolio tracker.
+
+The tracker helps learners move from scattered files to organized evidence.
+
+The template includes these fields:
+
+| Field | Meaning |
+|---|---|
+| `portfolio_item_id` | Unique item identifier |
+| `career_direction` | Direction this item supports |
+| `portfolio_category` | Type of evidence |
+| `item_title` | Clear title for the item |
+| `evidence_type` | Report, project, writing sample, presentation, code, profile, or case study |
+| `problem_or_context` | Situation or problem the item responds to |
+| `skills_demonstrated` | Skills shown by the item |
+| `artifact_location` | Folder, link, or file path |
+| `short_description` | Brief explanation of the item |
+| `audience` | Who should understand or review it |
+| `review_status` | Draft, reviewed, revised, final, or archived |
+| `improvement_needed` | Specific next improvement |
+| `visibility_status` | Private, shared with mentor, portfolio-ready, or public |
+| `next_action` | Next step for the item |
+
+The template is not only for tracking.
+
+It teaches the learner how to think about evidence.
+
+---
+
+## Create the Template
+
+Learners who are comfortable with the command line can generate the template using the supporting script.
+
+From the project root, run:
+
+```bash
+chmod +x scripts/bash/06-create-portfolio-building-template.sh
+bash scripts/bash/06-create-portfolio-building-template.sh
+```
+
+Expected outputs:
 
 ```text
-To be developed in the full chapter draft.
+data/templates/portfolio-building-template.csv
+results/portfolio-building/example-portfolio-building.csv
+results/portfolio-building/README-portfolio-building.md
 ```
+
+Learners who are not using bash can copy the manual table structure below into a spreadsheet, notebook, or document.
+
+---
+
+## Manual Template
+
+| portfolio_item_id | career_direction | portfolio_category | item_title | evidence_type | problem_or_context | skills_demonstrated | artifact_location | short_description | audience | review_status | improvement_needed | visibility_status | next_action |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| PF-001 |  |  |  |  |  |  |  |  |  | Private draft |  | Private draft |  |
+| PF-002 |  |  |  |  |  |  |  |  |  | Private draft |  | Private draft |  |
+| PF-003 |  |  |  |  |  |  |  |  |  | Private draft |  | Private draft |  |
+
+The first version does not need to be perfect.
+
+The goal is to start seeing what evidence exists and what still needs to be created.
+
+---
+
+## Example Portfolio Entry
+
+A learner interested in data analysis might write:
+
+| Field | Example |
+|---|---|
+| Career direction | Data analyst |
+| Portfolio category | Technical evidence |
+| Item title | Cleaned and summarized public health dataset |
+| Evidence type | Project report |
+| Problem or context | A messy spreadsheet needed cleaning and summary before analysis |
+| Skills demonstrated | Data cleaning, missing-value checks, summary tables, written interpretation |
+| Artifact location | `portfolio/data-cleaning-public-health/` |
+| Audience | Mentor, hiring manager, peer reviewer |
+| Review status | Needs mentor review |
+| Improvement needed | Add clearer README and one visualization |
+| Visibility status | Private draft |
+| Next action | Request feedback and revise README |
+
+This entry shows that the portfolio item is connected to a direction, an audience, and a next action.
+
+That is more useful than simply saying:
+
+```text
+I have a data cleaning project.
+```
+
+---
+
+## How to Choose Portfolio Items
+
+A learner should not try to include everything.
+
+A portfolio becomes stronger when it is selective.
+
+Use these questions:
+
+```text
+Does this item support my current career direction?
+Does it show a skill I want others to recognize?
+Can I explain the problem, process, and outcome clearly?
+Is the item honest and appropriate to share?
+Can it be improved with feedback?
+Does it help me have a better career conversation?
+```
+
+If the answer is yes to most of these questions, the item may belong in the portfolio.
+
+If not, it may belong in a private learning folder instead.
+
+---
+
+## Private, Shared, and Public Portfolio Items
+
+Not every portfolio item should be public.
+
+Some items are private drafts.
+
+Some are useful for mentor review.
+
+Some are appropriate for applications.
+
+Some can be shared publicly.
+
+| Visibility status | Meaning |
+|---|---|
+| Private draft | Still being developed or not ready for review |
+| Shared with mentor | Ready for feedback from a trusted reviewer |
+| Portfolio-ready | Clear enough to use in applications or conversations |
+| Public | Appropriate to share openly online |
+| Archived | No longer relevant, but kept for learning history |
+
+This matters because public visibility without quality control can create confusion.
+
+A portfolio should grow through review and improvement, not just uploading files.
+
+---
+
+## Common Portfolio Mistakes
+
+Many learners make predictable portfolio mistakes.
+
+### Mistake 1: Collecting files without explaining them
+
+A folder full of files is not enough.
+
+The learner must explain the purpose, process, and value of the work.
+
+### Mistake 2: Showing only certificates
+
+Certificates can support a portfolio, but they do not replace evidence of applied work.
+
+### Mistake 3: Sharing unfinished work too early
+
+Drafts are useful, but they should be labeled honestly.
+
+### Mistake 4: Building projects unrelated to career direction
+
+Random projects may show effort, but focused projects create stronger career signals.
+
+### Mistake 5: Hiding all work until it is perfect
+
+Waiting for perfection can prevent growth.
+
+The better approach is staged visibility: private draft, mentor review, revised version, then portfolio-ready.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor or peer reviewer can help improve portfolio quality.
+
+Useful review questions include:
+
+```text
+What does this portfolio item show clearly?
+What skill or strength is visible here?
+What is unclear to an outside reader?
+What evidence is missing?
+What should be improved before this is shared more widely?
+Does this item support the learner's career direction?
+What kind of opportunity conversation could this item support?
+```
+
+The goal of review is not to judge the learner.
+
+The goal is to improve the evidence.
+
+---
+
+## Portfolio Building Checklist
+
+Before considering a portfolio item ready, check whether it has:
+
+- a clear title,
+- a specific problem or context,
+- a visible output,
+- a short explanation,
+- a list of skills demonstrated,
+- an identified audience,
+- an honest review status,
+- a next improvement action,
+- and a connection to career direction.
+
+If these pieces are present, the item is becoming career evidence.
+
+---
+
+## CDI Reflection
+
+Use these prompts to reflect on portfolio readiness.
+
+```text
+What have I done that others cannot currently see?
+Which project best represents my current direction?
+Which skill do I need stronger evidence for?
+What item should I improve before sharing it more widely?
+Who can review one portfolio item for me?
+What kind of opportunity conversation do I want my portfolio to support?
+```
+
+The portfolio is not only for others.
+
+It also helps the learner see their own growth more clearly.
+
 ---
 
 ## Looking Ahead
 
-The next chapter strengthens the portfolio through project-based proof.
+The next chapter focuses on **project-based proof**.
 
-A portfolio becomes more convincing when it contains projects that show the learner can define a problem, produce an output, explain decisions, respond to feedback, and connect the work to a real-world need.
+Portfolio building organizes evidence, but project-based proof creates the evidence itself.
+
+The next step is to design projects that are small enough to complete, relevant enough to matter, and clear enough to demonstrate real capability.

@@ -1,4 +1,4 @@
-# Skills Inventory {#03_skills_inventory}
+# Skills Inventory {#skills-inventory}
 
 :::cdi-message
 - **ID:** CAREER-003
@@ -7,36 +7,510 @@
 - **Theme:** Growth begins by making current capabilities visible and honest
 :::
 
-This chapter will develop the **Skills Inventory** layer of the Career System.
+Career growth becomes easier to guide when skills are visible.
 
----
-
-## Purpose
-
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
-
----
-
-## Core Questions
+Many learners say:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+I want to improve my skills.
 ```
+
+That is a useful starting point.
+
+But it is not specific enough.
+
+Which skills?
+
+At what level?
+
+For which career direction?
+
+Supported by what evidence?
+
+Reviewed by whom?
+
+Improved through what next action?
+
+A **skills inventory** turns a general desire to grow into a structured view of current capability.
+
+It helps a learner see what they already have, what needs strengthening, what can be shown publicly, and what should be developed next.
+
+In the Career System, the skills inventory comes after career readiness because readiness helps the learner understand their current starting point.
+
+The skills inventory then makes that starting point specific.
 
 ---
 
-## Expected Outputs
+## Why a Skills Inventory Matters
+
+Skills are often discussed too generally.
+
+A person may say they know data analysis, communication, leadership, project management, teaching, coding, customer service, research, or entrepreneurship.
+
+But career growth requires more precision.
+
+A useful skills inventory answers questions such as:
+
+- What skill do I have?
+- What type of skill is it?
+- How strong is it right now?
+- Where have I used it?
+- What evidence can I show?
+- How relevant is it to my current career direction?
+- What should I do next to improve or prove it?
+
+Without this clarity, learners may spend time learning randomly.
+
+They may keep collecting certificates without building usable evidence.
+
+They may underestimate skills they already have.
+
+They may also overestimate skills that have not yet been tested in real situations.
+
+The inventory makes growth more honest.
+
+It is not meant to judge the learner.
+
+It is meant to guide the learner.
+
+---
+
+## The Skills Inventory in the Career System
+
+The skills inventory connects readiness to intentional learning.
+
+```{mermaid}
+flowchart TD
+    A[Career Readiness] --> B[Skills Inventory]
+    B --> C[Skill Gaps]
+    B --> D[Existing Strengths]
+    B --> E[Evidence Opportunities]
+    C --> F[Learning Plan]
+    D --> G[Portfolio Direction]
+    E --> G
+    F --> H[Project-Based Practice]
+    G --> I[Professional Visibility]
+```
+
+This chapter is therefore not only about listing skills.
+
+It is about turning skills into a usable career map.
+
+The learner should finish this chapter with a clearer understanding of what they can currently do, what they can prove, what they need to practice, and what skills deserve priority.
+
+---
+
+## Skill Categories
+
+A strong career is rarely built from one type of skill only.
+
+Most professional growth requires a combination of technical, communication, thinking, interpersonal, and operating skills.
+
+For this guide, a learner can begin with five broad categories.
+
+### Technical Skills
+
+Technical skills are the practical abilities required to do specific work.
+
+Examples include:
+
+- data cleaning,
+- writing code,
+- using laboratory methods,
+- preparing reports,
+- managing spreadsheets,
+- designing workflows,
+- using domain-specific software,
+- or applying analytical methods.
+
+Technical skills are important because they allow a person to produce work.
+
+But technical skills alone are not enough.
+
+They must be supported by evidence, communication, and reliability.
+
+### Communication Skills
+
+Communication skills help a person explain ideas, results, needs, decisions, and value.
+
+Examples include:
+
+- writing clearly,
+- presenting findings,
+- explaining technical work to non-specialists,
+- asking good questions,
+- documenting work,
+- and giving updates.
+
+Many opportunities are lost not because a person lacks ability, but because they cannot explain their ability clearly.
+
+### Problem-Solving Skills
+
+Problem-solving skills help a person move through uncertainty.
+
+Examples include:
+
+- breaking a large task into smaller steps,
+- identifying causes of failure,
+- comparing options,
+- troubleshooting errors,
+- making decisions with incomplete information,
+- and learning from feedback.
+
+This category is especially important for learners moving into real-world work, where tasks are rarely perfectly prepared.
+
+### Professional Operating Skills
+
+Professional operating skills help a person work consistently.
+
+Examples include:
+
+- time planning,
+- task tracking,
+- meeting deadlines,
+- organizing files,
+- following instructions,
+- documenting decisions,
+- and reviewing work before submission.
+
+These skills are sometimes overlooked, but they strongly affect trust.
+
+A person who is technically capable but unreliable may struggle to grow.
+
+### Relationship and Collaboration Skills
+
+Career growth is rarely individual only.
+
+Relationship and collaboration skills include:
+
+- teamwork,
+- mentorship engagement,
+- respectful communication,
+- receiving feedback,
+- helping others,
+- networking,
+- and building professional trust.
+
+These skills help learners access guidance, referrals, collaboration, and long-term support.
+
+---
+
+## Current Skill Level
+
+A skills inventory should include a simple level for each skill.
+
+The goal is not perfection.
+
+The goal is honest self-placement.
+
+A useful five-level scale is:
+
+| Level | Label | Meaning |
+|---:|---|---|
+| 1 | Aware | I understand what this skill is, but I cannot use it independently yet. |
+| 2 | Practicing | I have started using the skill with guidance, examples, or repeated support. |
+| 3 | Functional | I can use the skill for basic real tasks with reasonable confidence. |
+| 4 | Reliable | I can use the skill consistently, explain my approach, and handle common problems. |
+| 5 | Leading | I can teach, review, improve, or guide others using this skill. |
+
+For beginners, many skills may be at Level 1 or Level 2.
+
+That is normal.
+
+For experienced professionals, the inventory may reveal that some skills are strong but invisible, outdated, or poorly documented.
+
+That is also useful.
+
+The inventory is not only for beginners.
+
+It is for anyone who wants to keep learning intentionally.
+
+---
+
+## Evidence Makes Skills Visible
+
+A skill becomes more career-useful when it is connected to evidence.
+
+Evidence may include:
+
+- a project,
+- a report,
+- a portfolio page,
+- a GitHub repository,
+- a presentation,
+- a certificate,
+- a recommendation,
+- a work sample,
+- a community contribution,
+- or a documented workflow.
+
+Evidence does not have to be perfect.
+
+It has to be visible enough to support a conversation.
+
+For example, instead of writing:
 
 ```text
-To be developed in the full chapter draft.
+I know data cleaning.
 ```
+
+A stronger inventory entry would say:
+
+```text
+Skill: Data cleaning with R
+Current level: 3
+Evidence: Cleaned a public dataset, handled missing values, summarized variables, and exported a tidy results table.
+Next action: Build a second project using a messier dataset and document each cleaning decision.
+```
+
+This turns a claim into a development path.
+
+---
+
+## Career Relevance
+
+Not every skill deserves equal attention at the same time.
+
+A learner may have many interests, but limited time.
+
+Career relevance helps prioritize.
+
+A skill may be:
+
+| Relevance | Meaning |
+|---|---|
+| High | Directly supports the learner's current career direction or target opportunity. |
+| Medium | Useful, but not the most urgent priority right now. |
+| Low | Interesting or valuable, but not central to the current growth path. |
+
+This does not mean low-relevance skills are worthless.
+
+It means they may not need immediate focus.
+
+A career system protects the learner from scattered effort.
+
+---
+
+## The Skills Inventory Template
+
+This chapter includes a simple template that helps the learner organize current skills.
+
+The template includes these fields:
+
+| Column | Purpose |
+|---|---|
+| `skill_id` | A unique identifier for each skill. |
+| `skill_name` | The specific skill being assessed. |
+| `skill_category` | The type of skill. |
+| `current_level` | Current level from 1 to 5. |
+| `evidence_type` | The kind of proof available. |
+| `evidence_description` | A short description of the evidence. |
+| `evidence_link` | A link to the work, if available. |
+| `confidence_score` | How confident the learner feels about using the skill. |
+| `career_relevance` | High, medium, or low relevance to the current direction. |
+| `next_action` | One practical step to improve or prove the skill. |
+| `reviewer_feedback` | Feedback from a mentor, peer, teacher, or supervisor. |
+
+The most important column is not the level.
+
+It is the **next action**.
+
+A skills inventory should lead to movement.
+
+---
+
+## Create the Template
+
+Learners who are comfortable using the command line can create the template with the supporting script.
+
+From the project root, run:
+
+```bash
+chmod +x scripts/bash/03-create-skills-inventory-template.sh
+bash scripts/bash/03-create-skills-inventory-template.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/skills-inventory-template.csv
+results/skills-inventory/example-skills-inventory.csv
+results/skills-inventory/README-skills-inventory.md
+```
+
+Learners who are not using the command line can copy the table structure into a spreadsheet, notebook, or document.
+
+The learning value comes from thinking carefully about the skills, not from the tool itself.
+
+---
+
+## Manual Template
+
+A learner can also use this simplified version manually.
+
+| Skill | Category | Level | Evidence | Relevance | Next Action |
+|---|---|---:|---|---|---|
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
+For a first attempt, ten skills are enough.
+
+A learner should not try to list every possible skill immediately.
+
+Start with the skills most relevant to the current career direction.
+
+---
+
+## Example Skills Inventory Entry
+
+A beginner might write:
+
+| Field | Example |
+|---|---|
+| Skill | Basic spreadsheet analysis |
+| Category | Technical skills |
+| Level | 2 |
+| Evidence | Cleaned a small table, calculated totals, and made a simple summary chart. |
+| Relevance | High |
+| Next Action | Create a one-page analysis using a real public dataset and explain the result. |
+
+An experienced professional might write:
+
+| Field | Example |
+|---|---|
+| Skill | Leading cross-functional project delivery |
+| Category | Relationship and collaboration skills |
+| Level | 4 |
+| Evidence | Coordinated a project across technical, operations, and management teams. |
+| Relevance | High |
+| Next Action | Convert the experience into a leadership case study with measurable outcomes. |
+
+The same template works across career stages.
+
+The depth of evidence changes.
+
+---
+
+## How to Review the Inventory
+
+After completing the inventory, the learner should look for patterns.
+
+Useful review questions include:
+
+- Which skills are strongest?
+- Which skills are most relevant to the current direction?
+- Which important skills have no evidence?
+- Which skills are supported only by certificates, but not by applied work?
+- Which skills could become portfolio projects?
+- Which skills need feedback from a mentor?
+- Which skills should be improved in the next 30 days?
+
+The inventory should produce decisions.
+
+It should not sit as a static list.
+
+---
+
+## Common Skills Inventory Mistakes
+
+A common mistake is writing skills too broadly.
+
+For example:
+
+```text
+Data science
+Leadership
+Communication
+Research
+```
+
+These are useful categories, but they are too broad for an action plan.
+
+A stronger version is more specific:
+
+```text
+Cleaning tabular data with R
+Writing a one-page project summary
+Facilitating weekly team check-ins
+Searching public datasets for a research question
+```
+
+Another mistake is listing skills without evidence.
+
+A third mistake is focusing only on technical skills and ignoring communication, reliability, and collaboration.
+
+A fourth mistake is rating every skill too highly.
+
+Honesty is more useful than appearance.
+
+A Level 2 skill with a clear next action is more valuable than a Level 5 claim with no evidence.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor, peer, teacher, or supervisor can help improve the inventory.
+
+Useful prompts include:
+
+```text
+Which skills look strongest based on the evidence provided?
+Which skills need clearer proof?
+Which skill should become the next project?
+Which skill is important for the learner's direction but missing from the list?
+Which level seems too high or too low?
+What next action would create the most career value?
+```
+
+The goal of review is not criticism.
+
+The goal is calibration.
+
+A learner should leave the review with a clearer sense of what to do next.
+
+---
+
+## Skills Inventory Checklist
+
+Before moving to the next chapter, the learner should be able to say:
+
+- I have listed my most relevant current skills.
+- I have grouped them into useful categories.
+- I have assigned honest current levels.
+- I have connected important skills to evidence.
+- I have identified skills that need stronger proof.
+- I have selected next actions for improvement.
+- I can see which skills matter most for my current career direction.
+
+If these statements are not yet true, the learner should revise the inventory before building a learning plan.
+
+---
+
+## CDI Reflection
+
+Career growth becomes more practical when skills are treated as evidence-producing capabilities.
+
+The question is not only:
+
+```text
+What do I know?
+```
+
+The stronger question is:
+
+```text
+What can I do, how can I show it, and what should I improve next?
+```
+
+That question moves the learner from self-description to professional development.
+
 ---
 
 ## Looking Ahead
 
-The next chapter uses the skills inventory to clarify career direction.
+The next chapter turns the skills inventory into career direction.
 
-A skills list becomes more useful when it is connected to a possible direction, role family, field, or opportunity pathway. Direction helps the learner decide which skills to deepen, which projects to build, and which opportunities to pursue first.
+Once a learner can see their current skills, strengths, gaps, and evidence, the next step is to decide where those capabilities should be pointed.
+
+Career direction does not need to be perfect, but it should be clear enough to guide learning, project choices, mentorship conversations, and opportunity decisions.

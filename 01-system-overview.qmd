@@ -15,7 +15,21 @@ A person builds skills, applies them, produces evidence, communicates value, rec
 
 When these parts are disconnected, career growth becomes frustrating.
 
-When they are connected, growth becomes more intentional and sustainable.
+A learner may study hard but still feel invisible.
+
+A graduate may have certificates but no proof of applied ability.
+
+A professional may be competent but unable to explain their value.
+
+A job seeker may apply repeatedly without knowing which part of the system is weak.
+
+A highly experienced person may have years of contribution but no clear growth architecture for the next stage.
+
+The **Career System** helps bring these pieces together.
+
+It does not promise instant success.
+
+It gives learners and professionals a practical way to understand where they are, what needs to improve, and how each effort connects to sustainable growth.
 
 ---
 
@@ -23,20 +37,14 @@ When they are connected, growth becomes more intentional and sustainable.
 
 The Career System can be understood as a flow.
 
-```text
-Skills
-  ↓
-Practice
-  ↓
-Evidence
-  ↓
-Visibility
-  ↓
-Opportunity
-  ↓
-Performance
-  ↓
-Sustainable Growth
+```{mermaid}
+flowchart TD
+    A[Skills] --> B[Practice]
+    B --> C[Evidence]
+    C --> D[Visibility]
+    D --> E[Opportunity]
+    E --> F[Performance]
+    F --> G[Sustainable Growth]
 ```
 
 Each stage depends on the stage before it.
@@ -53,9 +61,21 @@ Opportunities require performance.
 
 Performance creates trust, growth, and future options.
 
+This is why career growth cannot be reduced to one activity.
+
+A CV matters, but a CV is stronger when it points to real evidence.
+
+A portfolio matters, but a portfolio is stronger when it is connected to a clear direction.
+
+Networking matters, but networking is stronger when the learner can communicate what they are building and where they are going.
+
+Learning matters, but learning is stronger when it becomes practice, proof, and contribution.
+
 ---
 
 ## Career System Architecture
+
+The full architecture includes direction, skills, learning, evidence, communication, mentorship, opportunity, performance, and resilience.
 
 ```{mermaid}
 flowchart TD
@@ -85,7 +105,9 @@ flowchart TD
     H --> K
     I --> B
     I --> D
+    I --> F
     I --> G
+    I --> L
     J --> K
     K --> L
     L --> M
@@ -95,15 +117,33 @@ flowchart TD
 
 This architecture shows that career growth is not only about job applications.
 
-It begins earlier, with direction and skill-building.
+It begins earlier, with personal context, direction, and skill-building.
 
-It continues after opportunity is gained, through performance, resilience, and long-term growth.
+It continues after opportunity is gained, through performance, resilience, contribution, and long-term professional growth.
+
+The arrows are important.
+
+They show that the system is connected.
+
+A weak direction can make the learning plan scattered.
+
+A weak skills inventory can hide important gaps.
+
+A weak evidence layer can make a capable learner look inexperienced.
+
+A weak communication layer can prevent opportunities from seeing the learner clearly.
+
+A weak resilience layer can make growth depend too heavily on one employer, one role, or one short-term opportunity.
 
 ---
 
 ## The Career System Layers
 
 The Career System has six major layers.
+
+These layers help learners diagnose where they are strong and where they need support.
+
+They also help mentors and educators structure career conversations without reducing the learner to a single metric such as grades, certificates, or job status.
 
 ### 1. Direction Layer
 
@@ -117,7 +157,15 @@ Without direction, learners may collect random skills without building a coheren
 
 Direction does not have to be perfect.
 
-But it must be clear enough to guide action.
+A beginner may only know that they are interested in technology, health, data, design, agriculture, entrepreneurship, education, or community work.
+
+That is enough to begin.
+
+The goal is not to lock the learner into one path forever.
+
+The goal is to create enough direction for useful action.
+
+A good direction statement helps the learner decide what to learn, what to practice, what to document, who to talk to, and what opportunities to explore.
 
 ### 2. Capability Layer
 
@@ -127,7 +175,17 @@ This layer answers:
 What can I do, and what do I still need to learn?
 ```
 
-It includes technical skills, communication skills, problem-solving ability, digital fluency, and professional habits.
+Capability includes more than technical skill.
+
+It includes communication, problem-solving, reliability, digital fluency, professional habits, teamwork, judgment, and the ability to learn from feedback.
+
+For a beginner, capability may start with basic computer use, writing clearly, completing small tasks, and explaining what they learned.
+
+For an early-career professional, capability may include using tools, contributing to projects, managing deadlines, and collaborating with others.
+
+For an experienced professional, capability may include leadership, mentoring, strategy, systems thinking, decision-making, and cross-functional communication.
+
+The Career System treats capability as something that can be mapped, practiced, and improved.
 
 ### 3. Evidence Layer
 
@@ -137,7 +195,23 @@ This layer answers:
 How can others see what I can do?
 ```
 
-Evidence may include projects, case studies, GitHub repositories, writing, presentations, reports, certificates, work samples, or community contributions.
+Evidence may include projects, case studies, GitHub repositories, writing, presentations, reports, certificates, work samples, community contributions, volunteer work, or workplace achievements.
+
+Evidence matters because many opportunities are decided by trust.
+
+People want to know not only what a learner claims, but what the learner has done, built, explained, improved, or contributed.
+
+For beginners, evidence can be small.
+
+A clean spreadsheet, a short written reflection, a simple website, a project summary, or a before-and-after improvement can all be evidence.
+
+For professionals, evidence may include case studies, measurable outcomes, process improvements, training materials, leadership contributions, published work, or strategic initiatives.
+
+The key question is:
+
+```text
+Can someone understand my capability from something visible?
+```
 
 ### 4. Visibility Layer
 
@@ -147,17 +221,35 @@ This layer answers:
 Who knows what I can do?
 ```
 
-Visibility includes professional profiles, networking, mentorship, public communication, and participation in relevant communities.
+Visibility includes professional profiles, communication, networking, mentorship, public writing, presentations, community participation, and conversations with people who can give feedback or open doors.
+
+Visibility is not the same as showing off.
+
+In the CDI Career System, visibility means making useful work understandable to the right people.
+
+A learner does not need to be famous.
+
+A learner needs to be findable, understandable, and credible within the spaces that matter for their growth.
+
+Visibility can begin with a simple professional profile, a clear project description, a thoughtful message to a mentor, or a short explanation of a completed learning task.
 
 ### 5. Opportunity Layer
 
 This layer answers:
 
 ```text
-How do I access and evaluate opportunities?
+How do I access, evaluate, and respond to opportunities?
 ```
 
-This includes job readiness, applications, interviews, referrals, freelance work, internships, collaborations, and entrepreneurial options.
+Opportunities include jobs, internships, scholarships, freelance work, collaborations, mentorship openings, community projects, research roles, internal promotions, leadership responsibilities, and entrepreneurial pathways.
+
+Opportunity access is not only about applying.
+
+It also involves preparation.
+
+A learner must understand what the opportunity requires, whether their evidence is ready, how to communicate fit, how to prepare for conversations, and how to learn from rejection or feedback.
+
+This layer helps learners move from passive waiting to active opportunity design.
 
 ### 6. Sustainability Layer
 
@@ -167,7 +259,15 @@ This layer answers:
 How do I keep growing without burning out or depending on one path?
 ```
 
-It includes career resilience, financial awareness, diversification, learning systems, and long-term professional identity.
+Sustainable growth includes resilience, learning habits, financial awareness, adaptability, reputation, health, relationships, and long-term professional identity.
+
+A career system should not only help someone get the next role.
+
+It should help someone keep growing after they get it.
+
+This matters for beginners who are building their first professional identity.
+
+It also matters for experienced professionals who may face market changes, layoffs, burnout, leadership transitions, technology shifts, family responsibilities, or the need to redesign their path.
 
 ---
 
@@ -183,6 +283,10 @@ A graduate may have certificates but lack applied projects.
 
 A strong worker may depend too heavily on one employer.
 
+A person may have talent but no mentorship.
+
+A person may have ambition but no plan.
+
 The Career System helps close these gaps.
 
 It turns skill into proof.
@@ -192,6 +296,43 @@ It turns proof into visibility.
 It turns visibility into opportunity.
 
 It turns opportunity into sustainable growth.
+
+This is why the guide is not organized around motivation alone.
+
+Motivation is helpful, but it changes.
+
+A system gives the learner something to return to when motivation is low, when feedback is difficult, when opportunity is delayed, or when the next step is unclear.
+
+---
+
+## Career Growth Across Different Stages
+
+The same system can support different kinds of learners.
+
+| Career stage | Main need | Career System focus |
+|---|---|---|
+| Beginner | Understand what career growth requires | Readiness, direction, basic skills, habits |
+| Student or trainee | Convert learning into proof | Skills inventory, learning plan, practice projects |
+| Early-career professional | Become visible and opportunity-ready | Portfolio, profile, communication, mentorship |
+| Career changer | Translate past experience into a new direction | Direction, evidence redesign, networking, interviews |
+| Experienced professional | Grow beyond current role | Resilience, leadership evidence, opportunity design |
+| Mentor or educator | Support others systematically | Review tools, feedback loops, growth conversations |
+
+This broad usefulness is intentional.
+
+A beginner and a highly experienced professional may not need the same examples, but they still benefit from the same architecture.
+
+Both need direction.
+
+Both need evidence.
+
+Both need communication.
+
+Both need trusted relationships.
+
+Both need adaptability.
+
+Both need a way to continue learning.
 
 ---
 
@@ -223,6 +364,10 @@ Mentorship does not replace personal effort.
 
 It improves the quality of effort.
 
+The learner still has to practice, document, communicate, and act.
+
+The mentor helps the learner see more clearly, choose more wisely, and improve more intentionally.
+
 ---
 
 ## Relationship to JIONGEZE and CDI
@@ -239,6 +384,10 @@ JIONGEZE can nurture early growth.
 
 CDI Career System can structure professional advancement.
 
+A learner may begin with JIONGEZE through basic confidence, digital skills, communication practice, and guided learning.
+
+As the learner matures, the Career System can help them build a portfolio, prepare for opportunities, communicate professionally, and design a sustainable growth path.
+
 ---
 
 ## Career System Output
@@ -250,11 +399,17 @@ career-direction-statement.txt
 skills-inventory.tsv
 learning-plan.tsv
 portfolio-project-plan.tsv
-professional-profile-checklist.tsv
+project-based-proof-map.tsv
+communication-and-visibility-plan.tsv
 networking-and-mentorship-map.tsv
 job-readiness-checklist.tsv
+cv-linkedin-profile-review.tsv
 interview-preparation-notes.md
+workplace-performance-log.tsv
 career-resilience-plan.md
+personal-operating-system.tsv
+opportunity-design-map.tsv
+career-system-roadmap.tsv
 ```
 
 These outputs are not just documents.
@@ -262,6 +417,67 @@ These outputs are not just documents.
 They are career operating tools.
 
 They help a learner move from intention to action.
+
+They also help mentors, educators, and program leaders see where support is needed.
+
+---
+
+## How to Use the System
+
+A learner can use the Career System in three ways.
+
+First, they can use it sequentially.
+
+This means starting with readiness and moving chapter by chapter through the guide.
+
+This is best for beginners, students, and structured training programs.
+
+Second, they can use it diagnostically.
+
+This means identifying the weakest part of the current career system and focusing there first.
+
+This is useful for professionals who already have some skills or experience but feel blocked.
+
+Third, they can use it as a review cycle.
+
+This means returning to the system every few months to update direction, skills, evidence, visibility, and opportunity plans.
+
+This is useful for long-term professional growth.
+
+```{mermaid}
+flowchart TD
+    A[Assess Current Position] --> B[Choose Growth Focus]
+    B --> C[Build or Improve Evidence]
+    C --> D[Communicate Value]
+    D --> E[Seek Feedback and Opportunity]
+    E --> F[Reflect and Adjust]
+    F --> A
+```
+
+The system is not something a learner completes once and forgets.
+
+It is a repeatable growth cycle.
+
+---
+
+## CDI Reflection
+
+Use the following questions to reflect on the Career System as a whole.
+
+1. Which part of the system is strongest for me right now?
+2. Which part of the system is weakest?
+3. Do I have skills that are not yet visible through evidence?
+4. Do I have evidence that I have not communicated clearly?
+5. Do I have people who can give feedback on my growth?
+6. Am I depending too much on one opportunity path?
+7. What would make my next three months of career growth more intentional?
+
+These questions are not for judgment.
+
+They are for diagnosis.
+
+A career system improves when the learner can see it clearly.
+
 ---
 
 ## Looking Ahead

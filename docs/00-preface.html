@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -287,9 +326,19 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#why-this-guide-exists" id="toc-why-this-guide-exists" class="nav-link active" data-scroll-target="#why-this-guide-exists">Why This Guide Exists</a></li>
   <li><a href="#the-cdi-career-perspective" id="toc-the-cdi-career-perspective" class="nav-link" data-scroll-target="#the-cdi-career-perspective">The CDI Career Perspective</a></li>
+  <li><a href="#who-this-guide-is-for" id="toc-who-this-guide-is-for" class="nav-link" data-scroll-target="#who-this-guide-is-for">Who This Guide Is For</a></li>
+  <li><a href="#what-this-guide-is-not" id="toc-what-this-guide-is-not" class="nav-link" data-scroll-target="#what-this-guide-is-not">What This Guide Is Not</a></li>
+  <li><a href="#the-career-system-architecture" id="toc-the-career-system-architecture" class="nav-link" data-scroll-target="#the-career-system-architecture">The Career System Architecture</a></li>
+  <li><a href="#the-central-career-growth-loop" id="toc-the-central-career-growth-loop" class="nav-link" data-scroll-target="#the-central-career-growth-loop">The Central Career Growth Loop</a></li>
   <li><a href="#how-to-use-this-guide" id="toc-how-to-use-this-guide" class="nav-link" data-scroll-target="#how-to-use-this-guide">How to Use This Guide</a></li>
+  <li><a href="#guidance-before-tools" id="toc-guidance-before-tools" class="nav-link" data-scroll-target="#guidance-before-tools">Guidance Before Tools</a></li>
   <li><a href="#relationship-to-other-cdi-systems" id="toc-relationship-to-other-cdi-systems" class="nav-link" data-scroll-target="#relationship-to-other-cdi-systems">Relationship to Other CDI Systems</a></li>
-  <li><a href="#the-career-system-helps-learners-convert-that-capability-into-professional-growth." id="toc-the-career-system-helps-learners-convert-that-capability-into-professional-growth." class="nav-link" data-scroll-target="#the-career-system-helps-learners-convert-that-capability-into-professional-growth.">The Career System helps learners convert that capability into professional growth.</a></li>
+  <li><a href="#what-learners-should-build-while-reading" id="toc-what-learners-should-build-while-reading" class="nav-link" data-scroll-target="#what-learners-should-build-while-reading">What Learners Should Build While Reading</a></li>
+  <li><a href="#a-note-for-beginners" id="toc-a-note-for-beginners" class="nav-link" data-scroll-target="#a-note-for-beginners">A Note for Beginners</a></li>
+  <li><a href="#a-note-for-experienced-professionals" id="toc-a-note-for-experienced-professionals" class="nav-link" data-scroll-target="#a-note-for-experienced-professionals">A Note for Experienced Professionals</a></li>
+  <li><a href="#a-note-for-mentors-and-educators" id="toc-a-note-for-mentors-and-educators" class="nav-link" data-scroll-target="#a-note-for-mentors-and-educators">A Note for Mentors and Educators</a></li>
+  <li><a href="#how-the-chapters-work-together" id="toc-how-the-chapters-work-together" class="nav-link" data-scroll-target="#how-the-chapters-work-together">How the Chapters Work Together</a></li>
+  <li><a href="#how-to-read-this-guide" id="toc-how-to-read-this-guide" class="nav-link" data-scroll-target="#how-to-read-this-guide">How to Read This Guide</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -376,6 +425,130 @@ ul.task-list li input[type="checkbox"] {
 <p>It is about becoming the kind of professional who can keep learning, keep adapting, keep contributing, and keep creating value.</p>
 <hr>
 </section>
+<section id="who-this-guide-is-for" class="level2">
+<h2 class="anchored" data-anchor-id="who-this-guide-is-for">Who This Guide Is For</h2>
+<p>This guide is for beginners who are trying to understand where to start.</p>
+<p>It is for early-career professionals who want to move from potential to visible proof.</p>
+<p>It is for experienced professionals who want to reposition, deepen, diversify, or communicate their value more clearly.</p>
+<p>It is for mentors, educators, and training programs that want a practical way to structure career development conversations.</p>
+<p>The guide does not assume that every learner has the same starting point.</p>
+<p>Some learners may be choosing a direction for the first time.</p>
+<p>Some may already have technical skills but lack evidence.</p>
+<p>Some may have experience but need a stronger professional story.</p>
+<p>Some may be rebuilding after a setback, transition, relocation, layoff, or career pause.</p>
+<p>The Career System is designed to support all of these stages.</p>
+<hr>
+</section>
+<section id="what-this-guide-is-not" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-guide-is-not">What This Guide Is Not</h2>
+<p>This guide is not a promise of instant employment.</p>
+<p>It is not a shortcut around effort.</p>
+<p>It is not only a CV-writing guide.</p>
+<p>It is not only a job application guide.</p>
+<p>It is not only for people in data, technology, or science.</p>
+<p>Instead, it is a structured professional growth guide.</p>
+<p>It helps learners build a system that makes their skills clearer, their evidence stronger, their communication more focused, and their opportunities more sustainable.</p>
+<hr>
+</section>
+<section id="the-career-system-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-career-system-architecture">The Career System Architecture</h2>
+<p>The Career System connects the major parts of professional growth into one pathway.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    A[Career Readiness] --&gt; B[Skills Inventory]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Career Direction]</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Learning Plan]</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Portfolio Building]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Project-Based Proof]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Communication and Visibility]</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Networking and Mentorship]</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    H --&gt; I[Job Market Readiness]</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    I --&gt; J[CV, LinkedIn, and Profile]</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    J --&gt; K[Interviews and Career Conversations]</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    K --&gt; L[Workplace Performance]</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    L --&gt; M[Career Resilience and Diversification]</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    M --&gt; N[Personal Operating System]</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    N --&gt; O[Income Growth and Opportunity Design]</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    O --&gt; P[Sustainable Professional Growth]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Career Readiness] --&gt; B[Skills Inventory]
+    B --&gt; C[Career Direction]
+    C --&gt; D[Learning Plan]
+    D --&gt; E[Portfolio Building]
+    E --&gt; F[Project-Based Proof]
+    F --&gt; G[Communication and Visibility]
+    G --&gt; H[Networking and Mentorship]
+    H --&gt; I[Job Market Readiness]
+    I --&gt; J[CV, LinkedIn, and Profile]
+    J --&gt; K[Interviews and Career Conversations]
+    K --&gt; L[Workplace Performance]
+    L --&gt; M[Career Resilience and Diversification]
+    M --&gt; N[Personal Operating System]
+    N --&gt; O[Income Growth and Opportunity Design]
+    O --&gt; P[Sustainable Professional Growth]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>The point of this system is not to complete a chapter once and move on forever.</p>
+<p>The point is to create a repeatable growth loop.</p>
+<p>As learners gain new skills, they update their evidence.</p>
+<p>As they complete projects, they improve their communication.</p>
+<p>As they meet mentors, they refine their direction.</p>
+<p>As they enter workplaces, they learn how to perform, adapt, and create new opportunities.</p>
+<hr>
+</section>
+<section id="the-central-career-growth-loop" class="level2">
+<h2 class="anchored" data-anchor-id="the-central-career-growth-loop">The Central Career Growth Loop</h2>
+<p>At the center of this guide is a simple loop.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    A[Learn] --&gt; B[Build]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Document]</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Communicate]</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Connect]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Apply]</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Reflect]</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; A</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Learn] --&gt; B[Build]
+    B --&gt; C[Document]
+    C --&gt; D[Communicate]
+    D --&gt; E[Connect]
+    E --&gt; F[Apply]
+    F --&gt; G[Reflect]
+    G --&gt; A
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>Learners do not grow only by consuming information.</p>
+<p>They grow by turning learning into visible work.</p>
+<p>They grow by documenting that work clearly.</p>
+<p>They grow by explaining what they can do.</p>
+<p>They grow by connecting with people who can advise, challenge, refer, or collaborate.</p>
+<p>They grow by applying their skills in real contexts.</p>
+<p>They grow by reflecting and improving the system.</p>
+<hr>
+</section>
 <section id="how-to-use-this-guide" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-use-this-guide">How to Use This Guide</h2>
 <p>This guide can be used in four ways.</p>
@@ -388,14 +561,120 @@ ul.task-list li input[type="checkbox"] {
 <p>The goal is not only to understand career growth, but to practice it.</p>
 <hr>
 </section>
+<section id="guidance-before-tools" class="level2">
+<h2 class="anchored" data-anchor-id="guidance-before-tools">Guidance Before Tools</h2>
+<p>Some chapters include optional scripts that generate templates or example files.</p>
+<p>These scripts are useful for people using the repository as a reproducible CDI project.</p>
+<p>However, the scripts are not the main learning experience.</p>
+<p>Learners should be able to benefit from each chapter even without using the command line.</p>
+<p>For that reason, every chapter should provide:</p>
+<ul>
+<li>clear explanation,</li>
+<li>practical examples,</li>
+<li>manual template guidance,</li>
+<li>reflection prompts,</li>
+<li>and a checklist for action.</li>
+</ul>
+<p>The technical files support the learning.</p>
+<p>They do not replace it.</p>
+<hr>
+</section>
 <section id="relationship-to-other-cdi-systems" class="level2">
 <h2 class="anchored" data-anchor-id="relationship-to-other-cdi-systems">Relationship to Other CDI Systems</h2>
 <p>The Career System sits across the CDI ecosystem.</p>
 <p>It supports learners who are building expertise in areas such as Data Science Foundations, Applied Data Science, Omics Systems, Clinical &amp; Medical Data Systems, AI Systems, and other technical pathways.</p>
 <p>Technical systems help learners build capability.</p>
+<p>The Career System helps learners convert that capability into professional growth.</p>
+<p>A learner may build a data analysis project, a clinical data workflow, an omics interpretation report, or an AI-supported decision system.</p>
+<p>The Career System asks a second question:</p>
+<p>How does this work become visible, explainable, credible, and useful for future opportunity?</p>
+<hr>
 </section>
-<section id="the-career-system-helps-learners-convert-that-capability-into-professional-growth." class="level2">
-<h2 class="anchored" data-anchor-id="the-career-system-helps-learners-convert-that-capability-into-professional-growth.">The Career System helps learners convert that capability into professional growth.</h2>
+<section id="what-learners-should-build-while-reading" class="level2">
+<h2 class="anchored" data-anchor-id="what-learners-should-build-while-reading">What Learners Should Build While Reading</h2>
+<p>By the end of this guide, a learner should have more than notes.</p>
+<p>They should have a practical career evidence package.</p>
+<p>That package may include:</p>
+<ul>
+<li>a career readiness self-assessment,</li>
+<li>a skills inventory,</li>
+<li>a career direction map,</li>
+<li>a learning plan,</li>
+<li>a portfolio evidence map,</li>
+<li>a project-based proof table,</li>
+<li>a communication and visibility plan,</li>
+<li>a mentorship and networking map,</li>
+<li>a job-market readiness checklist,</li>
+<li>a CV and profile improvement plan,</li>
+<li>interview preparation notes,</li>
+<li>a workplace performance log,</li>
+<li>a resilience and diversification map,</li>
+<li>a personal operating system,</li>
+<li>and an opportunity design roadmap.</li>
+</ul>
+<p>These outputs help learners move from general ambition to organized professional growth.</p>
+<hr>
+</section>
+<section id="a-note-for-beginners" class="level2">
+<h2 class="anchored" data-anchor-id="a-note-for-beginners">A Note for Beginners</h2>
+<p>Beginners do not need to know everything before they begin.</p>
+<p>A career system starts with honest awareness.</p>
+<p>The first goal is not to appear advanced.</p>
+<p>The first goal is to know where you are, what you are building, what evidence you have, and what next step is realistic.</p>
+<p>Small visible progress matters.</p>
+<p>A clear one-page project, a thoughtful reflection, a simple skills inventory, or a well-written learning plan can become the beginning of a stronger professional path.</p>
+<hr>
+</section>
+<section id="a-note-for-experienced-professionals" class="level2">
+<h2 class="anchored" data-anchor-id="a-note-for-experienced-professionals">A Note for Experienced Professionals</h2>
+<p>Experienced professionals also need career systems.</p>
+<p>Experience alone does not always communicate value clearly.</p>
+<p>A person may have years of work behind them but still need to reposition, update skills, build visibility, prepare for leadership, diversify income, or recover from career disruption.</p>
+<p>For experienced professionals, this guide can be used as a career audit.</p>
+<p>It helps identify which parts of the professional growth system are strong, which parts are outdated, and which parts need renewed attention.</p>
+<hr>
+</section>
+<section id="a-note-for-mentors-and-educators" class="level2">
+<h2 class="anchored" data-anchor-id="a-note-for-mentors-and-educators">A Note for Mentors and Educators</h2>
+<p>Mentors and educators can use this guide as a conversation structure.</p>
+<p>Instead of only asking learners what job they want, mentors can ask:</p>
+<ul>
+<li>What skills are already visible?</li>
+<li>What evidence supports those skills?</li>
+<li>What direction is realistic now?</li>
+<li>What project can prove readiness?</li>
+<li>Who needs to see the learner’s work?</li>
+<li>What feedback would improve the learner’s next step?</li>
+<li>What habits will help the learner sustain progress?</li>
+</ul>
+<p>This makes mentorship more practical and less dependent on vague encouragement.</p>
+<hr>
+</section>
+<section id="how-the-chapters-work-together" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-chapters-work-together">How the Chapters Work Together</h2>
+<p>The chapters are arranged as a professional growth sequence.</p>
+<p>Early chapters help learners understand themselves and their direction.</p>
+<p>Middle chapters help them build evidence, visibility, and opportunity readiness.</p>
+<p>Later chapters focus on workplace performance, resilience, personal systems, and long-term opportunity design.</p>
+<p>The sequence matters, but it is also flexible.</p>
+<p>A beginner may move through the guide step by step.</p>
+<p>An experienced professional may jump to the chapters most relevant to their current transition.</p>
+<p>A mentor may use one chapter at a time during coaching sessions.</p>
+<p>A training program may use selected chapters as professional development modules.</p>
+<hr>
+</section>
+<section id="how-to-read-this-guide" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-read-this-guide">How to Read This Guide</h2>
+<p>Read actively.</p>
+<p>Do not only highlight useful sentences.</p>
+<p>Use the prompts.</p>
+<p>Fill the templates.</p>
+<p>Write examples.</p>
+<p>Ask for feedback.</p>
+<p>Return to earlier chapters when your direction changes.</p>
+<p>Career growth is not a single decision.</p>
+<p>It is a system of repeated choices, visible work, and thoughtful adjustment.</p>
+<hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>

@@ -7,36 +7,398 @@
 - **Theme:** Professional growth depends on habits, review cycles, and self-management
 :::
 
-This chapter will develop the **Personal Operating System** layer of the Career System.
+A career does not grow only during big moments.
+
+It grows through repeated choices.
+
+What a person learns this week.
+
+What they practice.
+
+What they document.
+
+Who they ask for feedback.
+
+What they improve.
+
+What they stop doing.
+
+A **Personal Operating System** is the simple structure a learner or professional uses to manage these repeated choices.
+
+It is not a complicated productivity method.
+
+It is a practical way to turn career intention into steady action.
+
+Without a personal operating system, career growth often depends on mood, urgency, or external pressure.
+
+With a personal operating system, growth becomes easier to review, adjust, and sustain.
 
 ---
 
-## Purpose
+## Why a Personal Operating System Matters
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+Many people want to grow but do not have a system for growth.
 
----
+They may have goals, but no weekly review.
 
-## Core Questions
+They may have skills, but no practice rhythm.
+
+They may have projects, but no completion routine.
+
+They may receive feedback, but never convert it into action.
+
+They may feel busy, but not know whether their effort is moving them toward a better career position.
+
+A personal operating system solves this problem by creating a repeatable structure for professional development.
+
+It helps a learner answer:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+What am I working toward?
+What should I do this week?
+What evidence should I produce?
+What feedback do I need?
+What should I review and improve?
+```
+
+Career growth becomes more sustainable when a person can manage their direction, time, energy, learning, relationships, and evidence.
+
+---
+
+## The Personal Operating System in the Career System
+
+The Personal Operating System connects the earlier chapters into a routine.
+
+```{mermaid}
+flowchart LR
+    A[Career Direction] --> B[Learning Priorities]
+    B --> C[Weekly Actions]
+    C --> D[Practice and Projects]
+    D --> E[Portfolio Evidence]
+    E --> F[Communication and Visibility]
+    F --> G[Feedback and Mentorship]
+    G --> H[Review and Adjustment]
+    H --> B
+    H --> I[Sustainable Growth]
+```
+
+This layer does not replace career direction, skills inventory, portfolio building, networking, or job readiness.
+
+It keeps them active.
+
+A person can have a good career plan and still fail to act on it.
+
+A personal operating system makes the plan visible in everyday behavior.
+
+---
+
+## A Personal Operating System Is Not a Perfect Routine
+
+A personal operating system should not become another source of pressure.
+
+It is not about controlling every hour.
+
+It is not about copying someone else’s productivity style.
+
+It is not about pretending that life, family, health, work, finances, and unexpected events never interrupt plans.
+
+A useful personal operating system is simple enough to survive real life.
+
+It should help a learner recover after interruptions.
+
+It should help a professional notice drift early.
+
+It should help a mentor see where support is needed.
+
+The goal is not perfection.
+
+The goal is continuity.
+
+---
+
+## The Five Parts of a Personal Operating System
+
+A practical career operating system has five parts.
+
+### 1. Direction Review
+
+The learner regularly checks whether their current activities still connect to their career direction.
+
+The question is:
+
+```text
+Are my actions still aligned with where I am trying to grow?
+```
+
+This protects the learner from scattered effort.
+
+### 2. Weekly Priorities
+
+The learner chooses a small number of priorities for the week.
+
+These priorities should be realistic.
+
+For a beginner, one meaningful learning task and one small practice output may be enough.
+
+For a professional, priorities may include performance evidence, visibility, relationship-building, and strategic learning.
+
+### 3. Evidence Capture
+
+The learner records what they produced, improved, completed, or learned.
+
+This may include project notes, screenshots, reports, GitHub commits, presentations, reflections, client feedback, supervisor feedback, or portfolio updates.
+
+Evidence capture is important because career progress is easy to forget if it is not documented.
+
+### 4. Feedback Loop
+
+The learner identifies where feedback is needed.
+
+Feedback may come from a mentor, peer, supervisor, instructor, community member, client, or professional contact.
+
+The operating system should help the learner ask for feedback before mistakes become habits.
+
+### 5. Recovery and Adjustment
+
+The learner reviews what did not happen and adjusts without shame.
+
+A missed plan is not failure.
+
+It is information.
+
+The question becomes:
+
+```text
+What needs to change so the next cycle is more realistic?
 ```
 
 ---
 
-## Expected Outputs
+## Personal Operating Systems Across Career Stages
+
+Different learners and professionals need different operating systems.
+
+A beginner may need a simple weekly learning rhythm.
+
+An early-career professional may need a system for documenting workplace evidence and asking for feedback.
+
+A career changer may need a system that balances current responsibilities with a transition plan.
+
+A technical professional may need a system for keeping skills current while building visibility.
+
+A mentor or leader may need a system for contribution, sponsorship, and long-term opportunity design.
+
+The system should match the person’s stage.
+
+It should also change as the person grows.
+
+---
+
+## The Weekly Career Review
+
+The weekly review is the heart of the Personal Operating System.
+
+It does not need to be long.
+
+A 20-minute review can be enough.
+
+The review can ask:
 
 ```text
-To be developed in the full chapter draft.
+What did I learn this week?
+What did I produce?
+What evidence did I save?
+What conversation or feedback helped me?
+What was difficult?
+What should I focus on next week?
 ```
+
+This turns career growth from a vague hope into a visible rhythm.
+
+---
+
+## The Personal Operating System Template
+
+This chapter includes a template for organizing a learner’s career routine.
+
+The template should capture:
+
+```text
+review_period
+career_direction
+weekly_priority
+planned_action
+evidence_to_capture
+feedback_needed
+support_person
+completion_status
+reflection
+next_adjustment
+```
+
+The exact format is less important than the habit of review.
+
+A learner may use a spreadsheet, notebook, markdown file, task manager, or printed worksheet.
+
+The important thing is to keep the system visible and simple.
+
+---
+
+## Create the Template
+
+Learners who are comfortable using the command line can create a reusable template with:
+
+```bash
+bash scripts/bash/15-create-personal-operating-system-template.sh
+```
+
+The script creates a starter worksheet and example output.
+
+Learners who are not using the command line can copy the manual template below into a spreadsheet, notebook, or document.
+
+---
+
+## Manual Template
+
+```text
+review_period,career_direction,weekly_priority,planned_action,evidence_to_capture,feedback_needed,support_person,completion_status,reflection,next_adjustment
+Week 1,Data analyst pathway,Improve spreadsheet analysis,Complete one cleaned data summary,Before-and-after spreadsheet plus short notes,Ask mentor if summary is clear,Peer mentor,In progress,Need smaller task next time,Focus on one chart and one explanation
+```
+
+This template is intentionally simple.
+
+A learner should not spend more time maintaining the system than doing the work.
+
+---
+
+## Example Weekly Review
+
+A learner might complete the review like this:
+
+```text
+Review period: Week 3
+Career direction: Entry-level data analyst
+Weekly priority: Build confidence explaining a small dataset
+Planned action: Clean one public dataset and write a short summary
+Evidence captured: CSV file, summary table, one chart, short interpretation
+Feedback needed: Is the explanation clear to a non-technical reader?
+Support person: Mentor or peer reviewer
+Completion status: Completed
+Reflection: The chart was easier than explaining the result
+Next adjustment: Practice writing interpretation before adding more analysis
+```
+
+This review shows progress.
+
+It also shows the next learning need.
+
+That is the purpose of the system.
+
+---
+
+## Managing Energy and Capacity
+
+Career growth is not only about ambition.
+
+It also depends on energy and capacity.
+
+A learner who is working, studying, caring for family, or managing limited resources may need a smaller rhythm.
+
+A good personal operating system respects reality.
+
+It asks:
+
+```text
+What can I do consistently at this stage of life?
+```
+
+Small, repeated progress often beats large plans that cannot be maintained.
+
+Sustainable growth requires attention to rest, focus, health, finances, relationships, and motivation.
+
+The system should support the person, not exhaust them.
+
+---
+
+## Common Personal Operating System Mistakes
+
+One mistake is making the system too complicated.
+
+If the system has too many fields, too many tools, or too many rules, the learner may stop using it.
+
+Another mistake is planning without reviewing.
+
+A plan that is never reviewed becomes a wish.
+
+A third mistake is tracking tasks but not evidence.
+
+Career growth requires visible proof, not only completed activities.
+
+A fourth mistake is ignoring feedback.
+
+Without feedback, a learner may keep repeating the same weak approach.
+
+A fifth mistake is treating one bad week as failure.
+
+The system should help the learner return, not quit.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor or peer reviewer can help by asking:
+
+```text
+Is the learner choosing realistic weekly priorities?
+Do the planned actions connect to career direction?
+Is the learner capturing useful evidence?
+Where would feedback improve the next cycle?
+Is the system simple enough to continue?
+What support would make the learner more consistent?
+```
+
+These prompts keep the conversation focused on growth behavior rather than vague motivation.
+
+---
+
+## Personal Operating System Checklist
+
+Before moving to the next chapter, the learner should be able to say:
+
+- I have a simple way to review my career growth regularly.
+- I can connect weekly actions to my career direction.
+- I can choose realistic learning and practice priorities.
+- I can capture evidence of progress.
+- I know when and where to ask for feedback.
+- I can adjust my plan without abandoning the whole system.
+- I can maintain the system without making it too heavy.
+
+---
+
+## CDI Reflection
+
+A career system becomes powerful when it becomes repeatable.
+
+One strong week is helpful.
+
+A repeatable growth rhythm is better.
+
+The Personal Operating System helps learners and professionals build that rhythm.
+
+It connects intention to action.
+
+It connects action to evidence.
+
+It connects evidence to feedback.
+
+It connects feedback to the next round of growth.
+
+That is how professional growth compounds.
+
 ---
 
 ## Looking Ahead
 
-The next chapter connects professional growth to income growth and opportunity design.
+The next chapter turns professional growth into opportunity design.
 
-A personal operating system helps the learner stay consistent. The next step is to identify how skills, evidence, relationships, and visibility can create better opportunities, stronger negotiation positions, and more sustainable income pathways.
+Once a learner or professional has a personal operating system, they can begin thinking more intentionally about income growth, opportunity pathways, collaborations, side projects, promotions, consulting possibilities, and other ways to build a more sustainable professional future.

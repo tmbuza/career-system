@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -285,9 +324,36 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#why-portfolio-building-matters" id="toc-why-portfolio-building-matters" class="nav-link active" data-scroll-target="#why-portfolio-building-matters">Why Portfolio Building Matters</a></li>
+  <li><a href="#the-portfolio-layer-in-the-career-system" id="toc-the-portfolio-layer-in-the-career-system" class="nav-link" data-scroll-target="#the-portfolio-layer-in-the-career-system">The Portfolio Layer in the Career System</a></li>
+  <li><a href="#portfolio-building-is-not-only-for-designers" id="toc-portfolio-building-is-not-only-for-designers" class="nav-link" data-scroll-target="#portfolio-building-is-not-only-for-designers">Portfolio Building Is Not Only for Designers</a></li>
+  <li><a href="#the-four-purposes-of-a-portfolio" id="toc-the-four-purposes-of-a-portfolio" class="nav-link" data-scroll-target="#the-four-purposes-of-a-portfolio">The Four Purposes of a Portfolio</a>
+  <ul class="collapse">
+  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">1. Evidence</a></li>
+  <li><a href="#explanation" id="toc-explanation" class="nav-link" data-scroll-target="#explanation">2. Explanation</a></li>
+  <li><a href="#direction" id="toc-direction" class="nav-link" data-scroll-target="#direction">3. Direction</a></li>
+  <li><a href="#conversation" id="toc-conversation" class="nav-link" data-scroll-target="#conversation">4. Conversation</a></li>
+  </ul></li>
+  <li><a href="#portfolio-evidence-across-career-stages" id="toc-portfolio-evidence-across-career-stages" class="nav-link" data-scroll-target="#portfolio-evidence-across-career-stages">Portfolio Evidence Across Career Stages</a></li>
+  <li><a href="#what-makes-a-portfolio-item-strong" id="toc-what-makes-a-portfolio-item-strong" class="nav-link" data-scroll-target="#what-makes-a-portfolio-item-strong">What Makes a Portfolio Item Strong</a></li>
+  <li><a href="#portfolio-categories" id="toc-portfolio-categories" class="nav-link" data-scroll-target="#portfolio-categories">Portfolio Categories</a></li>
+  <li><a href="#the-portfolio-building-template" id="toc-the-portfolio-building-template" class="nav-link" data-scroll-target="#the-portfolio-building-template">The Portfolio Building Template</a></li>
+  <li><a href="#create-the-template" id="toc-create-the-template" class="nav-link" data-scroll-target="#create-the-template">Create the Template</a></li>
+  <li><a href="#manual-template" id="toc-manual-template" class="nav-link" data-scroll-target="#manual-template">Manual Template</a></li>
+  <li><a href="#example-portfolio-entry" id="toc-example-portfolio-entry" class="nav-link" data-scroll-target="#example-portfolio-entry">Example Portfolio Entry</a></li>
+  <li><a href="#how-to-choose-portfolio-items" id="toc-how-to-choose-portfolio-items" class="nav-link" data-scroll-target="#how-to-choose-portfolio-items">How to Choose Portfolio Items</a></li>
+  <li><a href="#private-shared-and-public-portfolio-items" id="toc-private-shared-and-public-portfolio-items" class="nav-link" data-scroll-target="#private-shared-and-public-portfolio-items">Private, Shared, and Public Portfolio Items</a></li>
+  <li><a href="#common-portfolio-mistakes" id="toc-common-portfolio-mistakes" class="nav-link" data-scroll-target="#common-portfolio-mistakes">Common Portfolio Mistakes</a>
+  <ul class="collapse">
+  <li><a href="#mistake-1-collecting-files-without-explaining-them" id="toc-mistake-1-collecting-files-without-explaining-them" class="nav-link" data-scroll-target="#mistake-1-collecting-files-without-explaining-them">Mistake 1: Collecting files without explaining them</a></li>
+  <li><a href="#mistake-2-showing-only-certificates" id="toc-mistake-2-showing-only-certificates" class="nav-link" data-scroll-target="#mistake-2-showing-only-certificates">Mistake 2: Showing only certificates</a></li>
+  <li><a href="#mistake-3-sharing-unfinished-work-too-early" id="toc-mistake-3-sharing-unfinished-work-too-early" class="nav-link" data-scroll-target="#mistake-3-sharing-unfinished-work-too-early">Mistake 3: Sharing unfinished work too early</a></li>
+  <li><a href="#mistake-4-building-projects-unrelated-to-career-direction" id="toc-mistake-4-building-projects-unrelated-to-career-direction" class="nav-link" data-scroll-target="#mistake-4-building-projects-unrelated-to-career-direction">Mistake 4: Building projects unrelated to career direction</a></li>
+  <li><a href="#mistake-5-hiding-all-work-until-it-is-perfect" id="toc-mistake-5-hiding-all-work-until-it-is-perfect" class="nav-link" data-scroll-target="#mistake-5-hiding-all-work-until-it-is-perfect">Mistake 5: Hiding all work until it is perfect</a></li>
+  </ul></li>
+  <li><a href="#mentor-or-peer-review-prompts" id="toc-mentor-or-peer-review-prompts" class="nav-link" data-scroll-target="#mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</a></li>
+  <li><a href="#portfolio-building-checklist" id="toc-portfolio-building-checklist" class="nav-link" data-scroll-target="#portfolio-building-checklist">Portfolio Building Checklist</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -297,7 +363,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-learning-plan.html">Professional Growth System</a></li><li class="breadcrumb-item"><a href="./06-portfolio-building.html"><span class="chapter-title">Portfolio Building</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="06_portfolio_building" class="quarto-section-identifier"><span class="chapter-title">Portfolio Building</span></span></h1>
+<h1 class="title"><span id="portfolio-building" class="quarto-section-identifier"><span class="chapter-title">Portfolio Building</span></span></h1>
 </div>
 
 
@@ -324,34 +390,682 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>ID:</strong> CAREER-006</li>
 <li><strong>Type:</strong> System Guide</li>
-<li><strong>Audience:</strong> Learners, professionals, mentors, and training program designers</li>
+<li><strong>Audience:</strong> Learners, early-career professionals, technical professionals, mentors, and training program designers</li>
 <li><strong>Theme:</strong> A portfolio turns ability into visible evidence</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>Portfolio Building</strong> layer of the Career System.</p>
+<p>A learner can have real ability and still remain unseen.</p>
+<p>They may understand a topic.</p>
+<p>They may complete training.</p>
+<p>They may help others quietly.</p>
+<p>They may solve problems in school, work, or community settings.</p>
+<p>But if their work is not captured, explained, organized, and shared appropriately, other people may not know what they can do.</p>
+<p>That is why portfolio building is a central layer of the <strong>Career System</strong>.</p>
+<p>A portfolio is not only a collection of files.</p>
+<p>A portfolio is a structured evidence system.</p>
+<p>It helps a learner show what they can do, explain how they think, and make their growth visible to mentors, peers, employers, collaborators, clients, and future opportunities.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="why-portfolio-building-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-portfolio-building-matters">Why Portfolio Building Matters</h2>
+<p>Career growth often depends on trust.</p>
+<p>People need reasons to believe that a learner can contribute.</p>
+<p>A CV can list skills.</p>
+<p>A certificate can show participation.</p>
+<p>A conversation can communicate interest.</p>
+<p>But a portfolio provides evidence.</p>
+<p>It allows someone to say:</p>
+<pre class="text"><code>Here is what I worked on.
+Here is the problem I tried to solve.
+Here is the process I followed.
+Here is what I produced.
+Here is what I learned.
+Here is how I would improve it next time.</code></pre>
+<p>For beginners, a portfolio helps convert learning into visible progress.</p>
+<p>For early-career professionals, it helps show applied ability beyond job titles.</p>
+<p>For experienced professionals, it helps communicate depth, leadership, judgment, and accumulated contribution.</p>
+<p>For career changers, it helps bridge the gap between past experience and a new direction.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="the-portfolio-layer-in-the-career-system" class="level2">
+<h2 class="anchored" data-anchor-id="the-portfolio-layer-in-the-career-system">The Portfolio Layer in the Career System</h2>
+<p>Portfolio building sits between learning and visibility.</p>
+<p>A learner first clarifies direction.</p>
+<p>Then they identify skills.</p>
+<p>Then they create a learning plan.</p>
+<p>The portfolio answers the next question:</p>
+<pre class="text"><code>What evidence will show that this learning is becoming real capability?</code></pre>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    A[Career Direction] --&gt; B[Skills Inventory]</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Learning Plan]</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Practice and Projects]</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Portfolio Evidence]</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Review and Improvement]</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Professional Communication]</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Visibility and Opportunity]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Career Direction] --&gt; B[Skills Inventory]
+    B --&gt; C[Learning Plan]
+    C --&gt; D[Practice and Projects]
+    D --&gt; E[Portfolio Evidence]
+    E --&gt; F[Review and Improvement]
+    F --&gt; G[Professional Communication]
+    G --&gt; H[Visibility and Opportunity]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>The important point is that a portfolio is not the end of the process.</p>
+<p>A portfolio item should be reviewed, improved, explained, and connected to career direction.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="portfolio-building-is-not-only-for-designers" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-building-is-not-only-for-designers">Portfolio Building Is Not Only for Designers</h2>
+<p>Many learners hear the word “portfolio” and think it only applies to designers, artists, writers, or software developers.</p>
+<p>That is too narrow.</p>
+<p>Almost any professional can build a portfolio if they understand portfolio evidence broadly.</p>
+<p>A portfolio item can be:</p>
+<ul>
+<li>a project report,</li>
+<li>a case study,</li>
+<li>a data analysis notebook,</li>
+<li>a cleaned dataset description,</li>
+<li>a dashboard,</li>
+<li>a presentation,</li>
+<li>a process improvement note,</li>
+<li>a teaching resource,</li>
+<li>a community project summary,</li>
+<li>a technical README,</li>
+<li>a reflection on a problem solved,</li>
+<li>a professional profile statement,</li>
+<li>or a short written explanation of work completed.</li>
+</ul>
+<p>The key is not whether the item looks impressive.</p>
+<p>The key is whether it helps someone understand the learner’s ability, thinking, and growth.</p>
+<hr>
+</section>
+<section id="the-four-purposes-of-a-portfolio" class="level2">
+<h2 class="anchored" data-anchor-id="the-four-purposes-of-a-portfolio">The Four Purposes of a Portfolio</h2>
+<p>A strong career portfolio usually serves four purposes.</p>
+<section id="evidence" class="level3">
+<h3 class="anchored" data-anchor-id="evidence">1. Evidence</h3>
+<p>The portfolio shows that the learner has done something, not only studied something.</p>
+<p>Evidence answers:</p>
+<pre class="text"><code>What can this person actually produce?</code></pre>
+</section>
+<section id="explanation" class="level3">
+<h3 class="anchored" data-anchor-id="explanation">2. Explanation</h3>
+<p>The portfolio helps the learner explain their decisions.</p>
+<p>Explanation answers:</p>
+<pre class="text"><code>How does this person think through a problem?</code></pre>
+</section>
+<section id="direction" class="level3">
+<h3 class="anchored" data-anchor-id="direction">3. Direction</h3>
+<p>The portfolio supports a chosen career direction.</p>
+<p>Direction answers:</p>
+<pre class="text"><code>What kind of professional path does this evidence support?</code></pre>
+</section>
+<section id="conversation" class="level3">
+<h3 class="anchored" data-anchor-id="conversation">4. Conversation</h3>
+<p>The portfolio creates material for mentorship, interviews, networking, applications, and performance reviews.</p>
+<p>Conversation answers:</p>
+<pre class="text"><code>What can we discuss that is grounded in real work?</code></pre>
+<p>A portfolio that does not support conversation is often only a folder.</p>
+<p>A portfolio that supports conversation becomes a career tool.</p>
+<hr>
+</section>
+</section>
+<section id="portfolio-evidence-across-career-stages" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-evidence-across-career-stages">Portfolio Evidence Across Career Stages</h2>
+<p>Portfolio building should look different at different stages.</p>
+<p>A beginner does not need an advanced portfolio.</p>
+<p>An experienced professional should not only show beginner exercises.</p>
+<p>The portfolio should match the learner’s current stage and next opportunity.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Career stage</th>
+<th>Useful portfolio evidence</th>
+<th>Main purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beginner</td>
+<td>Small exercises, reflections, simple projects, before-and-after examples</td>
+<td>Show learning progress and seriousness</td>
+</tr>
+<tr class="even">
+<td>Early learner</td>
+<td>Guided projects, class outputs, community tasks, basic reports</td>
+<td>Show applied practice</td>
+</tr>
+<tr class="odd">
+<td>Early-career professional</td>
+<td>Work samples, case studies, process notes, role-relevant outputs</td>
+<td>Show readiness for responsibility</td>
+</tr>
+<tr class="even">
+<td>Career changer</td>
+<td>Transferable-skill projects, bridge projects, profile summaries</td>
+<td>Connect past experience to new direction</td>
+</tr>
+<tr class="odd">
+<td>Experienced professional</td>
+<td>Leadership examples, system improvements, mentoring outputs, strategic reports</td>
+<td>Show judgment, depth, and contribution</td>
+</tr>
+<tr class="even">
+<td>Mentor or educator</td>
+<td>Teaching materials, learner support tools, program designs, review frameworks</td>
+<td>Show ability to develop others</td>
+</tr>
+</tbody>
+</table>
+<p>This prevents a common mistake: comparing a beginner portfolio to an expert portfolio.</p>
+<p>The right question is not:</p>
+<pre class="text"><code>Is this portfolio perfect?</code></pre>
+<p>The better question is:</p>
+<pre class="text"><code>Does this portfolio provide honest evidence for the learner's current stage and next step?</code></pre>
+<hr>
+</section>
+<section id="what-makes-a-portfolio-item-strong" class="level2">
+<h2 class="anchored" data-anchor-id="what-makes-a-portfolio-item-strong">What Makes a Portfolio Item Strong</h2>
+<p>A strong portfolio item does not need to be large.</p>
+<p>It needs to be clear.</p>
+<p>Each item should answer six questions.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Question</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What problem or context does this item address?</td>
+<td>Shows relevance</td>
+</tr>
+<tr class="even">
+<td>What did the learner produce?</td>
+<td>Shows output</td>
+</tr>
+<tr class="odd">
+<td>What skills were used?</td>
+<td>Connects evidence to capability</td>
+</tr>
+<tr class="even">
+<td>What decisions were made?</td>
+<td>Shows thinking</td>
+</tr>
+<tr class="odd">
+<td>What was learned?</td>
+<td>Shows growth</td>
+</tr>
+<tr class="even">
+<td>What would be improved next?</td>
+<td>Shows reflection and maturity</td>
+</tr>
+</tbody>
+</table>
+<p>This structure makes even a small project useful.</p>
+<p>A simple project with clear explanation is often better than a complex project that nobody can understand.</p>
+<hr>
+</section>
+<section id="portfolio-categories" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-categories">Portfolio Categories</h2>
+<p>A balanced portfolio can include different kinds of evidence.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    A[Portfolio Evidence] --&gt; B[Technical Evidence]</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    A --&gt; C[Communication Evidence]</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    A --&gt; D[Problem-Solving Evidence]</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    A --&gt; E[Professional Readiness Evidence]</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    A --&gt; F[Leadership or Contribution Evidence]</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    B --&gt; B1[Analysis, code, reports, dashboards]</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    C --&gt; C1[Writing, presentations, explanations]</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    D --&gt; D1[Case studies, decisions, troubleshooting]</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    E --&gt; E1[CV profile, career statement, work samples]</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>    F --&gt; F1[Mentoring, coordination, community outputs]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Portfolio Evidence] --&gt; B[Technical Evidence]
+    A --&gt; C[Communication Evidence]
+    A --&gt; D[Problem-Solving Evidence]
+    A --&gt; E[Professional Readiness Evidence]
+    A --&gt; F[Leadership or Contribution Evidence]
+
+    B --&gt; B1[Analysis, code, reports, dashboards]
+    C --&gt; C1[Writing, presentations, explanations]
+    D --&gt; D1[Case studies, decisions, troubleshooting]
+    E --&gt; E1[CV profile, career statement, work samples]
+    F --&gt; F1[Mentoring, coordination, community outputs]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>A learner does not need all categories at once.</p>
+<p>But the categories help them avoid building a narrow portfolio.</p>
+<p>For example, a technical learner may have code but no explanation.</p>
+<p>A strong communicator may have writing but no evidence of applied problem-solving.</p>
+<p>A project coordinator may have experience but no visible examples of planning or execution.</p>
+<p>Portfolio categories help reveal what is missing.</p>
+<hr>
+</section>
+<section id="the-portfolio-building-template" class="level2">
+<h2 class="anchored" data-anchor-id="the-portfolio-building-template">The Portfolio Building Template</h2>
+<p>This chapter includes a portfolio tracker.</p>
+<p>The tracker helps learners move from scattered files to organized evidence.</p>
+<p>The template includes these fields:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>portfolio_item_id</code></td>
+<td>Unique item identifier</td>
+</tr>
+<tr class="even">
+<td><code>career_direction</code></td>
+<td>Direction this item supports</td>
+</tr>
+<tr class="odd">
+<td><code>portfolio_category</code></td>
+<td>Type of evidence</td>
+</tr>
+<tr class="even">
+<td><code>item_title</code></td>
+<td>Clear title for the item</td>
+</tr>
+<tr class="odd">
+<td><code>evidence_type</code></td>
+<td>Report, project, writing sample, presentation, code, profile, or case study</td>
+</tr>
+<tr class="even">
+<td><code>problem_or_context</code></td>
+<td>Situation or problem the item responds to</td>
+</tr>
+<tr class="odd">
+<td><code>skills_demonstrated</code></td>
+<td>Skills shown by the item</td>
+</tr>
+<tr class="even">
+<td><code>artifact_location</code></td>
+<td>Folder, link, or file path</td>
+</tr>
+<tr class="odd">
+<td><code>short_description</code></td>
+<td>Brief explanation of the item</td>
+</tr>
+<tr class="even">
+<td><code>audience</code></td>
+<td>Who should understand or review it</td>
+</tr>
+<tr class="odd">
+<td><code>review_status</code></td>
+<td>Draft, reviewed, revised, final, or archived</td>
+</tr>
+<tr class="even">
+<td><code>improvement_needed</code></td>
+<td>Specific next improvement</td>
+</tr>
+<tr class="odd">
+<td><code>visibility_status</code></td>
+<td>Private, shared with mentor, portfolio-ready, or public</td>
+</tr>
+<tr class="even">
+<td><code>next_action</code></td>
+<td>Next step for the item</td>
+</tr>
+</tbody>
+</table>
+<p>The template is not only for tracking.</p>
+<p>It teaches the learner how to think about evidence.</p>
+<hr>
+</section>
+<section id="create-the-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-template">Create the Template</h2>
+<p>Learners who are comfortable with the command line can generate the template using the supporting script.</p>
+<p>From the project root, run:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x scripts/bash/06-create-portfolio-building-template.sh</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/06-create-portfolio-building-template.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Expected outputs:</p>
+<pre class="text"><code>data/templates/portfolio-building-template.csv
+results/portfolio-building/example-portfolio-building.csv
+results/portfolio-building/README-portfolio-building.md</code></pre>
+<p>Learners who are not using bash can copy the manual table structure below into a spreadsheet, notebook, or document.</p>
+<hr>
+</section>
+<section id="manual-template" class="level2">
+<h2 class="anchored" data-anchor-id="manual-template">Manual Template</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>portfolio_item_id</th>
+<th>career_direction</th>
+<th>portfolio_category</th>
+<th>item_title</th>
+<th>evidence_type</th>
+<th>problem_or_context</th>
+<th>skills_demonstrated</th>
+<th>artifact_location</th>
+<th>short_description</th>
+<th>audience</th>
+<th>review_status</th>
+<th>improvement_needed</th>
+<th>visibility_status</th>
+<th>next_action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PF-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Private draft</td>
+<td></td>
+<td>Private draft</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>PF-002</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Private draft</td>
+<td></td>
+<td>Private draft</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>PF-003</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Private draft</td>
+<td></td>
+<td>Private draft</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The first version does not need to be perfect.</p>
+<p>The goal is to start seeing what evidence exists and what still needs to be created.</p>
+<hr>
+</section>
+<section id="example-portfolio-entry" class="level2">
+<h2 class="anchored" data-anchor-id="example-portfolio-entry">Example Portfolio Entry</h2>
+<p>A learner interested in data analysis might write:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Career direction</td>
+<td>Data analyst</td>
+</tr>
+<tr class="even">
+<td>Portfolio category</td>
+<td>Technical evidence</td>
+</tr>
+<tr class="odd">
+<td>Item title</td>
+<td>Cleaned and summarized public health dataset</td>
+</tr>
+<tr class="even">
+<td>Evidence type</td>
+<td>Project report</td>
+</tr>
+<tr class="odd">
+<td>Problem or context</td>
+<td>A messy spreadsheet needed cleaning and summary before analysis</td>
+</tr>
+<tr class="even">
+<td>Skills demonstrated</td>
+<td>Data cleaning, missing-value checks, summary tables, written interpretation</td>
+</tr>
+<tr class="odd">
+<td>Artifact location</td>
+<td><code>portfolio/data-cleaning-public-health/</code></td>
+</tr>
+<tr class="even">
+<td>Audience</td>
+<td>Mentor, hiring manager, peer reviewer</td>
+</tr>
+<tr class="odd">
+<td>Review status</td>
+<td>Needs mentor review</td>
+</tr>
+<tr class="even">
+<td>Improvement needed</td>
+<td>Add clearer README and one visualization</td>
+</tr>
+<tr class="odd">
+<td>Visibility status</td>
+<td>Private draft</td>
+</tr>
+<tr class="even">
+<td>Next action</td>
+<td>Request feedback and revise README</td>
+</tr>
+</tbody>
+</table>
+<p>This entry shows that the portfolio item is connected to a direction, an audience, and a next action.</p>
+<p>That is more useful than simply saying:</p>
+<pre class="text"><code>I have a data cleaning project.</code></pre>
+<hr>
+</section>
+<section id="how-to-choose-portfolio-items" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-choose-portfolio-items">How to Choose Portfolio Items</h2>
+<p>A learner should not try to include everything.</p>
+<p>A portfolio becomes stronger when it is selective.</p>
+<p>Use these questions:</p>
+<pre class="text"><code>Does this item support my current career direction?
+Does it show a skill I want others to recognize?
+Can I explain the problem, process, and outcome clearly?
+Is the item honest and appropriate to share?
+Can it be improved with feedback?
+Does it help me have a better career conversation?</code></pre>
+<p>If the answer is yes to most of these questions, the item may belong in the portfolio.</p>
+<p>If not, it may belong in a private learning folder instead.</p>
+<hr>
+</section>
+<section id="private-shared-and-public-portfolio-items" class="level2">
+<h2 class="anchored" data-anchor-id="private-shared-and-public-portfolio-items">Private, Shared, and Public Portfolio Items</h2>
+<p>Not every portfolio item should be public.</p>
+<p>Some items are private drafts.</p>
+<p>Some are useful for mentor review.</p>
+<p>Some are appropriate for applications.</p>
+<p>Some can be shared publicly.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Visibility status</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Private draft</td>
+<td>Still being developed or not ready for review</td>
+</tr>
+<tr class="even">
+<td>Shared with mentor</td>
+<td>Ready for feedback from a trusted reviewer</td>
+</tr>
+<tr class="odd">
+<td>Portfolio-ready</td>
+<td>Clear enough to use in applications or conversations</td>
+</tr>
+<tr class="even">
+<td>Public</td>
+<td>Appropriate to share openly online</td>
+</tr>
+<tr class="odd">
+<td>Archived</td>
+<td>No longer relevant, but kept for learning history</td>
+</tr>
+</tbody>
+</table>
+<p>This matters because public visibility without quality control can create confusion.</p>
+<p>A portfolio should grow through review and improvement, not just uploading files.</p>
+<hr>
+</section>
+<section id="common-portfolio-mistakes" class="level2">
+<h2 class="anchored" data-anchor-id="common-portfolio-mistakes">Common Portfolio Mistakes</h2>
+<p>Many learners make predictable portfolio mistakes.</p>
+<section id="mistake-1-collecting-files-without-explaining-them" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-1-collecting-files-without-explaining-them">Mistake 1: Collecting files without explaining them</h3>
+<p>A folder full of files is not enough.</p>
+<p>The learner must explain the purpose, process, and value of the work.</p>
+</section>
+<section id="mistake-2-showing-only-certificates" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-2-showing-only-certificates">Mistake 2: Showing only certificates</h3>
+<p>Certificates can support a portfolio, but they do not replace evidence of applied work.</p>
+</section>
+<section id="mistake-3-sharing-unfinished-work-too-early" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-3-sharing-unfinished-work-too-early">Mistake 3: Sharing unfinished work too early</h3>
+<p>Drafts are useful, but they should be labeled honestly.</p>
+</section>
+<section id="mistake-4-building-projects-unrelated-to-career-direction" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-4-building-projects-unrelated-to-career-direction">Mistake 4: Building projects unrelated to career direction</h3>
+<p>Random projects may show effort, but focused projects create stronger career signals.</p>
+</section>
+<section id="mistake-5-hiding-all-work-until-it-is-perfect" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-5-hiding-all-work-until-it-is-perfect">Mistake 5: Hiding all work until it is perfect</h3>
+<p>Waiting for perfection can prevent growth.</p>
+<p>The better approach is staged visibility: private draft, mentor review, revised version, then portfolio-ready.</p>
+<hr>
+</section>
+</section>
+<section id="mentor-or-peer-review-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</h2>
+<p>A mentor or peer reviewer can help improve portfolio quality.</p>
+<p>Useful review questions include:</p>
+<pre class="text"><code>What does this portfolio item show clearly?
+What skill or strength is visible here?
+What is unclear to an outside reader?
+What evidence is missing?
+What should be improved before this is shared more widely?
+Does this item support the learner's career direction?
+What kind of opportunity conversation could this item support?</code></pre>
+<p>The goal of review is not to judge the learner.</p>
+<p>The goal is to improve the evidence.</p>
+<hr>
+</section>
+<section id="portfolio-building-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-building-checklist">Portfolio Building Checklist</h2>
+<p>Before considering a portfolio item ready, check whether it has:</p>
+<ul>
+<li>a clear title,</li>
+<li>a specific problem or context,</li>
+<li>a visible output,</li>
+<li>a short explanation,</li>
+<li>a list of skills demonstrated,</li>
+<li>an identified audience,</li>
+<li>an honest review status,</li>
+<li>a next improvement action,</li>
+<li>and a connection to career direction.</li>
+</ul>
+<p>If these pieces are present, the item is becoming career evidence.</p>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>Use these prompts to reflect on portfolio readiness.</p>
+<pre class="text"><code>What have I done that others cannot currently see?
+Which project best represents my current direction?
+Which skill do I need stronger evidence for?
+What item should I improve before sharing it more widely?
+Who can review one portfolio item for me?
+What kind of opportunity conversation do I want my portfolio to support?</code></pre>
+<p>The portfolio is not only for others.</p>
+<p>It also helps the learner see their own growth more clearly.</p>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>The next chapter strengthens the portfolio through project-based proof.</p>
-<p>A portfolio becomes more convincing when it contains projects that show the learner can define a problem, produce an output, explain decisions, respond to feedback, and connect the work to a real-world need.</p>
+<p>The next chapter focuses on <strong>project-based proof</strong>.</p>
+<p>Portfolio building organizes evidence, but project-based proof creates the evidence itself.</p>
+<p>The next step is to design projects that are small enough to complete, relevant enough to matter, and clear enough to demonstrate real capability.</p>
 
 
 </section>

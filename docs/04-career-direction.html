@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -285,9 +324,34 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#why-career-direction-matters" id="toc-why-career-direction-matters" class="nav-link active" data-scroll-target="#why-career-direction-matters">Why Career Direction Matters</a></li>
+  <li><a href="#the-career-direction-system" id="toc-the-career-direction-system" class="nav-link" data-scroll-target="#the-career-direction-system">The Career Direction System</a></li>
+  <li><a href="#direction-is-not-the-same-as-a-dream-job" id="toc-direction-is-not-the-same-as-a-dream-job" class="nav-link" data-scroll-target="#direction-is-not-the-same-as-a-dream-job">Direction Is Not the Same as a Dream Job</a></li>
+  <li><a href="#direction-across-different-career-stages" id="toc-direction-across-different-career-stages" class="nav-link" data-scroll-target="#direction-across-different-career-stages">Direction Across Different Career Stages</a></li>
+  <li><a href="#the-four-inputs-of-career-direction" id="toc-the-four-inputs-of-career-direction" class="nav-link" data-scroll-target="#the-four-inputs-of-career-direction">The Four Inputs of Career Direction</a>
+  <ul class="collapse">
+  <li><a href="#personal-context" id="toc-personal-context" class="nav-link" data-scroll-target="#personal-context">1. Personal Context</a></li>
+  <li><a href="#skills-and-strengths" id="toc-skills-and-strengths" class="nav-link" data-scroll-target="#skills-and-strengths">2. Skills and Strengths</a></li>
+  <li><a href="#interests-and-values" id="toc-interests-and-values" class="nav-link" data-scroll-target="#interests-and-values">3. Interests and Values</a></li>
+  <li><a href="#opportunity-landscape" id="toc-opportunity-landscape" class="nav-link" data-scroll-target="#opportunity-landscape">4. Opportunity Landscape</a></li>
+  </ul></li>
+  <li><a href="#a-practical-direction-statement" id="toc-a-practical-direction-statement" class="nav-link" data-scroll-target="#a-practical-direction-statement">A Practical Direction Statement</a></li>
+  <li><a href="#the-career-direction-map" id="toc-the-career-direction-map" class="nav-link" data-scroll-target="#the-career-direction-map">The Career Direction Map</a></li>
+  <li><a href="#create-the-template" id="toc-create-the-template" class="nav-link" data-scroll-target="#create-the-template">Create the Template</a></li>
+  <li><a href="#manual-template" id="toc-manual-template" class="nav-link" data-scroll-target="#manual-template">Manual Template</a></li>
+  <li><a href="#how-to-choose-a-direction-for-now" id="toc-how-to-choose-a-direction-for-now" class="nav-link" data-scroll-target="#how-to-choose-a-direction-for-now">How to Choose a Direction for Now</a></li>
+  <li><a href="#example-interpretation" id="toc-example-interpretation" class="nav-link" data-scroll-target="#example-interpretation">Example Interpretation</a></li>
+  <li><a href="#common-career-direction-mistakes" id="toc-common-career-direction-mistakes" class="nav-link" data-scroll-target="#common-career-direction-mistakes">Common Career Direction Mistakes</a>
+  <ul class="collapse">
+  <li><a href="#mistake-1-choosing-only-by-popularity" id="toc-mistake-1-choosing-only-by-popularity" class="nav-link" data-scroll-target="#mistake-1-choosing-only-by-popularity">Mistake 1: Choosing Only by Popularity</a></li>
+  <li><a href="#mistake-2-waiting-for-perfect-clarity" id="toc-mistake-2-waiting-for-perfect-clarity" class="nav-link" data-scroll-target="#mistake-2-waiting-for-perfect-clarity">Mistake 2: Waiting for Perfect Clarity</a></li>
+  <li><a href="#mistake-3-ignoring-existing-strengths" id="toc-mistake-3-ignoring-existing-strengths" class="nav-link" data-scroll-target="#mistake-3-ignoring-existing-strengths">Mistake 3: Ignoring Existing Strengths</a></li>
+  <li><a href="#mistake-4-confusing-interest-with-readiness" id="toc-mistake-4-confusing-interest-with-readiness" class="nav-link" data-scroll-target="#mistake-4-confusing-interest-with-readiness">Mistake 4: Confusing Interest With Readiness</a></li>
+  <li><a href="#mistake-5-choosing-too-many-directions-at-once" id="toc-mistake-5-choosing-too-many-directions-at-once" class="nav-link" data-scroll-target="#mistake-5-choosing-too-many-directions-at-once">Mistake 5: Choosing Too Many Directions at Once</a></li>
+  </ul></li>
+  <li><a href="#mentor-or-peer-review-prompts" id="toc-mentor-or-peer-review-prompts" class="nav-link" data-scroll-target="#mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</a></li>
+  <li><a href="#career-direction-checklist" id="toc-career-direction-checklist" class="nav-link" data-scroll-target="#career-direction-checklist">Career Direction Checklist</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -297,7 +361,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-preface.html">Foundations</a></li><li class="breadcrumb-item"><a href="./04-career-direction.html"><span class="chapter-title">Career Direction</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="04_career_direction" class="quarto-section-identifier"><span class="chapter-title">Career Direction</span></span></h1>
+<h1 class="title"><span id="career-direction" class="quarto-section-identifier"><span class="chapter-title">Career Direction</span></span></h1>
 </div>
 
 
@@ -328,30 +392,489 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Theme:</strong> Direction turns scattered learning into intentional professional growth</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>Career Direction</strong> layer of the Career System.</p>
+<p>Career direction is the part of the Career System that helps a learner decide where to focus next.</p>
+<p>It does not require a perfect lifelong plan.</p>
+<p>It does not require someone to know exactly what job title they will hold ten years from now.</p>
+<p>It requires enough clarity to make better choices today.</p>
+<p>Without direction, learners often collect skills randomly.</p>
+<p>They start courses because they are popular.</p>
+<p>They copy other people’s paths.</p>
+<p>They apply for roles without understanding what those roles require.</p>
+<p>They build projects that do not connect to the kind of opportunities they want.</p>
+<p>Career direction helps turn effort into a path.</p>
+<p>It connects personal context, skills, interests, constraints, opportunities, and values into a practical growth direction.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="why-career-direction-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-career-direction-matters">Why Career Direction Matters</h2>
+<p>Many people begin career development by asking:</p>
+<pre class="text"><code>What should I learn?</code></pre>
+<p>That is an important question, but it is not the first question.</p>
+<p>A better starting point is:</p>
+<pre class="text"><code>What kind of professional growth am I trying to build toward?</code></pre>
+<p>The answer does not need to be fixed forever.</p>
+<p>It only needs to be clear enough to guide action.</p>
+<p>Career direction matters because it helps a learner decide:</p>
+<ul>
+<li>which skills deserve priority,</li>
+<li>which projects are worth building,</li>
+<li>which mentors to seek,</li>
+<li>which communities to join,</li>
+<li>which opportunities to apply for,</li>
+<li>and which distractions to avoid.</li>
+</ul>
+<p>A learner without direction may work hard but move in circles.</p>
+<p>A learner with direction can still adjust, but their adjustments become intentional.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="the-career-direction-system" class="level2">
+<h2 class="anchored" data-anchor-id="the-career-direction-system">The Career Direction System</h2>
+<p>Career direction sits between readiness and planning.</p>
+<p>Career readiness asks:</p>
+<pre class="text"><code>Where am I now?</code></pre>
+<p>A skills inventory asks:</p>
+<pre class="text"><code>What can I currently do?</code></pre>
+<p>Career direction asks:</p>
+<pre class="text"><code>Where should I focus my next stage of growth?</code></pre>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    A[Career Readiness] --&gt; B[Skills Inventory]</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Career Direction]</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Learning Plan]</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Practice Projects]</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Portfolio Evidence]</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Visibility and Opportunity]</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Career Feedback]</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    H --&gt; C</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Career Readiness] --&gt; B[Skills Inventory]
+    B --&gt; C[Career Direction]
+    C --&gt; D[Learning Plan]
+    D --&gt; E[Practice Projects]
+    E --&gt; F[Portfolio Evidence]
+    F --&gt; G[Visibility and Opportunity]
+    G --&gt; H[Career Feedback]
+    H --&gt; C
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>This loop is important.</p>
+<p>Direction is not a one-time decision.</p>
+<p>As a learner gains experience, receives feedback, builds evidence, and sees real opportunities, their direction can become clearer.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="direction-is-not-the-same-as-a-dream-job" class="level2">
+<h2 class="anchored" data-anchor-id="direction-is-not-the-same-as-a-dream-job">Direction Is Not the Same as a Dream Job</h2>
+<p>A dream job can be motivating.</p>
+<p>But career direction should be more practical than a dream.</p>
+<p>A useful direction combines aspiration with evidence and action.</p>
+<p>For example, these are weak direction statements:</p>
+<pre class="text"><code>I want a good job.
+I want to work in technology.
+I want to do data science.
+I want to become successful.</code></pre>
+<p>They are too broad.</p>
+<p>They do not guide learning, projects, communication, or opportunity search.</p>
+<p>Stronger direction statements are more specific:</p>
+<pre class="text"><code>I want to grow toward entry-level data analysis roles where I can use spreadsheets, SQL, Python, and clear reporting to support business or public-health decisions.</code></pre>
+<pre class="text"><code>I want to move from general laboratory experience toward bioinformatics support roles by building evidence in RNA-seq, reproducible reporting, and biological interpretation.</code></pre>
+<pre class="text"><code>I want to strengthen my professional profile for program coordination roles that combine youth mentorship, digital skills, communication, and community project management.</code></pre>
+<p>A strong direction statement does not lock the learner into one future.</p>
+<p>It gives enough focus for the next learning and portfolio cycle.</p>
+<hr>
+</section>
+<section id="direction-across-different-career-stages" class="level2">
+<h2 class="anchored" data-anchor-id="direction-across-different-career-stages">Direction Across Different Career Stages</h2>
+<p>Career direction looks different at different stages.</p>
+<p>A beginner may need a broad direction.</p>
+<p>An early-career professional may need a role-focused direction.</p>
+<p>An experienced professional may need a repositioning direction.</p>
+<p>A mentor or leader may need a contribution direction.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Career stage</th>
+<th>Direction question</th>
+<th>Example focus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beginner</td>
+<td>What field or pathway should I explore seriously?</td>
+<td>Digital skills, data, health systems, business support, technical operations</td>
+</tr>
+<tr class="even">
+<td>Career learner</td>
+<td>Which skills and projects should I prioritize next?</td>
+<td>Portfolio-building, applied practice, communication, mentorship</td>
+</tr>
+<tr class="odd">
+<td>Early-career professional</td>
+<td>What role family am I becoming ready for?</td>
+<td>Analyst, coordinator, research assistant, developer, data steward</td>
+</tr>
+<tr class="even">
+<td>Career changer</td>
+<td>How do I connect past experience to a new direction?</td>
+<td>Transferable skills, bridge projects, proof of transition</td>
+</tr>
+<tr class="odd">
+<td>Experienced professional</td>
+<td>What growth edge matters now?</td>
+<td>Leadership, specialization, consulting, visibility, resilience</td>
+</tr>
+<tr class="even">
+<td>Mentor or educator</td>
+<td>How can I guide others without forcing one path?</td>
+<td>Structured questions, feedback, opportunity awareness</td>
+</tr>
+</tbody>
+</table>
+<p>This is why the Career System is not only for beginners.</p>
+<p>Direction is needed whenever someone is learning, adapting, or preparing for a new level.</p>
+<hr>
+</section>
+<section id="the-four-inputs-of-career-direction" class="level2">
+<h2 class="anchored" data-anchor-id="the-four-inputs-of-career-direction">The Four Inputs of Career Direction</h2>
+<p>A practical career direction should be built from four inputs.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    A[Personal Context] --&gt; E[Career Direction]</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    B[Skills and Strengths] --&gt; E</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    C[Interests and Values] --&gt; E</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    D[Opportunity Landscape] --&gt; E</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Focused Growth Path]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Personal Context] --&gt; E[Career Direction]
+    B[Skills and Strengths] --&gt; E
+    C[Interests and Values] --&gt; E
+    D[Opportunity Landscape] --&gt; E
+    E --&gt; F[Focused Growth Path]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<section id="personal-context" class="level3">
+<h3 class="anchored" data-anchor-id="personal-context">1. Personal Context</h3>
+<p>Personal context includes the learner’s current life situation.</p>
+<p>This may include time, location, financial responsibilities, family responsibilities, internet access, education level, language strengths, confidence, health, and available support.</p>
+<p>Career direction should respect reality.</p>
+<p>A direction that ignores the learner’s context may look impressive but fail in practice.</p>
+</section>
+<section id="skills-and-strengths" class="level3">
+<h3 class="anchored" data-anchor-id="skills-and-strengths">2. Skills and Strengths</h3>
+<p>A learner should build direction from what they can already do and what they can realistically learn next.</p>
+<p>This does not mean staying only with current strengths.</p>
+<p>It means using current strengths as a starting bridge.</p>
+<p>For example, someone with strong communication skills can use that strength while learning technical tools.</p>
+<p>Someone with laboratory experience can use that experience while learning data analysis.</p>
+<p>Someone with community leadership experience can use that experience while building project-management evidence.</p>
+</section>
+<section id="interests-and-values" class="level3">
+<h3 class="anchored" data-anchor-id="interests-and-values">3. Interests and Values</h3>
+<p>Interest helps sustain learning.</p>
+<p>Values help shape the kind of work a person wants to contribute to.</p>
+<p>A learner may be interested in data, but value health impact.</p>
+<p>Another learner may be interested in technology, but value teaching and youth development.</p>
+<p>Another professional may value independence, flexibility, or long-term stability.</p>
+<p>Career direction becomes stronger when it connects interest with values.</p>
+</section>
+<section id="opportunity-landscape" class="level3">
+<h3 class="anchored" data-anchor-id="opportunity-landscape">4. Opportunity Landscape</h3>
+<p>Direction must also consider the outside world.</p>
+<p>This includes available jobs, internships, fellowships, freelance opportunities, local needs, remote work possibilities, community projects, training programs, and professional networks.</p>
+<p>A useful direction sits at the intersection of:</p>
+<pre class="text"><code>what the learner can build,
+what the learner cares about,
+and where real opportunities may exist.</code></pre>
+<hr>
+</section>
+</section>
+<section id="a-practical-direction-statement" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-direction-statement">A Practical Direction Statement</h2>
+<p>A career direction statement is a short working statement that guides the next stage of learning and action.</p>
+<p>It should answer five questions:</p>
+<pre class="text"><code>1. What role, field, or contribution area am I moving toward?
+2. What strengths or background can I build from?
+3. What skills do I need to strengthen next?
+4. What evidence should I create?
+5. What opportunities or conversations should I prepare for?</code></pre>
+<p>A useful format is:</p>
+<pre class="text"><code>I am moving toward [role/field/contribution area] by building from [current strengths/background] and strengthening [priority skills]. I will create evidence through [projects/outputs] so that I can prepare for [opportunities/conversations].</code></pre>
+<p>Example:</p>
+<pre class="text"><code>I am moving toward entry-level data analyst roles by building from my spreadsheet, reporting, and problem-solving skills and strengthening SQL, Python, and data visualization. I will create evidence through two small analysis projects and a portfolio page so that I can prepare for internship, junior analyst, and mentorship conversations.</code></pre>
+<p>This statement can change.</p>
+<p>Its purpose is not to predict the entire future.</p>
+<p>Its purpose is to focus the next 8 to 12 weeks of growth.</p>
+<hr>
+</section>
+<section id="the-career-direction-map" class="level2">
+<h2 class="anchored" data-anchor-id="the-career-direction-map">The Career Direction Map</h2>
+<p>This chapter uses a Career Direction Map.</p>
+<p>The map helps learners compare possible directions and decide which one deserves focus now.</p>
+<p>It can be used by a beginner exploring several options or by an experienced professional evaluating a career pivot.</p>
+<p>A simple direction map includes:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>direction_option</td>
+<td>The role, pathway, field, or contribution area being considered</td>
+</tr>
+<tr class="even">
+<td>why_it_interests_me</td>
+<td>The reason this direction matters to the learner</td>
+</tr>
+<tr class="odd">
+<td>current_strengths</td>
+<td>Existing skills, experiences, or evidence that support this direction</td>
+</tr>
+<tr class="even">
+<td>skill_gaps</td>
+<td>Skills or habits that need development</td>
+</tr>
+<tr class="odd">
+<td>evidence_needed</td>
+<td>Projects, writing, reports, portfolio items, or experiences that would make this direction visible</td>
+</tr>
+<tr class="even">
+<td>people_to_learn_from</td>
+<td>Mentors, peers, communities, or professionals who can provide guidance</td>
+</tr>
+<tr class="odd">
+<td>opportunity_examples</td>
+<td>Jobs, internships, projects, collaborations, or local needs related to the direction</td>
+</tr>
+<tr class="even">
+<td>next_30_day_action</td>
+<td>A realistic action the learner can take soon</td>
+</tr>
+<tr class="odd">
+<td>priority_level</td>
+<td>High, medium, or low priority for the current growth cycle</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="create-the-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-template">Create the Template</h2>
+<p>This chapter includes an optional script that creates a reusable Career Direction Map.</p>
+<p>Learners comfortable with the command line can run:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/04-create-career-direction-template.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Expected outputs:</p>
+<pre class="text"><code>data/templates/career-direction-map-template.csv
+results/career-direction/example-career-direction-map.csv
+results/career-direction/README-career-direction.md</code></pre>
+<p>Learners who are not using the command line can copy the table structure into a notebook, spreadsheet, or printed worksheet.</p>
+<p>The important part is not the file format.</p>
+<p>The important part is the decision-making process.</p>
+<hr>
+</section>
+<section id="manual-template" class="level2">
+<h2 class="anchored" data-anchor-id="manual-template">Manual Template</h2>
+<p>Use this table to compare possible directions.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>direction_option</th>
+<th>why_it_interests_me</th>
+<th>current_strengths</th>
+<th>skill_gaps</th>
+<th>evidence_needed</th>
+<th>people_to_learn_from</th>
+<th>opportunity_examples</th>
+<th>next_30_day_action</th>
+<th>priority_level</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Data analyst</td>
+<td>I enjoy organizing information and explaining patterns</td>
+<td>Spreadsheets, reporting, curiosity</td>
+<td>SQL, visualization, project structure</td>
+<td>Small analysis report, dashboard, GitHub repo</td>
+<td>Analyst, mentor, online data community</td>
+<td>Internship, junior analyst role, volunteer project</td>
+<td>Complete one clean analysis project</td>
+<td>High</td>
+</tr>
+<tr class="even">
+<td>Research assistant</td>
+<td>I like scientific work and structured investigation</td>
+<td>Lab exposure, reading papers, documentation</td>
+<td>Data cleaning, reproducible reporting</td>
+<td>Literature summary, dataset review, simple report</td>
+<td>Researcher, graduate student, lab mentor</td>
+<td>Research internship, assistant role</td>
+<td>Summarize one public dataset</td>
+<td>Medium</td>
+</tr>
+<tr class="odd">
+<td>Youth digital skills mentor</td>
+<td>I enjoy helping others learn</td>
+<td>Communication, patience, community connection</td>
+<td>Curriculum design, facilitation evidence</td>
+<td>Lesson plan, learner activity, reflection report</td>
+<td>Teacher, trainer, youth leader</td>
+<td>Community training, mentorship project</td>
+<td>Design one beginner-friendly activity</td>
+<td>Medium</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="how-to-choose-a-direction-for-now" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-choose-a-direction-for-now">How to Choose a Direction for Now</h2>
+<p>A learner does not need to choose the perfect direction.</p>
+<p>They need to choose a direction worth testing.</p>
+<p>A practical way to choose is to score each option using five questions:</p>
+<pre class="text"><code>1. Does this direction connect to my interests or values?
+2. Do I have any current strength that can support it?
+3. Can I build visible evidence within 30 to 90 days?
+4. Are there real opportunities or people connected to this direction?
+5. Does this direction fit my current life constraints?</code></pre>
+<p>A direction that scores well across these questions is a good candidate for the next growth cycle.</p>
+<p>A direction that is interesting but impossible to act on now may be kept as a future option.</p>
+<p>A direction that has opportunities but no personal interest may still be useful, but the learner should be honest about motivation.</p>
+<hr>
+</section>
+<section id="example-interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="example-interpretation">Example Interpretation</h2>
+<p>Suppose a learner compares three directions:</p>
+<pre class="text"><code>Data analyst
+Research assistant
+Youth digital skills mentor</code></pre>
+<p>They may realize that data analysis has the strongest opportunity potential, but youth mentorship has the strongest personal meaning.</p>
+<p>This does not mean they must choose only one forever.</p>
+<p>They may define a combined direction:</p>
+<pre class="text"><code>I want to grow toward data and digital-skills roles where I can use analysis, reporting, and mentorship to support learning, community development, or health-related projects.</code></pre>
+<p>That direction can guide the next learning plan.</p>
+<p>The learner may then build one data project, one communication artifact, and one teaching or mentorship activity.</p>
+<p>Career direction often becomes powerful when it connects strengths instead of forcing the learner into a narrow identity too early.</p>
+<hr>
+</section>
+<section id="common-career-direction-mistakes" class="level2">
+<h2 class="anchored" data-anchor-id="common-career-direction-mistakes">Common Career Direction Mistakes</h2>
+<section id="mistake-1-choosing-only-by-popularity" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-1-choosing-only-by-popularity">Mistake 1: Choosing Only by Popularity</h3>
+<p>A popular field may still be a good direction.</p>
+<p>But popularity alone is not enough.</p>
+<p>The learner must ask whether they are willing to build the skills, evidence, and professional habits required.</p>
+</section>
+<section id="mistake-2-waiting-for-perfect-clarity" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-2-waiting-for-perfect-clarity">Mistake 2: Waiting for Perfect Clarity</h3>
+<p>Some learners delay action because they want certainty.</p>
+<p>Career clarity often comes through action, not before action.</p>
+<p>A direction can be treated as a testable hypothesis.</p>
+</section>
+<section id="mistake-3-ignoring-existing-strengths" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-3-ignoring-existing-strengths">Mistake 3: Ignoring Existing Strengths</h3>
+<p>Career changers often undervalue previous experience.</p>
+<p>Communication, documentation, leadership, laboratory work, teaching, customer service, coordination, and problem-solving can all become bridges into new directions.</p>
+</section>
+<section id="mistake-4-confusing-interest-with-readiness" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-4-confusing-interest-with-readiness">Mistake 4: Confusing Interest With Readiness</h3>
+<p>Interest is important, but it does not automatically mean readiness.</p>
+<p>A learner may be interested in AI, clinical data, or bioinformatics, but still need foundations before building credible evidence.</p>
+</section>
+<section id="mistake-5-choosing-too-many-directions-at-once" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-5-choosing-too-many-directions-at-once">Mistake 5: Choosing Too Many Directions at Once</h3>
+<p>Exploration is useful.</p>
+<p>But active growth requires focus.</p>
+<p>For a 30 to 90 day cycle, one primary direction is usually better than five competing directions.</p>
+<hr>
+</section>
+</section>
+<section id="mentor-or-peer-review-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</h2>
+<p>A mentor can help the learner test whether their direction is clear and realistic.</p>
+<p>Useful prompts include:</p>
+<pre class="text"><code>What part of this direction is strongest?
+What part is still too broad?
+What evidence would make this direction more credible?
+What skill gap should be prioritized first?
+Who should the learner speak with to understand this direction better?
+What opportunity could test this direction in a low-risk way?</code></pre>
+<p>Good mentorship does not force the learner into the mentor’s path.</p>
+<p>It helps the learner see options, trade-offs, and next steps more clearly.</p>
+<hr>
+</section>
+<section id="career-direction-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="career-direction-checklist">Career Direction Checklist</h2>
+<p>Before moving to the learning plan, the learner should be able to say:</p>
+<pre class="text"><code>[ ] I have identified at least two possible career directions.
+[ ] I understand why each direction interests me.
+[ ] I have connected each direction to current strengths.
+[ ] I have listed the main skill gaps for each direction.
+[ ] I know what evidence would make my chosen direction visible.
+[ ] I have identified people, communities, or mentors who can help me learn.
+[ ] I have selected one primary direction for the next growth cycle.
+[ ] I have written a short career direction statement.</code></pre>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>Career direction is not about limiting the learner.</p>
+<p>It is about focusing energy.</p>
+<p>A direction gives learning a reason.</p>
+<p>It gives projects a purpose.</p>
+<p>It gives mentorship a structure.</p>
+<p>It gives opportunity search a target.</p>
+<p>The learner can revise the direction later.</p>
+<p>But without a direction, even strong effort can become scattered.</p>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>The next chapter converts career direction into a learning plan.</p>
-<p>After a learner identifies a realistic direction, the question becomes practical: what should they learn next, in what order, with what evidence, and within what timeframe?</p>
+<p>The next chapter turns career direction into a learning plan.</p>
+<p>Once a learner has selected a direction for the next growth cycle, they need to decide what to learn, what to practice, what evidence to create, and how to keep learning realistic enough to continue.</p>
 
 
 </section>

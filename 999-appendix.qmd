@@ -1,42 +1,357 @@
-# Appendix {#appendix}
+# Appendix {-}
 
 :::cdi-message
 - **ID:** CAREER-999A
-- **Type:** System Guide
-- **Audience:** Learners, professionals, mentors, and training program designers
-- **Theme:** Templates and checklists support repeatable career growth
+- **Type:** Appendix
+- **Audience:** Learners, professionals, mentors, educators, and program designers
+- **Theme:** Career growth becomes easier to support when tools, templates, and review routines are organized in one place
 :::
 
-This chapter will develop the **Appendix** layer of the Career System.
+The appendix brings together practical tools that support the **Career System**.
+
+The main chapters explain the system.
+
+The appendix helps learners, mentors, and programs apply the system consistently.
+
+It can be used as a reference area for worksheets, review prompts, templates, output files, and recurring routines.
+
+A learner does not need to complete every appendix tool at once.
+
+The purpose is to provide a reusable support layer that can grow with the learner.
 
 ---
 
-## Purpose
+## How to Use This Appendix
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+Use this appendix in three ways.
+
+First, use it as a checklist for the full Career System.
+
+Second, use it as a template index when deciding which worksheet to complete next.
+
+Third, use it as a review guide for mentors, educators, or peer groups.
+
+The appendix is especially useful after a learner has completed several chapters and wants to organize their career materials into one working folder.
 
 ---
 
-## Core Questions
+## The Career System Output Package
+
+By the end of the guide, a learner should have a practical package of career-growth outputs.
+
+These outputs do not need to be perfect.
+
+They need to be clear enough to guide action and visible enough to support feedback.
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+career-system-output-package/
+├── career-readiness-self-assessment.csv
+├── skills-inventory-template.csv
+├── career-direction-map-template.csv
+├── learning-plan-template.csv
+├── portfolio-building-template.csv
+├── project-based-proof-template.csv
+├── communication-visibility-template.csv
+├── networking-mentorship-template.csv
+├── job-market-readiness-template.csv
+├── cv-linkedin-profile-template.csv
+├── interview-conversation-template.csv
+├── workplace-performance-template.csv
+├── career-resilience-diversification-template.csv
+├── personal-operating-system-template.csv
+├── opportunity-design-template.csv
+└── career-system-roadmap-template.csv
 ```
+
+The filenames may change as a learner adapts them.
+
+What matters is that each output has a clear role in the system.
 
 ---
 
-## Expected Outputs
+## Career System Template Map
+
+The table below summarizes the major templates in the guide.
+
+| Chapter | Template | Main Purpose |
+|---|---|---|
+| 02 | Career readiness self-assessment | Understand current readiness before pursuing opportunities |
+| 03 | Skills inventory | List skills, evidence, gaps, and career relevance |
+| 04 | Career direction map | Choose a practical direction for the current growth season |
+| 05 | Learning plan | Convert gaps into focused learning actions |
+| 06 | Portfolio building template | Organize visible evidence of capability |
+| 07 | Project-based proof template | Design projects that demonstrate practical ability |
+| 08 | Communication and visibility map | Translate work into messages others can understand |
+| 09 | Networking and mentorship map | Build relationships around learning, feedback, and opportunity |
+| 10 | Job market readiness template | Prepare for realistic opportunity access |
+| 11 | CV, LinkedIn, and profile template | Improve professional materials and public clarity |
+| 12 | Interview and conversation template | Prepare evidence-based career conversations |
+| 13 | Workplace performance log | Track contribution, learning, feedback, and outcomes |
+| 14 | Career resilience map | Identify risks, buffers, and diversification options |
+| 15 | Personal operating system template | Build weekly review and sustainable growth routines |
+| 16 | Opportunity design map | Compare income, learning, alignment, and future options |
+| 18 | Career system roadmap | Turn the whole system into short-, medium-, and long-term action |
+
+---
+
+## Career System Review Flow
+
+A learner can review the system using the following flow.
+
+```{mermaid}
+flowchart TD
+    A[Career Readiness] --> B[Skills Inventory]
+    B --> C[Career Direction]
+    C --> D[Learning Plan]
+    D --> E[Project-Based Proof]
+    E --> F[Portfolio Evidence]
+    F --> G[Communication and Visibility]
+    G --> H[Networking and Mentorship]
+    H --> I[Job Market Readiness]
+    I --> J[Professional Profile]
+    J --> K[Career Conversations]
+    K --> L[Workplace Performance]
+    L --> M[Career Resilience]
+    M --> N[Personal Operating System]
+    N --> O[Opportunity Design]
+    O --> P[Career System Roadmap]
+    P --> C
+```
+
+The final arrow returns to career direction because growth is iterative.
+
+As skills, circumstances, confidence, and opportunities change, the learner should revisit direction and update the plan.
+
+---
+
+## Manual Use Without Bash
+
+The Career System includes optional bash scripts.
+
+These scripts are useful for learners who are comfortable with the command line or for programs that want reproducible folder structures.
+
+However, the scripts are not required.
+
+Learners can complete the guide using a spreadsheet, notebook, document, or printed worksheet.
+
+For manual use, create a folder such as:
 
 ```text
-To be developed in the full chapter draft.
+Career System/
+├── 01 Readiness/
+├── 02 Skills Inventory/
+├── 03 Career Direction/
+├── 04 Learning Plan/
+├── 05 Portfolio Evidence/
+├── 06 Networking and Mentorship/
+├── 07 Job Market Readiness/
+├── 08 Interviews and Conversations/
+├── 09 Workplace Performance/
+├── 10 Resilience and Sustainability/
+└── 11 Roadmap/
 ```
+
+Then copy the tables from each chapter into the relevant folder.
+
+This keeps the guide accessible to beginners and still useful for technical users.
+
+---
+
+## Optional Bash Workflow
+
+Learners or programs using the repository can generate templates with the provided scripts.
+
+Run individual scripts as needed:
+
+```bash
+bash scripts/bash/02-create-career-readiness-template.sh
+bash scripts/bash/03-create-skills-inventory-template.sh
+bash scripts/bash/04-create-career-direction-template.sh
+bash scripts/bash/05-create-learning-plan-template.sh
+bash scripts/bash/06-create-portfolio-building-template.sh
+bash scripts/bash/07-create-project-based-proof-template.sh
+bash scripts/bash/08-create-communication-visibility-template.sh
+bash scripts/bash/09-create-networking-mentorship-template.sh
+bash scripts/bash/10-create-job-market-readiness-template.sh
+bash scripts/bash/11-create-cv-linkedin-profile-template.sh
+bash scripts/bash/12-create-interview-conversation-template.sh
+bash scripts/bash/13-create-workplace-performance-template.sh
+bash scripts/bash/14-create-career-resilience-template.sh
+bash scripts/bash/15-create-personal-operating-system-template.sh
+bash scripts/bash/16-create-opportunity-design-template.sh
+bash scripts/bash/17-create-end-to-end-career-case-study.sh
+bash scripts/bash/18-create-career-system-roadmap.sh
+bash scripts/bash/999-create-career-system-appendix-templates.sh
+```
+
+The scripts should be treated as supporting tools.
+
+The main learning still comes from reflection, discussion, practice, feedback, and revision.
+
+---
+
+## Mentor Review Checklist
+
+Mentors can use this checklist to review a learner's progress.
+
+| Review Area | Guiding Question |
+|---|---|
+| Readiness | Does the learner understand their current starting point? |
+| Direction | Is the current direction specific enough to guide action? |
+| Skills | Are strengths and gaps listed honestly? |
+| Evidence | Can the learner show examples of what they can do? |
+| Communication | Can the learner explain their work clearly? |
+| Visibility | Are the learner's relevant outputs findable or shareable? |
+| Relationships | Is the learner building feedback and mentorship connections? |
+| Opportunity | Does the learner understand realistic next opportunities? |
+| Performance | Can the learner describe how they contribute in real settings? |
+| Resilience | Does the learner have options beyond one fragile path? |
+| Sustainability | Does the learner have routines that support long-term growth? |
+
+The mentor's role is not to give all answers.
+
+The mentor helps the learner see more clearly, choose better next steps, and remain accountable to growth.
+
+---
+
+## Weekly Career Review Template
+
+A weekly review helps the learner keep the system alive.
+
+| Question | Response |
+|---|---|
+| What did I learn this week? |  |
+| What did I practice? |  |
+| What evidence did I create or improve? |  |
+| What feedback did I receive? |  |
+| Who did I communicate with or learn from? |  |
+| What opportunity signal did I notice? |  |
+| What needs attention next week? |  |
+| What is one small action for the next seven days? |  |
+
+The weekly review should be short.
+
+A useful review completed consistently is better than a perfect review completed once.
+
+---
+
+## Monthly Career System Review
+
+A monthly review helps the learner connect weekly actions to larger direction.
+
+Use these prompts once per month.
+
+1. What skill improved this month?
+2. What evidence became stronger?
+3. What did I learn about my career direction?
+4. What relationship or feedback helped me grow?
+5. What opportunity became clearer?
+6. What risk or weakness needs attention?
+7. What should I stop doing?
+8. What should I continue doing?
+9. What should I start doing?
+10. What is my most important career action for the next month?
+
+This review can be done alone, with a mentor, or in a small peer group.
+
+---
+
+## Career Evidence Quality Rubric
+
+Use this rubric to improve portfolio items, projects, profiles, and interview stories.
+
+| Level | Description |
+|---|---|
+| 1 — Claimed | The learner says they have a skill, but no clear evidence is shown |
+| 2 — Described | The learner explains what they learned or did, but evidence is limited |
+| 3 — Demonstrated | The learner shows an output, example, project, report, or work sample |
+| 4 — Interpreted | The learner explains the context, decisions, process, and meaning of the work |
+| 5 — Transferable | The learner connects the evidence to a role, problem, audience, or opportunity |
+
+The goal is not to make every item Level 5.
+
+The goal is to keep improving the quality of evidence over time.
+
+---
+
+## Career Conversation Preparation Sheet
+
+Before a mentorship conversation, interview, referral conversation, or professional meeting, the learner can prepare using this structure.
+
+| Preparation Area | Notes |
+|---|---|
+| Purpose of conversation |  |
+| Person or audience |  |
+| Relevant context |  |
+| Evidence I may share |  |
+| Questions I want to ask |  |
+| Support I am seeking |  |
+| Follow-up action |  |
+
+This helps the learner enter conversations with clarity and respect.
+
+It also makes it easier for others to help.
+
+---
+
+## Common Signs the Career System Needs Updating
+
+A career system is not static.
+
+It needs updating when any of these signs appear:
+
+- the learner has outgrown the original direction,
+- the skills inventory no longer reflects current ability,
+- the portfolio does not show recent work,
+- the professional profile feels outdated,
+- the learner is applying to opportunities without a clear target,
+- interviews reveal repeated gaps,
+- the learner is performing well but not documenting evidence,
+- the learner depends too heavily on one income source or one employer,
+- weekly routines have disappeared,
+- or the roadmap no longer fits the learner's life situation.
+
+Updating the system is not failure.
+
+It is part of sustainable professional growth.
+
+---
+
+## Program or Classroom Use
+
+Educators and training programs can use the Career System as a professional growth layer.
+
+A simple program design could use four phases.
+
+| Phase | Focus | Suggested Chapters |
+|---|---|---|
+| Foundation | Readiness, skills, direction | 00–04 |
+| Practice | Learning plan, projects, portfolio | 05–07 |
+| Visibility | Communication, mentorship, job readiness, profiles | 08–12 |
+| Sustainability | Performance, resilience, personal system, opportunity design, roadmap | 13–18 |
+
+Each phase can end with a learner output review.
+
+This helps learners build a professional package gradually instead of rushing to prepare only when an application deadline appears.
+
+---
+
+## CDI Reflection
+
+A career becomes more sustainable when it is treated as a system of repeated learning, evidence, feedback, contribution, and adaptation.
+
+The appendix is not separate from the guide.
+
+It is the practical layer that helps learners turn ideas into routines and routines into growth.
+
+The goal is not to complete a file.
+
+The goal is to become more prepared, more visible, more useful, more resilient, and more intentional over time.
+
 ---
 
 ## Looking Ahead
 
-The references section lists the evidence base that supports the Career System.
+The final section of the guide provides the reference list used to support the Career System.
 
-As the guide develops, this reference layer can expand to include career development theory, employability research, mentoring literature, career adaptability, learning design, professional identity, and labor-market readiness.
+These references connect the guide to evidence-based career development ideas, including career adaptability, employability, career competencies, social cognitive career theory, life-span career development, and learning through planned and unplanned opportunity.

@@ -1,42 +1,496 @@
-# CV, LinkedIn, and Professional Profile {#11_cv_linkedin_and_profile}
+# CV, LinkedIn, and Professional Profile {#cv-linkedin-and-profile}
 
 :::cdi-message
 - **ID:** CAREER-011
 - **Type:** System Guide
 - **Audience:** Learners, professionals, mentors, and training program designers
-- **Theme:** Profiles should communicate direction, evidence, and professional value
+- **Theme:** Profiles should translate skills and evidence into clear professional value
 :::
 
-This chapter will develop the **CV, LinkedIn, and Professional Profile** layer of the Career System.
+A professional profile is often the first place where another person tries to understand a learner's value.
 
----
+That person may be a recruiter.
 
-## Purpose
+It may be a mentor.
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+It may be a hiring manager.
 
----
+It may be a collaborator, client, supervisor, scholarship reviewer, program coordinator, or community leader.
 
-## Core Questions
+A profile should therefore do more than list experiences.
 
-```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
-```
-
----
-
-## Expected Outputs
+It should help someone answer a simple question:
 
 ```text
-To be developed in the full chapter draft.
+What can this person do, what evidence supports it, and where are they trying to grow?
 ```
+
+In the Career System, the CV, LinkedIn profile, and professional bio are not separate documents.
+
+They are evidence translation tools.
+
+They help convert skills, projects, learning, and experience into language that other people can understand and act on.
+
+---
+
+## Why Professional Profiles Matter
+
+Many learners and professionals underestimate the role of profile clarity.
+
+They may have skills.
+
+They may have completed projects.
+
+They may have helped others.
+
+They may have workplace experience.
+
+But if their profile does not communicate these things clearly, opportunities may not find them.
+
+A weak profile can hide strong ability.
+
+A strong profile does not exaggerate.
+
+It organizes evidence so that the reader can quickly see direction, capability, and credibility.
+
+The goal is not to sound impressive for its own sake.
+
+The goal is to make professional value visible, specific, and trustworthy.
+
+---
+
+## Profiles in the Career System
+
+A profile sits after portfolio evidence and visibility because it depends on what the learner can actually show.
+
+```{mermaid}
+flowchart LR
+    A[Career Direction] --> B[Skills Inventory]
+    B --> C[Learning Plan]
+    C --> D[Project-Based Proof]
+    D --> E[Portfolio Evidence]
+    E --> F[Communication and Visibility]
+    F --> G[CV, LinkedIn, and Profile]
+    G --> H[Interviews and Career Conversations]
+    H --> I[Opportunity Access]
+    I --> J[Workplace Performance]
+```
+
+A learner should not write a profile only from memory.
+
+They should write it from evidence.
+
+The best profiles are built from previous Career System outputs:
+
+```text
+career direction
+skills inventory
+learning plan
+portfolio evidence
+project summaries
+visibility statements
+networking and mentorship feedback
+job market readiness map
+```
+
+This keeps the profile honest and connected to real growth.
+
+---
+
+## CV, LinkedIn, and Bio Are Different Tools
+
+A CV, LinkedIn profile, and short professional bio overlap, but they do not have the same purpose.
+
+A **CV or résumé** is usually used for selection.
+
+It helps a reviewer decide whether the learner fits a role, program, project, or opportunity.
+
+A **LinkedIn profile** is used for discovery, credibility, and connection.
+
+It helps people find the learner, understand their direction, and decide whether to start a conversation.
+
+A **short professional bio** is used for quick introduction.
+
+It helps the learner present themselves in emails, applications, speaker notes, portfolios, community pages, and mentorship settings.
+
+Each tool should tell the same professional story, but with different levels of detail.
+
+---
+
+## The Profile Clarity System
+
+A clear professional profile answers six questions.
+
+```{mermaid}
+flowchart TD
+    A[Who are you professionally?]
+    B[What direction are you growing toward?]
+    C[What skills can you apply?]
+    D[What evidence shows those skills?]
+    E[What value can you contribute?]
+    F[What opportunity or conversation fits next?]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+```
+
+These questions can guide every profile revision.
+
+If a profile is unclear, it is usually because one of these questions is missing.
+
+---
+
+## Profile Clarity Across Career Stages
+
+Professional profiles should change as the learner grows.
+
+A beginner should not pretend to have years of experience.
+
+An experienced professional should not describe themselves only through job titles.
+
+A career changer should not erase previous experience.
+
+A mentor should help the learner communicate growth honestly for the stage they are in.
+
+| Career stage | Profile focus | Strong evidence |
+|---|---|---|
+| Beginner | Direction, learning commitment, basic skills, early projects | Coursework, practice projects, volunteer work, learning logs |
+| Early-career learner | Applied skills, internship readiness, project evidence | Portfolio projects, GitHub, reports, presentations, supervised work |
+| Working professional | Results, responsibility, domain knowledge, collaboration | Work outputs, measurable contributions, process improvements |
+| Career changer | Transferable strengths, new direction, bridge evidence | Prior achievements plus new projects in target area |
+| Advanced professional | Leadership, systems thinking, mentoring, strategic contribution | Programs led, teams supported, decisions influenced, outcomes improved |
+
+The goal is not to use the same profile forever.
+
+The goal is to keep the profile aligned with the learner's current evidence and next growth direction.
+
+---
+
+## What Makes a Strong CV or Résumé
+
+A strong CV or résumé is not a long list of activities.
+
+It is a structured argument for fit.
+
+It should show:
+
+- relevant direction,
+- relevant skills,
+- relevant evidence,
+- relevant experience,
+- and relevant outcomes.
+
+For many learners, the most important improvement is moving from vague statements to evidence-based statements.
+
+Weak statement:
+
+```text
+Good communication skills.
+```
+
+Stronger statement:
+
+```text
+Prepared weekly project summaries for a mentorship group, translating technical progress into simple next-step updates.
+```
+
+Weak statement:
+
+```text
+Knowledge of data analysis.
+```
+
+Stronger statement:
+
+```text
+Built a small data analysis project that cleaned survey data, summarized key patterns, and produced a reproducible report.
+```
+
+The stronger versions show action, context, and evidence.
+
+---
+
+## What Makes a Strong LinkedIn Profile
+
+A strong LinkedIn profile should help the right people understand the learner quickly.
+
+It should not only repeat the CV.
+
+It should provide a clear professional signal.
+
+Important profile elements include:
+
+- headline,
+- about section,
+- featured work,
+- experience,
+- education or training,
+- skills,
+- recommendations if available,
+- and recent activity that reflects professional direction.
+
+A good headline should not be too generic.
+
+Weak headline:
+
+```text
+Student | Hardworking | Looking for opportunities
+```
+
+Stronger headline:
+
+```text
+Early-career data learner building portfolio projects in analysis, reporting, and reproducible workflows
+```
+
+Weak headline:
+
+```text
+Data scientist
+```
+
+Stronger headline:
+
+```text
+Data professional focused on analytical systems, reproducible reporting, and decision-ready insights
+```
+
+The stronger headline gives direction and context.
+
+---
+
+## What Makes a Strong Professional Bio
+
+A short bio should be useful in everyday professional situations.
+
+It should be clear enough for someone to introduce the learner or understand their focus quickly.
+
+A practical bio can follow this structure:
+
+```text
+I am a [career stage or professional identity] focused on [direction].
+I build or contribute to [type of evidence or work].
+I am currently developing [current growth area].
+I am interested in [next opportunity or conversation].
+```
+
+Example:
+
+```text
+I am an early-career data learner focused on practical analysis and reproducible reporting. I build small portfolio projects that turn messy data into clear summaries, visuals, and written explanations. I am currently strengthening my Python, statistics, and communication skills. I am interested in internships, mentorship, and project-based learning opportunities in data analysis.
+```
+
+This bio is honest.
+
+It does not claim too much.
+
+It gives the reader something concrete to understand.
+
+---
+
+## The CV, LinkedIn, and Profile Template
+
+This chapter uses a profile planning template to help learners organize their professional message before editing documents.
+
+The template focuses on translation.
+
+It asks the learner to connect career direction, skills, evidence, and audience.
+
+| profile_component | current_version | evidence_source | improvement_needed | next_revision |
+|---|---|---|---|---|
+| Headline | Early-career data learner | Skills inventory, portfolio projects | Make direction more specific | Early-career data learner building reproducible analysis projects |
+| About section | I like data analysis | Portfolio evidence, learning plan | Add evidence and current learning | Write 4-sentence bio with skills, projects, and next goal |
+| Featured work | None | Project-based proof | Add visible evidence | Add one project report or GitHub repository |
+| CV skills section | Python, Excel | Skills inventory | Add context and level | Group skills by analysis, reporting, communication |
+| Experience bullet | Helped with reports | Workplace or volunteer evidence | Make action and outcome clearer | Prepared weekly summaries to support team decisions |
+
+A learner can adapt this table in a spreadsheet, notebook, or plain text document.
+
+---
+
+## Create the Template
+
+Learners using the repo can create the supporting template with the optional script:
+
+```bash
+chmod +x scripts/bash/11-create-cv-linkedin-profile-template.sh
+bash scripts/bash/11-create-cv-linkedin-profile-template.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/cv-linkedin-profile-template.csv
+results/cv-linkedin-profile/example-cv-linkedin-profile.csv
+results/cv-linkedin-profile/README-cv-linkedin-profile.md
+```
+
+Learners who are not using the command line can copy the table structure from this chapter into a spreadsheet or notebook.
+
+The important part is not the tool.
+
+The important part is the thinking.
+
+---
+
+## Manual Template
+
+Use this manual version when working with a learner, class, mentorship group, or career workshop.
+
+| Question | Learner response |
+|---|---|
+| What role, field, or opportunity are you preparing for? |  |
+| What three skills are most relevant to that direction? |  |
+| What evidence proves or supports those skills? |  |
+| What is currently unclear in your CV or profile? |  |
+| What should your headline communicate? |  |
+| What project or output should be featured first? |  |
+| What sentence best summarizes your professional direction? |  |
+| What feedback do you need from a mentor or peer? |  |
+
+This table works well before rewriting a CV or LinkedIn profile.
+
+It prevents the learner from editing words before clarifying the message.
+
+---
+
+## Profile Review Workflow
+
+A practical profile review can follow this sequence.
+
+```{mermaid}
+flowchart TD
+    A[Collect career evidence]
+    B[Identify target audience]
+    C[Clarify professional direction]
+    D[Draft headline or summary]
+    E[Revise CV bullets]
+    F[Update LinkedIn sections]
+    G[Add portfolio evidence]
+    H[Request feedback]
+    I[Revise and maintain]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+```
+
+This workflow should be repeated whenever the learner completes a meaningful project, changes direction, gains experience, or prepares for a specific opportunity.
+
+---
+
+## Example Profile Improvement
+
+Before:
+
+```text
+I am a hardworking graduate looking for opportunities in data.
+```
+
+After:
+
+```text
+I am an early-career data learner building practical skills in data cleaning, analysis, visualization, and reproducible reporting. My current portfolio includes small projects that turn structured datasets into clear summaries and decision-ready explanations. I am seeking mentorship, internships, or entry-level opportunities where I can continue developing analytical and communication skills.
+```
+
+The revised version is stronger because it shows:
+
+- career stage,
+- direction,
+- skills,
+- evidence,
+- and next opportunity.
+
+It does not overclaim.
+
+It gives the reader useful information.
+
+---
+
+## Common Profile Mistakes
+
+A learner should watch for common mistakes.
+
+One mistake is writing a profile that is too generic.
+
+Another is listing many skills without evidence.
+
+Another is using inflated language that the learner cannot support in conversation.
+
+Another is hiding useful work because it was unpaid, informal, academic, or community-based.
+
+Another is copying profile language from others without adapting it to personal evidence.
+
+A strong profile should sound like the learner, but organized professionally.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor or peer can review the profile using simple questions.
+
+```text
+Can you understand the learner's professional direction within 30 seconds?
+What evidence supports the learner's claimed skills?
+Which statement sounds too vague?
+Which statement sounds too inflated?
+What should be moved higher in the profile?
+What is missing from the CV, LinkedIn profile, or bio?
+What opportunity does this profile seem prepared for?
+```
+
+These questions help the learner improve clarity without making the profile artificial.
+
+---
+
+## CV, LinkedIn, and Profile Checklist
+
+Before moving to the next chapter, the learner should be able to say:
+
+- I can describe my current professional direction clearly.
+- My CV or résumé is aligned with my target opportunity.
+- My profile uses evidence rather than vague claims.
+- My LinkedIn headline gives a useful professional signal.
+- My short bio is ready for introductions and mentorship conversations.
+- My portfolio or project evidence is connected to my profile.
+- I know what feedback I need from a mentor or peer.
+
+This checklist does not mean the profile is final.
+
+It means the profile is ready to support better conversations.
+
+---
+
+## CDI Reflection
+
+A professional profile is not a performance of perfection.
+
+It is a communication system.
+
+It helps other people understand how a learner's skills, evidence, direction, and goals fit together.
+
+For beginners, this creates confidence and structure.
+
+For experienced professionals, it creates clarity and repositioning.
+
+For mentors, it creates a concrete object for feedback.
+
+The profile should keep changing as the learner grows.
+
+A living career deserves a living profile.
+
 ---
 
 ## Looking Ahead
 
-The next chapter prepares the learner for interviews and career conversations.
+The next chapter moves from written profile materials to live career conversations.
 
-A strong profile may open a door, but the learner still needs to explain their work, discuss decisions, handle questions, tell a coherent career story, and learn from professional conversations.
+Once a learner can communicate their direction, skills, and evidence in a profile, they need to prepare for interviews, mentorship discussions, referral conversations, performance reviews, and opportunity meetings where that evidence must be explained clearly and confidently.

@@ -1,4 +1,4 @@
-# Career System Roadmap {#18_career_system_roadmap}
+# Career System Roadmap {#career-system-roadmap}
 
 :::cdi-message
 - **ID:** CAREER-018
@@ -7,36 +7,414 @@
 - **Theme:** A roadmap helps learners continue growing after the guide
 :::
 
-This chapter will develop the **Career System Roadmap** layer of the Career System.
+A career system is useful only if it continues after the guide is finished.
+
+A learner can complete a readiness assessment, build a skills inventory, write a learning plan, prepare a portfolio, improve a professional profile, and practice interviews.
+
+Those outputs matter.
+
+But career growth does not end with one completed worksheet.
+
+The purpose of this chapter is to help learners convert the Career System into a living roadmap: a practical plan they can revisit, revise, and use across different seasons of professional life.
+
+A roadmap gives structure to the next stage.
+
+It helps a learner decide what to continue, what to improve, what to stop, and what to build next.
 
 ---
 
-## Purpose
+## Why a Career System Roadmap Matters
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+Many people finish a course, training program, certificate, degree, internship, or job transition with temporary motivation.
+
+They may feel inspired for a few days or weeks.
+
+But without a roadmap, that motivation can fade.
+
+A career roadmap helps turn learning into continued action.
+
+It answers practical questions:
+
+- What should I work on next?
+- What evidence should I strengthen?
+- Which relationships should I maintain?
+- What opportunities should I prepare for?
+- What risks should I watch?
+- How will I know whether I am growing?
+
+The roadmap is not a prediction of the future.
+
+It is a decision-support tool.
+
+It helps the learner move forward with awareness instead of drifting from one urgent demand to another.
 
 ---
 
-## Core Questions
+## The Roadmap in the Career System
+
+The roadmap connects all earlier chapters into one continuing system.
+
+```{mermaid}
+flowchart LR
+    A[Career Readiness] --> B[Skills Inventory]
+    B --> C[Career Direction]
+    C --> D[Learning Plan]
+    D --> E[Project-Based Proof]
+    E --> F[Portfolio Evidence]
+    F --> G[Communication and Visibility]
+    G --> H[Networking and Mentorship]
+    H --> I[Job Market Readiness]
+    I --> J[Professional Profile]
+    J --> K[Interviews and Conversations]
+    K --> L[Workplace Performance]
+    L --> M[Career Resilience]
+    M --> N[Personal Operating System]
+    N --> O[Opportunity Design]
+    O --> P[Career System Roadmap]
+    P --> C
+    P --> D
+    P --> E
+```
+
+The roadmap loops back into direction, learning, and project-based proof.
+
+This is important.
+
+Professional growth is not a one-time sequence.
+
+It is a cycle of assessment, learning, evidence, visibility, opportunity, performance, and adjustment.
+
+---
+
+## A Roadmap Is Not a Rigid Life Plan
+
+A career roadmap should not make the learner feel trapped.
+
+It is not a fixed life plan.
+
+It is not a promise that every goal will happen exactly as written.
+
+It is not a list of tasks copied from someone else.
+
+A useful roadmap is flexible.
+
+It gives enough direction to guide action, but enough openness to adapt when new information appears.
+
+For a beginner, the roadmap may focus on building basic skills, completing small projects, and finding supportive mentors.
+
+For an early-career professional, it may focus on workplace performance, stronger portfolio evidence, and better opportunity conversations.
+
+For an experienced professional, it may focus on leadership, specialization, advisory work, diversification, or mentoring others.
+
+For a career changer, it may focus on transferable skills, bridge projects, credibility signals, and gradual repositioning.
+
+---
+
+## The Five Horizons of Career Growth
+
+A practical roadmap can be organized across five time horizons.
+
+### 1. Immediate Horizon
+
+This covers the next one to two weeks.
+
+It focuses on small actions that reduce confusion and create momentum.
+
+Examples include updating one profile section, listing current skills, contacting one mentor, or choosing one small project.
+
+### 2. Short-Term Horizon
+
+This covers the next one to three months.
+
+It focuses on visible progress.
+
+Examples include completing a learning module, finishing a portfolio item, improving a CV, practicing interviews, or joining a relevant professional community.
+
+### 3. Medium-Term Horizon
+
+This covers the next three to six months.
+
+It focuses on evidence and opportunity readiness.
+
+Examples include building a stronger project, publishing a short case study, preparing for applications, taking on new workplace responsibilities, or developing a mentorship routine.
+
+### 4. Long-Term Horizon
+
+This covers the next six to twelve months.
+
+It focuses on position, growth, and sustainability.
+
+Examples include moving toward a target role, strengthening a professional niche, building a stronger network, improving income options, or developing leadership capacity.
+
+### 5. Renewal Horizon
+
+This is the regular review cycle.
+
+It asks the learner to pause, examine what changed, and revise the roadmap.
+
+Without renewal, a roadmap becomes outdated.
+
+With renewal, it becomes a living career system.
+
+---
+
+## The Roadmap Questions
+
+A strong Career System roadmap is built around a few practical questions.
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+Where am I now?
+Where am I trying to grow next?
+What evidence do I already have?
+What evidence is missing?
+What skills need attention?
+What relationships or feedback do I need?
+What opportunities am I preparing for?
+What risks should I reduce?
+What will I review again in the next cycle?
+```
+
+These questions keep the learner grounded.
+
+They also help mentors, educators, and training programs support the learner more clearly.
+
+---
+
+## Roadmaps Across Career Stages
+
+The same roadmap structure can serve different types of learners.
+
+| Career stage | Roadmap focus | Example next action |
+|---|---|---|
+| Beginner | Confidence, habits, basic skills, small proof | Complete one beginner project and explain it clearly |
+| Student or trainee | Direction, learning plan, portfolio evidence | Build a project related to a target field |
+| Early-career professional | Workplace performance, profile clarity, feedback | Turn workplace work into evidence and learning notes |
+| Career changer | Transferable skills, bridge evidence, repositioning | Build a portfolio item connecting past experience to new direction |
+| Experienced professional | Specialization, leadership, mentoring, diversification | Develop an advisory, teaching, leadership, or thought-work output |
+| Returning professional | Confidence, updated skills, renewed visibility | Refresh profile and complete a current proof-of-skill project |
+
+The roadmap should meet the learner where they are.
+
+It should not assume that everyone begins from the same place.
+
+---
+
+## The Career System Roadmap Template
+
+The roadmap template helps learners organize the next stage of growth.
+
+Each row should represent one growth priority.
+
+A growth priority may be a skill, project, relationship, professional profile update, opportunity preparation step, workplace performance goal, or resilience action.
+
+A useful roadmap includes:
+
+- the growth area,
+- the current state,
+- the desired next state,
+- the action required,
+- the evidence to produce,
+- the support or feedback needed,
+- the timeline,
+- and the review date.
+
+---
+
+## Create the Template
+
+This chapter includes an optional script that creates a reusable roadmap template.
+
+Learners who are comfortable using the command line can run:
+
+```bash
+chmod +x scripts/bash/18-create-career-system-roadmap.sh
+bash scripts/bash/18-create-career-system-roadmap.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/career-system-roadmap-template.csv
+results/career-system-roadmap/example-career-system-roadmap.csv
+results/career-system-roadmap/README-career-system-roadmap.md
+```
+
+Learners who are not using the command line can copy the manual template below into a spreadsheet, notebook, or document.
+
+---
+
+## Manual Template
+
+| growth_area | current_state | desired_next_state | next_action | evidence_to_create | support_needed | timeline | review_date |
+|---|---|---|---|---|---|---|---|
+| Skills | I understand the basics but need practice | I can apply the skill in a small project | Complete one focused project | Project summary and output | Peer or mentor review | 4 weeks | End of month |
+| Portfolio | I have work but it is not organized | I have two clear portfolio items | Select and document strongest work | Portfolio entry | Feedback from mentor | 6 weeks | Next review cycle |
+| Visibility | My profile does not show my direction | My profile communicates my current path | Rewrite headline and summary | Updated profile text | Peer review | 2 weeks | Friday review |
+| Opportunity | I am unsure which roles fit me | I have three target role types | Compare role descriptions | Role comparison notes | Career mentor | 3 weeks | Monthly review |
+
+The template does not need to be perfect at first.
+
+It needs to be honest enough to guide action.
+
+---
+
+## Example Roadmap Interpretation
+
+Suppose a learner writes:
+
+```text
+Growth area: Portfolio
+Current state: I have completed exercises but no clear public project.
+Desired next state: I have one project that shows my ability to solve a real problem.
+Next action: Convert one learning exercise into a documented case study.
+Evidence to create: README, result summary, reflection, and project link.
+Support needed: Mentor feedback on clarity and relevance.
+Timeline: Four weeks.
+Review date: End of next month.
+```
+
+This is a strong roadmap entry because it connects action to evidence.
+
+It does not only say, “build portfolio.”
+
+It names the current gap, defines the next state, identifies the output, and creates a review point.
+
+---
+
+## From Roadmap to Weekly Action
+
+A roadmap is only useful when it becomes action.
+
+The learner should translate the roadmap into weekly priorities.
+
+For each week, they can ask:
+
+```text
+What is the one action that moves my roadmap forward?
+What output will I create or improve?
+Who can give me feedback?
+What did I learn from last week?
+What should I adjust?
+```
+
+This connects the roadmap to the Personal Operating System chapter.
+
+The roadmap gives direction.
+
+The weekly review creates momentum.
+
+---
+
+## Reviewing the Roadmap
+
+A roadmap should be reviewed regularly.
+
+A simple review cycle can happen monthly or quarterly.
+
+During each review, the learner should update:
+
+- completed actions,
+- new evidence,
+- skills improved,
+- opportunities explored,
+- feedback received,
+- changes in direction,
+- and risks that need attention.
+
+A roadmap that never changes is probably not being used.
+
+Growth creates new information.
+
+New information should improve the roadmap.
+
+---
+
+## Common Roadmap Mistakes
+
+A common mistake is making the roadmap too broad.
+
+A roadmap with too many goals becomes difficult to act on.
+
+Another mistake is writing goals without evidence.
+
+For example, “improve communication” is less useful than “write and share two short project summaries.”
+
+Another mistake is copying someone else's path without considering personal context.
+
+A roadmap must fit the learner's current skills, responsibilities, constraints, and opportunities.
+
+Another mistake is ignoring sustainability.
+
+A roadmap that depends on constant pressure may create burnout rather than growth.
+
+---
+
+## Mentor or Program Review Prompts
+
+Mentors and educators can use the roadmap to support better conversations.
+
+Useful prompts include:
+
+```text
+Is the learner's next direction clear enough for action?
+Are the proposed actions realistic for the learner's current stage?
+Does the roadmap include visible evidence?
+Does the learner know what feedback they need?
+Are the timelines practical?
+Is the roadmap too narrow, too broad, or well balanced?
+What should the learner focus on first?
+```
+
+The goal is not to control the learner's path.
+
+The goal is to help the learner make better decisions.
+
+---
+
+## Career System Roadmap Checklist
+
+Use this checklist before treating the roadmap as ready.
+
+```text
+[ ] I have named my current career stage honestly.
+[ ] I have identified my main growth direction for the next cycle.
+[ ] I have selected a small number of realistic priorities.
+[ ] Each priority includes a concrete next action.
+[ ] Each priority includes evidence to create or improve.
+[ ] I know what support or feedback I need.
+[ ] I have a timeline for each priority.
+[ ] I have a review date.
+[ ] My roadmap connects to learning, evidence, visibility, opportunity, and sustainability.
+[ ] My roadmap is flexible enough to revise when new information appears.
 ```
 
 ---
 
-## Expected Outputs
+## CDI Reflection
+
+A sustainable career is not built by one decision.
+
+It is built by repeated decisions that become more informed over time.
+
+The Career System Roadmap is where the learner turns the whole guide into a continuing practice.
+
+The learner is no longer only asking, “What should I do?”
+
+They are learning to ask better questions:
 
 ```text
-To be developed in the full chapter draft.
+What am I building?
+What evidence am I creating?
+Who can benefit from this work?
+Who can help me improve it?
+What opportunity does this prepare me for?
+What should I adjust next?
 ```
+
+Those questions are the foundation of sustainable professional growth.
+
 ---
 
 ## Looking Ahead
 
-The appendix provides reusable templates, checklists, folder maps, and review tools that support the Career System in practice.
-
-These resources help learners and mentors convert the guide from reading material into repeatable professional growth workflows.
+The next section provides appendix materials, reusable templates, review checklists, and support resources that can help learners, mentors, and training programs apply the Career System beyond the main chapters.

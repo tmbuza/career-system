@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -285,9 +324,47 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#why-networking-and-mentorship-matter" id="toc-why-networking-and-mentorship-matter" class="nav-link active" data-scroll-target="#why-networking-and-mentorship-matter">Why Networking and Mentorship Matter</a></li>
+  <li><a href="#networking-and-mentorship-in-the-career-system" id="toc-networking-and-mentorship-in-the-career-system" class="nav-link" data-scroll-target="#networking-and-mentorship-in-the-career-system">Networking and Mentorship in the Career System</a></li>
+  <li><a href="#networking-is-not-asking-for-favors" id="toc-networking-is-not-asking-for-favors" class="nav-link" data-scroll-target="#networking-is-not-asking-for-favors">Networking Is Not Asking for Favors</a></li>
+  <li><a href="#mentorship-is-not-one-thing" id="toc-mentorship-is-not-one-thing" class="nav-link" data-scroll-target="#mentorship-is-not-one-thing">Mentorship Is Not One Thing</a>
+  <ul class="collapse">
+  <li><a href="#peer-mentor" id="toc-peer-mentor" class="nav-link" data-scroll-target="#peer-mentor">Peer Mentor</a></li>
+  <li><a href="#technical-reviewer" id="toc-technical-reviewer" class="nav-link" data-scroll-target="#technical-reviewer">Technical Reviewer</a></li>
+  <li><a href="#career-mentor" id="toc-career-mentor" class="nav-link" data-scroll-target="#career-mentor">Career Mentor</a></li>
+  <li><a href="#connector" id="toc-connector" class="nav-link" data-scroll-target="#connector">Connector</a></li>
+  <li><a href="#sponsor" id="toc-sponsor" class="nav-link" data-scroll-target="#sponsor">Sponsor</a></li>
+  <li><a href="#community" id="toc-community" class="nav-link" data-scroll-target="#community">Community</a></li>
+  </ul></li>
+  <li><a href="#relationship-types-in-the-career-system" id="toc-relationship-types-in-the-career-system" class="nav-link" data-scroll-target="#relationship-types-in-the-career-system">Relationship Types in the Career System</a></li>
+  <li><a href="#networking-across-career-stages" id="toc-networking-across-career-stages" class="nav-link" data-scroll-target="#networking-across-career-stages">Networking Across Career Stages</a>
+  <ul class="collapse">
+  <li><a href="#beginner" id="toc-beginner" class="nav-link" data-scroll-target="#beginner">Beginner</a></li>
+  <li><a href="#early-career-professional" id="toc-early-career-professional" class="nav-link" data-scroll-target="#early-career-professional">Early-Career Professional</a></li>
+  <li><a href="#career-changer" id="toc-career-changer" class="nav-link" data-scroll-target="#career-changer">Career Changer</a></li>
+  <li><a href="#experienced-professional" id="toc-experienced-professional" class="nav-link" data-scroll-target="#experienced-professional">Experienced Professional</a></li>
+  <li><a href="#mentor-or-educator" id="toc-mentor-or-educator" class="nav-link" data-scroll-target="#mentor-or-educator">Mentor or Educator</a></li>
+  </ul></li>
+  <li><a href="#the-evidence-based-networking-principle" id="toc-the-evidence-based-networking-principle" class="nav-link" data-scroll-target="#the-evidence-based-networking-principle">The Evidence-Based Networking Principle</a></li>
+  <li><a href="#the-networking-and-mentorship-map" id="toc-the-networking-and-mentorship-map" class="nav-link" data-scroll-target="#the-networking-and-mentorship-map">The Networking and Mentorship Map</a></li>
+  <li><a href="#create-the-template" id="toc-create-the-template" class="nav-link" data-scroll-target="#create-the-template">Create the Template</a></li>
+  <li><a href="#manual-template" id="toc-manual-template" class="nav-link" data-scroll-target="#manual-template">Manual Template</a></li>
+  <li><a href="#example-networking-entry" id="toc-example-networking-entry" class="nav-link" data-scroll-target="#example-networking-entry">Example Networking Entry</a></li>
+  <li><a href="#how-to-write-a-good-mentorship-request" id="toc-how-to-write-a-good-mentorship-request" class="nav-link" data-scroll-target="#how-to-write-a-good-mentorship-request">How to Write a Good Mentorship Request</a></li>
+  <li><a href="#how-to-follow-up-respectfully" id="toc-how-to-follow-up-respectfully" class="nav-link" data-scroll-target="#how-to-follow-up-respectfully">How to Follow Up Respectfully</a></li>
+  <li><a href="#common-networking-and-mentorship-mistakes" id="toc-common-networking-and-mentorship-mistakes" class="nav-link" data-scroll-target="#common-networking-and-mentorship-mistakes">Common Networking and Mentorship Mistakes</a>
+  <ul class="collapse">
+  <li><a href="#asking-too-broadly" id="toc-asking-too-broadly" class="nav-link" data-scroll-target="#asking-too-broadly">Asking Too Broadly</a></li>
+  <li><a href="#asking-before-doing-any-work" id="toc-asking-before-doing-any-work" class="nav-link" data-scroll-target="#asking-before-doing-any-work">Asking Before Doing Any Work</a></li>
+  <li><a href="#treating-networking-as-transactional" id="toc-treating-networking-as-transactional" class="nav-link" data-scroll-target="#treating-networking-as-transactional">Treating Networking as Transactional</a></li>
+  <li><a href="#ignoring-feedback" id="toc-ignoring-feedback" class="nav-link" data-scroll-target="#ignoring-feedback">Ignoring Feedback</a></li>
+  <li><a href="#depending-on-one-person" id="toc-depending-on-one-person" class="nav-link" data-scroll-target="#depending-on-one-person">Depending on One Person</a></li>
+  <li><a href="#forgetting-to-give-back" id="toc-forgetting-to-give-back" class="nav-link" data-scroll-target="#forgetting-to-give-back">Forgetting to Give Back</a></li>
+  </ul></li>
+  <li><a href="#mentorship-and-power" id="toc-mentorship-and-power" class="nav-link" data-scroll-target="#mentorship-and-power">Mentorship and Power</a></li>
+  <li><a href="#mentor-or-peer-review-prompts" id="toc-mentor-or-peer-review-prompts" class="nav-link" data-scroll-target="#mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</a></li>
+  <li><a href="#networking-and-mentorship-checklist" id="toc-networking-and-mentorship-checklist" class="nav-link" data-scroll-target="#networking-and-mentorship-checklist">Networking and Mentorship Checklist</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -297,7 +374,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-learning-plan.html">Professional Growth System</a></li><li class="breadcrumb-item"><a href="./09-networking-and-mentorship.html"><span class="chapter-title">Networking and Mentorship</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="09_networking_and_mentorship" class="quarto-section-identifier"><span class="chapter-title">Networking and Mentorship</span></span></h1>
+<h1 class="title"><span id="networking-and-mentorship" class="quarto-section-identifier"><span class="chapter-title">Networking and Mentorship</span></span></h1>
 </div>
 
 
@@ -328,30 +405,518 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Theme:</strong> Relationships provide feedback, access, perspective, and accountability</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>Networking and Mentorship</strong> layer of the Career System.</p>
+<p>Career growth does not happen in isolation.</p>
+<p>A learner can study alone.</p>
+<p>A professional can practice alone.</p>
+<p>A person can build projects, write a CV, and apply for opportunities alone.</p>
+<p>But sustainable professional growth usually improves when the learner has access to people who can provide feedback, perspective, encouragement, accountability, and opportunity awareness.</p>
+<p>That is the role of networking and mentorship.</p>
+<p>In the Career System, networking is not simply collecting contacts.</p>
+<p>Mentorship is not simply asking someone powerful for help.</p>
+<p>Both are relationship-based learning systems.</p>
+<p>They help a person move from private effort to guided professional growth.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="why-networking-and-mentorship-matter" class="level2">
+<h2 class="anchored" data-anchor-id="why-networking-and-mentorship-matter">Why Networking and Mentorship Matter</h2>
+<p>Many learners struggle not because they lack effort, but because their effort is disconnected from professional feedback.</p>
+<p>They may be learning, but not learning the right next thing.</p>
+<p>They may be building projects, but not showing them clearly.</p>
+<p>They may be applying for roles, but not understanding what employers or collaborators actually need.</p>
+<p>They may be capable, but invisible to people who could guide, refer, review, or collaborate with them.</p>
+<p>Networking and mentorship help close this gap.</p>
+<p>They connect the learner to people who can help them see what they cannot yet see alone.</p>
+<p>A good professional relationship can help a learner answer questions such as:</p>
+<ul>
+<li>Is this career direction realistic for my current stage?</li>
+<li>Which skills should I strengthen next?</li>
+<li>Does my portfolio evidence make sense to someone outside my head?</li>
+<li>How should I explain this project professionally?</li>
+<li>What opportunities fit my current readiness?</li>
+<li>What mistakes should I avoid before applying, presenting, or negotiating?</li>
+</ul>
+<p>The purpose is not dependency.</p>
+<p>The purpose is better judgment.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="networking-and-mentorship-in-the-career-system" class="level2">
+<h2 class="anchored" data-anchor-id="networking-and-mentorship-in-the-career-system">Networking and Mentorship in the Career System</h2>
+<p>Networking and mentorship sit after communication and visibility because relationships become more effective when the learner has something specific to share.</p>
+<p>A vague request is difficult to support.</p>
+<p>A visible project, direction statement, skills inventory, or profile gives another person something concrete to review.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    A[Career Direction] --&gt; B[Learning Plan]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Project-Based Proof]</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Portfolio Evidence]</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Communication and Visibility]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Networking]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Mentorship and Feedback]</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Improved Evidence]</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    H --&gt; I[Opportunity Conversations]</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    I --&gt; J[Sustainable Growth]</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    G --&gt; B</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    G --&gt; D</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Career Direction] --&gt; B[Learning Plan]
+    B --&gt; C[Project-Based Proof]
+    C --&gt; D[Portfolio Evidence]
+    D --&gt; E[Communication and Visibility]
+    E --&gt; F[Networking]
+    F --&gt; G[Mentorship and Feedback]
+    G --&gt; H[Improved Evidence]
+    H --&gt; I[Opportunity Conversations]
+    I --&gt; J[Sustainable Growth]
+    G --&gt; B
+    G --&gt; D
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>This loop matters.</p>
+<p>Mentorship does not only push the learner forward.</p>
+<p>It can also send the learner back to improve the learning plan, revise a portfolio item, sharpen communication, or reconsider a direction.</p>
+<p>That is not failure.</p>
+<p>That is professional development.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="networking-is-not-asking-for-favors" class="level2">
+<h2 class="anchored" data-anchor-id="networking-is-not-asking-for-favors">Networking Is Not Asking for Favors</h2>
+<p>Networking is often misunderstood.</p>
+<p>Some people think networking means asking strangers for jobs.</p>
+<p>Others think it means promoting oneself loudly.</p>
+<p>Others avoid it because it feels uncomfortable, unfair, or artificial.</p>
+<p>In the Career System, networking means building respectful professional relationships around learning, contribution, feedback, and shared interests.</p>
+<p>A good networking interaction does not begin with:</p>
+<pre class="text"><code>Can you get me a job?</code></pre>
+<p>It begins with something more grounded:</p>
+<pre class="text"><code>I am developing my skills in this area.
+I have built this small piece of evidence.
+I would appreciate your feedback on one specific part.</code></pre>
+<p>This approach is more respectful because it shows effort.</p>
+<p>It gives the other person a clear way to help.</p>
+<p>It also builds trust over time.</p>
+<hr>
+</section>
+<section id="mentorship-is-not-one-thing" class="level2">
+<h2 class="anchored" data-anchor-id="mentorship-is-not-one-thing">Mentorship Is Not One Thing</h2>
+<p>Mentorship can take many forms.</p>
+<p>A learner does not always need one permanent mentor who answers every question.</p>
+<p>Different people may support different parts of the journey.</p>
+<section id="peer-mentor" class="level3">
+<h3 class="anchored" data-anchor-id="peer-mentor">Peer Mentor</h3>
+<p>A peer mentor may be only one or two steps ahead.</p>
+<p>They can help with accountability, recent learning experience, and practical encouragement.</p>
+</section>
+<section id="technical-reviewer" class="level3">
+<h3 class="anchored" data-anchor-id="technical-reviewer">Technical Reviewer</h3>
+<p>A technical reviewer can look at a project, portfolio item, report, analysis, CV, or workflow and give specific improvement feedback.</p>
+</section>
+<section id="career-mentor" class="level3">
+<h3 class="anchored" data-anchor-id="career-mentor">Career Mentor</h3>
+<p>A career mentor helps the learner think about direction, choices, timing, trade-offs, workplace expectations, and long-term growth.</p>
+</section>
+<section id="connector" class="level3">
+<h3 class="anchored" data-anchor-id="connector">Connector</h3>
+<p>A connector introduces the learner to communities, events, resources, opportunities, or people who may be relevant.</p>
+</section>
+<section id="sponsor" class="level3">
+<h3 class="anchored" data-anchor-id="sponsor">Sponsor</h3>
+<p>A sponsor actively advocates for someone when opportunities are being discussed.</p>
+<p>Sponsorship usually comes later, after trust and visible evidence have been built.</p>
+</section>
+<section id="community" class="level3">
+<h3 class="anchored" data-anchor-id="community">Community</h3>
+<p>Sometimes the most useful mentorship comes from a community rather than one individual.</p>
+<p>A learning group, professional association, alumni network, youth mentorship group, research group, open-source community, workplace team, or local initiative can provide repeated exposure, feedback, and encouragement.</p>
+<hr>
+</section>
+</section>
+<section id="relationship-types-in-the-career-system" class="level2">
+<h2 class="anchored" data-anchor-id="relationship-types-in-the-career-system">Relationship Types in the Career System</h2>
+<p>The Career System treats relationships as part of professional infrastructure.</p>
+<p>Different relationships serve different purposes.</p>
+<pre class="text"><code>Peer              → accountability and shared learning
+Mentor            → guidance and perspective
+Reviewer          → specific feedback on evidence
+Connector         → access to people, spaces, or opportunities
+Role model        → inspiration and pattern recognition
+Collaborator      → shared project or contribution
+Sponsor           → advocacy when trust has been built
+Community         → belonging, repetition, and exposure</code></pre>
+<p>A learner does not need all of these at once.</p>
+<p>A beginner may start with a peer, a local group, and one reviewer.</p>
+<p>An experienced professional may need a strategic mentor, a peer circle, and a sponsor.</p>
+<p>A career changer may need role models, reviewers, and connectors in the new field.</p>
+<hr>
+</section>
+<section id="networking-across-career-stages" class="level2">
+<h2 class="anchored" data-anchor-id="networking-across-career-stages">Networking Across Career Stages</h2>
+<p>Networking looks different depending on the learner’s stage.</p>
+<section id="beginner" class="level3">
+<h3 class="anchored" data-anchor-id="beginner">Beginner</h3>
+<p>A beginner may focus on asking for guidance, finding learning communities, sharing early effort, and building confidence.</p>
+<p>The best request is usually small and specific.</p>
+<pre class="text"><code>Could you look at this one-page project summary and tell me whether it is clear?</code></pre>
+</section>
+<section id="early-career-professional" class="level3">
+<h3 class="anchored" data-anchor-id="early-career-professional">Early-Career Professional</h3>
+<p>An early-career professional may focus on feedback, workplace learning, referrals, interview preparation, and professional identity.</p>
+<p>They may ask:</p>
+<pre class="text"><code>Which parts of this portfolio would be most relevant for junior analyst roles?</code></pre>
+</section>
+<section id="career-changer" class="level3">
+<h3 class="anchored" data-anchor-id="career-changer">Career Changer</h3>
+<p>A career changer may need help translating previous experience into a new field.</p>
+<p>They may ask:</p>
+<pre class="text"><code>Does this profile explain my past experience in a way that makes sense for this new direction?</code></pre>
+</section>
+<section id="experienced-professional" class="level3">
+<h3 class="anchored" data-anchor-id="experienced-professional">Experienced Professional</h3>
+<p>An experienced professional may use networking for repositioning, thought leadership, advisory roles, collaborations, mentoring others, or opportunity diversification.</p>
+<p>They may ask:</p>
+<pre class="text"><code>Which of these two growth directions seems more aligned with where the field is moving?</code></pre>
+</section>
+<section id="mentor-or-educator" class="level3">
+<h3 class="anchored" data-anchor-id="mentor-or-educator">Mentor or Educator</h3>
+<p>A mentor or educator can use this chapter to help learners prepare better requests, document feedback, follow up respectfully, and turn advice into action.</p>
+<hr>
+</section>
+</section>
+<section id="the-evidence-based-networking-principle" class="level2">
+<h2 class="anchored" data-anchor-id="the-evidence-based-networking-principle">The Evidence-Based Networking Principle</h2>
+<p>Networking becomes stronger when it is connected to evidence.</p>
+<p>Evidence may include:</p>
+<ul>
+<li>a completed project,</li>
+<li>a project plan,</li>
+<li>a portfolio page,</li>
+<li>a short written reflection,</li>
+<li>a skills inventory,</li>
+<li>a learning plan,</li>
+<li>a CV draft,</li>
+<li>a LinkedIn summary,</li>
+<li>a presentation,</li>
+<li>a GitHub repository,</li>
+<li>a case study,</li>
+<li>a report,</li>
+<li>or a community contribution.</li>
+</ul>
+<p>Evidence gives the conversation structure.</p>
+<p>Instead of saying:</p>
+<pre class="text"><code>Please advise me.</code></pre>
+<p>The learner can say:</p>
+<pre class="text"><code>I am working toward junior data analyst roles.
+I created this short portfolio project to show data cleaning and summary reporting.
+Could you review whether the explanation is clear for a non-technical reader?</code></pre>
+<p>This is easier to answer.</p>
+<p>It also shows seriousness.</p>
+<hr>
+</section>
+<section id="the-networking-and-mentorship-map" class="level2">
+<h2 class="anchored" data-anchor-id="the-networking-and-mentorship-map">The Networking and Mentorship Map</h2>
+<p>This chapter uses a simple map to help learners organize relationships intentionally.</p>
+<p>Each row represents one person, group, or community.</p>
+<p>The purpose is not to rank people.</p>
+<p>The purpose is to connect each relationship to a clear career learning function.</p>
+<p>Key fields include:</p>
+<pre class="text"><code>contact_or_community
+relationship_type
+career_relevance
+evidence_to_share
+specific_request
+preferred_channel
+follow_up_date
+support_received
+action_taken
+relationship_status
+next_step</code></pre>
+<p>This map helps the learner avoid vague networking.</p>
+<p>It also helps mentors see whether the learner is building a balanced support system.</p>
+<hr>
+</section>
+<section id="create-the-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-template">Create the Template</h2>
+<p>This chapter includes an optional bash script that creates a reusable networking and mentorship tracker.</p>
+<p>Learners who are comfortable using the command line can run:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x scripts/bash/09-create-networking-mentorship-template.sh</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/09-create-networking-mentorship-template.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Expected outputs:</p>
+<pre class="text"><code>data/templates/networking-mentorship-template.csv
+results/networking-mentorship/example-networking-mentorship.csv
+results/networking-mentorship/README-networking-mentorship.md</code></pre>
+<p>Learners who are not using the command line can copy the table structure below into a spreadsheet, notebook, or document.</p>
+<hr>
+</section>
+<section id="manual-template" class="level2">
+<h2 class="anchored" data-anchor-id="manual-template">Manual Template</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>contact_or_community</code></td>
+<td>Person, group, community, or organization</td>
+</tr>
+<tr class="even">
+<td><code>relationship_type</code></td>
+<td>Peer, mentor, reviewer, connector, sponsor, role model, collaborator, or community</td>
+</tr>
+<tr class="odd">
+<td><code>career_relevance</code></td>
+<td>Why this relationship matters to the learner’s direction</td>
+</tr>
+<tr class="even">
+<td><code>evidence_to_share</code></td>
+<td>Project, profile, CV, portfolio, or document the learner can show</td>
+</tr>
+<tr class="odd">
+<td><code>specific_request</code></td>
+<td>One focused request for feedback, guidance, or introduction</td>
+</tr>
+<tr class="even">
+<td><code>preferred_channel</code></td>
+<td>Email, LinkedIn, WhatsApp, meeting, event, call, or community space</td>
+</tr>
+<tr class="odd">
+<td><code>follow_up_date</code></td>
+<td>Date to check back or send an update</td>
+</tr>
+<tr class="even">
+<td><code>support_received</code></td>
+<td>Feedback, advice, referral, resource, or encouragement received</td>
+</tr>
+<tr class="odd">
+<td><code>action_taken</code></td>
+<td>What the learner did after receiving support</td>
+</tr>
+<tr class="even">
+<td><code>relationship_status</code></td>
+<td>Planned, contacted, active, paused, completed, or follow-up needed</td>
+</tr>
+<tr class="odd">
+<td><code>next_step</code></td>
+<td>The next respectful action</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="example-networking-entry" class="level2">
+<h2 class="anchored" data-anchor-id="example-networking-entry">Example Networking Entry</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Contact or community</td>
+<td>Former data analytics trainer</td>
+</tr>
+<tr class="even">
+<td>Relationship type</td>
+<td>Mentor / reviewer</td>
+</tr>
+<tr class="odd">
+<td>Career relevance</td>
+<td>Understands entry-level data analysis expectations</td>
+</tr>
+<tr class="even">
+<td>Evidence to share</td>
+<td>Portfolio project README</td>
+</tr>
+<tr class="odd">
+<td>Specific request</td>
+<td>Ask whether the project communicates data-cleaning decisions clearly</td>
+</tr>
+<tr class="even">
+<td>Preferred channel</td>
+<td>Email</td>
+</tr>
+<tr class="odd">
+<td>Follow-up date</td>
+<td>Two weeks after sending the project</td>
+</tr>
+<tr class="even">
+<td>Support received</td>
+<td>Suggested adding methods section and clearer results summary</td>
+</tr>
+<tr class="odd">
+<td>Action taken</td>
+<td>Revised README and added a short project summary</td>
+</tr>
+<tr class="even">
+<td>Relationship status</td>
+<td>Active</td>
+</tr>
+<tr class="odd">
+<td>Next step</td>
+<td>Send a short thank-you update after revision</td>
+</tr>
+</tbody>
+</table>
+<p>This example is strong because the request is specific.</p>
+<p>It does not ask the mentor to solve the whole career problem.</p>
+<p>It asks for feedback on one piece of evidence.</p>
+<hr>
+</section>
+<section id="how-to-write-a-good-mentorship-request" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-write-a-good-mentorship-request">How to Write a Good Mentorship Request</h2>
+<p>A good mentorship request is clear, respectful, and easy to respond to.</p>
+<p>It should include four parts.</p>
+<pre class="text"><code>Context      → Who you are and what you are working toward
+Evidence     → What you have already done
+Request      → What specific feedback or guidance you need
+Respect      → Acknowledgment of the other person's time</code></pre>
+<p>A simple structure:</p>
+<pre class="text"><code>Hello [Name],
+
+I am currently working on [career direction or skill area].
+
+I recently created [evidence or project].
+
+Would you be willing to give brief feedback on [specific question]?
+
+I would be grateful for any suggestions, and I understand if your schedule is busy.
+
+Thank you,
+[Name]</code></pre>
+<p>This format is useful because it reduces pressure.</p>
+<p>It also makes the request actionable.</p>
+<hr>
+</section>
+<section id="how-to-follow-up-respectfully" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-follow-up-respectfully">How to Follow Up Respectfully</h2>
+<p>Follow-up is part of professional trust.</p>
+<p>A learner should not only ask for advice.</p>
+<p>They should show what they did with the advice.</p>
+<p>A good follow-up may say:</p>
+<pre class="text"><code>Thank you for your feedback.
+I revised the project summary based on your suggestion.
+I added a clearer methods section and shortened the results explanation.
+Your advice helped me make the project easier to understand.</code></pre>
+<p>This kind of follow-up matters.</p>
+<p>It shows that the mentor’s time was respected.</p>
+<p>It also keeps the relationship alive without asking for something every time.</p>
+<hr>
+</section>
+<section id="common-networking-and-mentorship-mistakes" class="level2">
+<h2 class="anchored" data-anchor-id="common-networking-and-mentorship-mistakes">Common Networking and Mentorship Mistakes</h2>
+<section id="asking-too-broadly" class="level3">
+<h3 class="anchored" data-anchor-id="asking-too-broadly">Asking Too Broadly</h3>
+<p>A request such as “Please help me with my career” is difficult to answer.</p>
+<p>A better request is specific.</p>
+<pre class="text"><code>Could you review whether this project summary clearly explains the problem, method, and result?</code></pre>
+</section>
+<section id="asking-before-doing-any-work" class="level3">
+<h3 class="anchored" data-anchor-id="asking-before-doing-any-work">Asking Before Doing Any Work</h3>
+<p>Mentors are more able to help when the learner has made visible effort.</p>
+<p>Even a small draft is better than no evidence.</p>
+</section>
+<section id="treating-networking-as-transactional" class="level3">
+<h3 class="anchored" data-anchor-id="treating-networking-as-transactional">Treating Networking as Transactional</h3>
+<p>Relationships should not be used only when the learner needs a job.</p>
+<p>Trust grows through repeated respectful interactions.</p>
+</section>
+<section id="ignoring-feedback" class="level3">
+<h3 class="anchored" data-anchor-id="ignoring-feedback">Ignoring Feedback</h3>
+<p>If a learner receives advice but takes no action, the relationship becomes weaker.</p>
+<p>Feedback should lead to visible improvement.</p>
+</section>
+<section id="depending-on-one-person" class="level3">
+<h3 class="anchored" data-anchor-id="depending-on-one-person">Depending on One Person</h3>
+<p>One mentor cannot provide every kind of support.</p>
+<p>A balanced support system is healthier.</p>
+</section>
+<section id="forgetting-to-give-back" class="level3">
+<h3 class="anchored" data-anchor-id="forgetting-to-give-back">Forgetting to Give Back</h3>
+<p>Even beginners can contribute by sharing resources, encouraging peers, documenting what they learned, helping others, or showing appreciation.</p>
+<hr>
+</section>
+</section>
+<section id="mentorship-and-power" class="level2">
+<h2 class="anchored" data-anchor-id="mentorship-and-power">Mentorship and Power</h2>
+<p>Mentorship should be respectful and safe.</p>
+<p>A learner should not feel pressured to accept harmful advice, unpaid exploitation, inappropriate behavior, or disrespect.</p>
+<p>Good mentorship supports growth without controlling the learner.</p>
+<p>Healthy mentorship includes:</p>
+<ul>
+<li>clear boundaries,</li>
+<li>respect for time,</li>
+<li>honest feedback,</li>
+<li>encouragement of independence,</li>
+<li>professional conduct,</li>
+<li>and space for the learner’s own goals.</li>
+</ul>
+<p>A learner can be grateful and still use judgment.</p>
+<p>A mentor can guide without owning the learner’s path.</p>
+<hr>
+</section>
+<section id="mentor-or-peer-review-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</h2>
+<p>A mentor, peer, or educator can review the learner’s networking and mentorship map using these questions:</p>
+<pre class="text"><code>Is the learner contacting people who are relevant to their direction?
+Are the requests specific and respectful?
+Does the learner have evidence to share?
+Is the learner following up after receiving advice?
+Is the learner building a balanced support system?
+Is the learner also contributing to others where possible?
+Are there any safety, boundary, or professionalism concerns?</code></pre>
+<p>These prompts help keep networking grounded in learning rather than pressure.</p>
+<hr>
+</section>
+<section id="networking-and-mentorship-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="networking-and-mentorship-checklist">Networking and Mentorship Checklist</h2>
+<p>Before moving to the next chapter, the learner should be able to say:</p>
+<ul>
+<li>I can explain why relationships matter in career growth.</li>
+<li>I understand the difference between networking, mentorship, review, connection, and sponsorship.</li>
+<li>I have identified people or communities connected to my career direction.</li>
+<li>I have at least one piece of evidence I can share.</li>
+<li>I can write a specific mentorship or feedback request.</li>
+<li>I know how I will follow up after receiving advice.</li>
+<li>I understand that networking should be respectful, not transactional.</li>
+<li>I have considered boundaries and professional safety.</li>
+</ul>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>Career growth becomes stronger when effort becomes visible and visible effort receives feedback.</p>
+<p>Networking and mentorship are not shortcuts around skill-building.</p>
+<p>They are systems for improving the quality, direction, and usefulness of skill-building.</p>
+<p>A learner who builds evidence, communicates clearly, asks respectful questions, acts on feedback, and follows up professionally is not merely “networking.”</p>
+<p>They are building trust.</p>
+<p>Trust is one of the most important career assets.</p>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>The next chapter prepares the learner for the job market.</p>
-<p>Networking and mentorship help clarify opportunity, but job-market readiness requires another layer: understanding role expectations, matching evidence to job descriptions, preparing application materials, and identifying realistic next steps.</p>
+<p>The next chapter turns relationship-building toward the job market.</p>
+<p>Once a learner has direction, skills, learning plans, portfolio evidence, communication, visibility, and feedback relationships, they are better prepared to understand job requirements, evaluate opportunities, prepare applications, and approach the market with more clarity and confidence.</p>
 
 
 </section>

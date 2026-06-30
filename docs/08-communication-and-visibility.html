@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -285,9 +324,33 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#why-communication-and-visibility-matter" id="toc-why-communication-and-visibility-matter" class="nav-link active" data-scroll-target="#why-communication-and-visibility-matter">Why Communication and Visibility Matter</a></li>
+  <li><a href="#communication-and-visibility-in-the-career-system" id="toc-communication-and-visibility-in-the-career-system" class="nav-link" data-scroll-target="#communication-and-visibility-in-the-career-system">Communication and Visibility in the Career System</a></li>
+  <li><a href="#visibility-is-not-self-promotion-alone" id="toc-visibility-is-not-self-promotion-alone" class="nav-link" data-scroll-target="#visibility-is-not-self-promotion-alone">Visibility Is Not Self-Promotion Alone</a></li>
+  <li><a href="#the-three-communication-layers" id="toc-the-three-communication-layers" class="nav-link" data-scroll-target="#the-three-communication-layers">The Three Communication Layers</a>
+  <ul class="collapse">
+  <li><a href="#personal-clarity" id="toc-personal-clarity" class="nav-link" data-scroll-target="#personal-clarity">1. Personal clarity</a></li>
+  <li><a href="#evidence-explanation" id="toc-evidence-explanation" class="nav-link" data-scroll-target="#evidence-explanation">2. Evidence explanation</a></li>
+  <li><a href="#public-or-shared-signal" id="toc-public-or-shared-signal" class="nav-link" data-scroll-target="#public-or-shared-signal">3. Public or shared signal</a></li>
+  </ul></li>
+  <li><a href="#visibility-across-career-stages" id="toc-visibility-across-career-stages" class="nav-link" data-scroll-target="#visibility-across-career-stages">Visibility Across Career Stages</a></li>
+  <li><a href="#the-communication-and-visibility-map" id="toc-the-communication-and-visibility-map" class="nav-link" data-scroll-target="#the-communication-and-visibility-map">The Communication and Visibility Map</a></li>
+  <li><a href="#create-the-template" id="toc-create-the-template" class="nav-link" data-scroll-target="#create-the-template">Create the Template</a></li>
+  <li><a href="#manual-template" id="toc-manual-template" class="nav-link" data-scroll-target="#manual-template">Manual Template</a></li>
+  <li><a href="#how-to-communicate-a-project" id="toc-how-to-communicate-a-project" class="nav-link" data-scroll-target="#how-to-communicate-a-project">How to Communicate a Project</a></li>
+  <li><a href="#choosing-the-right-visibility-channel" id="toc-choosing-the-right-visibility-channel" class="nav-link" data-scroll-target="#choosing-the-right-visibility-channel">Choosing the Right Visibility Channel</a></li>
+  <li><a href="#example-visibility-statement" id="toc-example-visibility-statement" class="nav-link" data-scroll-target="#example-visibility-statement">Example Visibility Statement</a></li>
+  <li><a href="#common-communication-and-visibility-mistakes" id="toc-common-communication-and-visibility-mistakes" class="nav-link" data-scroll-target="#common-communication-and-visibility-mistakes">Common Communication and Visibility Mistakes</a>
+  <ul class="collapse">
+  <li><a href="#mistake-1-waiting-until-everything-is-perfect" id="toc-mistake-1-waiting-until-everything-is-perfect" class="nav-link" data-scroll-target="#mistake-1-waiting-until-everything-is-perfect">Mistake 1: Waiting until everything is perfect</a></li>
+  <li><a href="#mistake-2-making-broad-claims-without-evidence" id="toc-mistake-2-making-broad-claims-without-evidence" class="nav-link" data-scroll-target="#mistake-2-making-broad-claims-without-evidence">Mistake 2: Making broad claims without evidence</a></li>
+  <li><a href="#mistake-3-sharing-outputs-without-explanation" id="toc-mistake-3-sharing-outputs-without-explanation" class="nav-link" data-scroll-target="#mistake-3-sharing-outputs-without-explanation">Mistake 3: Sharing outputs without explanation</a></li>
+  <li><a href="#mistake-4-copying-professional-language-without-understanding" id="toc-mistake-4-copying-professional-language-without-understanding" class="nav-link" data-scroll-target="#mistake-4-copying-professional-language-without-understanding">Mistake 4: Copying professional language without understanding</a></li>
+  <li><a href="#mistake-5-posting-without-a-purpose" id="toc-mistake-5-posting-without-a-purpose" class="nav-link" data-scroll-target="#mistake-5-posting-without-a-purpose">Mistake 5: Posting without a purpose</a></li>
+  </ul></li>
+  <li><a href="#mentor-or-peer-review-prompts" id="toc-mentor-or-peer-review-prompts" class="nav-link" data-scroll-target="#mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</a></li>
+  <li><a href="#communication-and-visibility-checklist" id="toc-communication-and-visibility-checklist" class="nav-link" data-scroll-target="#communication-and-visibility-checklist">Communication and Visibility Checklist</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -297,7 +360,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-learning-plan.html">Professional Growth System</a></li><li class="breadcrumb-item"><a href="./08-communication-and-visibility.html"><span class="chapter-title">Communication and Visibility</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="08_communication_and_visibility" class="quarto-section-identifier"><span class="chapter-title">Communication and Visibility</span></span></h1>
+<h1 class="title"><span id="communication-and-visibility" class="quarto-section-identifier"><span class="chapter-title">Communication and Visibility</span></span></h1>
 </div>
 
 
@@ -328,30 +391,477 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Theme:</strong> Professional growth requires others to understand the value you can create</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>Communication and Visibility</strong> layer of the Career System.</p>
+<p>A learner may have real ability and still remain invisible.</p>
+<p>A professional may do strong work and still struggle to explain it.</p>
+<p>A career changer may have transferable experience but fail to connect that experience to the opportunities they want.</p>
+<p>This is why communication and visibility matter.</p>
+<p>Communication helps people understand what you can do.</p>
+<p>Visibility helps the right people become aware that you exist, that you are learning, that you are contributing, and that you are ready for meaningful opportunities.</p>
+<p>The goal is not noise.</p>
+<p>The goal is clear professional signal.</p>
+<p>In the Career System, communication and visibility turn portfolio evidence into conversations, referrals, collaborations, interviews, mentorship, and trust.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="why-communication-and-visibility-matter" class="level2">
+<h2 class="anchored" data-anchor-id="why-communication-and-visibility-matter">Why Communication and Visibility Matter</h2>
+<p>Many learners focus only on building skills.</p>
+<p>That is important, but it is not enough.</p>
+<p>Skills must eventually be communicated.</p>
+<p>A project must be explained.</p>
+<p>A contribution must be described.</p>
+<p>A professional profile must make sense.</p>
+<p>A career goal must be clear enough for others to support.</p>
+<p>Without communication, evidence remains hidden.</p>
+<p>Without visibility, opportunity depends too much on luck.</p>
+<p>Communication and visibility help a learner move from:</p>
+<pre class="text"><code>I am learning this.</code></pre>
+<p>to:</p>
+<pre class="text"><code>Here is what I can do, here is evidence, and here is the direction I am growing toward.</code></pre>
+<p>This shift is important for beginners, early-career professionals, experienced professionals, mentors, and career changers.</p>
+<p>The beginner needs to explain potential.</p>
+<p>The early-career professional needs to explain readiness.</p>
+<p>The experienced professional needs to explain value and direction.</p>
+<p>The career changer needs to explain transferability.</p>
+<p>The mentor needs to help the learner make their growth visible without exaggeration.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="communication-and-visibility-in-the-career-system" class="level2">
+<h2 class="anchored" data-anchor-id="communication-and-visibility-in-the-career-system">Communication and Visibility in the Career System</h2>
+<p>Communication and visibility come after portfolio building and project-based proof because visibility without evidence can feel empty.</p>
+<p>At the same time, evidence without visibility can remain unused.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    A[Career Direction] --&gt; B[Learning Plan]</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Project-Based Practice]</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Portfolio Evidence]</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Communication]</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Visibility]</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Networking and Mentorship]</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Opportunity Conversations]</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    H --&gt; I[Sustainable Growth]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Career Direction] --&gt; B[Learning Plan]
+    B --&gt; C[Project-Based Practice]
+    C --&gt; D[Portfolio Evidence]
+    D --&gt; E[Communication]
+    E --&gt; F[Visibility]
+    F --&gt; G[Networking and Mentorship]
+    G --&gt; H[Opportunity Conversations]
+    H --&gt; I[Sustainable Growth]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>This chapter helps the learner build a communication layer around their evidence.</p>
+<p>The learner should be able to answer:</p>
+<pre class="text"><code>What am I learning?
+What have I built or contributed?
+What problem does my work help solve?
+What evidence can I show?
+Who needs to know about this?
+What kind of conversation should this visibility create?</code></pre>
+<p>The purpose is not to become famous.</p>
+<p>The purpose is to become understandable, findable, and credible.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="visibility-is-not-self-promotion-alone" class="level2">
+<h2 class="anchored" data-anchor-id="visibility-is-not-self-promotion-alone">Visibility Is Not Self-Promotion Alone</h2>
+<p>Some learners feel uncomfortable with visibility because they think it means bragging.</p>
+<p>That is not the CDI Career System view.</p>
+<p>Professional visibility is not simply self-promotion.</p>
+<p>It is responsible communication of growth, evidence, and contribution.</p>
+<p>A learner does not need to claim expertise they do not have.</p>
+<p>A learner can say:</p>
+<pre class="text"><code>I am learning this area.
+I built this small project to practice.
+Here is what I learned.
+Here is what I would improve next.
+I am looking for feedback from people with experience in this area.</code></pre>
+<p>That is honest visibility.</p>
+<p>For experienced professionals, visibility may sound like:</p>
+<pre class="text"><code>I have been working on this type of problem.
+Here is a pattern I keep seeing.
+Here is an approach that helped.
+Here is what teams or learners may need to consider.</code></pre>
+<p>That is contribution-based visibility.</p>
+<p>Both are valuable.</p>
+<hr>
+</section>
+<section id="the-three-communication-layers" class="level2">
+<h2 class="anchored" data-anchor-id="the-three-communication-layers">The Three Communication Layers</h2>
+<p>Career communication can be organized into three layers.</p>
+<section id="personal-clarity" class="level3">
+<h3 class="anchored" data-anchor-id="personal-clarity">1. Personal clarity</h3>
+<p>This is the learner’s internal explanation of who they are becoming professionally.</p>
+<p>It includes:</p>
+<ul>
+<li>current direction,</li>
+<li>strongest skills,</li>
+<li>active learning priorities,</li>
+<li>portfolio evidence,</li>
+<li>and next opportunity goal.</li>
+</ul>
+<p>Personal clarity helps the learner avoid scattered messages.</p>
+</section>
+<section id="evidence-explanation" class="level3">
+<h3 class="anchored" data-anchor-id="evidence-explanation">2. Evidence explanation</h3>
+<p>This is the ability to explain work clearly.</p>
+<p>A project should not only exist.</p>
+<p>The learner should be able to explain:</p>
+<ul>
+<li>the problem,</li>
+<li>the process,</li>
+<li>the tools or methods,</li>
+<li>the result,</li>
+<li>the limitation,</li>
+<li>and the next improvement.</li>
+</ul>
+<p>This makes the portfolio usable in interviews, mentorship conversations, applications, and public profiles.</p>
+</section>
+<section id="public-or-shared-signal" class="level3">
+<h3 class="anchored" data-anchor-id="public-or-shared-signal">3. Public or shared signal</h3>
+<p>This is what others can see.</p>
+<p>It may include:</p>
+<ul>
+<li>a LinkedIn profile,</li>
+<li>a GitHub profile,</li>
+<li>a personal website,</li>
+<li>a portfolio page,</li>
+<li>a short post,</li>
+<li>a project README,</li>
+<li>a presentation,</li>
+<li>a community contribution,</li>
+<li>or a direct message to a mentor or professional contact.</li>
+</ul>
+<p>A learner does not need every channel.</p>
+<p>They need appropriate channels for their stage and goal.</p>
+<hr>
+</section>
+</section>
+<section id="visibility-across-career-stages" class="level2">
+<h2 class="anchored" data-anchor-id="visibility-across-career-stages">Visibility Across Career Stages</h2>
+<p>Visibility should match the learner’s stage.</p>
+<p>A beginner does not need to present as an expert.</p>
+<p>An experienced professional should not communicate only as a learner.</p>
+<p>A career changer should connect past experience to new direction.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Career stage</th>
+<th>Visibility goal</th>
+<th>Example signal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beginner</td>
+<td>Show learning, consistency, and curiosity</td>
+<td>A short reflection on a completed learning activity</td>
+</tr>
+<tr class="even">
+<td>Student or trainee</td>
+<td>Show applied practice</td>
+<td>A small portfolio project with a clear explanation</td>
+</tr>
+<tr class="odd">
+<td>Early-career professional</td>
+<td>Show readiness and growth</td>
+<td>A project summary linked to target roles</td>
+</tr>
+<tr class="even">
+<td>Career changer</td>
+<td>Show transferable experience</td>
+<td>A profile summary connecting past work to new direction</td>
+</tr>
+<tr class="odd">
+<td>Experienced professional</td>
+<td>Show judgment and contribution</td>
+<td>A case reflection, framework, talk, or mentoring resource</td>
+</tr>
+<tr class="even">
+<td>Mentor or educator</td>
+<td>Show support and leadership</td>
+<td>Guidance notes, learner examples, or structured resources</td>
+</tr>
+</tbody>
+</table>
+<p>The message should fit the stage.</p>
+<p>The strongest visibility is honest, clear, and supported by evidence.</p>
+<hr>
+</section>
+<section id="the-communication-and-visibility-map" class="level2">
+<h2 class="anchored" data-anchor-id="the-communication-and-visibility-map">The Communication and Visibility Map</h2>
+<p>This chapter uses a simple map to help learners connect evidence to audiences and communication channels.</p>
+<p>The map asks:</p>
+<pre class="text"><code>What evidence do I have?
+What value does it show?
+Who should understand it?
+Where should I communicate it?
+What conversation do I want it to create?</code></pre>
+<p>This prevents random posting.</p>
+<p>It also prevents silence.</p>
+<p>The learner becomes intentional about what to share, where to share it, and why.</p>
+<hr>
+</section>
+<section id="create-the-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-template">Create the Template</h2>
+<p>This chapter includes an optional script that creates a reusable communication and visibility worksheet.</p>
+<p>Learners who are comfortable using the command line can run:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x scripts/bash/08-create-communication-visibility-template.sh</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/08-create-communication-visibility-template.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Expected outputs:</p>
+<pre class="text"><code>data/templates/communication-visibility-template.csv
+results/communication-visibility/example-communication-visibility.csv
+results/communication-visibility/README-communication-visibility.md</code></pre>
+<p>Learners who are not using the command line can copy the manual template below into a spreadsheet, notebook, or document.</p>
+<hr>
+</section>
+<section id="manual-template" class="level2">
+<h2 class="anchored" data-anchor-id="manual-template">Manual Template</h2>
+<p>Use one row for each piece of evidence, communication action, or visibility opportunity.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>evidence_item</th>
+<th>value_shown</th>
+<th>target_audience</th>
+<th>communication_channel</th>
+<th>message_focus</th>
+<th>next_conversation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Portfolio project on data cleaning</td>
+<td>Can organize messy data into usable analysis input</td>
+<td>Data analyst mentor, recruiter, peer group</td>
+<td>LinkedIn post, GitHub README, portfolio page</td>
+<td>What problem the project solved and what was learned</td>
+<td>Ask for feedback or discuss entry-level analyst readiness</td>
+</tr>
+<tr class="even">
+<td>Volunteer coordination experience</td>
+<td>Can organize people, tasks, and communication</td>
+<td>Program coordinator, nonprofit mentor, operations contact</td>
+<td>CV bullet, profile summary, direct message</td>
+<td>Transferable project coordination skills</td>
+<td>Explore operations or program assistant roles</td>
+</tr>
+<tr class="odd">
+<td>Technical report from a course</td>
+<td>Can explain technical results clearly</td>
+<td>Instructor, mentor, professional contact</td>
+<td>PDF portfolio, LinkedIn featured section</td>
+<td>Clear explanation of method, result, and limitation</td>
+<td>Ask for review and improvement suggestions</td>
+</tr>
+</tbody>
+</table>
+<p>The learner can add more columns if needed, such as:</p>
+<pre class="text"><code>date_shared
+feedback_received
+profile_link
+status
+next_update</code></pre>
+<hr>
+</section>
+<section id="how-to-communicate-a-project" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-communicate-a-project">How to Communicate a Project</h2>
+<p>A useful project explanation does not need to be long.</p>
+<p>It needs to be clear.</p>
+<p>A simple structure is:</p>
+<pre class="text"><code>Problem: What was the issue or question?
+Action: What did you do?
+Evidence: What output did you create?
+Learning: What did you learn?
+Next: What would you improve or do next?</code></pre>
+<p>For example:</p>
+<pre class="text"><code>Problem: I wanted to practice turning raw survey responses into a clean table.
+Action: I created a small cleaning workflow and documented each step.
+Evidence: The project includes the raw example data, cleaned output, and README.
+Learning: I learned how important naming, missing values, and validation checks are.
+Next: I want feedback on how to make the workflow more reproducible.</code></pre>
+<p>This type of explanation works for beginners because it is honest.</p>
+<p>It also works for experienced professionals because it emphasizes reasoning, evidence, and improvement.</p>
+<hr>
+</section>
+<section id="choosing-the-right-visibility-channel" class="level2">
+<h2 class="anchored" data-anchor-id="choosing-the-right-visibility-channel">Choosing the Right Visibility Channel</h2>
+<p>Not every learner needs the same channel.</p>
+<p>The channel should match the goal.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Channel</th>
+<th>Best use</th>
+<th>Caution</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>LinkedIn profile</td>
+<td>Professional identity and discoverability</td>
+<td>Avoid vague claims without evidence</td>
+</tr>
+<tr class="even">
+<td>LinkedIn post</td>
+<td>Sharing learning, projects, reflections, or updates</td>
+<td>Keep the message clear and professional</td>
+</tr>
+<tr class="odd">
+<td>GitHub repository</td>
+<td>Technical project evidence</td>
+<td>Include a README that non-experts can understand</td>
+</tr>
+<tr class="even">
+<td>Portfolio page</td>
+<td>Curated proof of work</td>
+<td>Avoid listing too many weak items</td>
+</tr>
+<tr class="odd">
+<td>CV or resume</td>
+<td>Formal applications</td>
+<td>Use evidence-based bullet points</td>
+</tr>
+<tr class="even">
+<td>Direct message</td>
+<td>Mentorship, feedback, or networking</td>
+<td>Be specific and respectful</td>
+</tr>
+<tr class="odd">
+<td>Presentation</td>
+<td>Explaining work to a group</td>
+<td>Focus on story, evidence, and lessons learned</td>
+</tr>
+<tr class="even">
+<td>Community contribution</td>
+<td>Building trust through participation</td>
+<td>Contribute genuinely, not only for attention</td>
+</tr>
+</tbody>
+</table>
+<p>The best visibility channel is the one that helps the right audience understand the right evidence at the right time.</p>
+<hr>
+</section>
+<section id="example-visibility-statement" class="level2">
+<h2 class="anchored" data-anchor-id="example-visibility-statement">Example Visibility Statement</h2>
+<p>A beginner-level visibility statement may look like this:</p>
+<pre class="text"><code>I am building my skills in data analysis and reproducible reporting.
+Recently, I completed a small project where I cleaned an example dataset, summarized the results, and documented the workflow.
+The project helped me practice organizing data, checking missing values, and explaining outputs clearly.
+I am looking for feedback on how to improve the structure and make the project easier for others to understand.</code></pre>
+<p>This statement does not exaggerate.</p>
+<p>It shows direction, evidence, learning, and openness to feedback.</p>
+<p>An experienced professional version may look like this:</p>
+<pre class="text"><code>I have been focusing on how teams turn analysis outputs into decisions.
+A recurring challenge is that technically correct results are often not communicated in a way that supports action.
+I am documenting practical frameworks that connect evidence, interpretation, and decision-making so that teams can use analysis more responsibly.</code></pre>
+<p>This statement shows judgment and professional contribution.</p>
+<hr>
+</section>
+<section id="common-communication-and-visibility-mistakes" class="level2">
+<h2 class="anchored" data-anchor-id="common-communication-and-visibility-mistakes">Common Communication and Visibility Mistakes</h2>
+<section id="mistake-1-waiting-until-everything-is-perfect" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-1-waiting-until-everything-is-perfect">Mistake 1: Waiting until everything is perfect</h3>
+<p>Learners may avoid visibility because their work is not advanced yet.</p>
+<p>But growth can be communicated honestly.</p>
+<p>A small project with clear reflection can be useful.</p>
+</section>
+<section id="mistake-2-making-broad-claims-without-evidence" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-2-making-broad-claims-without-evidence">Mistake 2: Making broad claims without evidence</h3>
+<p>Statements like “I am passionate and hardworking” are not enough.</p>
+<p>Better communication connects claims to examples.</p>
+</section>
+<section id="mistake-3-sharing-outputs-without-explanation" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-3-sharing-outputs-without-explanation">Mistake 3: Sharing outputs without explanation</h3>
+<p>A link alone may not help others understand the value.</p>
+<p>Explain the problem, process, output, and learning.</p>
+</section>
+<section id="mistake-4-copying-professional-language-without-understanding" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-4-copying-professional-language-without-understanding">Mistake 4: Copying professional language without understanding</h3>
+<p>Visibility should sound like the learner’s actual stage and experience.</p>
+<p>Clear and honest is stronger than inflated.</p>
+</section>
+<section id="mistake-5-posting-without-a-purpose" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-5-posting-without-a-purpose">Mistake 5: Posting without a purpose</h3>
+<p>Visibility should support a growth goal.</p>
+<p>The learner should know whether they are seeking feedback, mentorship, collaboration, job readiness, or professional recognition.</p>
+<hr>
+</section>
+</section>
+<section id="mentor-or-peer-review-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</h2>
+<p>A mentor, peer, teacher, or colleague can review the learner’s communication using these questions:</p>
+<pre class="text"><code>Is the learner's direction clear?
+Is the evidence easy to understand?
+Does the message match the learner's actual stage?
+Is the claim supported by a project, example, or experience?
+Is the target audience clear?
+Does the communication invite a useful next conversation?
+What should be simplified?
+What should be made more specific?</code></pre>
+<p>Feedback should improve clarity, honesty, and usefulness.</p>
+<p>It should not pressure the learner to pretend to be more advanced than they are.</p>
+<hr>
+</section>
+<section id="communication-and-visibility-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="communication-and-visibility-checklist">Communication and Visibility Checklist</h2>
+<p>Before sharing a profile update, project, message, or portfolio item, check:</p>
+<pre class="text"><code>[ ] I know what evidence I am communicating.
+[ ] I can explain the problem or purpose clearly.
+[ ] I can describe what I did.
+[ ] I can explain what the output shows.
+[ ] I can name what I learned or improved.
+[ ] I know who the intended audience is.
+[ ] I know what conversation or feedback I want.
+[ ] My message is honest for my current stage.
+[ ] My message avoids vague claims without examples.
+[ ] My communication connects to my career direction.</code></pre>
+<p>This checklist helps learners share with confidence and responsibility.</p>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>Use these prompts before moving to the next chapter:</p>
+<pre class="text"><code>What evidence do I already have that others should understand better?
+What work have I completed but not explained clearly?
+Which audience needs to know what I can do?
+What is one honest visibility action I can take this week?
+What feedback do I need before making my profile or project public?</code></pre>
+<p>The goal is not to be visible everywhere.</p>
+<p>The goal is to communicate real growth clearly enough that others can recognize, support, and connect with it.</p>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>The next chapter connects visibility with networking and mentorship.</p>
-<p>Professional growth is strengthened when learners can ask better questions, seek feedback, build supportive relationships, and learn from people who understand the field or pathway they are entering.</p>
+<p>The next chapter focuses on networking and mentorship.</p>
+<p>Once a learner can communicate their direction and evidence more clearly, they are better prepared to build professional relationships, ask useful questions, receive feedback, and create opportunity conversations with mentors, peers, colleagues, and professional communities.</p>
 
 
 </section>

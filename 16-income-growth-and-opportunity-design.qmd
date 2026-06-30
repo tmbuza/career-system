@@ -1,4 +1,4 @@
-# Income Growth and Opportunity Design {#16_income_growth_and_opportunity_design}
+# Income Growth and Opportunity Design {#income-growth-and-opportunity-design}
 
 :::cdi-message
 - **ID:** CAREER-016
@@ -7,36 +7,509 @@
 - **Theme:** Careers become stronger when capability creates multiple forms of opportunity
 :::
 
-This chapter will develop the **Income Growth and Opportunity Design** layer of the Career System.
+Income growth is often discussed only as salary growth.
+
+Salary matters.
+
+Stable income matters.
+
+Fair compensation matters.
+
+But sustainable professional growth is broader than a single paycheck.
+
+A strong career system helps a person design opportunities that connect skills, evidence, relationships, performance, and long-term value creation.
+
+This chapter focuses on how learners and professionals can think about income growth responsibly, realistically, and strategically.
+
+The goal is not to chase every possible opportunity.
+
+The goal is to understand how professional value can grow over time and how that value can be converted into better roles, better compensation, better projects, better networks, and more resilient career options.
 
 ---
 
-## Purpose
+## Why Income Growth and Opportunity Design Matter
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+Many learners focus on getting the first opportunity.
 
----
+That is understandable.
 
-## Core Questions
+A first job, internship, freelance project, assistant role, research placement, or training opportunity can change a person’s path.
+
+But after the first opportunity, a new question appears:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+How do I keep growing from here?
 ```
+
+A person may be employed but underpaid.
+
+A person may be skilled but invisible.
+
+A person may have experience but no clear growth pathway.
+
+A person may depend on one employer, one client, one credential, or one local opportunity market.
+
+A person may work hard but fail to document their value.
+
+Income growth and opportunity design help learners avoid passive career drift.
+
+They help a person ask:
+
+- What value am I currently creating?
+- Who benefits from that value?
+- What evidence proves that value?
+- What opportunities could this value support?
+- What skills would increase my value?
+- What relationships would help me access better opportunities?
+- What risks should I reduce?
+
+This chapter does not promise quick income.
+
+It teaches a system for turning capability into better professional options over time.
 
 ---
 
-## Expected Outputs
+## Income Growth in the Career System
+
+Income growth is not isolated from the rest of the Career System.
+
+It depends on the earlier layers.
+
+```{mermaid}
+flowchart LR
+    A[Career Direction] --> B[Skills Inventory]
+    B --> C[Learning Plan]
+    C --> D[Project-Based Proof]
+    D --> E[Portfolio Evidence]
+    E --> F[Communication and Visibility]
+    F --> G[Networking and Mentorship]
+    G --> H[Job Market Readiness]
+    H --> I[Workplace Performance]
+    I --> J[Career Resilience]
+    J --> K[Opportunity Design]
+    K --> L[Income Growth]
+    L --> M[Sustainable Professional Growth]
+```
+
+A learner cannot design strong opportunities without knowing their direction.
+
+A professional cannot negotiate or reposition well without evidence.
+
+A freelancer cannot grow sustainably without trust and repeatable value.
+
+A mentor cannot guide opportunity decisions well without seeing the learner’s skills, goals, constraints, and evidence.
+
+Income growth becomes stronger when it is connected to the whole system.
+
+---
+
+## Income Growth Is Not Only More Money
+
+More money is important, but income growth is not only about the amount received.
+
+A better opportunity may include:
+
+- higher pay,
+- more stable income,
+- stronger learning,
+- better supervision,
+- better networks,
+- stronger portfolio evidence,
+- more autonomy,
+- better working conditions,
+- clearer promotion pathways,
+- or exposure to higher-value problems.
+
+Sometimes a lower-paid opportunity may be useful if it produces strong learning, mentorship, evidence, or access.
+
+Sometimes a higher-paid opportunity may be risky if it creates burnout, stagnation, dependency, or reputational harm.
+
+The Career System encourages learners to evaluate opportunities as complete growth packages, not only as income amounts.
+
+---
+
+## The Opportunity Design System
+
+Opportunity design means intentionally shaping the next professional step instead of waiting passively.
+
+It has five parts.
+
+```{mermaid}
+flowchart TD
+    A[Current Value] --> B[Evidence of Value]
+    B --> C[Opportunity Options]
+    C --> D[Growth Fit]
+    D --> E[Action Plan]
+    E --> F[Review and Adapt]
+    F --> A
+```
+
+### 1. Current Value
+
+This answers:
 
 ```text
-To be developed in the full chapter draft.
+What can I contribute now?
 ```
+
+Current value may come from technical skills, communication, reliability, domain knowledge, leadership, teaching, analysis, coordination, service, creativity, or problem-solving.
+
+Beginners may have small but real value.
+
+Experienced professionals may have deep value that needs better positioning.
+
+### 2. Evidence of Value
+
+This answers:
+
+```text
+How can others see my contribution?
+```
+
+Evidence may include project outputs, workplace achievements, reports, testimonials, dashboards, writing, GitHub repositories, presentations, certificates, before-and-after examples, or documented process improvements.
+
+Without evidence, value is harder to communicate.
+
+### 3. Opportunity Options
+
+This answers:
+
+```text
+What possible paths could my value support?
+```
+
+Opportunity options may include job applications, internal promotions, freelance services, consulting, training roles, research collaboration, community leadership, digital products, teaching, mentoring, or entrepreneurial experiments.
+
+The best option depends on the learner’s stage, risk tolerance, resources, constraints, and direction.
+
+### 4. Growth Fit
+
+This answers:
+
+```text
+Which opportunity fits my next growth step?
+```
+
+A good opportunity should match at least some of the learner’s current needs.
+
+For example, one learner may need income stability.
+
+Another may need portfolio evidence.
+
+Another may need mentorship.
+
+Another may need leadership exposure.
+
+Another may need flexibility while studying or caring for family.
+
+Growth fit helps a person choose deliberately.
+
+### 5. Action Plan
+
+This answers:
+
+```text
+What will I do next?
+```
+
+Action may include improving a profile, contacting a mentor, applying to selected roles, building a proof project, requesting a performance review, proposing a new responsibility, documenting achievements, or testing a small side service.
+
+Opportunity design becomes real only when it produces action.
+
+---
+
+## Opportunity Types Across Career Stages
+
+Different career stages require different opportunity strategies.
+
+### Beginner or Student
+
+A beginner may focus on:
+
+- learning opportunities,
+- volunteer or community projects,
+- internships,
+- guided portfolio projects,
+- mentorship conversations,
+- entry-level exposure,
+- and small proof-of-skill outputs.
+
+At this stage, the goal is not only income.
+
+The goal is to build credible evidence and professional habits.
+
+### Early-Career Professional
+
+An early-career professional may focus on:
+
+- stronger role alignment,
+- better job applications,
+- workplace performance evidence,
+- skill specialization,
+- internal growth opportunities,
+- mentorship,
+- and clearer professional positioning.
+
+At this stage, income growth often comes from improved evidence, performance, and role fit.
+
+### Mid-Career Professional
+
+A mid-career professional may focus on:
+
+- promotion readiness,
+- leadership responsibilities,
+- specialization,
+- consulting or advisory options,
+- stronger networks,
+- professional visibility,
+- and strategic repositioning.
+
+At this stage, income growth often depends on value clarity, negotiation, leadership, and market positioning.
+
+### Experienced Professional or Mentor
+
+An experienced professional may focus on:
+
+- thought leadership,
+- advisory work,
+- training programs,
+- systems building,
+- mentoring others,
+- independent consulting,
+- board or committee roles,
+- and legacy-oriented professional contributions.
+
+At this stage, opportunity design may include both income and impact.
+
+---
+
+## The Income Growth and Opportunity Design Map
+
+The practical output for this chapter is an opportunity design map.
+
+This map helps a learner connect current skills and evidence to realistic opportunity options.
+
+It is not a fantasy list.
+
+It is a planning tool.
+
+A useful map includes:
+
+```text
+current_skill_or_asset
+proof_or_evidence
+possible_opportunity
+value_created
+income_or_growth_potential
+readiness_level
+next_action
+support_needed
+risk_or_constraint
+review_date
+```
+
+The purpose is to help the learner move from vague hope to structured opportunity thinking.
+
+---
+
+## Create the Template
+
+This chapter includes an optional script that creates a reusable opportunity design template.
+
+Learners who are comfortable with the command line can run:
+
+```bash
+chmod +x scripts/bash/16-create-opportunity-design-template.sh
+bash scripts/bash/16-create-opportunity-design-template.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/opportunity-design-template.csv
+results/opportunity-design/example-opportunity-design-map.csv
+results/opportunity-design/README-opportunity-design.md
+```
+
+Learners who are not using the command line can copy the manual table structure below into a spreadsheet, notebook, or document.
+
+---
+
+## Manual Template
+
+| Current skill or asset | Proof or evidence | Possible opportunity | Value created | Income or growth potential | Readiness level | Next action | Support needed | Risk or constraint | Review date |
+|---|---|---|---|---|---|---|---|---|---|
+| Data cleaning and reporting | Small analysis report and GitHub repository | Junior data analyst application | Helps teams organize and interpret data | Entry-level income and experience | Medium | Improve CV and apply to five targeted roles | Mentor review of CV | Limited interview practice | Next month |
+| Teaching beginners | Workshop outline and learner feedback | Paid weekend training session | Helps learners gain practical digital skills | Small side income and visibility | Medium | Pilot one free session and collect feedback | Venue or online platform | Time availability | Two weeks |
+| Workplace coordination | Documented process improvement | Internal promotion conversation | Improves team reliability and efficiency | Salary increase or expanded responsibility | High | Prepare performance evidence summary | Supervisor feedback | Limited formal title | Next review cycle |
+
+---
+
+## Example Interpretation
+
+Consider a learner who has completed several data analysis projects but has not yet received a formal data role.
+
+Their opportunity map may show three possible paths:
+
+```text
+1. Apply for junior data analyst roles.
+2. Offer simple reporting support to a small organization.
+3. Publish short project explanations to increase visibility.
+```
+
+Each path has different benefits.
+
+The job application path may support stable employment.
+
+The small organization path may produce client evidence and practical experience.
+
+The public explanation path may create visibility and networking opportunities.
+
+The learner does not need to pursue all three aggressively at the same time.
+
+They can choose one primary opportunity path and one small supporting activity.
+
+This avoids distraction while still building options.
+
+---
+
+## Choosing Between Opportunities
+
+A useful opportunity is not always the most exciting one.
+
+A learner should evaluate opportunities using five questions.
+
+```text
+1. Does this opportunity fit my current direction?
+2. Does it use or strengthen skills I want to grow?
+3. Will it produce evidence I can reuse later?
+4. Does it connect me with useful people, problems, or environments?
+5. Is the income, time, and risk balance reasonable for my situation?
+```
+
+If an opportunity fails most of these questions, it may not be the right next step.
+
+If an opportunity passes several of them, it may be worth testing.
+
+---
+
+## Responsible Diversification
+
+Opportunity design is closely connected to career resilience.
+
+But diversification should be responsible.
+
+It does not mean doing everything.
+
+It means building a small set of options that support the same professional direction.
+
+For example:
+
+```text
+Main direction: Data analyst growth
+
+Aligned opportunities:
+- apply for analyst roles,
+- build two public analysis projects,
+- help a local group with reporting,
+- write short explanations of completed projects,
+- ask a mentor to review role fit.
+```
+
+These activities reinforce each other.
+
+They do not scatter the learner across unrelated paths.
+
+Responsible diversification protects the learner without weakening focus.
+
+---
+
+## Common Opportunity Design Mistakes
+
+A common mistake is chasing opportunities before building evidence.
+
+Another mistake is waiting until everything feels perfect.
+
+Some learners apply everywhere without understanding role fit.
+
+Some professionals stay too long in roles that no longer create growth.
+
+Some people accept every side opportunity and become exhausted.
+
+Some people avoid income conversations because they feel uncomfortable discussing value.
+
+Some people focus only on certificates and never translate their learning into visible contribution.
+
+Opportunity design helps reduce these mistakes by connecting value, evidence, action, and review.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor, peer, supervisor, or trusted colleague can help review the opportunity map.
+
+Useful prompts include:
+
+```text
+Which opportunity seems most realistic right now?
+Which opportunity has the strongest growth potential?
+Which opportunity requires better evidence before action?
+Which opportunity may create distraction or burnout?
+What is one small action the learner can take this week?
+What relationship or feedback would improve the learner’s chances?
+```
+
+The goal of review is not to tell the learner what to do.
+
+The goal is to improve the quality of the learner’s decision.
+
+---
+
+## Income Growth and Opportunity Design Checklist
+
+Use this checklist before acting on an opportunity plan.
+
+```text
+[ ] I can describe the value I currently create.
+[ ] I have evidence that supports at least one opportunity path.
+[ ] I have identified realistic opportunity options.
+[ ] I have considered income, learning, visibility, mentorship, and risk.
+[ ] I have selected one primary opportunity path for now.
+[ ] I have identified one next action.
+[ ] I know what support or feedback I need.
+[ ] I have set a review date.
+```
+
+A strong opportunity plan should feel focused, realistic, and actionable.
+
+---
+
+## CDI Reflection
+
+Career growth becomes more sustainable when opportunity is designed, not only hoped for.
+
+A learner does not need to control every outcome.
+
+But they can improve the system around their growth.
+
+They can build evidence.
+
+They can communicate value.
+
+They can seek feedback.
+
+They can choose opportunities more carefully.
+
+They can reduce dependency on one narrow path.
+
+They can review and adapt.
+
+The Career System turns professional growth into an intentional practice.
+
 ---
 
 ## Looking Ahead
 
-The next chapter brings the full Career System together through an end-to-end case study.
+The next chapter brings the Career System together through an end-to-end case study.
 
-The case study shows how a learner can move from readiness assessment to skills inventory, direction, learning plan, portfolio evidence, visibility, mentorship, job-market readiness, workplace performance, resilience, and opportunity design.
+It shows how a learner can move from readiness assessment to skills inventory, learning plan, project-based proof, portfolio evidence, communication, mentorship, job-market preparation, resilience, and opportunity design as one connected professional growth pathway.

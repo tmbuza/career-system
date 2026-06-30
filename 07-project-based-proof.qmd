@@ -1,42 +1,488 @@
-# Project-Based Proof {#07_project_based_proof}
+# Project-Based Proof {#project-based-proof}
 
 :::cdi-message
 - **ID:** CAREER-007
-- **Type:** System Guide
-- **Audience:** Learners, professionals, mentors, and training program designers
-- **Theme:** Projects demonstrate judgment, execution, and growth
+- **Type:** Guide Chapter
+- **Audience:** Learners, early-career professionals, career changers, mentors, and training programs
+- **Theme:** Projects turn learning into visible proof of capability
 :::
 
-This chapter will develop the **Project-Based Proof** layer of the Career System.
+A person can say they are learning.
 
----
+A person can say they have skills.
 
-## Purpose
+A person can say they are interested in a field.
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+But career growth becomes stronger when the learner can point to something they have actually built, analyzed, written, improved, explained, or contributed to.
 
----
+That is the role of **project-based proof**.
 
-## Core Questions
+Project-based proof connects learning to evidence.
+
+It helps a learner move from:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+I am interested in this field.
+```
+
+Toward:
+
+```text
+Here is what I practiced, what I produced, what I learned, and how it connects to the work I want to do.
+```
+
+This chapter helps learners design projects that are realistic, useful, and visible enough to support professional growth.
+
+---
+
+## Why Project-Based Proof Matters
+
+Many learners collect courses, notes, certificates, and tutorials.
+
+These can be useful.
+
+But they do not always show whether the learner can apply knowledge in a real task.
+
+A project gives the learner something stronger.
+
+It shows applied effort.
+
+It shows decision-making.
+
+It shows problem-solving.
+
+It shows communication.
+
+It shows follow-through.
+
+A project does not need to be large to be valuable.
+
+A small, well-explained project can be more useful than a large unfinished one.
+
+The purpose is not to impress everyone.
+
+The purpose is to create credible evidence of growth.
+
+---
+
+## Project-Based Proof in the Career System
+
+Project-based proof sits between learning and portfolio evidence.
+
+```{mermaid}
+flowchart LR
+    A[Career Direction] --> B[Skills Inventory]
+    B --> C[Learning Plan]
+    C --> D[Practice]
+    D --> E[Project-Based Proof]
+    E --> F[Portfolio Evidence]
+    F --> G[Communication]
+    G --> H[Visibility]
+    H --> I[Opportunity]
+```
+
+A learning plan identifies what a learner needs to build.
+
+Practice helps the learner improve.
+
+A project turns that practice into something visible.
+
+The portfolio then organizes the best project outputs into professional evidence.
+
+---
+
+## What Counts as Project-Based Proof?
+
+Project-based proof is any structured output that demonstrates a learner's ability to apply skills.
+
+Examples include:
+
+- a data analysis report,
+- a cleaned dataset with documentation,
+- a dashboard,
+- a GitHub repository,
+- a technical tutorial,
+- a case study,
+- a presentation,
+- a workflow diagram,
+- a research summary,
+- a community project,
+- a small software tool,
+- a professional writing sample,
+- a mentoring or training resource,
+- or a before-and-after improvement record.
+
+The strongest project-based proof usually includes three things:
+
+```text
+Problem + Process + Output
+```
+
+The problem explains why the project matters.
+
+The process shows how the learner worked.
+
+The output shows what was produced.
+
+---
+
+## Project-Based Proof Is Not Only for Technical Learners
+
+Technical learners often think of projects as code, analysis, dashboards, or applications.
+
+Those are important.
+
+But project-based proof is also useful in many non-technical pathways.
+
+A learner interested in communication can build a writing portfolio.
+
+A learner interested in administration can document a process improvement.
+
+A learner interested in community work can design and report a small outreach activity.
+
+A learner interested in leadership can document how they organized a team activity.
+
+A learner interested in research can summarize papers and build an evidence table.
+
+The key question is not:
+
+```text
+Is this project impressive?
+```
+
+The better question is:
+
+```text
+Does this project show relevant ability, effort, judgment, and learning?
 ```
 
 ---
 
-## Expected Outputs
+## The Five Parts of a Strong Career Project
+
+A strong career project has five parts.
+
+### 1. A Clear Purpose
+
+The project should answer a practical question:
 
 ```text
-To be developed in the full chapter draft.
+What ability is this project meant to demonstrate?
 ```
+
+Without purpose, a project can become random activity.
+
+A project should connect to the learner's career direction, current skills, or learning plan.
+
+### 2. A Realistic Scope
+
+The project should be small enough to finish.
+
+Beginners often choose projects that are too large.
+
+Experienced professionals may choose projects that are too broad or too hidden inside their normal work.
+
+A good project has a clear boundary.
+
+It should be possible to explain what is included and what is not included.
+
+### 3. A Visible Output
+
+The project should produce something that can be reviewed.
+
+This could be a report, table, code file, presentation, checklist, diagram, article, or documented result.
+
+The output does not always need to be public.
+
+But it should be clear enough that another person can understand what was done.
+
+### 4. A Learning Record
+
+A project should include reflection.
+
+The learner should record:
+
+- what they tried,
+- what worked,
+- what was difficult,
+- what changed,
+- what they learned,
+- and what they would improve next.
+
+This turns the project into a growth record, not only a finished artifact.
+
+### 5. A Communication Summary
+
+Every project should have a short explanation.
+
+A useful format is:
+
+```text
+I worked on [problem/task] using [skills/tools/process] and produced [output/result]. This helped me demonstrate [career-relevant ability].
+```
+
+This makes the project easier to use in a CV, profile, interview, mentorship conversation, or portfolio.
+
+---
+
+## Project Ideas Across Career Stages
+
+Project-based proof can support people at different stages.
+
+| Career stage | Useful project type | Example |
+|---|---|---|
+| Beginner | Guided practice project | Create a simple report from a sample dataset |
+| Learner building confidence | Repeated small project | Write three short summaries of career-relevant topics |
+| Career changer | Transferable-skill project | Convert previous work experience into a process improvement case study |
+| Early-career professional | Workplace evidence project | Document a task improved through better organization or communication |
+| Technical learner | Applied technical project | Build a reproducible analysis workflow |
+| Experienced professional | Thought-leadership project | Write a practical guide or mentor resource from real experience |
+| Mentor or educator | Learning-support project | Create a learner checklist, template, or pathway map |
+
+The project should match the learner's current stage.
+
+A beginner does not need an advanced project.
+
+A professional does not need to pretend to be a beginner.
+
+Each person needs proof that fits their current growth path.
+
+---
+
+## Choosing a Good Project
+
+A good project is located at the intersection of four questions.
+
+```{mermaid}
+flowchart TD
+    A[Good Career Project] --> B[Relevant to Direction]
+    A --> C[Uses or Builds Skills]
+    A --> D[Can Be Finished]
+    A --> E[Produces Visible Evidence]
+
+    B --> F[Career Fit]
+    C --> G[Capability Growth]
+    D --> H[Completion]
+    E --> I[Portfolio Value]
+```
+
+Before starting a project, ask:
+
+```text
+Does this project connect to my direction?
+Can I finish it with my current resources?
+Will it help me practice an important skill?
+Will it produce something I can explain or show?
+```
+
+If the answer is yes, the project is probably a good candidate.
+
+---
+
+## The Project-Based Proof Template
+
+This chapter includes a simple template for planning and reviewing career projects.
+
+The template helps learners connect each project to career evidence.
+
+Suggested columns include:
+
+| Column | Purpose |
+|---|---|
+| project_name | Names the project clearly |
+| career_direction | Connects the project to a target path |
+| skill_demonstrated | Identifies the main skill shown |
+| problem_or_task | Explains what the project is about |
+| output_type | Describes the visible product |
+| evidence_location | Records where the output can be found |
+| status | Tracks whether it is planned, active, complete, or revised |
+| review_needed | Identifies feedback still needed |
+| communication_summary | Turns the project into a short professional explanation |
+| next_improvement | Defines the next improvement step |
+
+---
+
+## Create the Template
+
+Learners who are comfortable using the command line can create the template with:
+
+```bash
+chmod +x scripts/bash/07-create-project-based-proof-template.sh
+bash scripts/bash/07-create-project-based-proof-template.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/project-based-proof-template.csv
+results/project-based-proof/example-project-based-proof.csv
+results/project-based-proof/README-project-based-proof.md
+```
+
+Learners who are not using the command line can copy the table structure in this chapter into a spreadsheet, notebook, or document.
+
+The important part is not the software.
+
+The important part is the thinking process.
+
+---
+
+## Manual Template
+
+A learner can begin with this simple table.
+
+| project_name | career_direction | skill_demonstrated | problem_or_task | output_type | evidence_location | status | review_needed | communication_summary | next_improvement |
+|---|---|---|---|---|---|---|---|---|---|
+| Example data report | Data analyst pathway | Data cleaning and interpretation | Summarize a public dataset | Short report | GitHub or folder link | Draft | Mentor review | I analyzed a small dataset and explained the main findings. | Improve visualization and interpretation |
+| Community skills session | Mentorship pathway | Facilitation and communication | Help learners understand basic career planning | Session plan and reflection | Local folder | Planned | Peer feedback | I designed a simple learning activity for youth career readiness. | Add learner feedback form |
+
+This manual version is enough for many learners.
+
+A spreadsheet version can be added later.
+
+---
+
+## Example Project Summary
+
+A weak project summary sounds like this:
+
+```text
+I did a data project.
+```
+
+A stronger project summary sounds like this:
+
+```text
+I cleaned and summarized a small public dataset, created a short report, and explained the main patterns using clear tables and plain-language interpretation. This helped me practice data organization, analysis, and communication.
+```
+
+The second version is stronger because it explains:
+
+- what was done,
+- what was produced,
+- which skills were used,
+- and why the project matters.
+
+This is the kind of summary that can support interviews, mentoring discussions, and professional profiles.
+
+---
+
+## How to Review a Project
+
+A project should be reviewed before it becomes portfolio evidence.
+
+Use these questions:
+
+```text
+Is the purpose clear?
+Is the output understandable?
+Does the project show a relevant skill?
+Can another person follow what was done?
+Is there enough explanation?
+Is the project complete enough to share?
+What should be improved before it becomes portfolio evidence?
+```
+
+The project does not need to be perfect.
+
+But it should be understandable, honest, and relevant.
+
+---
+
+## Common Project-Based Proof Mistakes
+
+### Mistake 1: Starting Too Large
+
+Large projects can become discouraging.
+
+Start small enough to finish.
+
+A finished small project is better than an unfinished impressive idea.
+
+### Mistake 2: Copying Without Understanding
+
+Following a tutorial is useful for practice.
+
+But project-based proof should include the learner's own explanation.
+
+The learner should be able to explain what they did and why.
+
+### Mistake 3: Hiding the Process
+
+Some learners only show the final output.
+
+But process matters.
+
+Notes, decisions, challenges, and improvements can make the project more credible.
+
+### Mistake 4: No Career Connection
+
+A project should connect to a direction, skill, or opportunity.
+
+Random projects may still teach skills, but they are harder to use in career conversations.
+
+### Mistake 5: No Communication Summary
+
+If the learner cannot explain the project in simple language, the project is not yet ready for professional use.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor or peer can help improve project-based proof by asking:
+
+```text
+What skill does this project demonstrate?
+What part of the work did you do yourself?
+What did you learn while doing it?
+What would make the output easier to understand?
+How does this project connect to your career direction?
+Where could this project be used: CV, portfolio, interview, profile, or mentorship conversation?
+What is the next version of this project?
+```
+
+These questions help the learner improve both the project and the explanation around it.
+
+---
+
+## Project-Based Proof Checklist
+
+Before treating a project as career evidence, check that it has:
+
+- a clear title,
+- a clear purpose,
+- a realistic scope,
+- a visible output,
+- a short explanation,
+- a record of skills used,
+- a note on what was learned,
+- a review or feedback step,
+- and a next improvement action.
+
+If these are present, the project can begin moving into the portfolio layer.
+
+---
+
+## CDI Reflection
+
+Use these prompts before moving forward:
+
+```text
+Which project best proves what I am learning now?
+Which project is small enough for me to finish soon?
+Which project connects most clearly to my career direction?
+Which project would be easiest to explain to a mentor or employer?
+Which project needs feedback before I share it more widely?
+```
+
+The goal is not to produce many projects.
+
+The goal is to produce meaningful evidence of growth.
+
 ---
 
 ## Looking Ahead
 
-The next chapter moves from proof to communication and visibility.
+The next chapter focuses on communication and visibility.
 
-Even strong work can remain invisible if it is not explained clearly. The next layer helps learners communicate what they built, what they learned, why it matters, and how others can understand their professional value.
+Once a learner has project-based proof, the next challenge is to explain it clearly, place it where others can see it, and use it to support professional conversations, mentorship, applications, and opportunity access.

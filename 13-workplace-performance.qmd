@@ -1,42 +1,504 @@
-# Workplace Performance {#13_workplace_performance}
+# Workplace Performance {#workplace-performance}
 
 :::cdi-message
 - **ID:** CAREER-013
-- **Type:** System Guide
-- **Audience:** Learners, professionals, mentors, and training program designers
-- **Theme:** Getting an opportunity is different from growing inside it
+- **Type:** Guide Chapter
+- **Audience:** Learners, early-career professionals, technical professionals, mentors, and career changers
+- **Theme:** Career growth becomes sustainable when opportunity turns into reliable performance
 :::
 
-This chapter will develop the **Workplace Performance** layer of the Career System.
+Getting an opportunity is important.
 
----
+Keeping trust after the opportunity begins is even more important.
 
-## Purpose
+A job offer, internship, freelance assignment, leadership role, research placement, or collaborative project is not the end of career development.
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+It is the beginning of a new stage.
 
----
-
-## Core Questions
+At this stage, the question changes from:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+Can I get the opportunity?
+```
+
+To:
+
+```text
+Can I perform, learn, communicate, improve, and become trusted over time?
+```
+
+The **Workplace Performance** chapter helps learners and professionals understand how to move from access to contribution.
+
+It focuses on the habits, behaviors, communication patterns, and evidence of reliability that help a person grow inside real work environments.
+
+---
+
+## Why Workplace Performance Matters
+
+Many career guides focus heavily on getting selected.
+
+They emphasize CVs, interviews, applications, and personal branding.
+
+Those things matter.
+
+But a sustainable career is not built only by being selected.
+
+It is built by becoming useful, dependable, thoughtful, adaptable, and trusted after selection.
+
+Workplace performance matters because it affects:
+
+- whether a learner becomes trusted with more responsibility,
+- whether a new professional receives useful feedback,
+- whether supervisors see growth potential,
+- whether colleagues want to work with the person again,
+- whether opportunities lead to references, promotions, collaborations, or future roles,
+- and whether the person develops confidence based on real contribution.
+
+Performance is not perfection.
+
+Performance is the ability to contribute reliably while continuing to learn.
+
+---
+
+## Workplace Performance in the Career System
+
+Workplace performance sits after opportunity access, but it also feeds back into the whole career system.
+
+A person performs in real environments.
+
+That performance creates new evidence.
+
+New evidence strengthens the portfolio.
+
+Feedback improves the learning plan.
+
+New responsibility clarifies career direction.
+
+Trust creates future opportunity.
+
+```{mermaid}
+flowchart LR
+    A[Opportunity Access] --> B[Workplace Performance]
+    B --> C[Feedback]
+    C --> D[Learning Improvement]
+    D --> E[Stronger Contribution]
+    E --> F[Workplace Trust]
+    F --> G[New Evidence]
+    G --> H[Portfolio and Profile]
+    H --> I[Future Opportunities]
+    C --> J[Career Direction]
+    J --> D
+```
+
+This is why performance is not separate from career growth.
+
+Performance is one of the strongest sources of career evidence.
+
+---
+
+## Workplace Performance Is Not Only Technical Output
+
+Technical ability is important, especially in data, science, engineering, health, business, education, and technology roles.
+
+But workplace performance is broader than technical skill.
+
+A technically strong person may still struggle if they:
+
+- do not communicate progress,
+- miss deadlines without early warning,
+- avoid feedback,
+- do not document work,
+- fail to understand priorities,
+- make the same mistake repeatedly,
+- or work in isolation when collaboration is needed.
+
+Workplace performance includes both task quality and professional reliability.
+
+```text
+Workplace performance = contribution + communication + reliability + learning + improvement
+```
+
+A learner does not need to know everything at the start.
+
+But they do need to show that they can learn responsibly in a real environment.
+
+---
+
+## The Five Dimensions of Workplace Performance
+
+A practical workplace performance system can be organized into five dimensions.
+
+### 1. Role Understanding
+
+This dimension asks:
+
+```text
+Do I understand what is expected of me?
+```
+
+A person cannot perform well if they do not understand the role, the priorities, the decision-makers, the timeline, and the definition of success.
+
+Role understanding includes:
+
+- knowing the main responsibilities,
+- understanding who depends on the work,
+- knowing what must be delivered,
+- understanding quality standards,
+- and clarifying what success looks like.
+
+Beginners often assume that expectations are obvious.
+
+They are not always obvious.
+
+Strong professionals ask clarifying questions early.
+
+### 2. Execution and Delivery
+
+This dimension asks:
+
+```text
+Can I complete useful work with acceptable quality?
+```
+
+Execution includes planning, doing the work, checking quality, and delivering outputs.
+
+It includes the ability to turn instructions, goals, or problems into completed work.
+
+Good execution does not mean doing everything alone.
+
+It means moving the work forward responsibly.
+
+### 3. Communication and Documentation
+
+This dimension asks:
+
+```text
+Can others understand what I am doing, what I need, and what I completed?
+```
+
+Work becomes more valuable when it is communicated clearly.
+
+Documentation helps others review, use, maintain, or build on the work.
+
+This may include:
+
+- progress updates,
+- meeting notes,
+- decision logs,
+- analysis summaries,
+- project documentation,
+- email updates,
+- handover notes,
+- and lessons learned.
+
+A person who communicates well reduces uncertainty for others.
+
+### 4. Feedback and Improvement
+
+This dimension asks:
+
+```text
+Can I receive feedback and improve my work?
+```
+
+Feedback is not an insult.
+
+Feedback is a growth signal.
+
+A person becomes trusted when they can listen, adjust, and improve.
+
+This includes:
+
+- asking for feedback at the right time,
+- separating emotion from useful information,
+- taking notes,
+- applying corrections,
+- and showing improvement in later work.
+
+### 5. Professional Habits
+
+This dimension asks:
+
+```text
+Can I be trusted as a professional member of the team or environment?
+```
+
+Professional habits include punctuality, respectful communication, follow-through, honesty, confidentiality, ethical judgment, and consistency.
+
+Professional habits are often what make people willing to recommend someone.
+
+Skills may open a door.
+
+Habits often determine whether trust grows after the door opens.
+
+---
+
+## Workplace Performance Across Career Stages
+
+Workplace performance looks different depending on the learner's stage.
+
+A beginner may focus on reliability, listening, asking good questions, and completing small tasks well.
+
+An early-career professional may focus on ownership, documentation, communication, and improving speed and quality.
+
+A mid-career professional may focus on judgment, collaboration, mentoring, and handling more complex responsibilities.
+
+A senior professional may focus on strategic contribution, decision support, team development, and building systems that help others perform.
+
+A career changer may focus on translating prior experience into the new environment while learning the expectations of the new field.
+
+The same principle applies across stages:
+
+```text
+Perform at the current level while building evidence for the next level.
 ```
 
 ---
 
-## Expected Outputs
+## The Workplace Performance Log
+
+A workplace performance log is a simple record of contribution, feedback, learning, and evidence.
+
+It helps learners and professionals avoid losing track of their growth.
+
+It also helps them prepare for:
+
+- performance reviews,
+- CV updates,
+- promotion conversations,
+- project summaries,
+- portfolio updates,
+- mentorship meetings,
+- and future interviews.
+
+The log is not only for formal employment.
+
+It can also be used for internships, volunteer roles, community projects, research projects, freelance work, mentorship programs, and self-directed professional projects.
+
+---
+
+## Create the Template
+
+This chapter includes an optional script that creates a workplace performance template and example log.
+
+Learners who are comfortable using the command line can run:
+
+```bash
+chmod +x scripts/bash/13-create-workplace-performance-template.sh
+bash scripts/bash/13-create-workplace-performance-template.sh
+```
+
+Expected outputs:
 
 ```text
-To be developed in the full chapter draft.
+data/templates/workplace-performance-template.csv
+results/workplace-performance/example-workplace-performance-log.csv
+results/workplace-performance/README-workplace-performance.md
 ```
+
+Learners who are not using the command line can copy the manual template below into a spreadsheet, notebook, or document.
+
+---
+
+## Manual Template
+
+Use one row for each meaningful work activity, task, project, feedback moment, or professional contribution.
+
+| Field | Purpose |
+|---|---|
+| date | When the activity happened |
+| role_or_context | Job, internship, project, volunteer role, class, or collaboration |
+| task_or_responsibility | What you were responsible for |
+| expected_output | What was expected |
+| completed_output | What you actually completed |
+| skills_used | Skills applied during the task |
+| communication_used | How you communicated progress or results |
+| feedback_received | Feedback from supervisor, mentor, peer, client, or team |
+| improvement_action | What you changed or plan to improve |
+| evidence_created | Link or description of proof created |
+| next_step | What should happen next |
+
+The goal is not to record every tiny action.
+
+The goal is to build a reliable record of growth and contribution.
+
+---
+
+## Example Workplace Performance Entry
+
+A beginner in a data support internship might write:
+
+| Field | Example |
+|---|---|
+| date | 2026-07-05 |
+| role_or_context | Data support internship |
+| task_or_responsibility | Clean a spreadsheet of survey responses |
+| expected_output | Correct missing values, standardize column names, and prepare a summary table |
+| completed_output | Cleaned spreadsheet and created a short summary table |
+| skills_used | Spreadsheet cleaning, data organization, basic quality checking |
+| communication_used | Sent progress update and asked one clarification question about missing values |
+| feedback_received | Supervisor asked for clearer notes about changes made |
+| improvement_action | Add a change log for every cleaning step next time |
+| evidence_created | Cleaned file, summary table, and change log draft |
+| next_step | Improve documentation and prepare a short interpretation summary |
+
+This entry is useful because it shows more than activity.
+
+It shows responsibility, evidence, communication, feedback, and improvement.
+
+---
+
+## How to Use the Performance Log
+
+A performance log becomes powerful when it is reviewed regularly.
+
+A useful weekly review can ask:
+
+```text
+What did I contribute this week?
+What did I learn?
+What feedback did I receive?
+What evidence did I create?
+What should I improve next week?
+What should I communicate more clearly?
+```
+
+A useful monthly review can ask:
+
+```text
+What pattern is emerging in my work?
+Which responsibilities am I handling better now?
+Which skills are becoming stronger?
+What should be added to my CV, portfolio, or profile?
+What support do I need from a mentor or supervisor?
+```
+
+The log should not become a burden.
+
+It should become a simple tool for noticing growth.
+
+---
+
+## Turning Workplace Performance Into Career Evidence
+
+Workplace performance becomes career evidence when it can be communicated clearly.
+
+A task can become a CV bullet.
+
+A project can become a portfolio item.
+
+A feedback moment can become a learning story.
+
+A responsibility can become evidence of trust.
+
+For example:
+
+```text
+Weak description:
+Helped with data.
+
+Stronger description:
+Cleaned and organized survey response data, documented quality issues, and prepared a summary table used for team review.
+```
+
+The stronger version shows action, output, and use.
+
+That is evidence translation.
+
+---
+
+## Common Workplace Performance Mistakes
+
+A common mistake is waiting for perfect instruction before starting.
+
+In real work, some ambiguity is normal.
+
+A learner should clarify expectations, then begin with a reasonable plan.
+
+Another mistake is hiding confusion.
+
+It is better to ask a focused question early than to silently produce the wrong output.
+
+Another mistake is treating feedback as failure.
+
+Feedback is part of growth.
+
+Another mistake is failing to document work.
+
+Undocumented work is harder to review, reuse, explain, and defend.
+
+Another mistake is doing work without communicating progress.
+
+A person may be working hard, but others may not know the status, blockers, or results.
+
+---
+
+## Mentor or Supervisor Review Prompts
+
+A mentor, supervisor, peer, or trainer can use these prompts to review workplace performance:
+
+```text
+Does the learner understand the task and expected output?
+Are they communicating progress clearly?
+Are they documenting work well enough for others to understand?
+Are they asking useful questions?
+Are they responding to feedback constructively?
+Are they improving over time?
+What responsibility are they ready to take next?
+```
+
+The goal is not to judge the learner harshly.
+
+The goal is to help them become more effective and trusted.
+
+---
+
+## Workplace Performance Checklist
+
+Use this checklist before, during, and after real work.
+
+```text
+[ ] I understand the task or responsibility.
+[ ] I know what output is expected.
+[ ] I know who needs the output.
+[ ] I know the deadline or timing expectation.
+[ ] I have identified what I need to learn or clarify.
+[ ] I communicate progress before problems become serious.
+[ ] I document key decisions, steps, and outputs.
+[ ] I ask for feedback when useful.
+[ ] I apply feedback in later work.
+[ ] I record evidence of contribution.
+[ ] I identify a next improvement step.
+```
+
+This checklist is useful for beginners and experienced professionals.
+
+The level of responsibility changes, but the performance logic remains the same.
+
+---
+
+## CDI Reflection
+
+Workplace performance is where career development becomes real.
+
+It is where skills meet expectations.
+
+It is where confidence becomes contribution.
+
+It is where feedback becomes improvement.
+
+It is where trust begins to form.
+
+A sustainable career is not built only by getting opportunities.
+
+It is built by turning opportunities into visible, reliable, and improving contribution.
+
 ---
 
 ## Looking Ahead
 
-The next chapter focuses on resilience and diversification.
+The next chapter focuses on career resilience and diversification.
 
-Workplace performance matters, but sustainable professional growth also requires adaptability. The learner needs to reduce overdependence on one path, keep learning, build options, and prepare for change without panic.
+Once a learner or professional begins performing in real environments, they also need to think beyond one role, one employer, one skill set, or one opportunity path.
+
+Career resilience helps professionals keep adapting, protecting their growth, and creating options in changing conditions.

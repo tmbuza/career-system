@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -285,9 +324,30 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#why-career-readiness-matters" id="toc-why-career-readiness-matters" class="nav-link active" data-scroll-target="#why-career-readiness-matters">Why Career Readiness Matters</a></li>
+  <li><a href="#the-career-readiness-system" id="toc-the-career-readiness-system" class="nav-link" data-scroll-target="#the-career-readiness-system">The Career Readiness System</a></li>
+  <li><a href="#readiness-is-not-confidence-alone" id="toc-readiness-is-not-confidence-alone" class="nav-link" data-scroll-target="#readiness-is-not-confidence-alone">Readiness Is Not Confidence Alone</a></li>
+  <li><a href="#readiness-across-career-stages" id="toc-readiness-across-career-stages" class="nav-link" data-scroll-target="#readiness-across-career-stages">Readiness Across Career Stages</a></li>
+  <li><a href="#the-five-readiness-domains" id="toc-the-five-readiness-domains" class="nav-link" data-scroll-target="#the-five-readiness-domains">The Five Readiness Domains</a>
+  <ul class="collapse">
+  <li><a href="#direction-readiness" id="toc-direction-readiness" class="nav-link" data-scroll-target="#direction-readiness">1. Direction Readiness</a></li>
+  <li><a href="#skill-readiness" id="toc-skill-readiness" class="nav-link" data-scroll-target="#skill-readiness">2. Skill Readiness</a></li>
+  <li><a href="#evidence-readiness" id="toc-evidence-readiness" class="nav-link" data-scroll-target="#evidence-readiness">3. Evidence Readiness</a></li>
+  <li><a href="#communication-readiness" id="toc-communication-readiness" class="nav-link" data-scroll-target="#communication-readiness">4. Communication Readiness</a></li>
+  <li><a href="#opportunity-readiness" id="toc-opportunity-readiness" class="nav-link" data-scroll-target="#opportunity-readiness">5. Opportunity Readiness</a></li>
+  </ul></li>
+  <li><a href="#career-readiness-self-assessment" id="toc-career-readiness-self-assessment" class="nav-link" data-scroll-target="#career-readiness-self-assessment">Career Readiness Self-Assessment</a></li>
+  <li><a href="#create-the-template" id="toc-create-the-template" class="nav-link" data-scroll-target="#create-the-template">Create the Template</a></li>
+  <li><a href="#how-to-use-the-assessment" id="toc-how-to-use-the-assessment" class="nav-link" data-scroll-target="#how-to-use-the-assessment">How to Use the Assessment</a>
+  <ul class="collapse">
+  <li><a href="#pass-1-be-honest" id="toc-pass-1-be-honest" class="nav-link" data-scroll-target="#pass-1-be-honest">Pass 1: Be Honest</a></li>
+  <li><a href="#pass-2-identify-evidence" id="toc-pass-2-identify-evidence" class="nav-link" data-scroll-target="#pass-2-identify-evidence">Pass 2: Identify Evidence</a></li>
+  <li><a href="#pass-3-choose-one-next-action" id="toc-pass-3-choose-one-next-action" class="nav-link" data-scroll-target="#pass-3-choose-one-next-action">Pass 3: Choose One Next Action</a></li>
+  </ul></li>
+  <li><a href="#example-interpretation" id="toc-example-interpretation" class="nav-link" data-scroll-target="#example-interpretation">Example Interpretation</a></li>
+  <li><a href="#mentor-or-peer-review-prompts" id="toc-mentor-or-peer-review-prompts" class="nav-link" data-scroll-target="#mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</a></li>
+  <li><a href="#career-readiness-checklist" id="toc-career-readiness-checklist" class="nav-link" data-scroll-target="#career-readiness-checklist">Career Readiness Checklist</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -297,7 +357,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-preface.html">Foundations</a></li><li class="breadcrumb-item"><a href="./02-career-readiness.html"><span class="chapter-title">Career Readiness</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="02_career_readiness" class="quarto-section-identifier"><span class="chapter-title">Career Readiness</span></span></h1>
+<h1 class="title"><span id="career-readiness" class="quarto-section-identifier"><span class="chapter-title">Career Readiness</span></span></h1>
 </div>
 
 
@@ -324,28 +384,396 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>ID:</strong> CAREER-002</li>
 <li><strong>Type:</strong> System Guide</li>
-<li><strong>Audience:</strong> Learners, professionals, mentors, and training program designers</li>
-<li><strong>Theme:</strong> Readiness is the bridge between potential and professional action</li>
+<li><strong>Audience:</strong> Learners, early-career professionals, career changers, mentors, and professionals planning their next step</li>
+<li><strong>Theme:</strong> Career growth begins by understanding readiness before chasing opportunity</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>Career Readiness</strong> layer of the Career System.</p>
+<p>Career readiness is the starting point of intentional professional growth.</p>
+<p>Many learners begin by asking:</p>
+<pre class="text"><code>What job should I apply for?</code></pre>
+<p>That question matters.</p>
+<p>But the Career System begins with a deeper question:</p>
+<pre class="text"><code>Am I ready to move toward the opportunity I want?</code></pre>
+<p>Readiness does not mean perfection.</p>
+<p>It does not mean a person already has every skill, every certificate, every project, or every answer.</p>
+<p>Readiness means the learner understands where they are now, what they can already show, what still needs development, and what kind of next step is realistic.</p>
+<p>A person can be ready for learning.</p>
+<p>A person can be ready for practice.</p>
+<p>A person can be ready for mentorship.</p>
+<p>A person can be ready for internship.</p>
+<p>A person can be ready for entry-level work.</p>
+<p>A person can be ready for promotion, transition, leadership, consulting, or independent opportunity.</p>
+<p>The goal of this chapter is to help the learner locate their current stage honestly and use that understanding to plan the next step.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="why-career-readiness-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-career-readiness-matters">Why Career Readiness Matters</h2>
+<p>Career growth often becomes frustrating when people skip readiness.</p>
+<p>A learner may apply for opportunities before they have evidence.</p>
+<p>A professional may pursue promotion before clarifying the value they already create.</p>
+<p>A career changer may collect certificates without building a portfolio that connects to the target field.</p>
+<p>A highly skilled person may remain invisible because their work is not communicated clearly.</p>
+<p>Career readiness helps prevent scattered effort.</p>
+<p>It creates a starting diagnosis.</p>
+<p>Instead of saying only:</p>
+<pre class="text"><code>I need a job.</code></pre>
+<p>The learner can say:</p>
+<pre class="text"><code>I need to strengthen my evidence.
+I need to clarify my direction.
+I need to improve my communication.
+I need feedback from a mentor.
+I need workplace exposure.
+I need a better professional profile.</code></pre>
+<p>This turns anxiety into action.</p>
+<p>It makes the next step visible.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="the-career-readiness-system" class="level2">
+<h2 class="anchored" data-anchor-id="the-career-readiness-system">The Career Readiness System</h2>
+<p>Career readiness connects potential to professional action.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    A[Potential and Interest] --&gt; B[Readiness Assessment]</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Skills Inventory]</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Learning Priorities]</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Practice and Projects]</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Portfolio Evidence]</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Visibility and Conversations]</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Opportunity Readiness]</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    H --&gt; I[Sustainable Growth]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Potential and Interest] --&gt; B[Readiness Assessment]
+    B --&gt; C[Skills Inventory]
+    C --&gt; D[Learning Priorities]
+    D --&gt; E[Practice and Projects]
+    E --&gt; F[Portfolio Evidence]
+    F --&gt; G[Visibility and Conversations]
+    G --&gt; H[Opportunity Readiness]
+    H --&gt; I[Sustainable Growth]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>This flow shows that readiness is not a single score.</p>
+<p>It is a relationship between several parts of the career system.</p>
+<p>The learner needs to understand:</p>
+<ul>
+<li>what they want,</li>
+<li>what they can currently do,</li>
+<li>what they can prove,</li>
+<li>how they communicate value,</li>
+<li>who can guide them,</li>
+<li>what opportunities are realistic now,</li>
+<li>and what preparation is still required.</li>
+</ul>
+<p>Career readiness is therefore both personal and practical.</p>
+<p>It requires self-awareness, but it must also produce visible action.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="readiness-is-not-confidence-alone" class="level2">
+<h2 class="anchored" data-anchor-id="readiness-is-not-confidence-alone">Readiness Is Not Confidence Alone</h2>
+<p>Confidence is helpful, but confidence is not the same as readiness.</p>
+<p>A person may feel confident but lack evidence.</p>
+<p>Another person may be capable but lack confidence.</p>
+<p>A third person may have strong technical skills but weak communication.</p>
+<p>A fourth person may have experience but no current portfolio or updated professional profile.</p>
+<p>The Career System separates confidence from evidence.</p>
+<pre class="text"><code>Confidence asks: Do I believe I can do this?
+Evidence asks: Can I show what I can do?
+Readiness asks: What next step am I prepared to take now?</code></pre>
+<p>This distinction is important.</p>
+<p>The goal is not to judge the learner.</p>
+<p>The goal is to help the learner make better decisions.</p>
+<hr>
+</section>
+<section id="readiness-across-career-stages" class="level2">
+<h2 class="anchored" data-anchor-id="readiness-across-career-stages">Readiness Across Career Stages</h2>
+<p>Career readiness looks different at different stages.</p>
+<p>A beginner does not need the same evidence as a senior professional.</p>
+<p>A career changer does not need the same pathway as a recent graduate.</p>
+<p>A technical expert moving into leadership does not need the same preparation as a learner entering a first internship.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Career stage</th>
+<th>Readiness question</th>
+<th>Useful evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beginner</td>
+<td>Am I ready to start structured learning?</td>
+<td>Learning goals, basic digital skills, commitment, support system</td>
+</tr>
+<tr class="even">
+<td>Learner</td>
+<td>Am I ready to practice with real tasks?</td>
+<td>Exercises, small projects, notes, reflections</td>
+</tr>
+<tr class="odd">
+<td>Early-career</td>
+<td>Am I ready for entry-level opportunity?</td>
+<td>CV, portfolio, project examples, references, interview preparation</td>
+</tr>
+<tr class="even">
+<td>Career changer</td>
+<td>Am I ready to connect past experience to a new direction?</td>
+<td>Transferable skills, transition story, targeted projects</td>
+</tr>
+<tr class="odd">
+<td>Experienced professional</td>
+<td>Am I ready for advancement or repositioning?</td>
+<td>Achievements, leadership evidence, case studies, visibility</td>
+</tr>
+<tr class="even">
+<td>Independent professional</td>
+<td>Am I ready to design opportunities beyond employment?</td>
+<td>Service clarity, client proof, network, delivery system</td>
+</tr>
+</tbody>
+</table>
+<p>This guide serves all of these stages.</p>
+<p>The same system applies, but the evidence becomes more advanced as the person grows.</p>
+<hr>
+</section>
+<section id="the-five-readiness-domains" class="level2">
+<h2 class="anchored" data-anchor-id="the-five-readiness-domains">The Five Readiness Domains</h2>
+<p>A practical readiness assessment should look at five domains.</p>
+<section id="direction-readiness" class="level3">
+<h3 class="anchored" data-anchor-id="direction-readiness">1. Direction Readiness</h3>
+<p>Direction readiness asks:</p>
+<pre class="text"><code>Do I know where I am trying to grow next?</code></pre>
+<p>This does not require a perfect career plan.</p>
+<p>It requires enough clarity to choose useful action.</p>
+<p>A learner may begin with a broad direction such as data analysis, laboratory systems, health data, teaching, administration, entrepreneurship, software support, project coordination, or research assistance.</p>
+<p>The direction can change later.</p>
+<p>But without any direction, learning becomes random.</p>
+</section>
+<section id="skill-readiness" class="level3">
+<h3 class="anchored" data-anchor-id="skill-readiness">2. Skill Readiness</h3>
+<p>Skill readiness asks:</p>
+<pre class="text"><code>What can I do now, and what skills need strengthening?</code></pre>
+<p>This includes technical skills, communication, problem-solving, writing, digital fluency, teamwork, and professional behavior.</p>
+<p>Skill readiness is not only about what a person has studied.</p>
+<p>It is about what a person can apply.</p>
+</section>
+<section id="evidence-readiness" class="level3">
+<h3 class="anchored" data-anchor-id="evidence-readiness">3. Evidence Readiness</h3>
+<p>Evidence readiness asks:</p>
+<pre class="text"><code>Can I show proof of my ability?</code></pre>
+<p>Evidence may include projects, reports, GitHub repositories, writing samples, presentations, certificates, case studies, practical assignments, community work, or workplace outputs.</p>
+<p>Many learners have potential but little evidence.</p>
+<p>The Career System helps convert learning into proof.</p>
+</section>
+<section id="communication-readiness" class="level3">
+<h3 class="anchored" data-anchor-id="communication-readiness">4. Communication Readiness</h3>
+<p>Communication readiness asks:</p>
+<pre class="text"><code>Can I explain my value clearly to another person?</code></pre>
+<p>This includes CV writing, LinkedIn or professional profiles, interview answers, email communication, project summaries, and career conversations.</p>
+<p>A person does not only need to have value.</p>
+<p>They need to communicate value responsibly.</p>
+</section>
+<section id="opportunity-readiness" class="level3">
+<h3 class="anchored" data-anchor-id="opportunity-readiness">5. Opportunity Readiness</h3>
+<p>Opportunity readiness asks:</p>
+<pre class="text"><code>Am I prepared to approach, evaluate, and respond to opportunities?</code></pre>
+<p>This includes knowing where to look, how to apply, how to prepare for interviews, how to ask for referrals, how to evaluate offers, and how to perform after entering the opportunity.</p>
+<p>Opportunity readiness connects preparation to action.</p>
+<hr>
+</section>
+</section>
+<section id="career-readiness-self-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="career-readiness-self-assessment">Career Readiness Self-Assessment</h2>
+<p>A learner can assess readiness using a simple table.</p>
+<p>The goal is not to produce a perfect score.</p>
+<p>The goal is to identify what needs attention.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Domain</th>
+<th>Current status</th>
+<th>Evidence available</th>
+<th>Gap</th>
+<th>Next action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Direction</td>
+<td>Some interest in data careers</td>
+<td>Notes from prior learning</td>
+<td>Need clearer target role</td>
+<td>Compare three entry-level roles</td>
+</tr>
+<tr class="even">
+<td>Skills</td>
+<td>Basic spreadsheet and Python exposure</td>
+<td>Class exercises</td>
+<td>Need applied project</td>
+<td>Complete one small analysis project</td>
+</tr>
+<tr class="odd">
+<td>Evidence</td>
+<td>No public portfolio yet</td>
+<td>Local files only</td>
+<td>Work is not visible</td>
+<td>Create one portfolio folder or page</td>
+</tr>
+<tr class="even">
+<td>Communication</td>
+<td>CV exists but is generic</td>
+<td>Current CV</td>
+<td>Needs targeted profile</td>
+<td>Rewrite summary using target direction</td>
+</tr>
+<tr class="odd">
+<td>Opportunity</td>
+<td>Has not applied recently</td>
+<td>None</td>
+<td>Needs job-market map</td>
+<td>Identify 10 realistic opportunities</td>
+</tr>
+</tbody>
+</table>
+<p>This type of table helps the learner move from general worry to specific work.</p>
+<hr>
+</section>
+<section id="create-the-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-template">Create the Template</h2>
+<p>This chapter includes an optional bash script that creates a reusable readiness worksheet.</p>
+<p>Learners who are comfortable with the command line can run:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x scripts/bash/02-create-career-readiness-template.sh</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/02-create-career-readiness-template.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Expected outputs:</p>
+<pre class="text"><code>data/templates/career-readiness-self-assessment.csv
+results/career-readiness/example-career-readiness-self-assessment.csv
+results/career-readiness/README-career-readiness.md</code></pre>
+<p>Learners who are not using the command line can copy the table structure from this chapter into a notebook, spreadsheet, or document.</p>
+<p>The important part is not the tool.</p>
+<p>The important part is the reflection and the next action.</p>
+<hr>
+</section>
+<section id="how-to-use-the-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-the-assessment">How to Use the Assessment</h2>
+<p>Use the readiness assessment in three passes.</p>
+<section id="pass-1-be-honest" class="level3">
+<h3 class="anchored" data-anchor-id="pass-1-be-honest">Pass 1: Be Honest</h3>
+<p>Write the current status without trying to impress anyone.</p>
+<p>For example:</p>
+<pre class="text"><code>I have completed tutorials but have not built a complete project.</code></pre>
+<p>That is more useful than:</p>
+<pre class="text"><code>I know data science.</code></pre>
+<p>Honesty makes planning possible.</p>
+</section>
+<section id="pass-2-identify-evidence" class="level3">
+<h3 class="anchored" data-anchor-id="pass-2-identify-evidence">Pass 2: Identify Evidence</h3>
+<p>For each domain, ask:</p>
+<pre class="text"><code>What can I show?</code></pre>
+<p>If the answer is nothing, that is not failure.</p>
+<p>It simply means the next step is to create evidence.</p>
+</section>
+<section id="pass-3-choose-one-next-action" class="level3">
+<h3 class="anchored" data-anchor-id="pass-3-choose-one-next-action">Pass 3: Choose One Next Action</h3>
+<p>Do not turn the assessment into a long wish list.</p>
+<p>Choose one realistic action per domain.</p>
+<p>A good action is specific, visible, and small enough to complete.</p>
+<p>For example:</p>
+<pre class="text"><code>Create a one-page project summary from my last analysis exercise.</code></pre>
+<p>is better than:</p>
+<pre class="text"><code>Improve my portfolio.</code></pre>
+<hr>
+</section>
+</section>
+<section id="example-interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="example-interpretation">Example Interpretation</h2>
+<p>Suppose a learner completes the assessment and notices this pattern:</p>
+<pre class="text"><code>Direction: moderate
+Skills: developing
+Evidence: weak
+Communication: weak
+Opportunity readiness: low</code></pre>
+<p>This learner should probably not begin by applying to many jobs immediately.</p>
+<p>A better next step may be:</p>
+<pre class="text"><code>Clarify one target direction.
+Build one small project.
+Write a short project explanation.
+Update the CV or profile.
+Ask one mentor or peer for feedback.</code></pre>
+<p>Another learner may show a different pattern:</p>
+<pre class="text"><code>Direction: strong
+Skills: strong
+Evidence: strong
+Communication: moderate
+Opportunity readiness: moderate</code></pre>
+<p>This learner may be ready to focus on applications, interviews, networking, and professional visibility.</p>
+<p>The same tool supports different stages because it helps each person locate the current bottleneck.</p>
+<hr>
+</section>
+<section id="mentor-or-peer-review-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</h2>
+<p>Career readiness improves when another person helps review it.</p>
+<p>A mentor, peer, teacher, supervisor, or trusted professional can ask:</p>
+<ul>
+<li>Is the learner’s direction clear enough for the next step?</li>
+<li>Are the listed skills supported by evidence?</li>
+<li>Is the evidence understandable to someone outside the learning environment?</li>
+<li>Are the next actions realistic?</li>
+<li>Which gap matters most right now?</li>
+<li>What should the learner stop doing because it is not helping the current direction?</li>
+</ul>
+<p>These questions help turn the assessment into a conversation.</p>
+<p>The goal is not to criticize.</p>
+<p>The goal is to sharpen the plan.</p>
+<hr>
+</section>
+<section id="career-readiness-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="career-readiness-checklist">Career Readiness Checklist</h2>
+<p>Before moving to the skills inventory, the learner should be able to answer these questions.</p>
+<ul>
+<li>Do I know my current career stage?</li>
+<li>Do I have at least one direction I want to explore or strengthen?</li>
+<li>Can I list the skills I already have?</li>
+<li>Can I identify what evidence I can currently show?</li>
+<li>Can I name one major gap between my current state and my desired next step?</li>
+<li>Do I know one practical action I can take this week?</li>
+<li>Do I know who could give me feedback?</li>
+</ul>
+<p>A learner does not need perfect answers.</p>
+<p>But they need enough clarity to move forward.</p>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>Career readiness is not a label.</p>
+<p>It is a diagnostic tool.</p>
+<p>A learner who discovers gaps should not conclude:</p>
+<pre class="text"><code>I am not good enough.</code></pre>
+<p>A better conclusion is:</p>
+<pre class="text"><code>Now I know what to build next.</code></pre>
+<p>The Career System treats readiness as a starting map.</p>
+<p>The map does not complete the journey.</p>
+<p>But it prevents the learner from walking blindly.</p>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">

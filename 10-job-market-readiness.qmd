@@ -1,42 +1,542 @@
-# Job Market Readiness {#10_job_market_readiness}
+# Job Market Readiness {#job-market-readiness}
 
 :::cdi-message
 - **ID:** CAREER-010
-- **Type:** System Guide
-- **Audience:** Learners, professionals, mentors, and training program designers
+- **Type:** Guide Chapter
+- **Audience:** Learners, early-career professionals, career changers, mentors, and training program designers
 - **Theme:** Opportunity requires preparation before the opportunity appears
 :::
 
-This chapter will develop the **Job Market Readiness** layer of the Career System.
+Job market readiness is the bridge between professional growth and opportunity access.
+
+A learner may have skills.
+
+A professional may have experience.
+
+A career changer may have motivation.
+
+But the job market requires more than ability.
+
+It requires clear positioning, visible evidence, relevant communication, realistic targeting, and preparation for selection processes.
+
+The goal of this chapter is to help learners become ready before an opportunity appears.
+
+Readiness does not mean applying everywhere.
+
+It means knowing what roles fit, what evidence supports the application, what gaps remain, and how to communicate value clearly.
 
 ---
 
-## Purpose
+## Why Job Market Readiness Matters
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+Many people begin preparing for the job market only when they urgently need a job.
+
+That creates pressure.
+
+Under pressure, people may send weak applications, apply to poorly matched roles, write generic profiles, or enter interviews without enough evidence.
+
+The Career System treats job market readiness as a planned layer.
+
+It connects earlier career work to real opportunities.
+
+```{mermaid}
+flowchart LR
+    A[Career Direction] --> B[Skills Inventory]
+    B --> C[Learning Plan]
+    C --> D[Project-Based Proof]
+    D --> E[Portfolio Evidence]
+    E --> F[Communication and Visibility]
+    F --> G[Networking and Mentorship]
+    G --> H[Job Market Readiness]
+    H --> I[Applications and Referrals]
+    I --> J[Interviews]
+    J --> K[Opportunity Access]
+```
+
+A strong job market readiness process helps a learner answer practical questions:
+
+- What roles am I currently ready to pursue?
+- What roles should I prepare for next?
+- What evidence supports my readiness?
+- What gaps could weaken my application?
+- Who can review my materials or give feedback?
+- What opportunities are realistic now?
+- What opportunities require more preparation?
+
+Job market readiness is not only about getting hired.
+
+It is about making better career decisions.
 
 ---
 
-## Core Questions
+## Job Market Readiness in the Career System
+
+The job market is not separate from learning.
+
+It is where learning, evidence, communication, and relationships meet external selection processes.
+
+Earlier chapters focused on building the internal and visible foundation:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+Readiness
+Skills
+Direction
+Learning
+Portfolio
+Projects
+Communication
+Networking
+```
+
+This chapter translates those layers into market-facing preparation.
+
+A learner should not enter the job market with only a desire for opportunity.
+
+They should enter with a clear package:
+
+```text
+Target roles
+Relevant skills
+Evidence of ability
+Professional profile
+Application materials
+Interview stories
+Mentor feedback
+Realistic next steps
+```
+
+This package allows the learner to act with more confidence and less randomness.
+
+---
+
+## Job Market Readiness Is Not the Same as Job Searching
+
+Job searching is an activity.
+
+Job market readiness is a preparation system.
+
+A person can search for jobs without being ready.
+
+A person can also become ready before actively searching.
+
+The difference matters.
+
+| Activity | Main Question | Risk When Done Alone |
+|---|---|---|
+| Job searching | Where can I apply? | Applying broadly without strategy |
+| Job market readiness | Am I prepared for the roles I am pursuing? | Slower start, but stronger decisions |
+| Application writing | How do I present myself? | Generic materials without evidence |
+| Interview preparation | How do I answer questions? | Memorized answers without strong stories |
+| Networking | Who can I speak with? | Asking for help before showing readiness |
+
+The Career System does not reject job searching.
+
+It improves job searching by preparing the learner first.
+
+---
+
+## The Five Dimensions of Job Market Readiness
+
+A learner is job-market ready when five dimensions are reasonably aligned.
+
+### 1. Role Clarity
+
+Role clarity means the learner can describe the type of opportunity they are seeking.
+
+This does not have to be one exact job title.
+
+It can be a focused role family.
+
+Examples include:
+
+```text
+Junior data analyst
+Clinical data assistant
+Research project coordinator
+Bioinformatics trainee
+Monitoring and evaluation officer
+Administrative data officer
+AI-assisted workflow analyst
+```
+
+Role clarity reduces scattered applications.
+
+It helps the learner identify which skills, evidence, and language matter most.
+
+### 2. Skill Match
+
+Skill match means the learner understands how their current skills compare with role expectations.
+
+The match does not need to be perfect.
+
+Most learners will have gaps.
+
+The key is to know which gaps are acceptable now and which gaps must be addressed before applying.
+
+### 3. Evidence Match
+
+Evidence match means the learner can show proof of ability.
+
+Evidence may include:
+
+- portfolio projects,
+- reports,
+- GitHub repositories,
+- presentations,
+- writing samples,
+- certificates,
+- volunteer outputs,
+- workplace examples,
+- case studies,
+- or supervisor and mentor feedback.
+
+Evidence is what makes a claim believable.
+
+### 4. Communication Match
+
+Communication match means the learner can explain their value in language that fits the role.
+
+This includes CV bullets, profile summaries, application statements, interview examples, and networking messages.
+
+A learner may have strong ability but still lose opportunities if they cannot communicate clearly.
+
+### 5. Process Readiness
+
+Process readiness means the learner is prepared for the practical steps of opportunity access.
+
+This includes tracking applications, preparing documents, following up respectfully, practicing interview responses, and reviewing feedback.
+
+Process readiness reduces panic and confusion.
+
+---
+
+## Readiness Across Career Stages
+
+Job market readiness looks different at different stages.
+
+A beginner may focus on entry-level roles, internships, apprenticeships, volunteer experience, or project-based evidence.
+
+An early-career professional may focus on improving CV clarity, showing measurable contributions, and preparing stronger interview stories.
+
+A career changer may focus on transferable skills, bridge projects, and explaining why the transition makes sense.
+
+An experienced professional may focus on leadership evidence, strategic impact, advisory roles, consulting, or portfolio diversification.
+
+The same system applies to all stages, but the evidence changes.
+
+| Career Stage | Readiness Focus | Useful Evidence |
+|---|---|---|
+| Beginner | Entry-level fit and learning potential | Small projects, certificates, practice outputs |
+| Early-career | Applied contribution | Work examples, reports, measurable tasks |
+| Career changer | Transferable capability | Bridge projects, transition narrative, prior achievements |
+| Mid-career | Growth and specialization | Case studies, leadership examples, domain expertise |
+| Senior professional | Strategic value | Impact record, mentorship, systems built, advisory experience |
+
+A learner should not compare their evidence with someone at a completely different stage.
+
+They should build evidence appropriate to their current path.
+
+---
+
+## Understanding the Target Role
+
+Before preparing materials, the learner should study target roles carefully.
+
+The goal is not to copy job descriptions.
+
+The goal is to understand patterns.
+
+A useful review looks for repeated signals:
+
+- common job titles,
+- recurring skills,
+- required tools,
+- preferred experience,
+- soft skills,
+- domain knowledge,
+- education or certification expectations,
+- evidence of impact,
+- and language used by employers.
+
+After reviewing several roles, the learner should be able to summarize the opportunity space.
+
+```text
+The roles I am pursuing usually require...
+The skills I already have are...
+The gaps I need to address are...
+The evidence I can show is...
+The evidence I still need to build is...
+```
+
+This summary becomes the foundation for the readiness map.
+
+---
+
+## The Job Market Readiness Map
+
+The job market readiness map helps the learner connect target opportunities to evidence and next actions.
+
+It should not be treated as a one-time form.
+
+It should be updated as the learner improves their skills, portfolio, profile, and interview preparation.
+
+Useful fields include:
+
+| Field | Purpose |
+|---|---|
+| Target role | Names the opportunity type |
+| Role family | Groups similar roles together |
+| Required skills | Captures repeated market expectations |
+| Current strengths | Shows what the learner already brings |
+| Evidence available | Connects claims to proof |
+| Gaps | Identifies what may weaken readiness |
+| Preparation action | Defines the next practical step |
+| Reviewer or mentor | Identifies who can give feedback |
+| Readiness level | Tracks current confidence and evidence |
+
+The map helps the learner avoid vague preparation.
+
+Instead of saying, “I need a job,” the learner can say:
+
+```text
+I am preparing for junior data analyst roles.
+I already have spreadsheet, data cleaning, and reporting experience.
+I need stronger SQL evidence.
+I will complete one SQL portfolio project and ask a mentor to review my CV.
+```
+
+That is a clearer professional action plan.
+
+---
+
+## Create the Template
+
+This chapter includes an optional script that creates a reusable job market readiness template.
+
+Learners comfortable with the command line can run:
+
+```bash
+chmod +x scripts/bash/10-create-job-market-readiness-template.sh
+bash scripts/bash/10-create-job-market-readiness-template.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/job-market-readiness-template.csv
+results/job-market-readiness/example-job-market-readiness.csv
+results/job-market-readiness/README-job-market-readiness.md
+```
+
+Learners who are not using the command line can copy the manual template below into a notebook, spreadsheet, or document.
+
+---
+
+## Manual Template
+
+| target_role | role_family | required_skills | current_strengths | evidence_available | readiness_gaps | preparation_action | reviewer_or_mentor | readiness_level |
+|---|---|---|---|---|---|---|---|---|
+| Junior Data Analyst | Data and reporting | Excel, SQL, dashboards, communication | Spreadsheet cleaning, basic charts | Small data cleaning project | SQL project evidence | Build one SQL portfolio project | Mentor or peer reviewer | Developing |
+| Research Assistant | Research support | Literature review, data entry, reporting | Strong organization, writing | Class project report | Formal research experience | Prepare writing sample and contact supervisor | Former teacher or mentor | Emerging |
+| Clinical Data Assistant | Health data support | Data quality, confidentiality, spreadsheets | Attention to detail, health interest | Practice data validation checklist | Domain-specific examples | Complete clinical data mini-project | Health data mentor | Developing |
+
+The readiness level can be simple.
+
+Use labels such as:
+
+```text
+Emerging
+Developing
+Ready to apply selectively
+Ready to apply actively
+Needs more preparation
+```
+
+The label should reflect evidence, not only confidence.
+
+---
+
+## Example Interpretation
+
+Suppose a learner wants to apply for junior data analyst roles.
+
+Their skills inventory shows spreadsheet skills, basic data cleaning, and some visualization.
+
+Their portfolio has one small project but no SQL evidence.
+
+Their LinkedIn profile is incomplete.
+
+Their job market readiness map may show:
+
+```text
+Target role: Junior Data Analyst
+Strengths: spreadsheet cleaning, basic charts, clear writing
+Evidence: one small project report
+Gap: SQL evidence and stronger profile summary
+Action: complete SQL mini-project and rewrite profile summary
+Readiness: ready to apply selectively after one improvement cycle
+```
+
+This interpretation is useful because it prevents two common mistakes.
+
+First, the learner does not delay forever waiting to become perfect.
+
+Second, the learner does not apply blindly without addressing obvious gaps.
+
+---
+
+## Application Materials as Evidence Translation
+
+A CV, profile, or cover letter should not simply list activities.
+
+It should translate evidence into relevance.
+
+Weak statement:
+
+```text
+I know Excel and data analysis.
+```
+
+Stronger statement:
+
+```text
+Built a small data cleaning and reporting project using spreadsheet tools, including missing-value checks, summary tables, and a short interpretation report.
+```
+
+The stronger statement gives the reader something to evaluate.
+
+It shows action, method, output, and relevance.
+
+This is the central task of job market readiness:
+
+```text
+Turn ability into role-relevant evidence.
 ```
 
 ---
 
-## Expected Outputs
+## Preparing for Referrals and Conversations
+
+A referral or career conversation works better when the learner can present a clear package.
+
+Before asking someone for help, the learner should prepare:
+
+- the target role,
+- a short professional summary,
+- one or two relevant evidence examples,
+- a clear question,
+- and a respectful next step.
+
+A weak message says:
 
 ```text
-To be developed in the full chapter draft.
+Please help me get a job.
 ```
+
+A stronger message says:
+
+```text
+I am preparing for junior data analyst roles. I have completed a small data cleaning project and I am improving my SQL evidence. Would you be willing to review my CV or suggest one skill I should strengthen before applying?
+```
+
+The second message is easier to respond to because it shows preparation.
+
+---
+
+## Common Job Market Readiness Mistakes
+
+### Applying Without a Target
+
+Applying to many unrelated roles can create exhaustion without useful feedback.
+
+A focused role family usually leads to better preparation.
+
+### Listing Skills Without Evidence
+
+A skills list is weaker than a skills list connected to projects, outputs, or work examples.
+
+### Waiting Until Everything Is Perfect
+
+Readiness does not require perfection.
+
+It requires enough alignment to apply thoughtfully and continue improving.
+
+### Copying Generic Career Advice
+
+Generic advice may not fit the learner’s field, location, stage, or available opportunities.
+
+The learner should adapt advice to their context.
+
+### Ignoring Feedback
+
+Rejected applications are not always personal failure.
+
+They can reveal missing evidence, unclear communication, weak targeting, or market mismatch.
+
+The learner should use feedback to improve the system.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor, peer, or trainer can review the job market readiness map using questions such as:
+
+- Is the target role clear enough?
+- Does the learner have evidence for the role they want?
+- Are the gaps realistic and specific?
+- Is the preparation action practical?
+- Does the CV or profile communicate evidence clearly?
+- Is the learner ready to apply now, or should they improve one key area first?
+- What is the most useful next step in the next two weeks?
+
+Good feedback should be specific enough to guide action.
+
+A learner should leave the review knowing what to improve next.
+
+---
+
+## Job Market Readiness Checklist
+
+Before applying actively, the learner should be able to answer yes to most of these questions:
+
+- I can name the role family I am pursuing.
+- I understand the most common expectations for that role family.
+- I know which required skills I already have.
+- I know which gaps I need to address.
+- I have at least one piece of evidence connected to the role.
+- My CV or profile communicates evidence, not only interest.
+- I have prepared examples for interviews or conversations.
+- I have identified at least one person who can review my materials.
+- I have a simple system for tracking opportunities and feedback.
+- I know whether I am applying selectively, actively, or still preparing.
+
+This checklist helps the learner move from uncertainty to informed action.
+
+---
+
+## CDI Reflection
+
+Job market readiness is not about proving that a learner is already complete.
+
+It is about preparing honestly for the next opportunity level.
+
+A learner should ask:
+
+```text
+What opportunities am I ready for now?
+What opportunities am I preparing for next?
+What evidence makes my readiness visible?
+What support or feedback would improve my preparation?
+```
+
+These questions keep the job search connected to growth.
+
+They also protect the learner from both overconfidence and unnecessary delay.
+
 ---
 
 ## Looking Ahead
 
-The next chapter translates job-market readiness into a stronger CV, LinkedIn profile, and professional presentation.
+The next chapter focuses on CVs, LinkedIn, and professional profiles.
 
-The learner now needs a profile that communicates direction, evidence, skills, projects, experience, and credibility clearly enough for reviewers, mentors, recruiters, collaborators, and decision-makers.
+Once a learner understands their target roles and current job market readiness, the next step is to translate their skills, evidence, direction, and readiness into a clear professional profile that others can understand quickly.

@@ -1,4 +1,4 @@
-# Learning Plan {#05_learning_plan}
+# Learning Plan {#learning-plan}
 
 :::cdi-message
 - **ID:** CAREER-005
@@ -7,36 +7,443 @@
 - **Theme:** A learning plan converts direction into repeated practice
 :::
 
-This chapter will develop the **Learning Plan** layer of the Career System.
+A career direction becomes useful only when it changes what a learner does next.
 
----
+Many people know they need to learn.
 
-## Purpose
+They save courses.
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+They collect certificates.
 
----
+They watch tutorials.
 
-## Core Questions
+They start and stop many times.
+
+But learning that is not connected to a direction, a skill gap, a project, or a visible output often fades quickly.
+
+A **learning plan** turns intention into a structured growth process.
+
+It answers a practical question:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+What should I learn next, why does it matter, how will I practice it, and what evidence will prove that I learned it?
+```
+
+In the Career System, the learning plan sits between **career direction** and **portfolio-building**.
+
+It helps the learner move from a broad goal to specific, repeatable action.
+
+---
+
+## Why a Learning Plan Matters
+
+Learning is one of the most important parts of professional growth.
+
+But learning can also become scattered.
+
+A learner may move from one topic to another without finishing anything useful.
+
+A professional may continue collecting knowledge without translating it into work outputs.
+
+A career changer may feel overwhelmed because the gap between their current skills and their target role looks too large.
+
+A learning plan reduces this confusion.
+
+It organizes learning into a sequence.
+
+It connects each learning goal to a reason.
+
+It makes practice visible.
+
+It helps mentors give better feedback.
+
+It helps learners avoid confusing activity with progress.
+
+A strong learning plan does not ask only:
+
+```text
+What course should I take?
+```
+
+It asks:
+
+```text
+What capability am I trying to build, and how will I demonstrate it?
 ```
 
 ---
 
-## Expected Outputs
+## The Learning Plan in the Career System
+
+The learning plan is built from the previous chapters.
+
+Career readiness shows the learner's current stage.
+
+The skills inventory shows strengths, gaps, and evidence.
+
+Career direction shows where growth should point.
+
+The learning plan turns those inputs into action.
+
+```{mermaid}
+flowchart TD
+    A[Career Readiness] --> B[Skills Inventory]
+    B --> C[Career Direction]
+    C --> D[Learning Plan]
+    D --> E[Practice Tasks]
+    E --> F[Project Output]
+    F --> G[Portfolio Evidence]
+    G --> H[Visibility and Opportunity]
+```
+
+This is important because learning should not be isolated from career development.
+
+A learner does not learn only to know more.
+
+A learner learns to become more capable, more useful, more confident, and more ready to contribute.
+
+---
+
+## Learning Plan vs Random Learning
+
+Random learning is not always bad.
+
+Exploration can help a learner discover interests.
+
+But long-term growth requires structure.
+
+The difference is shown below.
+
+| Random learning | Career-system learning |
+|---|---|
+| Starts with whatever looks interesting | Starts with direction and skill gaps |
+| Measures progress by content consumed | Measures progress by capability demonstrated |
+| Often produces notes only | Produces practice, evidence, and reflection |
+| Depends on motivation | Depends on routine and accountability |
+| May not connect to opportunity | Connects to portfolio and professional growth |
+
+The Career System does not remove curiosity.
+
+It gives curiosity a path.
+
+---
+
+## The Five Parts of a Learning Plan
+
+A practical learning plan has five parts.
+
+### 1. Learning Goal
+
+The learning goal describes what the learner wants to become able to do.
+
+A weak learning goal says:
 
 ```text
-To be developed in the full chapter draft.
+Learn Python.
 ```
+
+A stronger learning goal says:
+
+```text
+Use Python to clean a dataset, summarize key variables, and export a tidy results table.
+```
+
+The second version is better because it describes a capability.
+
+### 2. Reason for Learning
+
+Every learning goal should have a reason.
+
+The reason may be linked to a target role, a current workplace need, a portfolio project, a mentoring goal, or a future opportunity.
+
+Without a reason, learning becomes easy to postpone.
+
+### 3. Practice Activity
+
+A practice activity turns knowledge into skill.
+
+Practice should be active.
+
+Examples include:
+
+- building a small project,
+- writing a short explanation,
+- solving a realistic problem,
+- improving an existing output,
+- reviewing someone else's work,
+- presenting what was learned,
+- or applying a method to a real dataset, case, task, or workplace scenario.
+
+### 4. Evidence Output
+
+Every learning goal should produce evidence.
+
+Evidence may be a table, report, notebook, slide, repository, reflection, checklist, dashboard, article, presentation, or documented workflow.
+
+The evidence output is important because it helps the learner answer:
+
+```text
+What can I show to prove that this learning became practical ability?
+```
+
+### 5. Review Date
+
+A learning plan needs review.
+
+Without review, plans become wish lists.
+
+A review date helps the learner ask:
+
+```text
+Did I complete the practice?
+What evidence did I produce?
+What did I learn?
+What should change next?
+```
+
+---
+
+## Learning Across Career Stages
+
+A learning plan is useful for beginners and experienced professionals, but the emphasis changes by stage.
+
+| Career stage | Learning-plan emphasis |
+|---|---|
+| Beginner | Build foundations, confidence, habits, and simple outputs |
+| Early-career learner | Convert skills into portfolio evidence and opportunity readiness |
+| Career changer | Identify transferable skills and close role-specific gaps |
+| Working professional | Improve performance, communication, leadership, and specialization |
+| Senior professional | Refresh knowledge, mentor others, adapt to change, and design new opportunities |
+
+This means the same system can serve many learners.
+
+The content of the learning plan changes, but the structure remains useful.
+
+---
+
+## Choosing Learning Priorities
+
+A learner cannot learn everything at once.
+
+A good learning plan requires prioritization.
+
+One practical approach is to rank each learning goal using four questions.
+
+```text
+Is this important for my current direction?
+Is this connected to a real skill gap?
+Can I practice it soon?
+Can it produce visible evidence?
+```
+
+A goal that answers “yes” to all four questions should be considered a high-priority learning goal.
+
+A goal that is interesting but not connected to direction or evidence can be kept as exploration, but it should not dominate the plan.
+
+---
+
+## The Learning Plan Template
+
+The learning plan template helps learners convert goals into practical action.
+
+Suggested columns:
+
+| Column | Purpose |
+|---|---|
+| `learning_goal` | The capability the learner wants to build |
+| `career_direction_link` | The role, path, or professional direction connected to the goal |
+| `current_level` | Beginner, developing, competent, advanced, or refresh |
+| `reason_for_learning` | Why this matters now |
+| `practice_activity` | What the learner will do to practice |
+| `evidence_output` | What visible output will prove progress |
+| `resource_or_support` | Course, book, mentor, peer, workplace task, or project resource |
+| `timeframe` | Expected completion window |
+| `review_date` | When the learner will review progress |
+| `status` | Planned, active, blocked, completed, or revised |
+
+The template is not meant to be complicated.
+
+It is meant to make learning visible and reviewable.
+
+---
+
+## Create the Template
+
+This chapter includes an optional bash script that creates a reusable learning-plan worksheet.
+
+Learners comfortable with the command line can run:
+
+```bash
+chmod +x scripts/bash/05-create-learning-plan-template.sh
+bash scripts/bash/05-create-learning-plan-template.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/learning-plan-template.csv
+results/learning-plan/example-learning-plan.csv
+results/learning-plan/README-learning-plan.md
+```
+
+Learners who are not using the command line can copy the template structure into a spreadsheet, notebook, or printed worksheet.
+
+The important part is not the tool.
+
+The important part is the thinking process.
+
+---
+
+## Manual Template
+
+A learner can start with a simple table like this.
+
+| learning_goal | career_direction_link | current_level | reason_for_learning | practice_activity | evidence_output | timeframe | review_date | status |
+|---|---|---|---|---|---|---|---|---|
+| Build a simple professional portfolio page | Data analyst direction | Beginner | Need visible evidence for applications | Create one-page portfolio with three project summaries | Published portfolio page or PDF portfolio | 2 weeks | End of month | Planned |
+| Improve technical writing | Any technical role | Developing | Need to explain project results clearly | Write a 500-word explanation of one project | Short article or README section | 1 week | Friday | Active |
+| Practice interview storytelling | Job-market readiness | Developing | Need clearer career conversations | Prepare three STAR stories | Interview notes document | 1 week | Sunday | Planned |
+
+A beginner can start with only two or three learning goals.
+
+A working professional may maintain a longer quarterly plan.
+
+---
+
+## Example Interpretation
+
+Consider this learning goal:
+
+```text
+Use spreadsheet tools to clean, summarize, and present a small dataset.
+```
+
+This is stronger than simply saying:
+
+```text
+Learn Excel.
+```
+
+The stronger version identifies a capability.
+
+It can be practiced.
+
+It can produce evidence.
+
+It can connect to a portfolio project.
+
+A possible evidence output could be:
+
+```text
+A cleaned spreadsheet, summary table, chart, and short explanation of the result.
+```
+
+This is the Career System in action.
+
+The learner is not only consuming learning material.
+
+The learner is producing proof of growth.
+
+---
+
+## Learning Plan Review Questions
+
+A learning plan should be reviewed regularly.
+
+Useful review questions include:
+
+```text
+What did I actually complete?
+What did I practice?
+What evidence did I produce?
+What was harder than expected?
+What support do I need?
+What should I stop, continue, or revise?
+What learning goal should become a portfolio project?
+```
+
+These questions help the learner keep the plan alive.
+
+They also make mentorship conversations more concrete.
+
+---
+
+## Common Learning Plan Mistakes
+
+A learning plan becomes weak when it is too broad, too long, or too disconnected from action.
+
+Common mistakes include:
+
+- listing many topics without priorities,
+- choosing goals because they are popular rather than relevant,
+- confusing watching videos with building capability,
+- ignoring evidence outputs,
+- avoiding review dates,
+- learning privately but never communicating progress,
+- or changing direction every week without reflection.
+
+The solution is not to make the plan perfect.
+
+The solution is to make the plan specific enough to guide the next step.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor, peer, trainer, or supervisor can review the learning plan using questions like:
+
+```text
+Is this learning goal specific enough?
+Is it connected to the learner's career direction?
+Does the practice activity build real capability?
+Is the evidence output visible and useful?
+Is the timeframe realistic?
+What should be simplified?
+What should be prioritized first?
+```
+
+Good feedback helps the learner avoid wasting energy on scattered learning.
+
+---
+
+## Learning Plan Checklist
+
+Use this checklist before moving to the next chapter.
+
+```text
+[ ] I have selected a small number of learning goals.
+[ ] Each goal is connected to my career direction or current role.
+[ ] Each goal includes a practice activity.
+[ ] Each goal has a visible evidence output.
+[ ] I have identified at least one support resource or person.
+[ ] I have assigned a timeframe and review date.
+[ ] I know which learning goal could become a portfolio project.
+```
+
+A learning plan is successful when it changes behavior.
+
+It should help the learner know what to do this week, not only what to dream about someday.
+
+---
+
+## CDI Reflection
+
+A career grows through repeated cycles of learning, practice, evidence, feedback, and revision.
+
+This chapter asks the learner to treat learning as a system.
+
+The goal is not to collect endless content.
+
+The goal is to build capability that can be used, shown, discussed, improved, and connected to opportunity.
+
+A strong learning plan makes growth less mysterious.
+
+It turns professional development into a visible process.
+
 ---
 
 ## Looking Ahead
 
-The next chapter turns learning into portfolio building.
+The next chapter focuses on portfolio building.
 
-A learning plan should not stop at reading, watching, or attending sessions. It should lead to visible outputs that demonstrate capability, progress, judgment, and readiness for real opportunities.
+Once a learner has identified what to learn and how to practice, the next step is to organize selected outputs into visible evidence that helps others understand what the learner can do.

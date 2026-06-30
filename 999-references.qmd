@@ -3,40 +3,184 @@
 :::cdi-message
 - **ID:** CAREER-999R
 - **Type:** System Guide
-- **Audience:** Learners, professionals, mentors, and training program designers
-- **Theme:** Career guidance should remain evidence-aware and context-sensitive
+- **Audience:** Learners, professionals, mentors, educators, and training program designers
+- **Theme:** Career guidance should be evidence-aware, practical, and context-sensitive
 :::
 
-This chapter will develop the **References** layer of the Career System.
+The **Career System** is a practical guide, but it should not be based only on motivation, personal opinion, or scattered advice.
+
+Career development is a field with long-standing theories, research traditions, and applied frameworks.
+
+This references section provides a starter evidence base for the guide.
+
+The goal is not to turn the Career System into an academic textbook.
+
+The goal is to keep the guide grounded enough that learners, mentors, educators, and program designers can trust the principles behind the practical activities.
 
 ---
 
-## Purpose
+## Why References Matter in a Career Guide
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+Career advice can easily become too generic.
 
----
+Learners are often told to:
 
-## Core Questions
+- follow their passion,
+- improve their skills,
+- build a network,
+- be confident,
+- apply widely,
+- or keep learning.
+
+These ideas may contain some truth, but they are incomplete when they are not connected to a system.
+
+Evidence-aware career guidance asks better questions.
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+How do people form career direction?
+How do interests, confidence, opportunity, and environment interact?
+How do people adapt when work changes?
+How do learners turn skills into employability?
+How do professionals build long-term career resilience?
 ```
+
+The Career System uses these questions to connect readiness, skills, evidence, visibility, mentorship, opportunity, performance, and sustainable growth.
 
 ---
 
-## Expected Outputs
+## Evidence Base Used by This Guide
 
-```text
-To be developed in the full chapter draft.
+This guide draws from several major areas of career development and professional growth literature.
+
+These include:
+
+- life-span and life-space career development [@super1990life],
+- social cognitive career theory [@lent1994toward],
+- career construction and career adaptability [@savickas2005theory; @savickas2012career],
+- employability and career identity [@fugate2004employability],
+- career competencies [@akkermans2013career],
+- planned happenstance and learning from opportunity [@krumboltz2009happenstance],
+- boundaryless and flexible career paths [@arthur1996boundaryless],
+- experiential learning [@kolb1984experiential],
+- reflective practice [@schon1983reflective],
+- self-efficacy and agency [@bandura1997self],
+- deliberate practice and improvement [@ericsson1993role],
+- mentoring relationships [@kram1985mentoring],
+- and adult learning [@knowles1980modern].
+
+The guide also aligns with modern professional development practice, where learners are encouraged to produce visible evidence of learning, communicate their value, seek feedback, and revise their direction over time.
+
+---
+
+## How the References Connect to the Career System
+
+The Career System is organized as a practical growth architecture.
+
+```{mermaid}
+flowchart TD
+    A[Career Development Theory] --> B[Career System Principles]
+    B --> C[Practical Chapters]
+    C --> D[Learner Templates]
+    D --> E[Portfolio and Career Evidence]
+    E --> F[Mentor Feedback]
+    F --> G[Improved Career Decisions]
+    G --> H[Sustainable Professional Growth]
 ```
+
+The references are not separate from the guide.
+
+They support the design of the chapters.
+
+For example, career adaptability supports the chapters on resilience, roadmap design, and opportunity change.
+
+Employability research supports the chapters on skills inventory, portfolio evidence, communication, and job-market readiness.
+
+Mentoring literature supports the chapters on networking, mentorship, and feedback.
+
+Experiential learning and reflective practice support the project-based proof and personal operating system chapters.
+
+---
+
+## Reference Themes by Chapter Area
+
+The table below shows how the evidence base connects to major parts of the guide.
+
+| Career System area | Related reference theme | Example use in this guide |
+|---|---|---|
+| Career readiness | self-efficacy, adaptability, career identity | learners assess readiness before rushing into applications |
+| Skills inventory | employability, competencies, evidence | learners describe what they can do and how they can prove it |
+| Career direction | career construction, social cognitive career theory | learners connect interests, confidence, context, and realistic options |
+| Learning plan | adult learning, deliberate practice, experiential learning | learners turn vague improvement goals into structured practice |
+| Portfolio building | employability, evidence, reflective practice | learners make their capability visible through outputs |
+| Communication and visibility | career competencies, professional identity | learners explain their value clearly and responsibly |
+| Networking and mentorship | mentoring, feedback, social learning | learners seek guidance without treating networking as begging |
+| Job readiness and interviews | employability, evidence translation | learners connect experience to opportunity requirements |
+| Workplace performance | reflective practice, professional learning | learners turn work into evidence, trust, and growth |
+| Resilience and diversification | adaptability, boundaryless careers | learners prepare for change without losing direction |
+| Personal operating system | adult learning, reflection, deliberate practice | learners build habits for continued growth |
+| Opportunity design | adaptability, employability, agency | learners compare opportunities and design sustainable paths |
+
+---
+
+## A Practical Note About Evidence
+
+Evidence-based career development does not mean every learner follows the same path.
+
+Career decisions are shaped by context.
+
+A learner’s opportunities may be affected by location, language, finances, technology access, caregiving responsibilities, education background, confidence, social networks, and timing.
+
+For that reason, this guide uses evidence as a foundation, not as a rigid formula.
+
+The Career System is designed to help learners make better decisions in their real context.
+
+---
+
+## A Note for Mentors and Educators
+
+Mentors and educators can use these references to strengthen program design.
+
+For example:
+
+- Use career adaptability to help learners prepare for uncertainty.
+- Use employability to connect skills with evidence and workplace readiness.
+- Use mentoring theory to structure feedback conversations.
+- Use experiential learning to design projects that produce visible outputs.
+- Use reflective practice to help learners learn from experience rather than simply collect activities.
+
+The practical chapters are intentionally written in learner-friendly language.
+
+The references provide a deeper foundation for those who want to design, teach, evaluate, or improve the system.
+
+---
+
+## Starter Reference List
+
+The bibliography below is a starting point.
+
+It should grow as the Career System develops.
+
+Future versions of this guide may add references on:
+
+- digital portfolios,
+- career learning in low-resource contexts,
+- youth transitions into work,
+- professional identity development,
+- workforce readiness,
+- informal learning,
+- entrepreneurship and side projects,
+- AI-supported career learning,
+- and mentorship in community-based programs.
+
 ---
 
 ## Looking Ahead
 
-The Career System can continue to grow as a living CDI pathway.
+This references chapter closes the first full version of the Career System guide.
 
-Future versions can add deeper case studies, mentor guides, learner worksheets, program implementation examples, and evidence-based updates as career development research and workplace expectations evolve.
+The next step is to review the guide as a complete learning pathway: checking chapter flow, consistency, templates, scripts, diagrams, README instructions, rendering, and public presentation before committing and publishing.
+
+## References
+
+::: {#refs}
+:::

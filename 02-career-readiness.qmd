@@ -1,38 +1,462 @@
-# Career Readiness {#02_career_readiness}
+# Career Readiness {#career-readiness}
 
 :::cdi-message
 - **ID:** CAREER-002
 - **Type:** System Guide
-- **Audience:** Learners, professionals, mentors, and training program designers
-- **Theme:** Readiness is the bridge between potential and professional action
+- **Audience:** Learners, early-career professionals, career changers, mentors, and professionals planning their next step
+- **Theme:** Career growth begins by understanding readiness before chasing opportunity
 :::
 
-This chapter will develop the **Career Readiness** layer of the Career System.
+Career readiness is the starting point of intentional professional growth.
 
----
-
-## Purpose
-
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
-
----
-
-## Core Questions
+Many learners begin by asking:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+What job should I apply for?
+```
+
+That question matters.
+
+But the Career System begins with a deeper question:
+
+```text
+Am I ready to move toward the opportunity I want?
+```
+
+Readiness does not mean perfection.
+
+It does not mean a person already has every skill, every certificate, every project, or every answer.
+
+Readiness means the learner understands where they are now, what they can already show, what still needs development, and what kind of next step is realistic.
+
+A person can be ready for learning.
+
+A person can be ready for practice.
+
+A person can be ready for mentorship.
+
+A person can be ready for internship.
+
+A person can be ready for entry-level work.
+
+A person can be ready for promotion, transition, leadership, consulting, or independent opportunity.
+
+The goal of this chapter is to help the learner locate their current stage honestly and use that understanding to plan the next step.
+
+---
+
+## Why Career Readiness Matters
+
+Career growth often becomes frustrating when people skip readiness.
+
+A learner may apply for opportunities before they have evidence.
+
+A professional may pursue promotion before clarifying the value they already create.
+
+A career changer may collect certificates without building a portfolio that connects to the target field.
+
+A highly skilled person may remain invisible because their work is not communicated clearly.
+
+Career readiness helps prevent scattered effort.
+
+It creates a starting diagnosis.
+
+Instead of saying only:
+
+```text
+I need a job.
+```
+
+The learner can say:
+
+```text
+I need to strengthen my evidence.
+I need to clarify my direction.
+I need to improve my communication.
+I need feedback from a mentor.
+I need workplace exposure.
+I need a better professional profile.
+```
+
+This turns anxiety into action.
+
+It makes the next step visible.
+
+---
+
+## The Career Readiness System
+
+Career readiness connects potential to professional action.
+
+```{mermaid}
+flowchart TD
+    A[Potential and Interest] --> B[Readiness Assessment]
+    B --> C[Skills Inventory]
+    C --> D[Learning Priorities]
+    D --> E[Practice and Projects]
+    E --> F[Portfolio Evidence]
+    F --> G[Visibility and Conversations]
+    G --> H[Opportunity Readiness]
+    H --> I[Sustainable Growth]
+```
+
+This flow shows that readiness is not a single score.
+
+It is a relationship between several parts of the career system.
+
+The learner needs to understand:
+
+- what they want,
+- what they can currently do,
+- what they can prove,
+- how they communicate value,
+- who can guide them,
+- what opportunities are realistic now,
+- and what preparation is still required.
+
+Career readiness is therefore both personal and practical.
+
+It requires self-awareness, but it must also produce visible action.
+
+---
+
+## Readiness Is Not Confidence Alone
+
+Confidence is helpful, but confidence is not the same as readiness.
+
+A person may feel confident but lack evidence.
+
+Another person may be capable but lack confidence.
+
+A third person may have strong technical skills but weak communication.
+
+A fourth person may have experience but no current portfolio or updated professional profile.
+
+The Career System separates confidence from evidence.
+
+```text
+Confidence asks: Do I believe I can do this?
+Evidence asks: Can I show what I can do?
+Readiness asks: What next step am I prepared to take now?
+```
+
+This distinction is important.
+
+The goal is not to judge the learner.
+
+The goal is to help the learner make better decisions.
+
+---
+
+## Readiness Across Career Stages
+
+Career readiness looks different at different stages.
+
+A beginner does not need the same evidence as a senior professional.
+
+A career changer does not need the same pathway as a recent graduate.
+
+A technical expert moving into leadership does not need the same preparation as a learner entering a first internship.
+
+| Career stage | Readiness question | Useful evidence |
+|---|---|---|
+| Beginner | Am I ready to start structured learning? | Learning goals, basic digital skills, commitment, support system |
+| Learner | Am I ready to practice with real tasks? | Exercises, small projects, notes, reflections |
+| Early-career | Am I ready for entry-level opportunity? | CV, portfolio, project examples, references, interview preparation |
+| Career changer | Am I ready to connect past experience to a new direction? | Transferable skills, transition story, targeted projects |
+| Experienced professional | Am I ready for advancement or repositioning? | Achievements, leadership evidence, case studies, visibility |
+| Independent professional | Am I ready to design opportunities beyond employment? | Service clarity, client proof, network, delivery system |
+
+This guide serves all of these stages.
+
+The same system applies, but the evidence becomes more advanced as the person grows.
+
+---
+
+## The Five Readiness Domains
+
+A practical readiness assessment should look at five domains.
+
+### 1. Direction Readiness
+
+Direction readiness asks:
+
+```text
+Do I know where I am trying to grow next?
+```
+
+This does not require a perfect career plan.
+
+It requires enough clarity to choose useful action.
+
+A learner may begin with a broad direction such as data analysis, laboratory systems, health data, teaching, administration, entrepreneurship, software support, project coordination, or research assistance.
+
+The direction can change later.
+
+But without any direction, learning becomes random.
+
+### 2. Skill Readiness
+
+Skill readiness asks:
+
+```text
+What can I do now, and what skills need strengthening?
+```
+
+This includes technical skills, communication, problem-solving, writing, digital fluency, teamwork, and professional behavior.
+
+Skill readiness is not only about what a person has studied.
+
+It is about what a person can apply.
+
+### 3. Evidence Readiness
+
+Evidence readiness asks:
+
+```text
+Can I show proof of my ability?
+```
+
+Evidence may include projects, reports, GitHub repositories, writing samples, presentations, certificates, case studies, practical assignments, community work, or workplace outputs.
+
+Many learners have potential but little evidence.
+
+The Career System helps convert learning into proof.
+
+### 4. Communication Readiness
+
+Communication readiness asks:
+
+```text
+Can I explain my value clearly to another person?
+```
+
+This includes CV writing, LinkedIn or professional profiles, interview answers, email communication, project summaries, and career conversations.
+
+A person does not only need to have value.
+
+They need to communicate value responsibly.
+
+### 5. Opportunity Readiness
+
+Opportunity readiness asks:
+
+```text
+Am I prepared to approach, evaluate, and respond to opportunities?
+```
+
+This includes knowing where to look, how to apply, how to prepare for interviews, how to ask for referrals, how to evaluate offers, and how to perform after entering the opportunity.
+
+Opportunity readiness connects preparation to action.
+
+---
+
+## Career Readiness Self-Assessment
+
+A learner can assess readiness using a simple table.
+
+The goal is not to produce a perfect score.
+
+The goal is to identify what needs attention.
+
+| Domain | Current status | Evidence available | Gap | Next action |
+|---|---|---|---|---|
+| Direction | Some interest in data careers | Notes from prior learning | Need clearer target role | Compare three entry-level roles |
+| Skills | Basic spreadsheet and Python exposure | Class exercises | Need applied project | Complete one small analysis project |
+| Evidence | No public portfolio yet | Local files only | Work is not visible | Create one portfolio folder or page |
+| Communication | CV exists but is generic | Current CV | Needs targeted profile | Rewrite summary using target direction |
+| Opportunity | Has not applied recently | None | Needs job-market map | Identify 10 realistic opportunities |
+
+This type of table helps the learner move from general worry to specific work.
+
+---
+
+## Create the Template
+
+This chapter includes an optional bash script that creates a reusable readiness worksheet.
+
+Learners who are comfortable with the command line can run:
+
+```bash
+chmod +x scripts/bash/02-create-career-readiness-template.sh
+bash scripts/bash/02-create-career-readiness-template.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/career-readiness-self-assessment.csv
+results/career-readiness/example-career-readiness-self-assessment.csv
+results/career-readiness/README-career-readiness.md
+```
+
+Learners who are not using the command line can copy the table structure from this chapter into a notebook, spreadsheet, or document.
+
+The important part is not the tool.
+
+The important part is the reflection and the next action.
+
+---
+
+## How to Use the Assessment
+
+Use the readiness assessment in three passes.
+
+### Pass 1: Be Honest
+
+Write the current status without trying to impress anyone.
+
+For example:
+
+```text
+I have completed tutorials but have not built a complete project.
+```
+
+That is more useful than:
+
+```text
+I know data science.
+```
+
+Honesty makes planning possible.
+
+### Pass 2: Identify Evidence
+
+For each domain, ask:
+
+```text
+What can I show?
+```
+
+If the answer is nothing, that is not failure.
+
+It simply means the next step is to create evidence.
+
+### Pass 3: Choose One Next Action
+
+Do not turn the assessment into a long wish list.
+
+Choose one realistic action per domain.
+
+A good action is specific, visible, and small enough to complete.
+
+For example:
+
+```text
+Create a one-page project summary from my last analysis exercise.
+```
+
+is better than:
+
+```text
+Improve my portfolio.
 ```
 
 ---
 
-## Expected Outputs
+## Example Interpretation
+
+Suppose a learner completes the assessment and notices this pattern:
 
 ```text
-To be developed in the full chapter draft.
+Direction: moderate
+Skills: developing
+Evidence: weak
+Communication: weak
+Opportunity readiness: low
 ```
+
+This learner should probably not begin by applying to many jobs immediately.
+
+A better next step may be:
+
+```text
+Clarify one target direction.
+Build one small project.
+Write a short project explanation.
+Update the CV or profile.
+Ask one mentor or peer for feedback.
+```
+
+Another learner may show a different pattern:
+
+```text
+Direction: strong
+Skills: strong
+Evidence: strong
+Communication: moderate
+Opportunity readiness: moderate
+```
+
+This learner may be ready to focus on applications, interviews, networking, and professional visibility.
+
+The same tool supports different stages because it helps each person locate the current bottleneck.
+
+---
+
+## Mentor or Peer Review Prompts
+
+Career readiness improves when another person helps review it.
+
+A mentor, peer, teacher, supervisor, or trusted professional can ask:
+
+- Is the learner's direction clear enough for the next step?
+- Are the listed skills supported by evidence?
+- Is the evidence understandable to someone outside the learning environment?
+- Are the next actions realistic?
+- Which gap matters most right now?
+- What should the learner stop doing because it is not helping the current direction?
+
+These questions help turn the assessment into a conversation.
+
+The goal is not to criticize.
+
+The goal is to sharpen the plan.
+
+---
+
+## Career Readiness Checklist
+
+Before moving to the skills inventory, the learner should be able to answer these questions.
+
+- Do I know my current career stage?
+- Do I have at least one direction I want to explore or strengthen?
+- Can I list the skills I already have?
+- Can I identify what evidence I can currently show?
+- Can I name one major gap between my current state and my desired next step?
+- Do I know one practical action I can take this week?
+- Do I know who could give me feedback?
+
+A learner does not need perfect answers.
+
+But they need enough clarity to move forward.
+
+---
+
+## CDI Reflection
+
+Career readiness is not a label.
+
+It is a diagnostic tool.
+
+A learner who discovers gaps should not conclude:
+
+```text
+I am not good enough.
+```
+
+A better conclusion is:
+
+```text
+Now I know what to build next.
+```
+
+The Career System treats readiness as a starting map.
+
+The map does not complete the journey.
+
+But it prevents the learner from walking blindly.
+
 ---
 
 ## Looking Ahead

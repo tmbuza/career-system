@@ -1,4 +1,4 @@
-# Networking and Mentorship {#09_networking_and_mentorship}
+# Networking and Mentorship {#networking-and-mentorship}
 
 :::cdi-message
 - **ID:** CAREER-009
@@ -7,36 +7,561 @@
 - **Theme:** Relationships provide feedback, access, perspective, and accountability
 :::
 
-This chapter will develop the **Networking and Mentorship** layer of the Career System.
+Career growth does not happen in isolation.
+
+A learner can study alone.
+
+A professional can practice alone.
+
+A person can build projects, write a CV, and apply for opportunities alone.
+
+But sustainable professional growth usually improves when the learner has access to people who can provide feedback, perspective, encouragement, accountability, and opportunity awareness.
+
+That is the role of networking and mentorship.
+
+In the Career System, networking is not simply collecting contacts.
+
+Mentorship is not simply asking someone powerful for help.
+
+Both are relationship-based learning systems.
+
+They help a person move from private effort to guided professional growth.
 
 ---
 
-## Purpose
+## Why Networking and Mentorship Matter
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+Many learners struggle not because they lack effort, but because their effort is disconnected from professional feedback.
+
+They may be learning, but not learning the right next thing.
+
+They may be building projects, but not showing them clearly.
+
+They may be applying for roles, but not understanding what employers or collaborators actually need.
+
+They may be capable, but invisible to people who could guide, refer, review, or collaborate with them.
+
+Networking and mentorship help close this gap.
+
+They connect the learner to people who can help them see what they cannot yet see alone.
+
+A good professional relationship can help a learner answer questions such as:
+
+- Is this career direction realistic for my current stage?
+- Which skills should I strengthen next?
+- Does my portfolio evidence make sense to someone outside my head?
+- How should I explain this project professionally?
+- What opportunities fit my current readiness?
+- What mistakes should I avoid before applying, presenting, or negotiating?
+
+The purpose is not dependency.
+
+The purpose is better judgment.
 
 ---
 
-## Core Questions
+## Networking and Mentorship in the Career System
 
-```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+Networking and mentorship sit after communication and visibility because relationships become more effective when the learner has something specific to share.
+
+A vague request is difficult to support.
+
+A visible project, direction statement, skills inventory, or profile gives another person something concrete to review.
+
+```{mermaid}
+flowchart LR
+    A[Career Direction] --> B[Learning Plan]
+    B --> C[Project-Based Proof]
+    C --> D[Portfolio Evidence]
+    D --> E[Communication and Visibility]
+    E --> F[Networking]
+    F --> G[Mentorship and Feedback]
+    G --> H[Improved Evidence]
+    H --> I[Opportunity Conversations]
+    I --> J[Sustainable Growth]
+    G --> B
+    G --> D
 ```
 
+This loop matters.
+
+Mentorship does not only push the learner forward.
+
+It can also send the learner back to improve the learning plan, revise a portfolio item, sharpen communication, or reconsider a direction.
+
+That is not failure.
+
+That is professional development.
+
 ---
 
-## Expected Outputs
+## Networking Is Not Asking for Favors
+
+Networking is often misunderstood.
+
+Some people think networking means asking strangers for jobs.
+
+Others think it means promoting oneself loudly.
+
+Others avoid it because it feels uncomfortable, unfair, or artificial.
+
+In the Career System, networking means building respectful professional relationships around learning, contribution, feedback, and shared interests.
+
+A good networking interaction does not begin with:
 
 ```text
-To be developed in the full chapter draft.
+Can you get me a job?
 ```
+
+It begins with something more grounded:
+
+```text
+I am developing my skills in this area.
+I have built this small piece of evidence.
+I would appreciate your feedback on one specific part.
+```
+
+This approach is more respectful because it shows effort.
+
+It gives the other person a clear way to help.
+
+It also builds trust over time.
+
+---
+
+## Mentorship Is Not One Thing
+
+Mentorship can take many forms.
+
+A learner does not always need one permanent mentor who answers every question.
+
+Different people may support different parts of the journey.
+
+### Peer Mentor
+
+A peer mentor may be only one or two steps ahead.
+
+They can help with accountability, recent learning experience, and practical encouragement.
+
+### Technical Reviewer
+
+A technical reviewer can look at a project, portfolio item, report, analysis, CV, or workflow and give specific improvement feedback.
+
+### Career Mentor
+
+A career mentor helps the learner think about direction, choices, timing, trade-offs, workplace expectations, and long-term growth.
+
+### Connector
+
+A connector introduces the learner to communities, events, resources, opportunities, or people who may be relevant.
+
+### Sponsor
+
+A sponsor actively advocates for someone when opportunities are being discussed.
+
+Sponsorship usually comes later, after trust and visible evidence have been built.
+
+### Community
+
+Sometimes the most useful mentorship comes from a community rather than one individual.
+
+A learning group, professional association, alumni network, youth mentorship group, research group, open-source community, workplace team, or local initiative can provide repeated exposure, feedback, and encouragement.
+
+---
+
+## Relationship Types in the Career System
+
+The Career System treats relationships as part of professional infrastructure.
+
+Different relationships serve different purposes.
+
+```text
+Peer              → accountability and shared learning
+Mentor            → guidance and perspective
+Reviewer          → specific feedback on evidence
+Connector         → access to people, spaces, or opportunities
+Role model        → inspiration and pattern recognition
+Collaborator      → shared project or contribution
+Sponsor           → advocacy when trust has been built
+Community         → belonging, repetition, and exposure
+```
+
+A learner does not need all of these at once.
+
+A beginner may start with a peer, a local group, and one reviewer.
+
+An experienced professional may need a strategic mentor, a peer circle, and a sponsor.
+
+A career changer may need role models, reviewers, and connectors in the new field.
+
+---
+
+## Networking Across Career Stages
+
+Networking looks different depending on the learner's stage.
+
+### Beginner
+
+A beginner may focus on asking for guidance, finding learning communities, sharing early effort, and building confidence.
+
+The best request is usually small and specific.
+
+```text
+Could you look at this one-page project summary and tell me whether it is clear?
+```
+
+### Early-Career Professional
+
+An early-career professional may focus on feedback, workplace learning, referrals, interview preparation, and professional identity.
+
+They may ask:
+
+```text
+Which parts of this portfolio would be most relevant for junior analyst roles?
+```
+
+### Career Changer
+
+A career changer may need help translating previous experience into a new field.
+
+They may ask:
+
+```text
+Does this profile explain my past experience in a way that makes sense for this new direction?
+```
+
+### Experienced Professional
+
+An experienced professional may use networking for repositioning, thought leadership, advisory roles, collaborations, mentoring others, or opportunity diversification.
+
+They may ask:
+
+```text
+Which of these two growth directions seems more aligned with where the field is moving?
+```
+
+### Mentor or Educator
+
+A mentor or educator can use this chapter to help learners prepare better requests, document feedback, follow up respectfully, and turn advice into action.
+
+---
+
+## The Evidence-Based Networking Principle
+
+Networking becomes stronger when it is connected to evidence.
+
+Evidence may include:
+
+- a completed project,
+- a project plan,
+- a portfolio page,
+- a short written reflection,
+- a skills inventory,
+- a learning plan,
+- a CV draft,
+- a LinkedIn summary,
+- a presentation,
+- a GitHub repository,
+- a case study,
+- a report,
+- or a community contribution.
+
+Evidence gives the conversation structure.
+
+Instead of saying:
+
+```text
+Please advise me.
+```
+
+The learner can say:
+
+```text
+I am working toward junior data analyst roles.
+I created this short portfolio project to show data cleaning and summary reporting.
+Could you review whether the explanation is clear for a non-technical reader?
+```
+
+This is easier to answer.
+
+It also shows seriousness.
+
+---
+
+## The Networking and Mentorship Map
+
+This chapter uses a simple map to help learners organize relationships intentionally.
+
+Each row represents one person, group, or community.
+
+The purpose is not to rank people.
+
+The purpose is to connect each relationship to a clear career learning function.
+
+Key fields include:
+
+```text
+contact_or_community
+relationship_type
+career_relevance
+evidence_to_share
+specific_request
+preferred_channel
+follow_up_date
+support_received
+action_taken
+relationship_status
+next_step
+```
+
+This map helps the learner avoid vague networking.
+
+It also helps mentors see whether the learner is building a balanced support system.
+
+---
+
+## Create the Template
+
+This chapter includes an optional bash script that creates a reusable networking and mentorship tracker.
+
+Learners who are comfortable using the command line can run:
+
+```bash
+chmod +x scripts/bash/09-create-networking-mentorship-template.sh
+bash scripts/bash/09-create-networking-mentorship-template.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/networking-mentorship-template.csv
+results/networking-mentorship/example-networking-mentorship.csv
+results/networking-mentorship/README-networking-mentorship.md
+```
+
+Learners who are not using the command line can copy the table structure below into a spreadsheet, notebook, or document.
+
+---
+
+## Manual Template
+
+| Field | Meaning |
+|---|---|
+| `contact_or_community` | Person, group, community, or organization |
+| `relationship_type` | Peer, mentor, reviewer, connector, sponsor, role model, collaborator, or community |
+| `career_relevance` | Why this relationship matters to the learner's direction |
+| `evidence_to_share` | Project, profile, CV, portfolio, or document the learner can show |
+| `specific_request` | One focused request for feedback, guidance, or introduction |
+| `preferred_channel` | Email, LinkedIn, WhatsApp, meeting, event, call, or community space |
+| `follow_up_date` | Date to check back or send an update |
+| `support_received` | Feedback, advice, referral, resource, or encouragement received |
+| `action_taken` | What the learner did after receiving support |
+| `relationship_status` | Planned, contacted, active, paused, completed, or follow-up needed |
+| `next_step` | The next respectful action |
+
+---
+
+## Example Networking Entry
+
+| Field | Example |
+|---|---|
+| Contact or community | Former data analytics trainer |
+| Relationship type | Mentor / reviewer |
+| Career relevance | Understands entry-level data analysis expectations |
+| Evidence to share | Portfolio project README |
+| Specific request | Ask whether the project communicates data-cleaning decisions clearly |
+| Preferred channel | Email |
+| Follow-up date | Two weeks after sending the project |
+| Support received | Suggested adding methods section and clearer results summary |
+| Action taken | Revised README and added a short project summary |
+| Relationship status | Active |
+| Next step | Send a short thank-you update after revision |
+
+This example is strong because the request is specific.
+
+It does not ask the mentor to solve the whole career problem.
+
+It asks for feedback on one piece of evidence.
+
+---
+
+## How to Write a Good Mentorship Request
+
+A good mentorship request is clear, respectful, and easy to respond to.
+
+It should include four parts.
+
+```text
+Context      → Who you are and what you are working toward
+Evidence     → What you have already done
+Request      → What specific feedback or guidance you need
+Respect      → Acknowledgment of the other person's time
+```
+
+A simple structure:
+
+```text
+Hello [Name],
+
+I am currently working on [career direction or skill area].
+
+I recently created [evidence or project].
+
+Would you be willing to give brief feedback on [specific question]?
+
+I would be grateful for any suggestions, and I understand if your schedule is busy.
+
+Thank you,
+[Name]
+```
+
+This format is useful because it reduces pressure.
+
+It also makes the request actionable.
+
+---
+
+## How to Follow Up Respectfully
+
+Follow-up is part of professional trust.
+
+A learner should not only ask for advice.
+
+They should show what they did with the advice.
+
+A good follow-up may say:
+
+```text
+Thank you for your feedback.
+I revised the project summary based on your suggestion.
+I added a clearer methods section and shortened the results explanation.
+Your advice helped me make the project easier to understand.
+```
+
+This kind of follow-up matters.
+
+It shows that the mentor's time was respected.
+
+It also keeps the relationship alive without asking for something every time.
+
+---
+
+## Common Networking and Mentorship Mistakes
+
+### Asking Too Broadly
+
+A request such as “Please help me with my career” is difficult to answer.
+
+A better request is specific.
+
+```text
+Could you review whether this project summary clearly explains the problem, method, and result?
+```
+
+### Asking Before Doing Any Work
+
+Mentors are more able to help when the learner has made visible effort.
+
+Even a small draft is better than no evidence.
+
+### Treating Networking as Transactional
+
+Relationships should not be used only when the learner needs a job.
+
+Trust grows through repeated respectful interactions.
+
+### Ignoring Feedback
+
+If a learner receives advice but takes no action, the relationship becomes weaker.
+
+Feedback should lead to visible improvement.
+
+### Depending on One Person
+
+One mentor cannot provide every kind of support.
+
+A balanced support system is healthier.
+
+### Forgetting to Give Back
+
+Even beginners can contribute by sharing resources, encouraging peers, documenting what they learned, helping others, or showing appreciation.
+
+---
+
+## Mentorship and Power
+
+Mentorship should be respectful and safe.
+
+A learner should not feel pressured to accept harmful advice, unpaid exploitation, inappropriate behavior, or disrespect.
+
+Good mentorship supports growth without controlling the learner.
+
+Healthy mentorship includes:
+
+- clear boundaries,
+- respect for time,
+- honest feedback,
+- encouragement of independence,
+- professional conduct,
+- and space for the learner's own goals.
+
+A learner can be grateful and still use judgment.
+
+A mentor can guide without owning the learner's path.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor, peer, or educator can review the learner's networking and mentorship map using these questions:
+
+```text
+Is the learner contacting people who are relevant to their direction?
+Are the requests specific and respectful?
+Does the learner have evidence to share?
+Is the learner following up after receiving advice?
+Is the learner building a balanced support system?
+Is the learner also contributing to others where possible?
+Are there any safety, boundary, or professionalism concerns?
+```
+
+These prompts help keep networking grounded in learning rather than pressure.
+
+---
+
+## Networking and Mentorship Checklist
+
+Before moving to the next chapter, the learner should be able to say:
+
+- I can explain why relationships matter in career growth.
+- I understand the difference between networking, mentorship, review, connection, and sponsorship.
+- I have identified people or communities connected to my career direction.
+- I have at least one piece of evidence I can share.
+- I can write a specific mentorship or feedback request.
+- I know how I will follow up after receiving advice.
+- I understand that networking should be respectful, not transactional.
+- I have considered boundaries and professional safety.
+
+---
+
+## CDI Reflection
+
+Career growth becomes stronger when effort becomes visible and visible effort receives feedback.
+
+Networking and mentorship are not shortcuts around skill-building.
+
+They are systems for improving the quality, direction, and usefulness of skill-building.
+
+A learner who builds evidence, communicates clearly, asks respectful questions, acts on feedback, and follows up professionally is not merely “networking.”
+
+They are building trust.
+
+Trust is one of the most important career assets.
+
 ---
 
 ## Looking Ahead
 
-The next chapter prepares the learner for the job market.
+The next chapter turns relationship-building toward the job market.
 
-Networking and mentorship help clarify opportunity, but job-market readiness requires another layer: understanding role expectations, matching evidence to job descriptions, preparing application materials, and identifying realistic next steps.
+Once a learner has direction, skills, learning plans, portfolio evidence, communication, visibility, and feedback relationships, they are better prepared to understand job requirements, evaluate opportunities, prepare applications, and approach the market with more clarity and confidence.

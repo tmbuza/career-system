@@ -1,4 +1,4 @@
-# Career Direction {#04_career_direction}
+# Career Direction {#career-direction}
 
 :::cdi-message
 - **ID:** CAREER-004
@@ -7,36 +7,490 @@
 - **Theme:** Direction turns scattered learning into intentional professional growth
 :::
 
-This chapter will develop the **Career Direction** layer of the Career System.
+Career direction is the part of the Career System that helps a learner decide where to focus next.
+
+It does not require a perfect lifelong plan.
+
+It does not require someone to know exactly what job title they will hold ten years from now.
+
+It requires enough clarity to make better choices today.
+
+Without direction, learners often collect skills randomly.
+
+They start courses because they are popular.
+
+They copy other people’s paths.
+
+They apply for roles without understanding what those roles require.
+
+They build projects that do not connect to the kind of opportunities they want.
+
+Career direction helps turn effort into a path.
+
+It connects personal context, skills, interests, constraints, opportunities, and values into a practical growth direction.
 
 ---
 
-## Purpose
+## Why Career Direction Matters
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
-
----
-
-## Core Questions
+Many people begin career development by asking:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+What should I learn?
+```
+
+That is an important question, but it is not the first question.
+
+A better starting point is:
+
+```text
+What kind of professional growth am I trying to build toward?
+```
+
+The answer does not need to be fixed forever.
+
+It only needs to be clear enough to guide action.
+
+Career direction matters because it helps a learner decide:
+
+- which skills deserve priority,
+- which projects are worth building,
+- which mentors to seek,
+- which communities to join,
+- which opportunities to apply for,
+- and which distractions to avoid.
+
+A learner without direction may work hard but move in circles.
+
+A learner with direction can still adjust, but their adjustments become intentional.
+
+---
+
+## The Career Direction System
+
+Career direction sits between readiness and planning.
+
+Career readiness asks:
+
+```text
+Where am I now?
+```
+
+A skills inventory asks:
+
+```text
+What can I currently do?
+```
+
+Career direction asks:
+
+```text
+Where should I focus my next stage of growth?
+```
+
+```{mermaid}
+flowchart TD
+    A[Career Readiness] --> B[Skills Inventory]
+    B --> C[Career Direction]
+    C --> D[Learning Plan]
+    D --> E[Practice Projects]
+    E --> F[Portfolio Evidence]
+    F --> G[Visibility and Opportunity]
+    G --> H[Career Feedback]
+    H --> C
+```
+
+This loop is important.
+
+Direction is not a one-time decision.
+
+As a learner gains experience, receives feedback, builds evidence, and sees real opportunities, their direction can become clearer.
+
+---
+
+## Direction Is Not the Same as a Dream Job
+
+A dream job can be motivating.
+
+But career direction should be more practical than a dream.
+
+A useful direction combines aspiration with evidence and action.
+
+For example, these are weak direction statements:
+
+```text
+I want a good job.
+I want to work in technology.
+I want to do data science.
+I want to become successful.
+```
+
+They are too broad.
+
+They do not guide learning, projects, communication, or opportunity search.
+
+Stronger direction statements are more specific:
+
+```text
+I want to grow toward entry-level data analysis roles where I can use spreadsheets, SQL, Python, and clear reporting to support business or public-health decisions.
+```
+
+```text
+I want to move from general laboratory experience toward bioinformatics support roles by building evidence in RNA-seq, reproducible reporting, and biological interpretation.
+```
+
+```text
+I want to strengthen my professional profile for program coordination roles that combine youth mentorship, digital skills, communication, and community project management.
+```
+
+A strong direction statement does not lock the learner into one future.
+
+It gives enough focus for the next learning and portfolio cycle.
+
+---
+
+## Direction Across Different Career Stages
+
+Career direction looks different at different stages.
+
+A beginner may need a broad direction.
+
+An early-career professional may need a role-focused direction.
+
+An experienced professional may need a repositioning direction.
+
+A mentor or leader may need a contribution direction.
+
+| Career stage | Direction question | Example focus |
+|---|---|---|
+| Beginner | What field or pathway should I explore seriously? | Digital skills, data, health systems, business support, technical operations |
+| Career learner | Which skills and projects should I prioritize next? | Portfolio-building, applied practice, communication, mentorship |
+| Early-career professional | What role family am I becoming ready for? | Analyst, coordinator, research assistant, developer, data steward |
+| Career changer | How do I connect past experience to a new direction? | Transferable skills, bridge projects, proof of transition |
+| Experienced professional | What growth edge matters now? | Leadership, specialization, consulting, visibility, resilience |
+| Mentor or educator | How can I guide others without forcing one path? | Structured questions, feedback, opportunity awareness |
+
+This is why the Career System is not only for beginners.
+
+Direction is needed whenever someone is learning, adapting, or preparing for a new level.
+
+---
+
+## The Four Inputs of Career Direction
+
+A practical career direction should be built from four inputs.
+
+```{mermaid}
+flowchart TD
+    A[Personal Context] --> E[Career Direction]
+    B[Skills and Strengths] --> E
+    C[Interests and Values] --> E
+    D[Opportunity Landscape] --> E
+    E --> F[Focused Growth Path]
+```
+
+### 1. Personal Context
+
+Personal context includes the learner’s current life situation.
+
+This may include time, location, financial responsibilities, family responsibilities, internet access, education level, language strengths, confidence, health, and available support.
+
+Career direction should respect reality.
+
+A direction that ignores the learner’s context may look impressive but fail in practice.
+
+### 2. Skills and Strengths
+
+A learner should build direction from what they can already do and what they can realistically learn next.
+
+This does not mean staying only with current strengths.
+
+It means using current strengths as a starting bridge.
+
+For example, someone with strong communication skills can use that strength while learning technical tools.
+
+Someone with laboratory experience can use that experience while learning data analysis.
+
+Someone with community leadership experience can use that experience while building project-management evidence.
+
+### 3. Interests and Values
+
+Interest helps sustain learning.
+
+Values help shape the kind of work a person wants to contribute to.
+
+A learner may be interested in data, but value health impact.
+
+Another learner may be interested in technology, but value teaching and youth development.
+
+Another professional may value independence, flexibility, or long-term stability.
+
+Career direction becomes stronger when it connects interest with values.
+
+### 4. Opportunity Landscape
+
+Direction must also consider the outside world.
+
+This includes available jobs, internships, fellowships, freelance opportunities, local needs, remote work possibilities, community projects, training programs, and professional networks.
+
+A useful direction sits at the intersection of:
+
+```text
+what the learner can build,
+what the learner cares about,
+and where real opportunities may exist.
 ```
 
 ---
 
-## Expected Outputs
+## A Practical Direction Statement
+
+A career direction statement is a short working statement that guides the next stage of learning and action.
+
+It should answer five questions:
 
 ```text
-To be developed in the full chapter draft.
+1. What role, field, or contribution area am I moving toward?
+2. What strengths or background can I build from?
+3. What skills do I need to strengthen next?
+4. What evidence should I create?
+5. What opportunities or conversations should I prepare for?
 ```
+
+A useful format is:
+
+```text
+I am moving toward [role/field/contribution area] by building from [current strengths/background] and strengthening [priority skills]. I will create evidence through [projects/outputs] so that I can prepare for [opportunities/conversations].
+```
+
+Example:
+
+```text
+I am moving toward entry-level data analyst roles by building from my spreadsheet, reporting, and problem-solving skills and strengthening SQL, Python, and data visualization. I will create evidence through two small analysis projects and a portfolio page so that I can prepare for internship, junior analyst, and mentorship conversations.
+```
+
+This statement can change.
+
+Its purpose is not to predict the entire future.
+
+Its purpose is to focus the next 8 to 12 weeks of growth.
+
+---
+
+## The Career Direction Map
+
+This chapter uses a Career Direction Map.
+
+The map helps learners compare possible directions and decide which one deserves focus now.
+
+It can be used by a beginner exploring several options or by an experienced professional evaluating a career pivot.
+
+A simple direction map includes:
+
+| Column | Meaning |
+|---|---|
+| direction_option | The role, pathway, field, or contribution area being considered |
+| why_it_interests_me | The reason this direction matters to the learner |
+| current_strengths | Existing skills, experiences, or evidence that support this direction |
+| skill_gaps | Skills or habits that need development |
+| evidence_needed | Projects, writing, reports, portfolio items, or experiences that would make this direction visible |
+| people_to_learn_from | Mentors, peers, communities, or professionals who can provide guidance |
+| opportunity_examples | Jobs, internships, projects, collaborations, or local needs related to the direction |
+| next_30_day_action | A realistic action the learner can take soon |
+| priority_level | High, medium, or low priority for the current growth cycle |
+
+---
+
+## Create the Template
+
+This chapter includes an optional script that creates a reusable Career Direction Map.
+
+Learners comfortable with the command line can run:
+
+```bash
+bash scripts/bash/04-create-career-direction-template.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/career-direction-map-template.csv
+results/career-direction/example-career-direction-map.csv
+results/career-direction/README-career-direction.md
+```
+
+Learners who are not using the command line can copy the table structure into a notebook, spreadsheet, or printed worksheet.
+
+The important part is not the file format.
+
+The important part is the decision-making process.
+
+---
+
+## Manual Template
+
+Use this table to compare possible directions.
+
+| direction_option | why_it_interests_me | current_strengths | skill_gaps | evidence_needed | people_to_learn_from | opportunity_examples | next_30_day_action | priority_level |
+|---|---|---|---|---|---|---|---|---|
+| Data analyst | I enjoy organizing information and explaining patterns | Spreadsheets, reporting, curiosity | SQL, visualization, project structure | Small analysis report, dashboard, GitHub repo | Analyst, mentor, online data community | Internship, junior analyst role, volunteer project | Complete one clean analysis project | High |
+| Research assistant | I like scientific work and structured investigation | Lab exposure, reading papers, documentation | Data cleaning, reproducible reporting | Literature summary, dataset review, simple report | Researcher, graduate student, lab mentor | Research internship, assistant role | Summarize one public dataset | Medium |
+| Youth digital skills mentor | I enjoy helping others learn | Communication, patience, community connection | Curriculum design, facilitation evidence | Lesson plan, learner activity, reflection report | Teacher, trainer, youth leader | Community training, mentorship project | Design one beginner-friendly activity | Medium |
+
+---
+
+## How to Choose a Direction for Now
+
+A learner does not need to choose the perfect direction.
+
+They need to choose a direction worth testing.
+
+A practical way to choose is to score each option using five questions:
+
+```text
+1. Does this direction connect to my interests or values?
+2. Do I have any current strength that can support it?
+3. Can I build visible evidence within 30 to 90 days?
+4. Are there real opportunities or people connected to this direction?
+5. Does this direction fit my current life constraints?
+```
+
+A direction that scores well across these questions is a good candidate for the next growth cycle.
+
+A direction that is interesting but impossible to act on now may be kept as a future option.
+
+A direction that has opportunities but no personal interest may still be useful, but the learner should be honest about motivation.
+
+---
+
+## Example Interpretation
+
+Suppose a learner compares three directions:
+
+```text
+Data analyst
+Research assistant
+Youth digital skills mentor
+```
+
+They may realize that data analysis has the strongest opportunity potential, but youth mentorship has the strongest personal meaning.
+
+This does not mean they must choose only one forever.
+
+They may define a combined direction:
+
+```text
+I want to grow toward data and digital-skills roles where I can use analysis, reporting, and mentorship to support learning, community development, or health-related projects.
+```
+
+That direction can guide the next learning plan.
+
+The learner may then build one data project, one communication artifact, and one teaching or mentorship activity.
+
+Career direction often becomes powerful when it connects strengths instead of forcing the learner into a narrow identity too early.
+
+---
+
+## Common Career Direction Mistakes
+
+### Mistake 1: Choosing Only by Popularity
+
+A popular field may still be a good direction.
+
+But popularity alone is not enough.
+
+The learner must ask whether they are willing to build the skills, evidence, and professional habits required.
+
+### Mistake 2: Waiting for Perfect Clarity
+
+Some learners delay action because they want certainty.
+
+Career clarity often comes through action, not before action.
+
+A direction can be treated as a testable hypothesis.
+
+### Mistake 3: Ignoring Existing Strengths
+
+Career changers often undervalue previous experience.
+
+Communication, documentation, leadership, laboratory work, teaching, customer service, coordination, and problem-solving can all become bridges into new directions.
+
+### Mistake 4: Confusing Interest With Readiness
+
+Interest is important, but it does not automatically mean readiness.
+
+A learner may be interested in AI, clinical data, or bioinformatics, but still need foundations before building credible evidence.
+
+### Mistake 5: Choosing Too Many Directions at Once
+
+Exploration is useful.
+
+But active growth requires focus.
+
+For a 30 to 90 day cycle, one primary direction is usually better than five competing directions.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor can help the learner test whether their direction is clear and realistic.
+
+Useful prompts include:
+
+```text
+What part of this direction is strongest?
+What part is still too broad?
+What evidence would make this direction more credible?
+What skill gap should be prioritized first?
+Who should the learner speak with to understand this direction better?
+What opportunity could test this direction in a low-risk way?
+```
+
+Good mentorship does not force the learner into the mentor’s path.
+
+It helps the learner see options, trade-offs, and next steps more clearly.
+
+---
+
+## Career Direction Checklist
+
+Before moving to the learning plan, the learner should be able to say:
+
+```text
+[ ] I have identified at least two possible career directions.
+[ ] I understand why each direction interests me.
+[ ] I have connected each direction to current strengths.
+[ ] I have listed the main skill gaps for each direction.
+[ ] I know what evidence would make my chosen direction visible.
+[ ] I have identified people, communities, or mentors who can help me learn.
+[ ] I have selected one primary direction for the next growth cycle.
+[ ] I have written a short career direction statement.
+```
+
+---
+
+## CDI Reflection
+
+Career direction is not about limiting the learner.
+
+It is about focusing energy.
+
+A direction gives learning a reason.
+
+It gives projects a purpose.
+
+It gives mentorship a structure.
+
+It gives opportunity search a target.
+
+The learner can revise the direction later.
+
+But without a direction, even strong effort can become scattered.
+
 ---
 
 ## Looking Ahead
 
-The next chapter converts career direction into a learning plan.
+The next chapter turns career direction into a learning plan.
 
-After a learner identifies a realistic direction, the question becomes practical: what should they learn next, in what order, with what evidence, and within what timeframe?
+Once a learner has selected a direction for the next growth cycle, they need to decide what to learn, what to practice, what evidence to create, and how to keep learning realistic enough to continue.

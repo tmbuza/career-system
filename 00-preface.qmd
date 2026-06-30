@@ -81,6 +81,116 @@ It is about becoming the kind of professional who can keep learning, keep adapti
 
 ---
 
+## Who This Guide Is For
+
+This guide is for beginners who are trying to understand where to start.
+
+It is for early-career professionals who want to move from potential to visible proof.
+
+It is for experienced professionals who want to reposition, deepen, diversify, or communicate their value more clearly.
+
+It is for mentors, educators, and training programs that want a practical way to structure career development conversations.
+
+The guide does not assume that every learner has the same starting point.
+
+Some learners may be choosing a direction for the first time.
+
+Some may already have technical skills but lack evidence.
+
+Some may have experience but need a stronger professional story.
+
+Some may be rebuilding after a setback, transition, relocation, layoff, or career pause.
+
+The Career System is designed to support all of these stages.
+
+---
+
+## What This Guide Is Not
+
+This guide is not a promise of instant employment.
+
+It is not a shortcut around effort.
+
+It is not only a CV-writing guide.
+
+It is not only a job application guide.
+
+It is not only for people in data, technology, or science.
+
+Instead, it is a structured professional growth guide.
+
+It helps learners build a system that makes their skills clearer, their evidence stronger, their communication more focused, and their opportunities more sustainable.
+
+---
+
+## The Career System Architecture
+
+The Career System connects the major parts of professional growth into one pathway.
+
+```{mermaid}
+flowchart TD
+    A[Career Readiness] --> B[Skills Inventory]
+    B --> C[Career Direction]
+    C --> D[Learning Plan]
+    D --> E[Portfolio Building]
+    E --> F[Project-Based Proof]
+    F --> G[Communication and Visibility]
+    G --> H[Networking and Mentorship]
+    H --> I[Job Market Readiness]
+    I --> J[CV, LinkedIn, and Profile]
+    J --> K[Interviews and Career Conversations]
+    K --> L[Workplace Performance]
+    L --> M[Career Resilience and Diversification]
+    M --> N[Personal Operating System]
+    N --> O[Income Growth and Opportunity Design]
+    O --> P[Sustainable Professional Growth]
+```
+
+The point of this system is not to complete a chapter once and move on forever.
+
+The point is to create a repeatable growth loop.
+
+As learners gain new skills, they update their evidence.
+
+As they complete projects, they improve their communication.
+
+As they meet mentors, they refine their direction.
+
+As they enter workplaces, they learn how to perform, adapt, and create new opportunities.
+
+---
+
+## The Central Career Growth Loop
+
+At the center of this guide is a simple loop.
+
+```{mermaid}
+flowchart TD
+    A[Learn] --> B[Build]
+    B --> C[Document]
+    C --> D[Communicate]
+    D --> E[Connect]
+    E --> F[Apply]
+    F --> G[Reflect]
+    G --> A
+```
+
+Learners do not grow only by consuming information.
+
+They grow by turning learning into visible work.
+
+They grow by documenting that work clearly.
+
+They grow by explaining what they can do.
+
+They grow by connecting with people who can advise, challenge, refer, or collaborate.
+
+They grow by applying their skills in real contexts.
+
+They grow by reflecting and improving the system.
+
+---
+
 ## How to Use This Guide
 
 This guide can be used in four ways.
@@ -101,6 +211,30 @@ The goal is not only to understand career growth, but to practice it.
 
 ---
 
+## Guidance Before Tools
+
+Some chapters include optional scripts that generate templates or example files.
+
+These scripts are useful for people using the repository as a reproducible CDI project.
+
+However, the scripts are not the main learning experience.
+
+Learners should be able to benefit from each chapter even without using the command line.
+
+For that reason, every chapter should provide:
+
+- clear explanation,
+- practical examples,
+- manual template guidance,
+- reflection prompts,
+- and a checklist for action.
+
+The technical files support the learning.
+
+They do not replace it.
+
+---
+
 ## Relationship to Other CDI Systems
 
 The Career System sits across the CDI ecosystem.
@@ -110,6 +244,133 @@ It supports learners who are building expertise in areas such as Data Science Fo
 Technical systems help learners build capability.
 
 The Career System helps learners convert that capability into professional growth.
+
+A learner may build a data analysis project, a clinical data workflow, an omics interpretation report, or an AI-supported decision system.
+
+The Career System asks a second question:
+
+How does this work become visible, explainable, credible, and useful for future opportunity?
+
+---
+
+## What Learners Should Build While Reading
+
+By the end of this guide, a learner should have more than notes.
+
+They should have a practical career evidence package.
+
+That package may include:
+
+- a career readiness self-assessment,
+- a skills inventory,
+- a career direction map,
+- a learning plan,
+- a portfolio evidence map,
+- a project-based proof table,
+- a communication and visibility plan,
+- a mentorship and networking map,
+- a job-market readiness checklist,
+- a CV and profile improvement plan,
+- interview preparation notes,
+- a workplace performance log,
+- a resilience and diversification map,
+- a personal operating system,
+- and an opportunity design roadmap.
+
+These outputs help learners move from general ambition to organized professional growth.
+
+---
+
+## A Note for Beginners
+
+Beginners do not need to know everything before they begin.
+
+A career system starts with honest awareness.
+
+The first goal is not to appear advanced.
+
+The first goal is to know where you are, what you are building, what evidence you have, and what next step is realistic.
+
+Small visible progress matters.
+
+A clear one-page project, a thoughtful reflection, a simple skills inventory, or a well-written learning plan can become the beginning of a stronger professional path.
+
+---
+
+## A Note for Experienced Professionals
+
+Experienced professionals also need career systems.
+
+Experience alone does not always communicate value clearly.
+
+A person may have years of work behind them but still need to reposition, update skills, build visibility, prepare for leadership, diversify income, or recover from career disruption.
+
+For experienced professionals, this guide can be used as a career audit.
+
+It helps identify which parts of the professional growth system are strong, which parts are outdated, and which parts need renewed attention.
+
+---
+
+## A Note for Mentors and Educators
+
+Mentors and educators can use this guide as a conversation structure.
+
+Instead of only asking learners what job they want, mentors can ask:
+
+- What skills are already visible?
+- What evidence supports those skills?
+- What direction is realistic now?
+- What project can prove readiness?
+- Who needs to see the learner’s work?
+- What feedback would improve the learner’s next step?
+- What habits will help the learner sustain progress?
+
+This makes mentorship more practical and less dependent on vague encouragement.
+
+---
+
+## How the Chapters Work Together
+
+The chapters are arranged as a professional growth sequence.
+
+Early chapters help learners understand themselves and their direction.
+
+Middle chapters help them build evidence, visibility, and opportunity readiness.
+
+Later chapters focus on workplace performance, resilience, personal systems, and long-term opportunity design.
+
+The sequence matters, but it is also flexible.
+
+A beginner may move through the guide step by step.
+
+An experienced professional may jump to the chapters most relevant to their current transition.
+
+A mentor may use one chapter at a time during coaching sessions.
+
+A training program may use selected chapters as professional development modules.
+
+---
+
+## How to Read This Guide
+
+Read actively.
+
+Do not only highlight useful sentences.
+
+Use the prompts.
+
+Fill the templates.
+
+Write examples.
+
+Ask for feedback.
+
+Return to earlier chapters when your direction changes.
+
+Career growth is not a single decision.
+
+It is a system of repeated choices, visible work, and thoughtful adjustment.
+
 ---
 
 ## Looking Ahead

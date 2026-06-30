@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/cdi.css">
@@ -285,9 +324,36 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-questions" id="toc-core-questions" class="nav-link" data-scroll-target="#core-questions">Core Questions</a></li>
-  <li><a href="#expected-outputs" id="toc-expected-outputs" class="nav-link" data-scroll-target="#expected-outputs">Expected Outputs</a></li>
+  <li><a href="#why-project-based-proof-matters" id="toc-why-project-based-proof-matters" class="nav-link active" data-scroll-target="#why-project-based-proof-matters">Why Project-Based Proof Matters</a></li>
+  <li><a href="#project-based-proof-in-the-career-system" id="toc-project-based-proof-in-the-career-system" class="nav-link" data-scroll-target="#project-based-proof-in-the-career-system">Project-Based Proof in the Career System</a></li>
+  <li><a href="#what-counts-as-project-based-proof" id="toc-what-counts-as-project-based-proof" class="nav-link" data-scroll-target="#what-counts-as-project-based-proof">What Counts as Project-Based Proof?</a></li>
+  <li><a href="#project-based-proof-is-not-only-for-technical-learners" id="toc-project-based-proof-is-not-only-for-technical-learners" class="nav-link" data-scroll-target="#project-based-proof-is-not-only-for-technical-learners">Project-Based Proof Is Not Only for Technical Learners</a></li>
+  <li><a href="#the-five-parts-of-a-strong-career-project" id="toc-the-five-parts-of-a-strong-career-project" class="nav-link" data-scroll-target="#the-five-parts-of-a-strong-career-project">The Five Parts of a Strong Career Project</a>
+  <ul class="collapse">
+  <li><a href="#a-clear-purpose" id="toc-a-clear-purpose" class="nav-link" data-scroll-target="#a-clear-purpose">1. A Clear Purpose</a></li>
+  <li><a href="#a-realistic-scope" id="toc-a-realistic-scope" class="nav-link" data-scroll-target="#a-realistic-scope">2. A Realistic Scope</a></li>
+  <li><a href="#a-visible-output" id="toc-a-visible-output" class="nav-link" data-scroll-target="#a-visible-output">3. A Visible Output</a></li>
+  <li><a href="#a-learning-record" id="toc-a-learning-record" class="nav-link" data-scroll-target="#a-learning-record">4. A Learning Record</a></li>
+  <li><a href="#a-communication-summary" id="toc-a-communication-summary" class="nav-link" data-scroll-target="#a-communication-summary">5. A Communication Summary</a></li>
+  </ul></li>
+  <li><a href="#project-ideas-across-career-stages" id="toc-project-ideas-across-career-stages" class="nav-link" data-scroll-target="#project-ideas-across-career-stages">Project Ideas Across Career Stages</a></li>
+  <li><a href="#choosing-a-good-project" id="toc-choosing-a-good-project" class="nav-link" data-scroll-target="#choosing-a-good-project">Choosing a Good Project</a></li>
+  <li><a href="#the-project-based-proof-template" id="toc-the-project-based-proof-template" class="nav-link" data-scroll-target="#the-project-based-proof-template">The Project-Based Proof Template</a></li>
+  <li><a href="#create-the-template" id="toc-create-the-template" class="nav-link" data-scroll-target="#create-the-template">Create the Template</a></li>
+  <li><a href="#manual-template" id="toc-manual-template" class="nav-link" data-scroll-target="#manual-template">Manual Template</a></li>
+  <li><a href="#example-project-summary" id="toc-example-project-summary" class="nav-link" data-scroll-target="#example-project-summary">Example Project Summary</a></li>
+  <li><a href="#how-to-review-a-project" id="toc-how-to-review-a-project" class="nav-link" data-scroll-target="#how-to-review-a-project">How to Review a Project</a></li>
+  <li><a href="#common-project-based-proof-mistakes" id="toc-common-project-based-proof-mistakes" class="nav-link" data-scroll-target="#common-project-based-proof-mistakes">Common Project-Based Proof Mistakes</a>
+  <ul class="collapse">
+  <li><a href="#mistake-1-starting-too-large" id="toc-mistake-1-starting-too-large" class="nav-link" data-scroll-target="#mistake-1-starting-too-large">Mistake 1: Starting Too Large</a></li>
+  <li><a href="#mistake-2-copying-without-understanding" id="toc-mistake-2-copying-without-understanding" class="nav-link" data-scroll-target="#mistake-2-copying-without-understanding">Mistake 2: Copying Without Understanding</a></li>
+  <li><a href="#mistake-3-hiding-the-process" id="toc-mistake-3-hiding-the-process" class="nav-link" data-scroll-target="#mistake-3-hiding-the-process">Mistake 3: Hiding the Process</a></li>
+  <li><a href="#mistake-4-no-career-connection" id="toc-mistake-4-no-career-connection" class="nav-link" data-scroll-target="#mistake-4-no-career-connection">Mistake 4: No Career Connection</a></li>
+  <li><a href="#mistake-5-no-communication-summary" id="toc-mistake-5-no-communication-summary" class="nav-link" data-scroll-target="#mistake-5-no-communication-summary">Mistake 5: No Communication Summary</a></li>
+  </ul></li>
+  <li><a href="#mentor-or-peer-review-prompts" id="toc-mentor-or-peer-review-prompts" class="nav-link" data-scroll-target="#mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</a></li>
+  <li><a href="#project-based-proof-checklist" id="toc-project-based-proof-checklist" class="nav-link" data-scroll-target="#project-based-proof-checklist">Project-Based Proof Checklist</a></li>
+  <li><a href="#cdi-reflection" id="toc-cdi-reflection" class="nav-link" data-scroll-target="#cdi-reflection">CDI Reflection</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
   </ul>
 </nav>
@@ -297,7 +363,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-learning-plan.html">Professional Growth System</a></li><li class="breadcrumb-item"><a href="./07-project-based-proof.html"><span class="chapter-title">Project-Based Proof</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="07_project_based_proof" class="quarto-section-identifier"><span class="chapter-title">Project-Based Proof</span></span></h1>
+<h1 class="title"><span id="project-based-proof" class="quarto-section-identifier"><span class="chapter-title">Project-Based Proof</span></span></h1>
 </div>
 
 
@@ -323,35 +389,521 @@ ul.task-list li input[type="checkbox"] {
 <div class="cdi-message">
 <ul>
 <li><strong>ID:</strong> CAREER-007</li>
-<li><strong>Type:</strong> System Guide</li>
-<li><strong>Audience:</strong> Learners, professionals, mentors, and training program designers</li>
-<li><strong>Theme:</strong> Projects demonstrate judgment, execution, and growth</li>
+<li><strong>Type:</strong> Guide Chapter</li>
+<li><strong>Audience:</strong> Learners, early-career professionals, career changers, mentors, and training programs</li>
+<li><strong>Theme:</strong> Projects turn learning into visible proof of capability</li>
 </ul>
 </div>
-<p>This chapter will develop the <strong>Project-Based Proof</strong> layer of the Career System.</p>
+<p>A person can say they are learning.</p>
+<p>A person can say they have skills.</p>
+<p>A person can say they are interested in a field.</p>
+<p>But career growth becomes stronger when the learner can point to something they have actually built, analyzed, written, improved, explained, or contributed to.</p>
+<p>That is the role of <strong>project-based proof</strong>.</p>
+<p>Project-based proof connects learning to evidence.</p>
+<p>It helps a learner move from:</p>
+<pre class="text"><code>I am interested in this field.</code></pre>
+<p>Toward:</p>
+<pre class="text"><code>Here is what I practiced, what I produced, what I learned, and how it connects to the work I want to do.</code></pre>
+<p>This chapter helps learners design projects that are realistic, useful, and visible enough to support professional growth.</p>
 <hr>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This section will explain why this layer matters in the journey from skills to sustainable professional growth.</p>
+<section id="why-project-based-proof-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-project-based-proof-matters">Why Project-Based Proof Matters</h2>
+<p>Many learners collect courses, notes, certificates, and tutorials.</p>
+<p>These can be useful.</p>
+<p>But they do not always show whether the learner can apply knowledge in a real task.</p>
+<p>A project gives the learner something stronger.</p>
+<p>It shows applied effort.</p>
+<p>It shows decision-making.</p>
+<p>It shows problem-solving.</p>
+<p>It shows communication.</p>
+<p>It shows follow-through.</p>
+<p>A project does not need to be large to be valuable.</p>
+<p>A small, well-explained project can be more useful than a large unfinished one.</p>
+<p>The purpose is not to impress everyone.</p>
+<p>The purpose is to create credible evidence of growth.</p>
 <hr>
 </section>
-<section id="core-questions" class="level2">
-<h2 class="anchored" data-anchor-id="core-questions">Core Questions</h2>
-<pre class="text"><code>What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?</code></pre>
+<section id="project-based-proof-in-the-career-system" class="level2">
+<h2 class="anchored" data-anchor-id="project-based-proof-in-the-career-system">Project-Based Proof in the Career System</h2>
+<p>Project-based proof sits between learning and portfolio evidence.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    A[Career Direction] --&gt; B[Skills Inventory]</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Learning Plan]</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Practice]</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[Project-Based Proof]</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Portfolio Evidence]</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    F --&gt; G[Communication]</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[Visibility]</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    H --&gt; I[Opportunity]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Career Direction] --&gt; B[Skills Inventory]
+    B --&gt; C[Learning Plan]
+    C --&gt; D[Practice]
+    D --&gt; E[Project-Based Proof]
+    E --&gt; F[Portfolio Evidence]
+    F --&gt; G[Communication]
+    G --&gt; H[Visibility]
+    H --&gt; I[Opportunity]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>A learning plan identifies what a learner needs to build.</p>
+<p>Practice helps the learner improve.</p>
+<p>A project turns that practice into something visible.</p>
+<p>The portfolio then organizes the best project outputs into professional evidence.</p>
 <hr>
 </section>
-<section id="expected-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outputs">Expected Outputs</h2>
-<pre class="text"><code>To be developed in the full chapter draft.</code></pre>
+<section id="what-counts-as-project-based-proof" class="level2">
+<h2 class="anchored" data-anchor-id="what-counts-as-project-based-proof">What Counts as Project-Based Proof?</h2>
+<p>Project-based proof is any structured output that demonstrates a learner’s ability to apply skills.</p>
+<p>Examples include:</p>
+<ul>
+<li>a data analysis report,</li>
+<li>a cleaned dataset with documentation,</li>
+<li>a dashboard,</li>
+<li>a GitHub repository,</li>
+<li>a technical tutorial,</li>
+<li>a case study,</li>
+<li>a presentation,</li>
+<li>a workflow diagram,</li>
+<li>a research summary,</li>
+<li>a community project,</li>
+<li>a small software tool,</li>
+<li>a professional writing sample,</li>
+<li>a mentoring or training resource,</li>
+<li>or a before-and-after improvement record.</li>
+</ul>
+<p>The strongest project-based proof usually includes three things:</p>
+<pre class="text"><code>Problem + Process + Output</code></pre>
+<p>The problem explains why the project matters.</p>
+<p>The process shows how the learner worked.</p>
+<p>The output shows what was produced.</p>
+<hr>
+</section>
+<section id="project-based-proof-is-not-only-for-technical-learners" class="level2">
+<h2 class="anchored" data-anchor-id="project-based-proof-is-not-only-for-technical-learners">Project-Based Proof Is Not Only for Technical Learners</h2>
+<p>Technical learners often think of projects as code, analysis, dashboards, or applications.</p>
+<p>Those are important.</p>
+<p>But project-based proof is also useful in many non-technical pathways.</p>
+<p>A learner interested in communication can build a writing portfolio.</p>
+<p>A learner interested in administration can document a process improvement.</p>
+<p>A learner interested in community work can design and report a small outreach activity.</p>
+<p>A learner interested in leadership can document how they organized a team activity.</p>
+<p>A learner interested in research can summarize papers and build an evidence table.</p>
+<p>The key question is not:</p>
+<pre class="text"><code>Is this project impressive?</code></pre>
+<p>The better question is:</p>
+<pre class="text"><code>Does this project show relevant ability, effort, judgment, and learning?</code></pre>
+<hr>
+</section>
+<section id="the-five-parts-of-a-strong-career-project" class="level2">
+<h2 class="anchored" data-anchor-id="the-five-parts-of-a-strong-career-project">The Five Parts of a Strong Career Project</h2>
+<p>A strong career project has five parts.</p>
+<section id="a-clear-purpose" class="level3">
+<h3 class="anchored" data-anchor-id="a-clear-purpose">1. A Clear Purpose</h3>
+<p>The project should answer a practical question:</p>
+<pre class="text"><code>What ability is this project meant to demonstrate?</code></pre>
+<p>Without purpose, a project can become random activity.</p>
+<p>A project should connect to the learner’s career direction, current skills, or learning plan.</p>
+</section>
+<section id="a-realistic-scope" class="level3">
+<h3 class="anchored" data-anchor-id="a-realistic-scope">2. A Realistic Scope</h3>
+<p>The project should be small enough to finish.</p>
+<p>Beginners often choose projects that are too large.</p>
+<p>Experienced professionals may choose projects that are too broad or too hidden inside their normal work.</p>
+<p>A good project has a clear boundary.</p>
+<p>It should be possible to explain what is included and what is not included.</p>
+</section>
+<section id="a-visible-output" class="level3">
+<h3 class="anchored" data-anchor-id="a-visible-output">3. A Visible Output</h3>
+<p>The project should produce something that can be reviewed.</p>
+<p>This could be a report, table, code file, presentation, checklist, diagram, article, or documented result.</p>
+<p>The output does not always need to be public.</p>
+<p>But it should be clear enough that another person can understand what was done.</p>
+</section>
+<section id="a-learning-record" class="level3">
+<h3 class="anchored" data-anchor-id="a-learning-record">4. A Learning Record</h3>
+<p>A project should include reflection.</p>
+<p>The learner should record:</p>
+<ul>
+<li>what they tried,</li>
+<li>what worked,</li>
+<li>what was difficult,</li>
+<li>what changed,</li>
+<li>what they learned,</li>
+<li>and what they would improve next.</li>
+</ul>
+<p>This turns the project into a growth record, not only a finished artifact.</p>
+</section>
+<section id="a-communication-summary" class="level3">
+<h3 class="anchored" data-anchor-id="a-communication-summary">5. A Communication Summary</h3>
+<p>Every project should have a short explanation.</p>
+<p>A useful format is:</p>
+<pre class="text"><code>I worked on [problem/task] using [skills/tools/process] and produced [output/result]. This helped me demonstrate [career-relevant ability].</code></pre>
+<p>This makes the project easier to use in a CV, profile, interview, mentorship conversation, or portfolio.</p>
+<hr>
+</section>
+</section>
+<section id="project-ideas-across-career-stages" class="level2">
+<h2 class="anchored" data-anchor-id="project-ideas-across-career-stages">Project Ideas Across Career Stages</h2>
+<p>Project-based proof can support people at different stages.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Career stage</th>
+<th>Useful project type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beginner</td>
+<td>Guided practice project</td>
+<td>Create a simple report from a sample dataset</td>
+</tr>
+<tr class="even">
+<td>Learner building confidence</td>
+<td>Repeated small project</td>
+<td>Write three short summaries of career-relevant topics</td>
+</tr>
+<tr class="odd">
+<td>Career changer</td>
+<td>Transferable-skill project</td>
+<td>Convert previous work experience into a process improvement case study</td>
+</tr>
+<tr class="even">
+<td>Early-career professional</td>
+<td>Workplace evidence project</td>
+<td>Document a task improved through better organization or communication</td>
+</tr>
+<tr class="odd">
+<td>Technical learner</td>
+<td>Applied technical project</td>
+<td>Build a reproducible analysis workflow</td>
+</tr>
+<tr class="even">
+<td>Experienced professional</td>
+<td>Thought-leadership project</td>
+<td>Write a practical guide or mentor resource from real experience</td>
+</tr>
+<tr class="odd">
+<td>Mentor or educator</td>
+<td>Learning-support project</td>
+<td>Create a learner checklist, template, or pathway map</td>
+</tr>
+</tbody>
+</table>
+<p>The project should match the learner’s current stage.</p>
+<p>A beginner does not need an advanced project.</p>
+<p>A professional does not need to pretend to be a beginner.</p>
+<p>Each person needs proof that fits their current growth path.</p>
+<hr>
+</section>
+<section id="choosing-a-good-project" class="level2">
+<h2 class="anchored" data-anchor-id="choosing-a-good-project">Choosing a Good Project</h2>
+<p>A good project is located at the intersection of four questions.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    A[Good Career Project] --&gt; B[Relevant to Direction]</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    A --&gt; C[Uses or Builds Skills]</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    A --&gt; D[Can Be Finished]</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    A --&gt; E[Produces Visible Evidence]</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    B --&gt; F[Career Fit]</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    C --&gt; G[Capability Growth]</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    D --&gt; H[Completion]</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    E --&gt; I[Portfolio Value]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Good Career Project] --&gt; B[Relevant to Direction]
+    A --&gt; C[Uses or Builds Skills]
+    A --&gt; D[Can Be Finished]
+    A --&gt; E[Produces Visible Evidence]
+
+    B --&gt; F[Career Fit]
+    C --&gt; G[Capability Growth]
+    D --&gt; H[Completion]
+    E --&gt; I[Portfolio Value]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>Before starting a project, ask:</p>
+<pre class="text"><code>Does this project connect to my direction?
+Can I finish it with my current resources?
+Will it help me practice an important skill?
+Will it produce something I can explain or show?</code></pre>
+<p>If the answer is yes, the project is probably a good candidate.</p>
+<hr>
+</section>
+<section id="the-project-based-proof-template" class="level2">
+<h2 class="anchored" data-anchor-id="the-project-based-proof-template">The Project-Based Proof Template</h2>
+<p>This chapter includes a simple template for planning and reviewing career projects.</p>
+<p>The template helps learners connect each project to career evidence.</p>
+<p>Suggested columns include:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>project_name</td>
+<td>Names the project clearly</td>
+</tr>
+<tr class="even">
+<td>career_direction</td>
+<td>Connects the project to a target path</td>
+</tr>
+<tr class="odd">
+<td>skill_demonstrated</td>
+<td>Identifies the main skill shown</td>
+</tr>
+<tr class="even">
+<td>problem_or_task</td>
+<td>Explains what the project is about</td>
+</tr>
+<tr class="odd">
+<td>output_type</td>
+<td>Describes the visible product</td>
+</tr>
+<tr class="even">
+<td>evidence_location</td>
+<td>Records where the output can be found</td>
+</tr>
+<tr class="odd">
+<td>status</td>
+<td>Tracks whether it is planned, active, complete, or revised</td>
+</tr>
+<tr class="even">
+<td>review_needed</td>
+<td>Identifies feedback still needed</td>
+</tr>
+<tr class="odd">
+<td>communication_summary</td>
+<td>Turns the project into a short professional explanation</td>
+</tr>
+<tr class="even">
+<td>next_improvement</td>
+<td>Defines the next improvement step</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="create-the-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-template">Create the Template</h2>
+<p>Learners who are comfortable using the command line can create the template with:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x scripts/bash/07-create-project-based-proof-template.sh</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> scripts/bash/07-create-project-based-proof-template.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Expected outputs:</p>
+<pre class="text"><code>data/templates/project-based-proof-template.csv
+results/project-based-proof/example-project-based-proof.csv
+results/project-based-proof/README-project-based-proof.md</code></pre>
+<p>Learners who are not using the command line can copy the table structure in this chapter into a spreadsheet, notebook, or document.</p>
+<p>The important part is not the software.</p>
+<p>The important part is the thinking process.</p>
+<hr>
+</section>
+<section id="manual-template" class="level2">
+<h2 class="anchored" data-anchor-id="manual-template">Manual Template</h2>
+<p>A learner can begin with this simple table.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>project_name</th>
+<th>career_direction</th>
+<th>skill_demonstrated</th>
+<th>problem_or_task</th>
+<th>output_type</th>
+<th>evidence_location</th>
+<th>status</th>
+<th>review_needed</th>
+<th>communication_summary</th>
+<th>next_improvement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Example data report</td>
+<td>Data analyst pathway</td>
+<td>Data cleaning and interpretation</td>
+<td>Summarize a public dataset</td>
+<td>Short report</td>
+<td>GitHub or folder link</td>
+<td>Draft</td>
+<td>Mentor review</td>
+<td>I analyzed a small dataset and explained the main findings.</td>
+<td>Improve visualization and interpretation</td>
+</tr>
+<tr class="even">
+<td>Community skills session</td>
+<td>Mentorship pathway</td>
+<td>Facilitation and communication</td>
+<td>Help learners understand basic career planning</td>
+<td>Session plan and reflection</td>
+<td>Local folder</td>
+<td>Planned</td>
+<td>Peer feedback</td>
+<td>I designed a simple learning activity for youth career readiness.</td>
+<td>Add learner feedback form</td>
+</tr>
+</tbody>
+</table>
+<p>This manual version is enough for many learners.</p>
+<p>A spreadsheet version can be added later.</p>
+<hr>
+</section>
+<section id="example-project-summary" class="level2">
+<h2 class="anchored" data-anchor-id="example-project-summary">Example Project Summary</h2>
+<p>A weak project summary sounds like this:</p>
+<pre class="text"><code>I did a data project.</code></pre>
+<p>A stronger project summary sounds like this:</p>
+<pre class="text"><code>I cleaned and summarized a small public dataset, created a short report, and explained the main patterns using clear tables and plain-language interpretation. This helped me practice data organization, analysis, and communication.</code></pre>
+<p>The second version is stronger because it explains:</p>
+<ul>
+<li>what was done,</li>
+<li>what was produced,</li>
+<li>which skills were used,</li>
+<li>and why the project matters.</li>
+</ul>
+<p>This is the kind of summary that can support interviews, mentoring discussions, and professional profiles.</p>
+<hr>
+</section>
+<section id="how-to-review-a-project" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-review-a-project">How to Review a Project</h2>
+<p>A project should be reviewed before it becomes portfolio evidence.</p>
+<p>Use these questions:</p>
+<pre class="text"><code>Is the purpose clear?
+Is the output understandable?
+Does the project show a relevant skill?
+Can another person follow what was done?
+Is there enough explanation?
+Is the project complete enough to share?
+What should be improved before it becomes portfolio evidence?</code></pre>
+<p>The project does not need to be perfect.</p>
+<p>But it should be understandable, honest, and relevant.</p>
+<hr>
+</section>
+<section id="common-project-based-proof-mistakes" class="level2">
+<h2 class="anchored" data-anchor-id="common-project-based-proof-mistakes">Common Project-Based Proof Mistakes</h2>
+<section id="mistake-1-starting-too-large" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-1-starting-too-large">Mistake 1: Starting Too Large</h3>
+<p>Large projects can become discouraging.</p>
+<p>Start small enough to finish.</p>
+<p>A finished small project is better than an unfinished impressive idea.</p>
+</section>
+<section id="mistake-2-copying-without-understanding" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-2-copying-without-understanding">Mistake 2: Copying Without Understanding</h3>
+<p>Following a tutorial is useful for practice.</p>
+<p>But project-based proof should include the learner’s own explanation.</p>
+<p>The learner should be able to explain what they did and why.</p>
+</section>
+<section id="mistake-3-hiding-the-process" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-3-hiding-the-process">Mistake 3: Hiding the Process</h3>
+<p>Some learners only show the final output.</p>
+<p>But process matters.</p>
+<p>Notes, decisions, challenges, and improvements can make the project more credible.</p>
+</section>
+<section id="mistake-4-no-career-connection" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-4-no-career-connection">Mistake 4: No Career Connection</h3>
+<p>A project should connect to a direction, skill, or opportunity.</p>
+<p>Random projects may still teach skills, but they are harder to use in career conversations.</p>
+</section>
+<section id="mistake-5-no-communication-summary" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-5-no-communication-summary">Mistake 5: No Communication Summary</h3>
+<p>If the learner cannot explain the project in simple language, the project is not yet ready for professional use.</p>
+<hr>
+</section>
+</section>
+<section id="mentor-or-peer-review-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="mentor-or-peer-review-prompts">Mentor or Peer Review Prompts</h2>
+<p>A mentor or peer can help improve project-based proof by asking:</p>
+<pre class="text"><code>What skill does this project demonstrate?
+What part of the work did you do yourself?
+What did you learn while doing it?
+What would make the output easier to understand?
+How does this project connect to your career direction?
+Where could this project be used: CV, portfolio, interview, profile, or mentorship conversation?
+What is the next version of this project?</code></pre>
+<p>These questions help the learner improve both the project and the explanation around it.</p>
+<hr>
+</section>
+<section id="project-based-proof-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="project-based-proof-checklist">Project-Based Proof Checklist</h2>
+<p>Before treating a project as career evidence, check that it has:</p>
+<ul>
+<li>a clear title,</li>
+<li>a clear purpose,</li>
+<li>a realistic scope,</li>
+<li>a visible output,</li>
+<li>a short explanation,</li>
+<li>a record of skills used,</li>
+<li>a note on what was learned,</li>
+<li>a review or feedback step,</li>
+<li>and a next improvement action.</li>
+</ul>
+<p>If these are present, the project can begin moving into the portfolio layer.</p>
+<hr>
+</section>
+<section id="cdi-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="cdi-reflection">CDI Reflection</h2>
+<p>Use these prompts before moving forward:</p>
+<pre class="text"><code>Which project best proves what I am learning now?
+Which project is small enough for me to finish soon?
+Which project connects most clearly to my career direction?
+Which project would be easiest to explain to a mentor or employer?
+Which project needs feedback before I share it more widely?</code></pre>
+<p>The goal is not to produce many projects.</p>
+<p>The goal is to produce meaningful evidence of growth.</p>
 <hr>
 </section>
 <section id="looking-ahead" class="level2">
 <h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>The next chapter moves from proof to communication and visibility.</p>
-<p>Even strong work can remain invisible if it is not explained clearly. The next layer helps learners communicate what they built, what they learned, why it matters, and how others can understand their professional value.</p>
+<p>The next chapter focuses on communication and visibility.</p>
+<p>Once a learner has project-based proof, the next challenge is to explain it clearly, place it where others can see it, and use it to support professional conversations, mentorship, applications, and opportunity access.</p>
 
 
 </section>

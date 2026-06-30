@@ -1,4 +1,4 @@
-# Communication and Visibility {#08_communication_and_visibility}
+# Communication and Visibility {#communication-and-visibility}
 
 :::cdi-message
 - **ID:** CAREER-008
@@ -7,36 +7,475 @@
 - **Theme:** Professional growth requires others to understand the value you can create
 :::
 
-This chapter will develop the **Communication and Visibility** layer of the Career System.
+A learner may have real ability and still remain invisible.
+
+A professional may do strong work and still struggle to explain it.
+
+A career changer may have transferable experience but fail to connect that experience to the opportunities they want.
+
+This is why communication and visibility matter.
+
+Communication helps people understand what you can do.
+
+Visibility helps the right people become aware that you exist, that you are learning, that you are contributing, and that you are ready for meaningful opportunities.
+
+The goal is not noise.
+
+The goal is clear professional signal.
+
+In the Career System, communication and visibility turn portfolio evidence into conversations, referrals, collaborations, interviews, mentorship, and trust.
 
 ---
 
-## Purpose
+## Why Communication and Visibility Matter
 
-This section will explain why this layer matters in the journey from skills to sustainable professional growth.
+Many learners focus only on building skills.
 
----
+That is important, but it is not enough.
 
-## Core Questions
+Skills must eventually be communicated.
+
+A project must be explained.
+
+A contribution must be described.
+
+A professional profile must make sense.
+
+A career goal must be clear enough for others to support.
+
+Without communication, evidence remains hidden.
+
+Without visibility, opportunity depends too much on luck.
+
+Communication and visibility help a learner move from:
 
 ```text
-What decision does this layer help the learner make?
-What evidence should the learner produce?
-What feedback or mentorship would improve the result?
-How does this layer connect to the next part of the Career System?
+I am learning this.
+```
+
+to:
+
+```text
+Here is what I can do, here is evidence, and here is the direction I am growing toward.
+```
+
+This shift is important for beginners, early-career professionals, experienced professionals, mentors, and career changers.
+
+The beginner needs to explain potential.
+
+The early-career professional needs to explain readiness.
+
+The experienced professional needs to explain value and direction.
+
+The career changer needs to explain transferability.
+
+The mentor needs to help the learner make their growth visible without exaggeration.
+
+---
+
+## Communication and Visibility in the Career System
+
+Communication and visibility come after portfolio building and project-based proof because visibility without evidence can feel empty.
+
+At the same time, evidence without visibility can remain unused.
+
+```{mermaid}
+flowchart LR
+    A[Career Direction] --> B[Learning Plan]
+    B --> C[Project-Based Practice]
+    C --> D[Portfolio Evidence]
+    D --> E[Communication]
+    E --> F[Visibility]
+    F --> G[Networking and Mentorship]
+    G --> H[Opportunity Conversations]
+    H --> I[Sustainable Growth]
+```
+
+This chapter helps the learner build a communication layer around their evidence.
+
+The learner should be able to answer:
+
+```text
+What am I learning?
+What have I built or contributed?
+What problem does my work help solve?
+What evidence can I show?
+Who needs to know about this?
+What kind of conversation should this visibility create?
+```
+
+The purpose is not to become famous.
+
+The purpose is to become understandable, findable, and credible.
+
+---
+
+## Visibility Is Not Self-Promotion Alone
+
+Some learners feel uncomfortable with visibility because they think it means bragging.
+
+That is not the CDI Career System view.
+
+Professional visibility is not simply self-promotion.
+
+It is responsible communication of growth, evidence, and contribution.
+
+A learner does not need to claim expertise they do not have.
+
+A learner can say:
+
+```text
+I am learning this area.
+I built this small project to practice.
+Here is what I learned.
+Here is what I would improve next.
+I am looking for feedback from people with experience in this area.
+```
+
+That is honest visibility.
+
+For experienced professionals, visibility may sound like:
+
+```text
+I have been working on this type of problem.
+Here is a pattern I keep seeing.
+Here is an approach that helped.
+Here is what teams or learners may need to consider.
+```
+
+That is contribution-based visibility.
+
+Both are valuable.
+
+---
+
+## The Three Communication Layers
+
+Career communication can be organized into three layers.
+
+### 1. Personal clarity
+
+This is the learner's internal explanation of who they are becoming professionally.
+
+It includes:
+
+- current direction,
+- strongest skills,
+- active learning priorities,
+- portfolio evidence,
+- and next opportunity goal.
+
+Personal clarity helps the learner avoid scattered messages.
+
+### 2. Evidence explanation
+
+This is the ability to explain work clearly.
+
+A project should not only exist.
+
+The learner should be able to explain:
+
+- the problem,
+- the process,
+- the tools or methods,
+- the result,
+- the limitation,
+- and the next improvement.
+
+This makes the portfolio usable in interviews, mentorship conversations, applications, and public profiles.
+
+### 3. Public or shared signal
+
+This is what others can see.
+
+It may include:
+
+- a LinkedIn profile,
+- a GitHub profile,
+- a personal website,
+- a portfolio page,
+- a short post,
+- a project README,
+- a presentation,
+- a community contribution,
+- or a direct message to a mentor or professional contact.
+
+A learner does not need every channel.
+
+They need appropriate channels for their stage and goal.
+
+---
+
+## Visibility Across Career Stages
+
+Visibility should match the learner's stage.
+
+A beginner does not need to present as an expert.
+
+An experienced professional should not communicate only as a learner.
+
+A career changer should connect past experience to new direction.
+
+| Career stage | Visibility goal | Example signal |
+|---|---|---|
+| Beginner | Show learning, consistency, and curiosity | A short reflection on a completed learning activity |
+| Student or trainee | Show applied practice | A small portfolio project with a clear explanation |
+| Early-career professional | Show readiness and growth | A project summary linked to target roles |
+| Career changer | Show transferable experience | A profile summary connecting past work to new direction |
+| Experienced professional | Show judgment and contribution | A case reflection, framework, talk, or mentoring resource |
+| Mentor or educator | Show support and leadership | Guidance notes, learner examples, or structured resources |
+
+The message should fit the stage.
+
+The strongest visibility is honest, clear, and supported by evidence.
+
+---
+
+## The Communication and Visibility Map
+
+This chapter uses a simple map to help learners connect evidence to audiences and communication channels.
+
+The map asks:
+
+```text
+What evidence do I have?
+What value does it show?
+Who should understand it?
+Where should I communicate it?
+What conversation do I want it to create?
+```
+
+This prevents random posting.
+
+It also prevents silence.
+
+The learner becomes intentional about what to share, where to share it, and why.
+
+---
+
+## Create the Template
+
+This chapter includes an optional script that creates a reusable communication and visibility worksheet.
+
+Learners who are comfortable using the command line can run:
+
+```bash
+chmod +x scripts/bash/08-create-communication-visibility-template.sh
+bash scripts/bash/08-create-communication-visibility-template.sh
+```
+
+Expected outputs:
+
+```text
+data/templates/communication-visibility-template.csv
+results/communication-visibility/example-communication-visibility.csv
+results/communication-visibility/README-communication-visibility.md
+```
+
+Learners who are not using the command line can copy the manual template below into a spreadsheet, notebook, or document.
+
+---
+
+## Manual Template
+
+Use one row for each piece of evidence, communication action, or visibility opportunity.
+
+| evidence_item | value_shown | target_audience | communication_channel | message_focus | next_conversation |
+|---|---|---|---|---|---|
+| Portfolio project on data cleaning | Can organize messy data into usable analysis input | Data analyst mentor, recruiter, peer group | LinkedIn post, GitHub README, portfolio page | What problem the project solved and what was learned | Ask for feedback or discuss entry-level analyst readiness |
+| Volunteer coordination experience | Can organize people, tasks, and communication | Program coordinator, nonprofit mentor, operations contact | CV bullet, profile summary, direct message | Transferable project coordination skills | Explore operations or program assistant roles |
+| Technical report from a course | Can explain technical results clearly | Instructor, mentor, professional contact | PDF portfolio, LinkedIn featured section | Clear explanation of method, result, and limitation | Ask for review and improvement suggestions |
+
+The learner can add more columns if needed, such as:
+
+```text
+date_shared
+feedback_received
+profile_link
+status
+next_update
 ```
 
 ---
 
-## Expected Outputs
+## How to Communicate a Project
+
+A useful project explanation does not need to be long.
+
+It needs to be clear.
+
+A simple structure is:
 
 ```text
-To be developed in the full chapter draft.
+Problem: What was the issue or question?
+Action: What did you do?
+Evidence: What output did you create?
+Learning: What did you learn?
+Next: What would you improve or do next?
 ```
+
+For example:
+
+```text
+Problem: I wanted to practice turning raw survey responses into a clean table.
+Action: I created a small cleaning workflow and documented each step.
+Evidence: The project includes the raw example data, cleaned output, and README.
+Learning: I learned how important naming, missing values, and validation checks are.
+Next: I want feedback on how to make the workflow more reproducible.
+```
+
+This type of explanation works for beginners because it is honest.
+
+It also works for experienced professionals because it emphasizes reasoning, evidence, and improvement.
+
+---
+
+## Choosing the Right Visibility Channel
+
+Not every learner needs the same channel.
+
+The channel should match the goal.
+
+| Channel | Best use | Caution |
+|---|---|---|
+| LinkedIn profile | Professional identity and discoverability | Avoid vague claims without evidence |
+| LinkedIn post | Sharing learning, projects, reflections, or updates | Keep the message clear and professional |
+| GitHub repository | Technical project evidence | Include a README that non-experts can understand |
+| Portfolio page | Curated proof of work | Avoid listing too many weak items |
+| CV or resume | Formal applications | Use evidence-based bullet points |
+| Direct message | Mentorship, feedback, or networking | Be specific and respectful |
+| Presentation | Explaining work to a group | Focus on story, evidence, and lessons learned |
+| Community contribution | Building trust through participation | Contribute genuinely, not only for attention |
+
+The best visibility channel is the one that helps the right audience understand the right evidence at the right time.
+
+---
+
+## Example Visibility Statement
+
+A beginner-level visibility statement may look like this:
+
+```text
+I am building my skills in data analysis and reproducible reporting.
+Recently, I completed a small project where I cleaned an example dataset, summarized the results, and documented the workflow.
+The project helped me practice organizing data, checking missing values, and explaining outputs clearly.
+I am looking for feedback on how to improve the structure and make the project easier for others to understand.
+```
+
+This statement does not exaggerate.
+
+It shows direction, evidence, learning, and openness to feedback.
+
+An experienced professional version may look like this:
+
+```text
+I have been focusing on how teams turn analysis outputs into decisions.
+A recurring challenge is that technically correct results are often not communicated in a way that supports action.
+I am documenting practical frameworks that connect evidence, interpretation, and decision-making so that teams can use analysis more responsibly.
+```
+
+This statement shows judgment and professional contribution.
+
+---
+
+## Common Communication and Visibility Mistakes
+
+### Mistake 1: Waiting until everything is perfect
+
+Learners may avoid visibility because their work is not advanced yet.
+
+But growth can be communicated honestly.
+
+A small project with clear reflection can be useful.
+
+### Mistake 2: Making broad claims without evidence
+
+Statements like “I am passionate and hardworking” are not enough.
+
+Better communication connects claims to examples.
+
+### Mistake 3: Sharing outputs without explanation
+
+A link alone may not help others understand the value.
+
+Explain the problem, process, output, and learning.
+
+### Mistake 4: Copying professional language without understanding
+
+Visibility should sound like the learner's actual stage and experience.
+
+Clear and honest is stronger than inflated.
+
+### Mistake 5: Posting without a purpose
+
+Visibility should support a growth goal.
+
+The learner should know whether they are seeking feedback, mentorship, collaboration, job readiness, or professional recognition.
+
+---
+
+## Mentor or Peer Review Prompts
+
+A mentor, peer, teacher, or colleague can review the learner's communication using these questions:
+
+```text
+Is the learner's direction clear?
+Is the evidence easy to understand?
+Does the message match the learner's actual stage?
+Is the claim supported by a project, example, or experience?
+Is the target audience clear?
+Does the communication invite a useful next conversation?
+What should be simplified?
+What should be made more specific?
+```
+
+Feedback should improve clarity, honesty, and usefulness.
+
+It should not pressure the learner to pretend to be more advanced than they are.
+
+---
+
+## Communication and Visibility Checklist
+
+Before sharing a profile update, project, message, or portfolio item, check:
+
+```text
+[ ] I know what evidence I am communicating.
+[ ] I can explain the problem or purpose clearly.
+[ ] I can describe what I did.
+[ ] I can explain what the output shows.
+[ ] I can name what I learned or improved.
+[ ] I know who the intended audience is.
+[ ] I know what conversation or feedback I want.
+[ ] My message is honest for my current stage.
+[ ] My message avoids vague claims without examples.
+[ ] My communication connects to my career direction.
+```
+
+This checklist helps learners share with confidence and responsibility.
+
+---
+
+## CDI Reflection
+
+Use these prompts before moving to the next chapter:
+
+```text
+What evidence do I already have that others should understand better?
+What work have I completed but not explained clearly?
+Which audience needs to know what I can do?
+What is one honest visibility action I can take this week?
+What feedback do I need before making my profile or project public?
+```
+
+The goal is not to be visible everywhere.
+
+The goal is to communicate real growth clearly enough that others can recognize, support, and connect with it.
+
 ---
 
 ## Looking Ahead
 
-The next chapter connects visibility with networking and mentorship.
+The next chapter focuses on networking and mentorship.
 
-Professional growth is strengthened when learners can ask better questions, seek feedback, build supportive relationships, and learn from people who understand the field or pathway they are entering.
+Once a learner can communicate their direction and evidence more clearly, they are better prepared to build professional relationships, ask useful questions, receive feedback, and create opportunity conversations with mentors, peers, colleagues, and professional communities.
